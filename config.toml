@@ -16,7 +16,7 @@ theme = "airspace-hugo"
   [[menu.header]]
     weight = 3
     name = "Blog"
-    url = "https://blog.siliconloons.com/posts/2018-06-06-network-service-mesh-introduction/"
+    url = "/blog"
   [[menu.header]]
     weight = 4
     name = "OSS NA 2018"
@@ -24,24 +24,8 @@ theme = "airspace-hugo"
 
   [[menu.footer]]
     weight = 1
-    name = "About us"
-    url = "#"
-  [[menu.footer]]
-    weight = 2
-    name = "Contact us"
-    url = "#"
-  [[menu.footer]]
-    weight = 3
-    name = "How it works"
-    url = "#"
-  [[menu.footer]]
-    weight = 4
     name = "Blog"
-    url = "#"
-  [[menu.footer]]
-    weight = 5
-    name = "Terms"
-    url = "#"
+    url = "/blog"
 
 # The site's parameters
 [params]
@@ -94,24 +78,5 @@ These goals are accomplished using a simple set of APIs designed to facilitate c
 
   [params.call]
     enable = true
-    title = "Use Cases"
-    paragraph = """
-The Network Service Mesh community is working to solve a rich set of use cases to drive the development work we're doing."""
+    title = "Network Service Mesh"
 
-  [params.contact]
-    enable = true
-    title = "Drop us a note"
-    subtitle = "Don’t just take our word for it. Check out some of our latest work."
-    [params.contact.form]
-      name = "Your name"
-      email = "Your email"
-      subject = "Your subject"
-      message = "Your message"
-      button = "Send message"
-    [params.contact.box]
-      title = "Stop by for a visit"
-      address = "North Main Street, Brooklyn Australia"
-      email = "Email: contact@mail.com"
-      phone = "Phone: +88 01672 506 744"
-    [params.contact.gmaps]
-      title = "We Also Count in Google Maps"
