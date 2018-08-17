@@ -1,0 +1,117 @@
+title = "Network Service Mesh"
+baseURL = "https://www.networkservicemesh.io"
+languageCode = "en-us"
+theme = "airspace-hugo"
+
+[menu]
+
+  [[menu.header]]
+    weight = 1
+    name = "Source"
+    url = "https://github.com/ligato/networkservicemesh"
+  [[menu.header]]
+    weight = 2
+    name = "Docker Images"
+    url = "https://hub.docker.com/u/networkservicemesh/dashboard/"
+  [[menu.header]]
+    weight = 3
+    name = "Blog"
+    url = "https://blog.siliconloons.com/posts/2018-06-06-network-service-mesh-introduction/"
+  [[menu.header]]
+    weight = 4
+    name = "OSS NA 2018"
+    url = "/ossna2018"
+
+  [[menu.footer]]
+    weight = 1
+    name = "About us"
+    url = "#"
+  [[menu.footer]]
+    weight = 2
+    name = "Contact us"
+    url = "#"
+  [[menu.footer]]
+    weight = 3
+    name = "How it works"
+    url = "#"
+  [[menu.footer]]
+    weight = 4
+    name = "Blog"
+    url = "#"
+  [[menu.footer]]
+    weight = 5
+    name = "Terms"
+    url = "#"
+
+# The site's parameters
+[params]
+
+  # If you want to remove the copyright text you need a Themefisher license.
+  # This license is offered with a 50% discount for all Hugo users.
+  # For information see https://github.com/gohugoio/hugoThemes/issues/260
+
+  dateFormat = "6 January 2006"
+
+  home = "Home"
+
+  [params.slider]
+    enable = true
+    title = "Network Service Mesh"
+    subtitle = "Network Service Mesh is a novel approach solving complicated L2/L3 use cases in Kubernetes that are tricky to address with the existing Kubernetes Network Model. Inspired by Istio, Network Service Mesh maps the concept of a service mesh to L2/L3 payloads."
+
+  [params.wrapper]
+    enable = true
+    title = "Problem Statement"
+    italic = "Multifaceted networks such as Telcos, ISPs, and advanced enterprise networks are rearchitecting their solutions with the advent of NFV, 5G networks, edge computing, and IoT devices. Each of these technologies brings a significant increase in the total number of connected devices, increased bandwidth available per device, and a significant increase in cloud service load."
+    paragraph = "Operators of multifaceted networks with advanced L2/L3 use cases currently find container networking solutions ill-suited for their next-generation architecture. Cloud-native solution's lack of support for advanced networking use cases is actively excluding multiple industries from adopting the new cloud-native paradigm."
+
+  [params.blog]
+    enable = true
+    title = "Get The Latest On What We're doing"
+    subtitle = "Catch up with us, anytime and anywhere"
+
+  [params.feature]
+    enable = true
+    title = "What is Network Service Mesh?"
+    content = """
+Network service mesh (NSM) adds the following properties to networking in Kubernetes:
+
+\\* Heterogeneous network configurations\n
+\\* Exotic protocols\n
+\\* On-Demand, dynamic, negotiated connections\n
+\\* Tunneling as a first-class citizen\n
+\\* Networking context as a first-class citizen\n
+\\* Policy-driven service function chaining (SFC)\n
+\\* A significant important feature of NSM is that it minimizes the need for changes to kubernetes.\n
+
+These goals are accomplished using a simple set of APIs designed to facilitate connectivity between containers which are running services or with an external endpoint. New connections negotiate their connection properties. These properties include but are not limited to:
+
+\\* Type of network interface. e.g. Linux Interface, MemIf, vhost-user\n
+\\* Payload Type - e.g. Ethernet, IP, MPLS, L2TP"""
+    [params.feature.button]
+      caption = "View Documentation"
+      url = "https://github.com/ligato/networkservicemesh/tree/master/docs"
+
+  [params.call]
+    enable = true
+    title = "Use Cases"
+    paragraph = """
+The Network Service Mesh community is working to solve a rich set of use cases to drive the development work we're doing."""
+
+  [params.contact]
+    enable = true
+    title = "Drop us a note"
+    subtitle = "Don’t just take our word for it. Check out some of our latest work."
+    [params.contact.form]
+      name = "Your name"
+      email = "Your email"
+      subject = "Your subject"
+      message = "Your message"
+      button = "Send message"
+    [params.contact.box]
+      title = "Stop by for a visit"
+      address = "North Main Street, Brooklyn Australia"
+      email = "Email: contact@mail.com"
+      phone = "Phone: +88 01672 506 744"
+    [params.contact.gmaps]
+      title = "We Also Count in Google Maps"
