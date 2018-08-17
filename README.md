@@ -10,3 +10,11 @@ when you clone this repository, run your clone as follows:
 ```
 git clone --recurse-submodules https://github.com/ligato/networkservicemesh-site.git
 ```
+
+To quickly install Hugo, follow [this link](https://gohugo.io/getting-started/quick-start/).
+
+To run the site after cloning (with fast rendering disabled), run the following:
+
+```
+hugo server --disableFastRender
+```
