@@ -40,7 +40,7 @@ theme = "airspace-hugo"
 
   dateFormat = "6 January 2006"
 
-  #home = "Home"
+  home = "Home"
 
   [params.slider]
     enable = true
