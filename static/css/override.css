@@ -1,0 +1,20 @@
+
+
+#slider .block h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 45px;
+    line-height: 60px;
+    letter-spacing: 10px;
+    padding-bottom: 45px;
+    color: 	#3FFF00;
+  }
+
+#slider .block p {
+    font-size: 23px;
+    line-height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: 	#3FFF00;
+}
