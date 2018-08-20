@@ -7,18 +7,22 @@ theme = "airspace-hugo"
 
   [[menu.header]]
     weight = 1
-    name = "Source"
-    url = "https://github.com/ligato/networkservicemesh"
-  [[menu.header]]
-    weight = 2
-    name = "Docker Images"
-    url = "https://hub.docker.com/u/networkservicemesh/dashboard/"
-  [[menu.header]]
-    weight = 3
     name = "Blog"
     url = "/blog"
   [[menu.header]]
+    weight = 2
+    name = "Mailing List"
+    url = "https://groups.google.com/forum/#!forum/networkservicemesh"
+  [[menu.header]]
+    weight = 3
+    name = "Source"
+    url = "https://github.com/ligato/networkservicemesh"
+  [[menu.header]]
     weight = 4
+    name = "Docker Images"
+    url = "https://hub.docker.com/u/networkservicemesh/dashboard/"
+  [[menu.header]]
+    weight = 5
     name = "OSS NA 2018"
     url = "/ossna2018"
 
@@ -36,7 +40,7 @@ theme = "airspace-hugo"
 
   dateFormat = "6 January 2006"
 
-  home = "Home"
+  #home = "Home"
 
   [params.slider]
     enable = true
@@ -60,18 +64,31 @@ theme = "airspace-hugo"
     content = """
 Network service mesh (NSM) adds the following properties to networking in Kubernetes:
 
-\\* Heterogeneous network configurations\n
-\\* Exotic protocols\n
-\\* On-Demand, dynamic, negotiated connections\n
-\\* Tunneling as a first-class citizen\n
-\\* Networking context as a first-class citizen\n
-\\* Policy-driven service function chaining (SFC)\n
-\\* A significant important feature of NSM is that it minimizes the need for changes to kubernetes.\n
+<strong>
+<b><i>
+<ul style="list-style-type:disc">
+  <li> Heterogeneous network configurations</li>
+  <li> Exotic protocols</li>
+  <li> On-Demand, dynamic, negotiated connections</li>
+  <li> Tunneling as a first-class citizen</li>
+  <li> Networking context as a first-class citizen</li>
+  <li> Policy-driven service function chaining (SFC)</li>
+  <li> A significant important feature of NSM is that it minimizes the need for changes to kubernetes.</li>
+</ul>
+</i></b>
+</strong>
 
 These goals are accomplished using a simple set of APIs designed to facilitate connectivity between containers which are running services or with an external endpoint. New connections negotiate their connection properties. These properties include but are not limited to:
 
-\\* Type of network interface. e.g. Linux Interface, MemIf, vhost-user\n
-\\* Payload Type - e.g. Ethernet, IP, MPLS, L2TP"""
+<strong>
+<b><i>
+<ul style="list-style-type:disc">
+  <li> Type of network interface. e.g. Linux Interface, MemIf, vhost-user</li>
+  <li> Payload Type - e.g. Ethernet, IP, MPLS, L2TP</li>
+</ul>
+</i></b>
+</strong>
+"""
     [params.feature.button]
       caption = "View Documentation"
       url = "https://github.com/ligato/networkservicemesh/tree/master/docs"
