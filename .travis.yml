@@ -17,3 +17,7 @@ install:
 script:
   - ./hugo
 
+notifications:
+  irc:
+    - "chat.freenode.net#networkservicemesh"
+
