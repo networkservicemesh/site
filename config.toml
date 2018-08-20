@@ -80,6 +80,7 @@ Network service mesh (NSM) adds the following properties to networking in Kubern
 </strong>
 </font>
 
+<p>
 <font color="white">
 These goals are accomplished using a simple set of APIs designed to facilitate connectivity between containers which are running services or with an external endpoint. New connections negotiate their connection properties. These properties include but are not limited to:
 
