@@ -1,0 +1,18 @@
+env:
+  - HUGO_VERSION="0.47.1"
+
+language: go
+
+go:
+  - 1.10
+
+sudo: false
+
+install:
+  - cd ${TRAVIS_BUILD_DIR}
+  - wget https://github.com/gohugoio/hugo/releases/download/v${HUGOE_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
+  - tar xvzf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
+
+script:
+  - ./hugo
+
