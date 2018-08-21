@@ -28,7 +28,7 @@ theme = "airspace-hugo"
   [[menu.header]]
     weight = 5
     name = "EVENTS"
-    url = "/ossna2018"
+    url = "/events"
 
   [[menu.footer]]
     weight = 1
