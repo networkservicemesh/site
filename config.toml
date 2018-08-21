@@ -5,25 +5,29 @@ theme = "airspace-hugo"
 
 [menu]
 
+
   [[menu.header]]
     weight = 1
-    name = "Blog"
-    url = "/blog"
+    name = "GITHUB"
+    url = "https://github.com/ligato/networkservicemesh"
+
   [[menu.header]]
     weight = 2
-    name = "Mailing List"
-    url = "https://groups.google.com/forum/#!forum/networkservicemesh"
+    name = "DOCUMENTATION"
+    url = "https://github.com/ligato/networkservicemesh/tree/master/docs"
+
   [[menu.header]]
     weight = 3
-    name = "Source"
-    url = "https://github.com/ligato/networkservicemesh"
+    name = "BLOG"
+    url = "/blog"
+    
   [[menu.header]]
     weight = 4
-    name = "Docker Images"
-    url = "https://hub.docker.com/u/networkservicemesh/dashboard/"
+    name = "COMMUNITY"
+    url = "/community"
   [[menu.header]]
     weight = 5
-    name = "OSS NA 2018"
+    name = "EVENTS"
     url = "/ossna2018"
 
   [[menu.footer]]
