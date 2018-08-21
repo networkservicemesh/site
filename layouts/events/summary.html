@@ -1,0 +1,5 @@
+{{if isset .Params "summary"}}
+{{ .Params.summary | markdownify }}
+{{else}}
+{{.Summary}}
+{{end}}
