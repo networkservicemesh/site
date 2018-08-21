@@ -19,11 +19,16 @@
     color: 	#3FFF00;
 }
 
-#feature {
+#feature h2 {
+    color: #FFFFFF;
+}
+
+#feature p {
     color: #FFFFFF;
 }
 
 #feature ul {
     list-style-type:disc;
     margin-left: 4em;
+    color: #FFFFFF;
 }
