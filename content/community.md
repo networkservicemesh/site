@@ -20,3 +20,4 @@ We encourage discussion on our mailing list and IRC channel and accept pull requ
 ### Communication Channels
 [![Mailing List](https://img.shields.io/badge/Mailing%20List-networkservicemesh-blue.svg?style=plastic)](https://groups.google.com/forum/#!forum/networkservicemesh)
 [![IRC](https://www.irccloud.com/invite-svg?channel=%23networkservicemesh&amp;hostname=irc.freenode.net&amp;port=6697&amp;ssl=1)](http://webchat.freenode.net/?channels=networkservicemesh)
+[![Twitter](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/nservicemesh)
