@@ -2,6 +2,7 @@
 title = "Quick Start"
 type = "setup"
 summary = "Running NSM on an existing Kubernetes Cluster"
+image= "/img/setup/quickstart.jpg"
 +++
 
 # Quick Start Network Service Mesh
