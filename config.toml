@@ -83,7 +83,7 @@ These goals are accomplished using a simple set of APIs designed to facilitate c
 """
     [params.feature.button]
       caption = "View Documentation"
-      url = "https://github.com/ligato/networkservicemesh/tree/master/docs"
+      url = "/docs"
 
   [params.call]
     enable = true
