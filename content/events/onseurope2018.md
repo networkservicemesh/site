@@ -7,7 +7,7 @@ summary = "A talk on Network Service Mesh is taking place at ONS Europe in Amste
 eventlink = "https://events.linuxfoundation.org/events/open-networking-summit-europe-2018/"
 +++
 
-Network Service Mesh will be one of the featured talks at ONS Europe. The [tak](http://sched.co/Fms7) will revolve around the basics of Network Service Mesh, future roadmap, and how you can get involved. Please join Kyle and Frederick on September 26 from 14:30 - 15:00 in Amsterdam.
+Network Service Mesh will be one of the featured talks at ONS Europe. The [talk](http://sched.co/Fms7) will revolve around the basics of Network Service Mesh, future roadmap, and how you can get involved. Please join Kyle and Frederick on September 26 from 14:30 - 15:00 in Amsterdam.
 
 # Supporting Collateral
 
