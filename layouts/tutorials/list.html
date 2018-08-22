@@ -7,23 +7,25 @@
 
 	{{ partial "header.html" . }}
 
-	{{ partial "global-header.html" . }}
+	{{ partial "docs-header.html" . }}
 
 	<section class="blog section">
 		<div class="container">
 			<div class="row">
 				{{ range (.Paginator 6).Pages }}
+				{{ if eq .Type "tutorials"}}
 				<div class="col-md-6">
 					<article class="blog-post">
 						{{ if isset .Params "image" }}
 						<a class="post-title" href="{{ .Permalink }}"><img src="{{ .Params.image | absURL }}" class="img-responsive" alt="post-thumb"></a> {{ end }}
 						<a class="post-title" href="{{ .Permalink }}">{{ .Title }}</a>
 						<p>
-                            {{ partial "summary" .}}
+							{{ partial "summary" .}}
 						</p>
 						<a href="{{ .Permalink }}" class="btn btn-main">Read More</a>
 					</article>
 				</div>
+				{{ end }}
 				{{ end }}
 			</div>
 			<div class="col-12 text-center">
