@@ -18,6 +18,8 @@
 					<article class="blog-post">
 						{{ if isset .Params "image" }}
 						<a class="post-title" href="{{ .Permalink }}"><img src="{{ .Params.image | absURL }}" class="img-responsive" alt="post-thumb"></a> {{ end }}
+						{{ if isset .Params "altimage" }}
+						{{ .Params.altimage | absURL }} {{ end }}
 						<a class="post-title" href="{{ .Permalink }}">{{ .Title }}</a>
 						<p>
 							{{ partial "summary" .}}
