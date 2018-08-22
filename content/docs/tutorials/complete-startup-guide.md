@@ -2,6 +2,7 @@
 title = "How to stand up a VM from scratch with everything for NSM"
 type = "tutorials"
 summary = "This document illustrates the procedure to install and start network service mesh from a bare bones system if you do not already have a Kubernetes Cluster running."
+image = "/img/tutorials/complete_startup_guide.png"
 +++
 # Comprehensive Start Up Guide - Network Service Mesh
 

@@ -111,3 +111,9 @@ header .container {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.container img.img-responsive {
+    padding-top: 10px;
+    max-height: 580px;
+    margin: auto;
+}
