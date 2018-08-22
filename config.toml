@@ -14,7 +14,7 @@ theme = "airspace-hugo"
   [[menu.header]]
     weight = 2
     name = "DOCUMENTATION"
-    url = "https://github.com/ligato/networkservicemesh/tree/master/docs"
+    url = "/docs"
 
   [[menu.header]]
     weight = 3

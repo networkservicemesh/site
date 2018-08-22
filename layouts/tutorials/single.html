@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{{ partial "head.html" . }}
+</head>
+<body>
+
+    {{ partial "header.html" . }}
+    {{ partial "docs-header.html" . }}
+    <!-- Content-->
+    <section>
+        <div class="container">
+            <div class="row">
+            <div class="col-md-12">
+                <div class="block markdown-body">
+                {{ .Content | markdownify }}
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+	{{ partial "footer.html" . }}
+
+	
+</body>
+</html>
