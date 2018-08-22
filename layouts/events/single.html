@@ -15,7 +15,7 @@
                 {{ if isset .Params "image" }}
                     {{ if isset .Params "eventlink"}}<a class="post-title" href="{{ .Params.eventlink }}">{{end}}
                     <img src="{{ .Params.image | absURL }}" class="img-responsive" alt="post-thumb">
-                    {{ if isset .Params "eventlink"}}</a>>{{end}}
+                    {{ if isset .Params "eventlink"}}</a>{{end}}
                 {{ end }}
                 <div class="block markdown-body">
                 {{ .Content | markdownify }}
