@@ -117,3 +117,11 @@ header .container {
     max-height: 580px;
     margin: auto;
 }
+
+#bs-example-navbar-collapse-1 {
+    background: white;
+}
+
+body > header > div > div > div {
+    z-index: 1;
+}
