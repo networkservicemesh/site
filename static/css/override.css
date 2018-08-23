@@ -125,3 +125,18 @@ header .container {
 .fix-navbar-zindex {
     z-index: 1;
 }
+
+.row-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    max-height:80px;
+}
+.row-fluid > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navbar-brand {
+    height: 80px;
+}
