@@ -122,6 +122,6 @@ header .container {
     background: white;
 }
 
-body > header > div > div > div {
+.fix-navbar-zindex {
     z-index: 1;
 }
