@@ -99,6 +99,7 @@
 
 header .navbar-brand img {
     height: 80px;
+    object-fit:contain;
 }
 
 header {
@@ -139,4 +140,5 @@ header .container {
 
 .navbar-brand {
     height: 80px;
+    width: 80px;
 }
