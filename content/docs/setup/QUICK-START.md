@@ -8,7 +8,7 @@ image= "/img/setup/quickstart.jpg"
 # Quick Start Network Service Mesh
 
 This document assumes you already have a kubernetes cluster with kubectl properly configured. If not,
-[How to stand up a VM from scratch with everything for NSM](/docs/tutorials/complete-startup-guide.md)
+[How to stand up a VM from scratch with everything for NSM](/docs/tutorials/complete-startup-guide/)
 
 
 ### Create the daemonset
