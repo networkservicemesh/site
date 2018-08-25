@@ -57,44 +57,18 @@
     background: linear-gradient(to left, #928dab, #1f1c2c 70%);
     opacity: 0.8;
 }
-#docs-header .block {
-    color: #E3E3E4;
-    margin: 0 auto;
-    padding-left: 90px;
-    text-align: center;
-}
-#docs-header .block h1 {
-    font-weight: 100;
-    font-size: 45px;
-    letter-spacing: 6px;
-    margin-top: 0;
-    margin-bottom: 0;
-    text-transform: capitalize;
-}
 
-#docs-header .block ul {
-    display: inline-block;
-}
-
-#docs-header .block ul li {
-    display: inline-block;
+#docs-header .row > [class*='col-'] {
     padding: 0px 25px;
-    cursor: pointer;
     font-weight: 100;
     font-size: 25px;
     text-transform: capitalize;
     position: relative;
+    text-align: center;
 }
 
-#docs-header .block ul li a {
+#docs-header .row > [class*='col-'] a {
     color: #FFFFFF;
-}
-
-#docs-header .block p {
-    font-size: 16px;
-    font-weight: 300;
-    letter-spacing: 1px;
-    word-spacing: 3px;
 }
 
 header .navbar-brand img {
