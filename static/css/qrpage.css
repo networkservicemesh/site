@@ -1,0 +1,22 @@
+#qrcode {
+    cursor:pointer;
+    padding-top:0;
+    padding-bottom:0;
+    padding-right:26px;
+    padding-left:26px;
+    height:40px;
+    width:40px;
+}
+
+#qrbig {
+    z-index:1;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display:none;
+}
+
+#qrbig img {
+  margin-right: auto;
+  margin-left: auto;
+}

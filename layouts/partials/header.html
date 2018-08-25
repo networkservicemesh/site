@@ -7,7 +7,7 @@
             <img class="img-responsive" src="{{ .Site.BaseURL }}img/logo.png" alt="{{ .Site.Title }} Logo">
         </a>
     </div>
-    <div class="col-md-11 fix-navbar-zindex">
+    <div class="col-md-10 fix-navbar-zindex">
       <!-- header Nav Start -->
       <nav class="navbar navbar-default">
         <div class="container-fluid">
@@ -26,6 +26,7 @@
               {{ range .Site.Menus.header }}
                 <li><a href="{{ .URL }}/">{{ .Name }}</a></li>
               {{ end }}
+                <li><div id="qrcode"></div></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
@@ -34,3 +35,4 @@
     </div>
   </div>
 </header><!-- header close -->
+<div id="qrbig"></div>
