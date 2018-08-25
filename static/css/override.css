@@ -142,3 +142,11 @@ header .container {
     height: 80px;
     width: 80px;
 }
+
+#global-header .block h1 {
+    text-align:center;
+}
+
+#global-header .block {
+    padding-left:0;
+}
