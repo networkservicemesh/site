@@ -15,25 +15,15 @@ theme = "airspace-hugo"
     weight = 2
     name = "DOCUMENTATION"
     url = "/docs"
-
-  [[menu.header]]
-    weight = 3
-    name = "BLOG"
-    url = "/blog"
     
   [[menu.header]]
-    weight = 4
+    weight = 3
     name = "COMMUNITY"
     url = "/community"
   [[menu.header]]
-    weight = 5
+    weight = 4
     name = "EVENTS"
     url = "/events"
-
-  [[menu.footer]]
-    weight = 1
-    name = "Blog"
-    url = "/blog"
 
 # The site's parameters
 [params]
@@ -58,7 +48,7 @@ theme = "airspace-hugo"
     paragraph = "Operators of multifaceted networks with advanced L2/L3 use cases currently find container networking solutions ill-suited for their next-generation architecture. Cloud-native solution's lack of support for advanced networking use cases is actively excluding multiple industries from adopting the new cloud-native paradigm."
 
   [params.blog]
-    enable = true
+    enable = false
     title = "Get The Latest On What We're doing"
     subtitle = "Catch up with us, anytime and anywhere"
 
