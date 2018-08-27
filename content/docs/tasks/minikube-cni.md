@@ -1,7 +1,7 @@
 +++
 title = "Using CNI Plugins With Minikube"
 type = "tasks"
-summary = "Minikube can be a phenominal tool for testing, but there are some tricky curves on the way to getting it to run the CNI of your choice."
+summary = "Minikube can be a phenomenal tool for testing, but there are some tricky curves on the way to getting it to run the CNI of your choice."
 image = "/img/tasks/cni_minikube.png"
 +++
 
