@@ -1,0 +1,29 @@
+<!-- Initial code from:
+	https://stackoverflow.com/a/42308842 by https://stackoverflow.com/users/3300480/sudhir
+     Adapted for Faqs
+     https://creativecommons.org/licenses/by-sa/3.0/
+-->
+
+
+<script>
+ window.addEventListener('message', function (event) {
+     //Here We have to check content of the message event  for safety purpose
+     //event data contains message sent from page added in iframe as shown in step 3
+     if (event.data.hasOwnProperty("FrameHeight")) {
+         //Set height of the Iframe
+         $("#IFrameId").css("height", event.data.FrameHeight);
+     }
+ });
+
+ function setIframeHeight(ifrm) {
+     var height = ifrm.contentWindow.postMessage("FrameHeight", "*");
+ };
+
+ function resizeIframe(obj) {
+     obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+ };
+</script>
+
+<div>
+    <iframe id="IFrameId" src="https://nsm-faqs.meteorapp.com/" width="100%" frameborder="0" scrolling="no" onload="setIframeHeight(this)"></iframe>
+</div>
