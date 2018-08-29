@@ -16,7 +16,7 @@ Network Service Mesh will be one of the topics of discussion at [Workshop: Cloud
 * [Code](https://github.com/ligato/networkservicemesh)
 
 # Network Service Mesh Happy Hour
-* [ARC Bar at Fairmont Hotel](https://www.fairmont.com/waterfront-vancouver/dining/arc-bar/)
+* [ARC Bar at Fairmont Waterfront Hotel](https://www.fairmont.com/waterfront-vancouver/dining/arc-bar/)
 * Tue Aug 28 7:30pm-9pm
 
 # Frequently Asked Questions
