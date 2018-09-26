@@ -9,7 +9,10 @@ eventlink = "https://events.linuxfoundation.org/events/open-networking-summit-eu
 
 Network Service Mesh will be one of the featured talks at ONS Europe. The [talk](http://sched.co/Fms7) will revolve around the basics of Network Service Mesh, future roadmap, and how you can get involved. Please join Kyle and Frederick on September 26 from 14:30 - 15:00 in Amsterdam.
 
-# Supporting Collateral
+# Happy NSM Hour
 
-# Notes
+[Wednesday - The Apollo Hotel Lounge - 7:30 PM](https://goo.gl/maps/MBi2jbqQvfT2)
+
+# Supporting Collatoral
+[Slides](https://docs.google.com/presentation/d/18xNaf9CLh86TC3WcWMd1hyMxwK7zZzbXd1hVHAl8l9M/edit?usp=sharing)
 
