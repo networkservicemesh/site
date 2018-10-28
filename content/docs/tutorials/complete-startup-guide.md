@@ -10,7 +10,7 @@ This document illustrates the procedure to install and start network service mes
 
 ## Table of Contents
 * [Introduction](#"Introduction")
-* [Quick Start](/docs/QUICK-START.md)
+* [Quick Start](/docs/setup/quick-start/)
 
 ### Steps
 
@@ -49,7 +49,7 @@ The steps here have analogies for other distros.  Also, this procedure uses the 
 
 ## Quick Start
 
-If you may prefer the fast path straight to running. Assuming you already have a kubernetes cluster, probably minikube installed  and all packages such as golang, docker and kubernetes installed. Once you have installed network service mesh source code, you may go to straght to [Quick Start: Run Network Service Mesh](/docs/QUICK-START.md)
+If you may prefer the fast path straight to running. Assuming you already have a kubernetes cluster, probably minikube installed  and all packages such as golang, docker and kubernetes installed. Once you have installed network service mesh source code, you may go to straght to [Quick Start: Run Network Service Mesh](/docs/setup/quick-start/)
 
 ## Set up Nested Virtualization <a name="Nested"></a>
 
