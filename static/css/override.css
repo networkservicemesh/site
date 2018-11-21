@@ -124,3 +124,11 @@ header .container {
 #global-header .block {
     padding-left:0;
 }
+
+.eventsection {
+    padding: 50px 0;
+    padding-top: 50px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}

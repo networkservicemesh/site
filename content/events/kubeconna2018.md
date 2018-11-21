@@ -5,6 +5,8 @@ dates = "December 11-13, 2018"
 image = "/img/events/logo_kubecon_na_2018.png"
 summary = "Network Service mesh is particiapting in KubeCon North America with two BoF sessions, an introduction and a deep dive. Two additional talks will be presented at the co-located FD.io Mini Summit."
 eventlink = "https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2018/"
+date = "2018-12-15"
+publishDate ="2018-11-20"
 +++
 
 A total of four talks, targeting different experience are scheduled for KubeCon North America 2018. Please join us to get more insights about Network Service Mesh, the current state of the project and live demos of NSM in action.
