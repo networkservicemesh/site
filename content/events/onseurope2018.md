@@ -2,7 +2,7 @@
 title = "Network Service Mesh at Open Networking Summit 2018"
 link = "http://sched.co/Fms7"
 dates = "Septmeber 26, 2018"
-image = "/img/logo_ons_eu.png"
+image = "/img/events/logo_ons_eu.png"
 summary = "A talk on Network Service Mesh is taking place at ONS Europe in Amsterdam in September, 2018. Kyle Mestery and Frederick Kautz will explore Network Service Mesh and show how you can also get involved."
 eventlink = "https://events.linuxfoundation.org/events/open-networking-summit-europe-2018/"
 +++
