@@ -25,6 +25,12 @@ theme = "airspace-hugo"
     name = "EVENTS"
     url = "/events"
 
+  [[menu.header]]
+    weight = 5
+    name = "BLOG"
+    url = "/blog"
+
+
 # The site's parameters
 [params]
 
