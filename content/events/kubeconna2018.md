@@ -9,26 +9,27 @@ date = "2018-12-15"
 publishDate ="2018-11-20"
 +++
 
-A total of four talks, targeting different experience are scheduled for KubeCon North America 2018. Please join us to get more insights about Network Service Mesh, the current state of the project and live demos of NSM in action.
+Several talks and demos targeting different experience are scheduled for KubeCon North America 2018. Please join us to get more insights about Network Service Mesh (NSM), the current state of the project and live demos of NSM in action.  All NSM events at Kubecon are also on [the Network Service Mesh Community Calendar](https://calendar.google.com/calendar/embed?src=iae5pl3qbf2g5ehm6jb2h7gv08%40group.calendar.google.com&ctz=America%2FLos_Angeles)
 
 
 Monday, December 10
 -------------------
 
-• 1:40pm - 2:00pm - [Facts on the Ground Stitching up an L2 CNF with Network Service Mesh and VPP](https://sched.co/IGgU) - Thomas
-
-• 3:20pm - 3:40pm - [Accelerating Network Security with VPP and Network Service Mesh](https://sched.co/IGh0) - Matt
+* 1:40pm - 2:00pm - [Facts on the Ground Stitching up an L2 CNF with Network Service Mesh and VPP](https://sched.co/IGgU) - Thomas
+* 3:20pm - 3:40pm - [Accelerating Network Security with VPP and Network Service Mesh](https://sched.co/IGh0) - Matt
 
 
 Tuesday, December 11
 --------------------
 
-• 3:40pm - 4:15pm - [Intro: Network Service Mesh BoF](https://sched.co/Grbq) - Ed and Frederick
+* 2:30pm   3:00pm - Network Service Mesh Demo/Presentation @Cisco Booth/Theather on Expo Floor - Ed
+* 3:40pm - 4:15pm - [Intro: Network Service Mesh BoF](https://sched.co/Grbq) - Ed and Frederick
 
 Thursday, December 13
 ---------------------
 
-• 10:50am - 11:25am - [Deep Dive: Network Service Mesh BoF](https://sched.co/Grdj) - Ed and Frederick
+* 10:50am - 11:25am - [Deep Dive: Network Service Mesh BoF](https://sched.co/Grdj) - Ed and Frederick
+* 01:30pm - 02:00pm - Network Service Mesh Demo/Presentation @Cisco Booth/Theather on Expo Floor - Ed
 
 
 # Happy NSM Hour
