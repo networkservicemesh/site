@@ -1,4 +1,0 @@
-+++
-title = "Tutorials"
-type = "tutorials"
-+++
