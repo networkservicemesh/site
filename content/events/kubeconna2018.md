@@ -22,19 +22,27 @@ Monday, December 10
 Tuesday, December 11
 --------------------
 
-* 2:30pm   3:00pm - Network Service Mesh Demo/Presentation @Cisco Booth/Theather on Expo Floor - Ed
+* 2:30pm   3:00pm - Network Service Mesh Demo/Presentation @ Cisco Booth/Theather on Expo Floor - Ed
 * 3:40pm - 4:15pm - [Intro: Network Service Mesh BoF](https://sched.co/Grbq) - Ed and Frederick
+* 4:15pm - 5:15pm - Happy Hour, beginning at the end of Intro NSM, migrate to Expo floor.
+* 7:50pm - 8:10pm - Network Service Mesh Demo/Presentation @ Red Hat Booth/Theater on Expo Floor - Frederick
+
+Wednesday, December 12
+----------------------
+
+* 12:30pm - 12:50pm - Network Service Mesh Demo/Presentation @ Red Hat Booth/Theater on Expo Floor - Frederick
 
 Thursday, December 13
 ---------------------
 
 * 10:50am - 11:25am - [Deep Dive: Network Service Mesh BoF](https://sched.co/Grdj) - Ed and Frederick
-* 01:30pm - 02:00pm - Network Service Mesh Demo/Presentation @Cisco Booth/Theather on Expo Floor - Ed
+* 12:30pm - 12:50pm - Network Service Mesh Demo/Presentation @ Red Hat Booth/Theater on Expo Floor - Frederick
+* 1:30pm - 2:00pm - Network Service Mesh Demo/Presentation @ Cisco Booth/Theather on Expo Floor - Ed
 
 
 # Happy NSM Hour
 
-TBD
+* Tuesday 4:15pm - 5:15pm - Happy Hour: meet in front of 602-604, walk and stay at Expo Floor.
 
 # Supporting Collatoral
 * [Slides - TBD]
