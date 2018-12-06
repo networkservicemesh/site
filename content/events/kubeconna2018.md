@@ -31,6 +31,7 @@ Wednesday, December 12
 ----------------------
 
 * 12:30pm - 12:50pm - Network Service Mesh Demo/Presentation @ Red Hat Booth/Theater on Expo Floor - Frederick
+* 02:35pm - 03:10pm - [Intro: Cloud Native Network Functions BoF - Dan Kohn, Cloud Native Computing Foundation](https://sched.co/JCLS)
 
 Thursday, December 13
 ---------------------
