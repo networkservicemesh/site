@@ -1,4 +1,4 @@
-# Using skydive to visualize nsm concepts
+# Using skydive to visualize NSM concepts
 
 It is always tricky for infrastructure projects, and especially networking infrasctructure projects, to explain their concepts, and what the project does effectively.
 One always better understand concepts he can visualize over those explained with hundreds of words.
@@ -34,8 +34,10 @@ With the help of the skydive team, we manage to find the correct filter to only 
 
 ![](../../static/img/skydive-nsm.png)
 
+Thanks to skydive with a NSM probe embedded, we can easily visualize cross connect link, in green, created by NSM.
+
 ## Follow-up
 
-- include deletion
-- use for troubleshooting nsm
-- vpp probe
+The source code of the probe is available on this [skydive fork](https://github.com/Orange-OpenSource/skydive/tree/nsm). We aim at merging this branch in the skydive main repository, once every monitoring events will be correctly handled.
+
+Even if NSM is dataplane agnostic, for now, it relies on VPP. Having a VPP probe in skydive would allow us to have more informations to troubleshoot such a deployment.
