@@ -8,10 +8,7 @@ image="/img/tasks/build.jpg"
 
 You will need to install
 
-1. golang
-2. protobuf
-3. dep
-4. shellcheck - only used for ```make check```
+1. golang - [recommend version 1.11](https://golang.org/dl/)
 
 ## On a Mac:
 
@@ -24,7 +21,6 @@ brew install dep golang protobuf shellcheck
 All of the actual code in Network Service Mesh builds as pure go:
 
 ```bash
-go generate ./...
 go build ./...
 ```
 
@@ -110,6 +106,32 @@ make k8s-crossconnect-monitor-logs
 
 dumps the logs from the crossconnect-monitor, which has been logging new crossconnects as they come into existence and go away throughout
 the cluster.
+
+# Regenerating code
+If you change [types.go](https://github.com/ligato/networkservicemesh/blob/master/k8s/pkg/apis/networkservice/v1/types.go) or any of the .proto files you will need to be able to run ```go generate ./...``` to regenerate code.
+
+In order to be able to do that you need to have installed:
+
+* protobuf - run ```./scripts/install-protoc.sh```
+* proto-gen-go - run ```go install ./vendor/github.com/golang/protobuf/protoc-gen-go/```
+* deep-copy-gen - run ```go install ./vendor/k8s.io/code-generator/cmd/deepcopy-gen/```
+
+Then just run:
+
+```
+go generate ./...
+```
+# Updating Deps
+
+If you need to add new dependencies to the vendor/ directory.
+1.  [Install dep](https://golang.github.io/dep/docs/installation.html)
+2.  Run ```dep ensure```
+
+# Shellcheck
+As part of our CI, we run shellcheck on all shell scripts in the repo.
+If you want to run it locally, you need to:
+
+1. [Install shellcheck](https://github.com/koalaman/shellcheck#installing)
 
 # Canonical source on how to build
 
