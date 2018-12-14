@@ -12,7 +12,7 @@
 	<section class="blog section">
 		<div class="container">
 			<div class="row">
-				{{ range (.Paginator 6).Pages }}
+				{{ range (.Paginator 6).Pages.ByDate.Reverse }}
 				{{ if eq .Type "concepts"}}
 				<div class="col-md-6">
 					<article class="blog-post">
