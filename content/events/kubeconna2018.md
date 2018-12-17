@@ -49,6 +49,9 @@ Thursday, December 13
 * Slides
   * [Network Service Mesh Intro](https://docs.google.com/presentation/d/1Vzmhv5vc10NyAa08ny-CCbveo0_fWkDckbkCD_N0fPg/edit)
   * [Network Service Mesh Deep Dive](https://docs.google.com/presentation/d/1YWagIAT3hCqF8zZ3wpC6woZ038Y42lKpXv12kjKZC6Q/edit#slide=id.g49d60c8d41_2_46)
+* Videos
+  * [Network Service Mesh Intro](https://www.youtube.com/watch?v=YeAKtUFaqQ0)
+  * [Network Service Mesh Deep Dive](https://www.youtube.com/watch?v=SGi9LS870rk)
 * [Website](https://www.networkservicemesh.io/)
 * [GitHub](https://github.com/ligato/networkservicemesh)
 
