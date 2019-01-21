@@ -20,36 +20,24 @@
 <meta name="hugo.type" content="{{ .Type }}">
 
 <!-- CSS -->
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/owl.carousel.css" />
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/bootstrap.min.css" />
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/font-awesome.min.css" />
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/airspace-local-fonts.css" />
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/airspace.css" />
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css" />
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/ionicons.min.css" />
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/animate.css" />
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/responsive.css" />
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/syntax.css" />
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/override.css" />
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/ipad_bootstrap_fix.css" />
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/qrpage.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css" />
-<style>
-    .markdown-body {
-        box-sizing: border-box;
-        min-width: 200px;
-        max-width: 980px;
-        margin: 0 auto;
-        padding: 45px;
-    }
-
-    @media (max-width: 767px) {
-        .markdown-body {
-            padding: 15px;
-        }
-    }
-</style>
-
+{{ $owl := resources.Get "css/owl.carousel.css"}}
+{{ $bootstrap := resources.Get "css/bootstrap.min.css"}}
+{{ $fontawesome := resources.Get "css/font-awesome.min.css"}}
+{{ $airspacelocalfonts := resources.Get "css/airspace-local-fonts.css"}}
+{{ $airspace := resources.Get "css/airspace.css"}}
+{{ $style := resources.Get "css/style.css"}}
+{{ $ionicons := resources.Get "css/ionicons.min.css"}}
+{{ $animate := resources.Get "css/animate.css"}}
+{{ $responsive := resources.Get "css/responsive.css"}}
+{{ $syntax := resources.Get "css/syntax.css"}}
+{{ $override := resources.Get "css/override.css"}}
+{{ $ipad_bootstrap_fix := resources.Get "css/ipad_bootstrap_fix.css"}}
+{{ $qrpage := resources.Get "css/qrpage.css"}}
+{{ $githubmarkdown := resources.Get "css/github-markdown.min.css"}}
+{{ $unicss := slice $owl $bootstrap $fontawesome $airspacelocalfonts $airspace $style $ionicons $animate $responsive $syntax $override $ipad_bootstrap_fix $qrpage $githubmarkdown | resources.Concat "bundle.css" | minify | fingerprint}}
+<link rel="stylesheet"
+      href="{{ $unicss.Permalink }}"
+      integrity="{{ $unicss.Data.Integrity }}">
 <!-- Js -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
