@@ -1,5 +1,5 @@
 title = "Network Service Mesh"
-baseURL = "https://www.networkservicemesh.io/"
+baseURL = "https://networkservicemesh.io/"
 languageCode = "en-us"
 theme = "airspace-hugo"
 
