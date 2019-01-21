@@ -39,19 +39,19 @@
       href="{{ $unicss.Permalink }}"
       integrity="{{ $unicss.Data.Integrity }}">
 <!-- Js -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-<script src="{{ .Site.BaseURL }}js/bootstrap.min.js"></script>
-<script src="{{ .Site.BaseURL }}js/owl.carousel.min.js"></script>
-<script src="{{ .Site.BaseURL }}js/plugins.js"></script>
-<script src="{{ .Site.BaseURL }}js/min/waypoints.min.js"></script>
-<script src="{{ .Site.BaseURL }}js/jquery.counterup.js"></script>
-<script src="{{ .Site.BaseURL }}js/qrcode.min.js"></script>
-<script src="{{ .Site.BaseURL }}js/qrpage.js"></script>
-
-
-<script src="{{ .Site.BaseURL }}js/main.js"></script>
-
+{{ $jqueryjs := resources.Get "js/jquery.min.js"}}
+{{ $bootstrapjs := resources.Get "js/bootstrap.min.js"}}
+{{ $windowupdatejs := resources.Get "js/windowupdate.js"}}
+{{ $owljs := resources.Get "js/owl.carousel.min.js"}}
+{{ $pluginsjs := resources.Get "js/plugins.js"}}
+{{ $waypointsjs := resources.Get "js/waypoints.min.js"}}
+{{ $jquerycounterupjs := resources.Get "js/jquery.counterup.js"}}
+{{ $qrcodejs := resources.Get "js/qrcode.min.js"}}
+{{ $qrpagejs := resources.Get "js/qrpage.js"}}
+{{ $mainjs := resources.Get "js/main.js"}}
+{{ $unijs := slice $jqueryjs $bootstrapjs $owljs $pluginsjs $waypointsjs $jquerycounterupjs $qrcodejs $qrpagejs $mainjs| resources.Concat "bundle.js" | minify | fingerprint}}
+<script defer src="{{ $unijs.Permalink }}"
+        integrity="{{ $unijs.Data.Integrity}}"></script>
 <!--
 /*
  * Airspace
