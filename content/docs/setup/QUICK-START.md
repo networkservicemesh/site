@@ -16,7 +16,7 @@ This document will configure two Vagrant boxes in a Kubernetes cluster with a ma
 * [Docker](https://docs.docker.com/install/)
 
 ```bash
-git clone https://github.com/ligato/networkservicemesh && cd networkservicemesh
+git clone https://github.com/networkservicemesh/networkservicemesh && cd networkservicemesh
 ```
 
 ### Build
@@ -40,7 +40,7 @@ make k8s-deploy
 You can configure your Kubernetes client to interact with the cluster directly.
 
 ```bash
-source $GOPATH/src/github.com/ligato/networkservicemesh/scripts/vagrant/env.sh
+source $GOPATH/src/github.com/networkservicemesh/networkservicemesh/scripts/vagrant/env.sh
 kubectl get daemonset nsmd
 ```
 

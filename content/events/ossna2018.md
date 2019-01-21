@@ -14,7 +14,7 @@ Network Service Mesh will be one of the topics of discussion at [Workshop: Cloud
 # Supporting Collateral
 * [Slides](https://docs.google.com/presentation/d/11Tic2FN8nokIU2_0CZTQwtfjptTIdRfsQLA5NPC0u1A/edit#slide=id.g40088b0520_0_1930)
 * [Website](https://www.networkservicemesh.io/)
-* [Code](https://github.com/ligato/networkservicemesh)
+* [Code](https://github.com/networkservicemesh/networkservicemesh)
 
 # Network Service Mesh Happy Hour
 * [ARC Bar at Fairmont Waterfront Hotel](https://www.fairmont.com/waterfront-vancouver/dining/arc-bar/)
