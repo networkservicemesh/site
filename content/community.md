@@ -15,6 +15,7 @@ We encourage discussion on our mailing list and IRC channel and accept pull requ
 
 ### Weekly Meetings
 [![Weekly Meeting](https://img.shields.io/badge/Weekly%20Meeting%20Minutes-Tue%208am%20PT-blue.svg?style=plastic)](https://docs.google.com/document/d/1C9NKjo0PWNWypROEO9-Y6haw5h9Xmurvl14SXpciz2Y/edit#heading=h.rc9df0a6n3ng)
+[![Weekly Docs Meeting](https://img.shields.io/badge/Weekly%20Documents%20Minutes-Wed%208am%20PT-blue.svg?style=plastic)](https://docs.google.com/document/d/1113nzdL-DcDAWT3963IsS9LeekgXLTgGebxPO7ZnJaA/edit#heading=h.8t1wzcxy1me6)
 [![Calendar](https://img.shields.io/badge/Calendar-Subscribe-blue.svg?style=plastic)](https://calendar.google.com/calendar/embed?src=iae5pl3qbf2g5ehm6jb2h7gv08%40group.calendar.google.com&ctz=America%2FLos_Angeles)
 
 ### Communication Channels
