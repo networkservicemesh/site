@@ -36,9 +36,7 @@
 {{ $githubmarkdown := resources.Get "css/github-markdown.min.css"}}
 {{ $unicss := slice $owl $bootstrap $fontawesome $airspacelocalfonts $airspace $style $ionicons $animate $responsive $syntax $override $ipad_bootstrap_fix $qrpage $githubmarkdown | resources.Concat "bundle.css" | minify | fingerprint}}
 <link rel="stylesheet"
-      href="{{ $unicss.RelPermalink }}"
-      integrity="{{ $unicss.Data.Integrity }}"
-      crossorigin="anonymous">
+      href="{{ $unicss.RelPermalink }}">
 <!-- Js -->
 {{ $jqueryjs := resources.Get "js/jquery.min.js"}}
 {{ $bootstrapjs := resources.Get "js/bootstrap.min.js"}}
@@ -51,9 +49,7 @@
 {{ $qrpagejs := resources.Get "js/qrpage.js"}}
 {{ $mainjs := resources.Get "js/main.js"}}
 {{ $unijs := slice $jqueryjs $bootstrapjs $owljs $pluginsjs $waypointsjs $jquerycounterupjs $qrcodejs $qrpagejs $mainjs| resources.Concat "bundle.js" | minify | fingerprint}}
-<script defer src="{{ $unijs.RelPermalink }}"
-        integrity="{{ $unijs.Data.Integrity}}"
-        crossorigin="anonymous"></script>
+<script defer src="{{ $unijs.RelPermalink }}"></script>
 <!--
 /*
  * Airspace
