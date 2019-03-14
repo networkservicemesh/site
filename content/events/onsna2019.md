@@ -27,5 +27,5 @@ Thursday, April 4
 
 # Supporting Collatoral
 * Slides
-  * [Network Service Mesh Intro](https://docs.google.com/presentation/d/1Vzmhv5vc10NyAa08ny-CCbveo0_fWkDckbkCD_N0fPg/edit)
+  * TBD
 
