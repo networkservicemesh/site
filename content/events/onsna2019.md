@@ -17,6 +17,12 @@ Wednesday, April 3
 * 3:10pm - 3:40pm - [Network Service Mesh: An Introduction] (https://sched.co/LKdR) - Ed Warnicke, Frederick Kautz
 
 
+April 3 - 5
+-----------------
+
+* All day demo [LF Networking Demos] (https://events.linuxfoundation.org/events/open-networking-summit-north-america-2019/features-and-add-ons/lf-networking-demos/)
+
+
 Thursday, April 4
 -----------------
 * 11:50am - 12:20pm - [Panel Discussion: Towards Kubernetes as the Network Service Orchestrator] (https://sched.co/LKUa) - Heather Kirksey, Ramki Krishnan, Ed Warnicke, Jeffrey Saelens, Nikolay Nikolaev
