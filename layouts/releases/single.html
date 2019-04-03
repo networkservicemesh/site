@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{{ partial "head.html" . }}
+</head>
+<body>
+
+    {{ partial "header.html" . }}
+    {{ partial "global-header.html" . }}
+    <!-- Content-->
+    <section>
+        <div class="container">
+            <div class="row">
+            <div class="col-md-12">
+                {{ if isset .Params "image" }}
+                    {{ if isset .Params "eventlink"}}<a class="post-title" href="{{ .Params.eventlink }}">{{end}}
+                    <img src="{{ .Params.image | absURL }}" class="img-responsive" alt="post-thumb">
+                    {{ if isset .Params "eventlink"}}</a>{{end}}
+                {{ end }}
+                <div class="block markdown-body">
+                {{ .Content | markdownify }}
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Logo Section Start -->
+    <section id="clients-logo-section">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-12">
+            <div class="block">
+            <div id="clients-logo" class="owl-carousel">
+                {{ range .Site.Data.work.clients }}
+                <div class="clients-logo-img">
+                <a href="{{ .url }}"><img src="{{ $.Site.BaseURL }}{{ .image }}" alt="Features"></a>
+                </div>
+                {{ end }}
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+	{{ partial "footer.html" . }}
+
+	
+</body>
+</html>
