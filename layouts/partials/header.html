@@ -7,7 +7,13 @@
             <img class="img-responsive" src="/img/logo.png" alt="{{ .Site.Title }} Logo">
         </a>
     </div>
-    <div class="col-md-10 fix-navbar-zindex">
+    <div class="col-md-2">
+      <img src="/img/cncf-color.png" alt="Cloud-Native Computing Foundation Logo" height="40px"/>
+    </div>
+    <div class="col-mod-2">
+      <img src="/img/cncf-sandbox-horizontal-color.png" alt="CNCF Sandbox Logo" height="40px"/>
+    </div>
+    <div class="col-md-7 fix-navbar-zindex">
       <!-- header Nav Start -->
       <nav class="navbar navbar-default">
         <div class="container-fluid">
@@ -23,9 +29,9 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
-              {{ range .Site.Menus.header }}
-                <li><a href="{{ .URL }}/">{{ .Name }}</a></li>
-              {{ end }}
+                {{ range .Site.Menus.header }}
+                  <li><a href="{{ .URL }}/">{{ .Name }}</a></li>
+                {{ end }}
                 <li><div id="qrcode"></div></li>
               </ul>
             </div><!-- /.navbar-collapse -->
