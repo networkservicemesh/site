@@ -21,5 +21,7 @@ We encourage discussion on our mailing list and IRC channel and accept pull requ
 
 ### Communication Channels
 [![Mailing List](https://img.shields.io/badge/Mailing%20List-networkservicemesh-blue.svg?style=plastic)](https://groups.google.com/forum/#!forum/networkservicemesh)
-[![IRC](https://www.irccloud.com/invite-svg?channel=%23networkservicemesh&amp;hostname=irc.freenode.net&amp;port=6697&amp;ssl=1)](http://webchat.freenode.net/?channels=networkservicemesh)
+[![Skack Channel](https://img.shields.io/badge/Slack:-%23nsm%20on%20CNCF%20Slack-blue.svg?style=plastic&logo=slack)](https://cloud-native.slack.com/messages/CHQNNUPN1/files/FHU5KB3PW/#nsm)
+[![Skack Invite](https://img.shields.io/badge/Slack-CNCF%20Slack%20Invite-blue.svg?style=plastic&logo=slack)](https://slack.cncf.io/)
+
 [![Twitter](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/nservicemesh)
