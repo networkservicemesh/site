@@ -13,7 +13,7 @@
 		<div class="container">
 			<div class="row">
 				<h2>Upcoming Events</h2>
-				{{ range (.Paginator 6).Pages.ByDate.Reverse }}
+				{{ range (.Paginator 6).Pages.ByDate }}
 				{{ if ge .Date.Unix now.Unix}}
 				<div class="col-md-6">
 					<article class="blog-post">
@@ -28,9 +28,6 @@
 				</div>
 				{{ end }}
 				{{ end }}
-			</div>
-			<div class="col-12 text-center">
-				{{ template "_internal/pagination.html" . }}
 			</div>
 		</div>
 	</section>
