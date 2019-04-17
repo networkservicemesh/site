@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	{{ partial "head.html" . }}
+</head>
+
+<body>
+
+	{{ partial "header.html" . }}
+
+	{{ partial "global-header.html" . }}
+
+	<section class="blog section eventsection">
+		<div class="container">
+			<div class="row">
+				<h2>Upcoming Releases</h2>
+				{{ range (.Paginator 6).Pages.ByDate.Reverse }}
+				{{ if ge .Date.Unix now.Unix}}
+				<div class="col-md-6">
+					<article class="blog-post">
+						{{ if isset .Params "image" }}
+						<a class="post-title" href="{{ .RelPermalink }}"><img src="{{ .Params.image | absURL }}"
+								class="img-responsive" alt="post-thumb"></a> {{ end }}
+						<a class="post-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+						<p>
+							{{ partial "summary" .}}
+						</p>
+						<a href="{{ .RelPermalink }}" class="btn btn-main">Read More</a>
+					</article>
+				</div>
+				{{ end }}
+				{{ end }}
+			</div>
+			<div class="col-12 text-center">
+				{{ template "_internal/pagination.html" . }}
+			</div>
+		</div>
+	</section>
+	<section class="blog section eventsection">
+		<div class="container">
+			<div class="row">
+				<hr />
+				<h2>Past Releases</h2>
+				{{ range (.Paginator 6).Pages.ByDate.Reverse }}
+				{{ if lt .Date.Unix now.Unix}}
+				<div class="col-md-6">
+					<article class="blog-post">
+						{{ if isset .Params "image" }}
+						<a class="post-title" href="{{ .RelPermalink }}"><img src="{{ .Params.image | absURL }}"
+								class="img-responsive" alt="post-thumb"></a> {{ end }}
+						<a class="post-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+						<p>
+							{{ partial "summary" .}}
+						</p>
+						<a href="{{ .RelPermalink }}" class="btn btn-main">Read More</a>
+					</article>
+				</div>
+				{{ end }}
+				{{ end }}
+			</div>
+			<div class="col-12 text-center">
+				{{ template "_internal/pagination.html" . }}
+			</div>
+		</div>
+	</section>
+
+	{{ partial "footer.html" . }}
+
+</body>
+
+</html>
