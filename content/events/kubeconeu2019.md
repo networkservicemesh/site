@@ -12,17 +12,17 @@ publishDate ="2019-04-16"
 Monday, May 20
 --------------------
 
-* 13:30-14:00 - [State of VPP in Network Service Mesh](https://sched.co/OJzt) - Fredrick Kautz, Doc.ai
-* 14:50-15:20 - [X-Factor CNFs and Network Service Mesh](https://www.linuxfoundation.org/calendar/kubecon-cloudnativecon-europe/) -  Fredrick Kautz, Doc.ai
+* 13:30-14:00 - [State of VPP in Network Service Mesh](https://sched.co/OJzt) - Frederick Kautz, Doc.ai
+* 14:50-15:20 - [X-Factor CNFs and Network Service Mesh](https://www.linuxfoundation.org/calendar/kubecon-cloudnativecon-europe/) -  Frederick Kautz, Doc.ai
 
 
 Tuesday, May 21
 --------------------
 
-* 11:55 - 12:30 - [Intro: Network Service Mesh (NSM)](https://sched.co/NxZ5) - Fredrick Kautz, Doc.ai & Ed Warnicke, Cisco
+* 11:55 - 12:30 - [Intro: Network Service Mesh (NSM)](https://sched.co/NxZ5) - Frederick Kautz Kautz, Doc.ai & Ed Warnicke, Cisco
 
 Thursday, May 23
 --------------------
 
-* 11:55 - 12:30 - [Deep Dive: Network Service Mesh (NSM)](https://sched.co/NxZi) - Nikolay Nikolaev, VMware & Frederic Kautz, Doc.ai
+* 11:55 - 12:30 - [Deep Dive: Network Service Mesh (NSM)](https://sched.co/NxZi) - Nikolay Nikolaev, VMware & Frederick Kautz, Doc.ai
 
