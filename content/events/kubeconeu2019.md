@@ -9,6 +9,13 @@ date = "2019-05-24"
 publishDate ="2019-04-16"
 +++
 
+Monday, May 20
+--------------------
+
+* 13:30-14:00 - [State of VPP in Network Service Mesh](https://sched.co/OJzt) - Fredrick Kautz, Doc.ai
+* 14:50-15:20 - [X-Factor CNFs and Network Service Mesh](https://www.linuxfoundation.org/calendar/kubecon-cloudnativecon-europe/) -  Fredrick Kautz, Doc.ai
+
+
 Tuesday, May 21
 --------------------
 
