@@ -11,5 +11,5 @@ publishDate ="2019-04-16"
 
 Tuesday Jun 25
 --------------------
-12:05 - 12:40 - [Intro: Network Service Mesh (NSM)](https://sched.co/OB2V) - Fredrick Kautz, Doc.ai & Nikolay Nikolaev, VMware
+12:05 - 12:40 - [Intro: Network Service Mesh (NSM)](https://sched.co/OB2V) - Frederick Kautz, Doc.ai & Nikolay Nikolaev, VMware
 
