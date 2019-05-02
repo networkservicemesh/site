@@ -1,5 +1,5 @@
 title = "Network Service Mesh"
-baseURL = "https://networkservicemesh.io/"
+baseURL = "/"
 languageCode = "en-us"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
