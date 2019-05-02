@@ -1,11 +1,9 @@
 title = "Network Service Mesh"
 baseURL = "https://networkservicemesh.io/"
 languageCode = "en-us"
-theme = "airspace-hugo"
+disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [menu]
-
-
   [[menu.header]]
     weight = 1
     name = "GITHUB"
