@@ -78,6 +78,10 @@ These goals are accomplished using a simple set of APIs designed to facilitate c
     enable = true
     title = "Network Service Mesh"
 
+  [params.social]
+    github = "https://github.com/networkservicemesh/networkservicemesh"
+    twitter = "https://twitter.com/nservicemesh"
+
 [[params.fonts]]
 name = "Roboto"
 sizes = [300, 400, 600, 700]

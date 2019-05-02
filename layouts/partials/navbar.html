@@ -1,4 +1,6 @@
-<nav class="navbar is-dark is-fixed-top">
+{{ $github  := site.Params.social.github }}
+{{ $twitter := site.Params.social.twitter }}
+<nav class="navbar is-light is-fixed-top">
   <div class="container">
     <div class="navbar-brand">
       <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
@@ -10,9 +12,31 @@
   
     <div class="navbar-menu" id="navbar-menu">
       <div class="navbar-end">
-          <a class="navbar-item" href="/docs">
-            Docs
-          </a>
+        <a class="navbar-item" href="/docs">
+          Docs
+        </a>
+
+        <div class="navbar-item">
+          <div class="buttons is-radiusless">
+            <a class="button is-twitter-blue" href="{{ $twitter }}" target="_blank">
+              <span class="icon">
+                <i class="fab fa-twitter"></i>
+              </span>
+              <span class="has-text-weight-bold">
+                Twitter
+              </span>
+            </a>
+
+            <a class="button is-black" href="{{ $github }}" target="_blank">
+              <span class="icon">
+                <i class="fab fa-github"></i>
+              </span>
+              <span class="has-text-weight-bold">
+                GitHub
+              </span>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
