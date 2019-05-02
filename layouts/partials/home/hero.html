@@ -1,0 +1,15 @@
+{{ $title       := site.Title }}
+{{ $description := site.Params.slider.subtitle | markdownify }}
+<section class="hero is-light">
+  <div class="hero-body">
+    <div class="container">
+      <p class="title is-size-1 is-size-2-mobile has-text-weight-light is-spaced">
+        {{ site.Title }}
+      </p>
+
+      <p class="subtitle is-size-4 is-size-6-mobile has-text-weight-light">
+        {{ $description }}
+      </p>
+    </div>
+  </div>
+</section>

@@ -25,6 +25,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 # The site's parameters
 [params]
+  fontawesomeversion = "5.8.1"
 
   # If you want to remove the copyright text you need a Themefisher license.
   # This license is offered with a 50% discount for all Hugo users.
@@ -37,7 +38,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [params.slider]
     enable = true
     title = "Network Service Mesh"
-    subtitle = "Network Service Mesh is a novel approach solving complicated L2/L3 use cases in Kubernetes that are tricky to address with the existing Kubernetes Network Model. Inspired by Istio, Network Service Mesh maps the concept of a service mesh to L2/L3 payloads."
+    subtitle = "Network Service Mesh is a novel approach to solving complicated L2/L3 use cases in Kubernetes that are tricky to address with the existing Kubernetes Network Model. Inspired by [Istio](https://istio.io), Network Service Mesh maps the concept of a service mesh to L2/L3 payloads."
 
   [params.wrapper]
     enable = true
@@ -77,3 +78,12 @@ These goals are accomplished using a simple set of APIs designed to facilitate c
     enable = true
     title = "Network Service Mesh"
 
+[[params.fonts]]
+name = "Roboto"
+sizes = [300, 400, 600, 700]
+type = "sans_serif"
+
+[[params.fonts]]
+name = "Roboto Mono"
+sizes = [300, 400, 600, 700]
+type = "monospace"
