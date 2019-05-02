@@ -35,6 +35,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   home = "Home"
 
+  [params.logos]
+    cncf = "cncf-color.png"
+
   [params.slider]
     enable = true
     title = "Network Service Mesh"

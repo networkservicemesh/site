@@ -1,0 +1,11 @@
+{{ $logo := site.Params.logos.cncf }}
+{{ $url  := printf "img/logos/%s" $logo }}
+<section class="section has-text-centered">
+  <div class="container">
+    <p class="is-size-5 is-size-6-mobile has-text-weight-light">
+      Network Service Mesh is a <a href="https://cncf.io">Cloud Native Computing Foundation</a> sandbox project
+    </p>
+
+    <img class="is-cncf-logo" src="{{ $url }}">
+  </div>
+</section>

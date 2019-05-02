@@ -1,3 +1,4 @@
 {{ define "main" }}
 {{ partial "hero.html" (dict "title" site.Title "description" site.Params.slider.subtitle "size" "medium") }}
+{{ partial "home/cncf.html" . }}
 {{ end }}
