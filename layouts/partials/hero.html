@@ -1,6 +1,6 @@
 <section class="hero is-dark{{ with .size }} is-{{ . }}{{ end }}">
-  <div class="hero-body">
-    <div class="container">
+  <div class="container">
+    <div class="hero-body">
       <p class="title is-size-1 is-size-2-mobile has-text-weight-light{{ if .description }} is-spaced{{ end }}">
         {{ .title }}
       </p>
@@ -11,5 +11,9 @@
       </p>
       {{ end }}
     </div>
+
+    {{ if .nav }}
+    {{ partial "docs/nav.html" . }}
+    {{ end }}
   </div>
 </section>

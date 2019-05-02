@@ -3,6 +3,6 @@ Network Service Mesh | {{ .Title }}
 {{ end }}
 
 {{ define "main" }}
-{{ partial "hero.html" (dict "title" .Title "description" .Params.description) }}
+{{ partial "hero.html" (dict "title" .Title "description" .Params.description "nav" true) }}
 {{ partial "docs/article.html" . }}
 {{ end }}
