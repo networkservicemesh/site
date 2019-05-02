@@ -7,12 +7,14 @@
     </title>
     {{ partial "css.html" . }}
   </head>
-  <body class="page has-navbar-fixed-top">
+  <body class="page is-{{ .Kind }}-page has-navbar-fixed-top">
     <main class="main">
       {{ partial "navbar.html" . }}
 
       {{ block "main" . }}
       {{ end }}
     </main>
+
+    {{ partial "javascript.html" . }}
   </body>
 </html>
