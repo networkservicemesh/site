@@ -1,4 +1,5 @@
 {{ define "main" }}
-{{ partial "hero.html" (dict "title" site.Title "description" site.Params.slider.subtitle "size" "medium") }}
+{{ $subtitle := site.Params.subtitle }}
+{{ partial "home/hero.html" . }}
 {{ partial "home/cncf.html" . }}
 {{ end }}

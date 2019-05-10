@@ -1,11 +1,15 @@
 {{ $home  := site.BaseURL }}
 {{ $title := site.Title }}
-<nav class="navbar is-light is-fixed-top">
+{{ $logo  := printf "img/logos/%s" site.Params.logos.navbar | relURL }}
+{{ $color := cond .IsHome "dark" "white" }}
+<nav class="navbar is-{{ $color }} is-fixed-top">
   <div class="container">
     <div class="navbar-brand">
+      {{ if not .IsHome }}
       <a class="navbar-item has-text-weight-bold" href="{{ $home }}">
-        {{ $title }}
+        <img src="{{ $logo }}" alt="Network Service Mesh navbar logo">
       </a>
+      {{ end }}
 
       <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
         <span aria-hidden="true"></span>
