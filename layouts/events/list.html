@@ -18,7 +18,7 @@
 				<div class="col-md-6">
 					<article class="blog-post">
 						{{ if isset .Params "image" }}
-						<a class="post-title" href="{{ .RelPermalink }}"><img src="{{ .Params.image | absURL }}" class="img-responsive" alt="post-thumb"></a> {{ end }}
+						<a class="post-title" href="{{ .RelPermalink }}"><img src="{{ .Params.image | absURL }}?nf_resize=fit&w=555" class="img-responsive" alt="post-thumb"></a> {{ end }}
 						<a class="post-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
 						<p>
                             {{ partial "summary" .}}
@@ -41,7 +41,7 @@
 				<div class="col-md-6">
 					<article class="blog-post">
 						{{ if isset .Params "image" }}
-						<a class="post-title" href="{{ .RelPermalink }}"><img src="{{ .Params.image | absURL }}" class="img-responsive" alt="post-thumb"></a> {{ end }}
+						<a class="post-title" href="{{ .RelPermalink }}"><img src="{{ .Params.image | absURL }}?nf_resize=fit&w=555" class="img-responsive" alt="post-thumb"></a> {{ end }}
 						<a class="post-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
 						<p>
                             {{ partial "summary" .}}
