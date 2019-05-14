@@ -21,7 +21,7 @@ Tuesday, May 21
 
 * 11:55 - 12:30 - [Intro: Network Service Mesh (NSM)](https://sched.co/NxZ5) - Frederick Kautz Kautz, Doc.ai & Ed Warnicke, Cisco
 
-Thursday, May 23
+Wednesday, May 22
 --------------------
 
 * 11:55 - 12:30 - [Deep Dive: Network Service Mesh (NSM)](https://sched.co/NxZi) - Nikolay Nikolaev, VMware & Frederick Kautz, Doc.ai
