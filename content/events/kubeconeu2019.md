@@ -27,6 +27,7 @@ Wednesday, May 22
 
 * 11:55 - 12:30 - [Deep Dive: Network Service Mesh (NSM)](https://sched.co/NxZi) - Nikolay Nikolaev, VMware & Frederick Kautz, Doc.ai
 * 13:45 - 14:00 - Network Service Mesh: The Network is the Runtime - Ed Warnicke, Cisco Systems -  Cisco Booth (Exhibition Floor D4)
+* 14:30 - 15:30 - Network Service Mesh Meetup & Brainstorming - Hub Lounge on Exhibition Floor
 
 Thursday, May 23
 --------------------
