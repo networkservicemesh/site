@@ -32,8 +32,8 @@ Wednesday, May 22
 Thursday, May 23
 --------------------
 * 10:30 - 12:30 - Nikolay at the VMware booth, ask him about NSM
-* 11:30 - 12:00 - Network Service Mesh: The Network is the Runtime - Ed Warnicke, Cisco Systems -  Cisco Booth (Exhibition Floor D4)
-* 11:30 - 12:00 - Network Service Mesh: The Network is the Runtime - Ed Warnicke, Cisco Systems -  Cisco Booth (Exhibition Floor D4)
+* 13:45 - 14:00 - Network Service Mesh: The Network is the Runtime - Ed Warnicke, Cisco Systems -  Cisco Booth (Exhibition Floor D4)
+
 
 # Supporting Collatoral
 * Slides
