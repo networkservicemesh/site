@@ -37,5 +37,9 @@ Thursday, May 23
 
 # Supporting Collatoral
 * Slides
-  * [Network Service Mesh Intro](https://docs.google.com/presentation/d/1YZRb-1C0MQMcxj45I1YaUqMq8fN7gKj0ipP0ocKa1T4/edit?usp=drive_web&ouid=110384833147513392650)
-  
+  * [Network Service Mesh Intro](https://docs.google.com/presentation/d/1YZRb-1C0MQMcxj45I1YaUqMq8fN7gKj0ipP0ocKa1T4/edit)
+  * [Network Service Mesh Deep Dive](https://docs.google.com/presentation/d/17BJ3j1BX8lw7Zw62EHf0LziXIR1HZt8U1IyzhluxmX4/edit)
+
+* Video
+  * [Network Service Mesh Intro](https://www.youtube.com/watch?v=eLTjXdtlMzA)
+  * [Network Service Mesh Deep Dive](https://www.youtube.com/watch?v=AWHkn_dqAUA)
