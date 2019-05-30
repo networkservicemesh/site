@@ -1,5 +1,6 @@
 +++
 title = "Building Network Service Mesh"
+weight = 1
 image = "/img/tasks/build.jpg"
 +++
 
