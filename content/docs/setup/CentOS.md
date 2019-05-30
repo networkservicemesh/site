@@ -1,4 +1,7 @@
-# Preparing a CentOS host to run Network Service Mesh
++++
+title = "Preparing a CentOS host to run Network Service Mesh"
+short = "CentOS"
++++
 
 The following instructions assume CentOS 7 installed with Gnome Desktop.
 

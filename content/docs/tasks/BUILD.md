@@ -1,9 +1,8 @@
 +++
 title = "Building Network Service Mesh"
-type = "tasks"
-summary = ""
-image="/img/tasks/build.jpg"
+image = "/img/tasks/build.jpg"
 +++
+
 # Prerequisites to Build
 
 You will need to install

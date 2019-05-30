@@ -1,4 +1,7 @@
-# Preparing an Ubuntu host to run Network Service Mesh
++++
+title = "Preparing an Ubuntu host to run Network Service Mesh"
+short = "Ubuntu"
++++
 
 The following instructions assume Ubuntu 18.04.
 

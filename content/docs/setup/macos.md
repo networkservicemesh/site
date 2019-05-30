@@ -1,4 +1,8 @@
-# Preparing an OSX host to run Network Service Mesh
++++
+title = "Preparing a macOS host to run Network Service Mesh"
+short = "MacOS"
+weight = 2
++++
 
 
 [Docker desktop](https://www.docker.com/products/docker-desktop) installed from the official packages

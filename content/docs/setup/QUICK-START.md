@@ -1,9 +1,8 @@
 +++
 title = "Quick Start"
-type = "setup"
 summary = "Running NSM on a Kubernetes cluster in Vagrant"
-image= "/img/setup/quickstart.jpg"
-
+image = "/img/setup/quickstart.jpg"
+weight = 1
 +++
 
 # Quick Start Network Service Mesh

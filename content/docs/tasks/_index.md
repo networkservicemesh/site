@@ -1,4 +1,4 @@
 +++
 title = "Tasks"
-type = "tasks"
+weight = 4
 +++
