@@ -73,7 +73,7 @@ These goals are accomplished using a simple set of APIs designed to facilitate c
 """
     [params.feature.button]
       caption = "View Documentation"
-      url = "/docs"
+      url = "/docs/"
 
   [params.call]
     enable = true
