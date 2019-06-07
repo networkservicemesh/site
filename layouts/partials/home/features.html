@@ -1,0 +1,52 @@
+{{ $features := site.Params.features }}
+<section class="section has-background-light">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-one-quarter">
+        <p class="title is-size-3 is-size-4-mobile has-text-weight-light">
+          Features
+        </p>
+      </div>
+
+      <div class="column">
+        <p class="is-size-4 is-size-5-mobile">
+          Network service mesh (NSM) adds the following properties to networking in Kubernetes:
+        </p>
+
+        <br />
+
+        <div class="columns content">
+          <div class="column is-half">
+            {{ range $idx, $feature := $features }}
+            {{ if (modBool $idx 2) }}
+            <p class="is-size-5 is-size-6-mobile">
+              <span class="icon has-text-success">
+                <i class="fas fa-check"></i>
+              </span>
+              <span>
+                {{ $feature | markdownify }}
+              </span>
+            </p>
+            {{ end }}
+            {{ end }}
+          </div>
+    
+          <div class="column is-half">
+            {{ range $idx, $feature := $features }}
+            {{ if not (modBool $idx 2) }}
+            <p class="is-size-5 is-size-6-mobile">
+              <span class="icon has-text-success">
+                <i class="fas fa-check"></i>
+              </span>
+              <span>
+                {{ $feature | markdownify }}
+              </span>
+            </p>
+            {{ end }}
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

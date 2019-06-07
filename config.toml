@@ -22,15 +22,25 @@ weight = 3
 
 # The site's parameters
 [params]
-  fontawesomeversion = "5.8.1"
-  dateFormat = "6 January 2006"
-  subtitle = "An L2/L3 service mesh for Kubernetes"
-  description = "Network Service Mesh is a novel approach to solving complicated L2/L3 use cases in Kubernetes that are tricky to address with the existing Kubernetes Network Model. Inspired by [Istio](https://istio.io), Network Service Mesh maps the concept of a service mesh to L2/L3 payloads."
+fontawesomeversion = "5.8.1"
+dateFormat = "6 January 2006"
+subtitle = "An L2/L3 service mesh for Kubernetes"
+description = "Network Service Mesh is a novel approach to solving complicated L2/L3 use cases in Kubernetes that are tricky to address with the existing Kubernetes Network Model. Inspired by [Istio](https://istio.io), Network Service Mesh maps the concept of a service mesh to L2/L3 payloads."
+features = [
+  "Heterogeneous network configurations",
+  "Exotic protocols",
+  "Tunneling as a first-class citizen",
+  "Networking context as a first-class citizen",
+  "Policy-driven service function chaining (**SFC**)",
+  "Minimizes the need for changes to Kubernetes"
+]
 
-  [params.logos]
-    cncf = "cncf-color.png"
-    navbar = "networkservicemesh-horizontal-color.png"
-    hero = "networkservicemesh-icon-color.png"
+[params.logos]
+cncf = "cncf-color.png"
+navbar = "networkservicemesh-horizontal-color.png"
+hero = "networkservicemesh-icon-color.png"
+
+
 
   [params.wrapper]
     enable = true
