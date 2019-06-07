@@ -1,0 +1,10 @@
+{{ $events := where site.RegularPages "Section" "events" }}
+<ul>
+  {{ range $events }}
+  <li>
+    <a href="{{ .RelPermalink }}">
+      {{ .Title }}
+    </a>
+  </li>
+  {{ end }}
+</ul>

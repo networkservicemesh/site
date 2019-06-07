@@ -4,24 +4,21 @@ languageCode = "en-us"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [menu]
-  [[menu.header]]
-    weight = 1
-    name = "GITHUB"
-    url = "https://github.com/networkservicemesh/networkservicemesh"
+[[menu.navbar]]
+name = "Docs"
+url = "/docs/concepts/what-is-nsm"
+weight = 1
 
-  [[menu.header]]
-    weight = 2
-    name = "DOCUMENTATION"
-    url = "/docs"
-    
-  [[menu.header]]
-    weight = 3
-    name = "COMMUNITY"
-    url = "/community"
-  [[menu.header]]
-    weight = 4
-    name = "EVENTS"
-    url = "/events"
+[[menu.navbar]]
+name = "Community"
+url = "/community"
+weight = 2
+
+[[menu.navbar]]
+name = "Events"
+url = "/events"
+weight = 3
+
 
 # The site's parameters
 [params]
