@@ -6,13 +6,20 @@ publishDate ="2018-10-10"
 +++
 
 
-Network Service Mesh (NSM) is a novel approach solving complicated L2/L3 use cases in Kubernetes that are tricky to address with the existing Kubernetes Network Model. Inspired by Istio, Network Service Mesh maps the concept of a service mesh to L2/L3 payloads.
+Network Service Mesh (NSM) is a novel approach to solving complicated [L2](https://en.wikipedia.org/wiki/Data_link_layer)/[L3](https://en.wikipedia.org/wiki/Network_layer) use cases in [Kubernetes](https://kubernetes.io) that are tricky to address withing the existing [Kubernetes Network Model](https://caylent.com/kubernetes-networking-model/). Inspired by [Istio](https://istio.io), Network Service Mesh maps the concept of a service mesh to L2/L3 payloads.
 
-In this document, we cover the problems that Network Service Mesh is solving and guide the user into understanding what Network Service Mesh is through a series of simple examples.
+In this document, we cover the what Network Service Mesh is and what problems it solves using a series of examples.
 
 ## Problem Statement
 
-Multifaceted networks such as Telcos, ISPs, and advanced enterprise networks are rearchitecting their solutions with the advent of NFV, 5G networks, edge computing, and IoT devices. Each of these technologies brings a significant increase in the total number of connected devices, increased bandwidth available per device, and a significant increase in cloud service load.
+Multifaceted networks such as Telcos, ISPs, and advanced enterprise networks are rearchitecting their solutions with the advent of new networking technologies such as:
+
+* [Network function virtualization](https://en.wikipedia.org/wiki/Network_function_virtualization) (**NFV**)
+* [5G networks](https://en.wikipedia.org/wiki/5G)
+* [Edge computing](https://www.networkworld.com/article/3224893/what-is-edge-computing-and-how-it-s-changing-the-network.html)
+* [Internet of Things](https://www.sap.com/trends/internet-of-things.html) (aka **IoT**) devices
+
+Each of these technologies brings a significant increase in the total number of connected devices, available bandwidth per device, and cloud service load.
 
 Operators of multifaceted networks with advanced L2/L3 use cases currently find container networking solutions ill-suited for their next-generation architecture. Cloud-native solution's lack of support for advanced networking use cases is actively excluding multiple industries from adopting the new cloud-native paradigm.
 
@@ -49,7 +56,7 @@ These goals are accomplished using a simple set of APIs designed to facilitate c
 
 The simplest example is requesting access to an external interface, e.g., a radio network service. Consider a pod which requires access to a network interface. The interface is configured and plumbed into the pod. This scenario may occur either through a dynamic call from a process within the pod or from an init container that sets up the radio service before the main pod container.
 
-![Adding a radio service](/img/what-is-nsm/interface.png)
+{{< figure src="/img/what-is-nsm/interface.png" caption="Adding a radio service" width="70" >}}
 
 NSM also interacts with the Device Plugin API (DPAPI). In this scenario, we interact with a radio service which has a limited number of interfaces. Another use case with a similar pattern is SR-IOV.
 
@@ -75,13 +82,13 @@ Consider an endpoint which requests a tunnel to a network service through an SDN
 
 Highlighting the dynamic properties of this negotiation is essential. For example, it is possible to negotiate for a shared memory interface if all components support it and both pods are on the same node. If the two pods are on separate nodes, a shared memory instance would be considered unsupported, and another approach would be selected instead.
 
-![Connecting two services](/img/what-is-nsm/two-pods.png)
+{{< figure src="/img/what-is-nsm/two-pods.png" caption="Connecting two services" width="70" >}}
 
 ### Example 3 - External Device
 
 Hooking up an external device is similar to hooking up two network services. The eNSM exposes the device as a network service and is responsible for synchronizing and configuring the device. The eNSM negotiates the connection properties on behalf of the external device and configures the device with the resolved properties once the negotiation is complete. 
 
-![Connecting an external device using an eNSM](/img/what-is-nsm/external-device.png)
+{{< figure src="/img/what-is-nsm/external-device.png" caption="Connecting an external device using an eNSM" width="70" >}}
 
 ### Example 4 - L2 Bridge Service
 
@@ -89,7 +96,7 @@ NSM exposes the briding CNF through a bridge service. The bridge service handles
 
 In this scenario, the Bridge Service is a network service which runs in a pod. The Bridge Service receives the connection requests and configures the data plane to connect the pod to the bridging CNF. 
 
-![Connecting pods to a bridge](/img/what-is-nsm/bridge.png)
+{{< figure src="/img/what-is-nsm/bridge.png" caption="Connecting pods to a bridge" width="70" >}}
 
 ### Example 5 - Distributed Bridge Domain
 
@@ -99,6 +106,6 @@ The SDN(s) manage and provide the pod-to-pod, and bridge-to-bridge interconnects
 
 One thing to note is pods still receive their Kubernetes networking interface from CNI. This approach is designed to interoperate with existing Kubernetes patterns while providing additional capabilities when necessary.
 
-![Overview of Distributed Bridge Domain](/img/what-is-nsm/multi-bridge-overview.png)
+{{< figure src="/img/what-is-nsm/multi-bridge-overview.png" caption="Overview of Distributed Bridge Domain" width="70" >}}
 
-![Connecting a pod to multiple bridges](/img/what-is-nsm/multi-bridge.png)
+{{< figure src="/img/what-is-nsm/multi-bridge.png" caption="Connecting a Pod to multiple bridges" width="70" >}}
