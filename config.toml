@@ -37,7 +37,8 @@ features = [
   "Tunneling as a first-class citizen",
   "Networking context as a first-class citizen",
   "Policy-driven service function chaining (**SFC**)",
-  "Minimizes the need for changes to Kubernetes"
+  "Minimal need for changes to Kubernetes",
+  "On-demand, dynamic, negotiated connections"
 ]
 
 [params.logos]
@@ -51,7 +52,7 @@ hero = "networkservicemesh-icon-color.png"
     enable = true
     title = "Problem Statement"
     italic = "Multifaceted networks such as Telcos, ISPs, and advanced enterprise networks are rearchitecting their solutions with the advent of NFV, 5G networks, edge computing, and IoT devices. Each of these technologies brings a significant increase in the total number of connected devices, increased bandwidth available per device, and a significant increase in cloud service load."
-    paragraph = "Operators of multifaceted networks with advanced L2/L3 use cases currently find container networking solutions ill-suited for their next-generation architecture. Cloud-native solution's lack of support for advanced networking use cases is actively excluding multiple industries from adopting the new cloud-native paradigm."
+    paragraph = "Operators of multifaceted networks with advanced L2/L3 use cases currently find container networking solutions ill-suited for their next-generation architecture. Cloud native solution's lack of support for advanced networking use cases is actively excluding multiple industries from adopting the new cloud native paradigm."
 
   [params.blog]
     enable = false
