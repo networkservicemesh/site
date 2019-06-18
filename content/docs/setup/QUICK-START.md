@@ -29,7 +29,6 @@ If you have another Linux distribution or prefer to go with the upstream, here
 
 ```bash
 git clone https://github.com/networkservicemesh/networkservicemesh && cd networkservicemesh
-cd networkservicemesh
 ```
 
 ### Build
@@ -67,7 +66,7 @@ make k8s-infra-deploy
 A simple check should show two `nsmd`, two `nsm-vppagent-dataplane`, two `skydive-agent`, one `crossconnect-monitor` and one `skydive-analyzer` pods.
 
 ```bash
-kubect get pods
+kubectl get pods
 ```
 
 This will allow you to see your Network Service Mesh daemonset running:
