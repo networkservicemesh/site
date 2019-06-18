@@ -5,8 +5,6 @@ image = "/img/setup/quickstart.jpg"
 weight = 1
 +++
 
-# Quick Start Network Service Mesh
-
 This document will help you configure two Vagrant boxes in a Kubernetes cluster with a master and a worker node. You will also deploy the Network Service Mesh components in the cluster.
 
 ## Pre-requisites

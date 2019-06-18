@@ -3,6 +3,11 @@ baseURL = "/"
 languageCode = "en-us"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
+# Syntax highlighting settings
+pygmentsCodefences = true
+pygmentsStyle = "fruity"
+
+
 [menu]
 [[menu.navbar]]
 name = "Docs"
