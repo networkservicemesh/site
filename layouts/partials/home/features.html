@@ -20,7 +20,7 @@
             {{ range $idx, $feature := $features }}
             {{ if (modBool $idx 2) }}
             <p class="is-size-5 is-size-6-mobile">
-              <span class="icon has-text-success">
+              <span class="icon has-text-success bump-right">
                 <i class="fas fa-check"></i>
               </span>
               <span>
@@ -35,7 +35,7 @@
             {{ range $idx, $feature := $features }}
             {{ if not (modBool $idx 2) }}
             <p class="is-size-5 is-size-6-mobile">
-              <span class="icon has-text-success">
+              <span class="icon has-text-success bump-right">
                 <i class="fas fa-check"></i>
               </span>
               <span>
