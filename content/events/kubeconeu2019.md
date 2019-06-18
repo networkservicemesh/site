@@ -20,9 +20,26 @@ Tuesday, May 21
 --------------------
 
 * 11:55 - 12:30 - [Intro: Network Service Mesh (NSM)](https://sched.co/NxZ5) - Frederick Kautz Kautz, Doc.ai & Ed Warnicke, Cisco
+* 14:45 - 15:00 - Network Service Mesh: The Network is the Runtime - Ed Warnicke, Cisco Systems -  Cisco Booth (Exhibition Floor D4)
 
-Thursday, May 23
+Wednesday, May 22
 --------------------
 
 * 11:55 - 12:30 - [Deep Dive: Network Service Mesh (NSM)](https://sched.co/NxZi) - Nikolay Nikolaev, VMware & Frederick Kautz, Doc.ai
+* 13:45 - 14:00 - Network Service Mesh: The Network is the Runtime - Ed Warnicke, Cisco Systems -  Cisco Booth (Exhibition Floor D4)
+* 14:30 - 15:30 - Network Service Mesh Meetup & Brainstorming - Hub Lounge on Exhibition Floor
 
+Thursday, May 23
+--------------------
+* 10:30 - 12:30 - Nikolay at the VMware booth, ask him about NSM
+* 13:45 - 14:00 - Network Service Mesh: The Network is the Runtime - Ed Warnicke, Cisco Systems -  Cisco Booth (Exhibition Floor D4)
+
+
+# Supporting Collatoral
+* Slides
+  * [Network Service Mesh Intro](https://docs.google.com/presentation/d/1YZRb-1C0MQMcxj45I1YaUqMq8fN7gKj0ipP0ocKa1T4/edit)
+  * [Network Service Mesh Deep Dive](https://docs.google.com/presentation/d/17BJ3j1BX8lw7Zw62EHf0LziXIR1HZt8U1IyzhluxmX4/edit)
+
+* Video
+  * [Network Service Mesh Intro](https://www.youtube.com/watch?v=eLTjXdtlMzA)
+  * [Network Service Mesh Deep Dive](https://www.youtube.com/watch?v=AWHkn_dqAUA)
