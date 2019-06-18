@@ -85,7 +85,7 @@ These goals are accomplished using a simple set of APIs designed to facilitate c
     twitter = "https://twitter.com/nservicemesh"
 
 [[params.fonts]]
-name = "Roboto"
+name = "Nunito Sans"
 sizes = [300, 400, 600, 700]
 type = "sans_serif"
 

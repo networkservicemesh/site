@@ -1,8 +1,9 @@
 +++
 title = "What is Network Service Mesh?"
 weight = 1
-image="/img/concepts/what-is-nsm.jpg"
-publishDate ="2018-10-10"
+image = "/img/concepts/what-is-nsm.jpg"
+publishDate = "2018-10-10"
+description = "A guide to core concepts"
 +++
 
 

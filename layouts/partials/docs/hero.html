@@ -3,18 +3,25 @@
 {{ $currentSection  := .CurrentSection.Title }}
 {{ $thisSectionDocs := where $allDocs "CurrentSection.Title" .CurrentSection.Name }}
 {{ $currentUrl      := .RelPermalink }}
-<section class="hero is-medium is-primary">
+{{ $description     := .Params.description }}
+<section class="hero is-light">
   <div class="hero-body">
     <div class="container">
-      <p class="title is-size-1 is-size-2-mobile has-text-weight-light">
+      <p class="title is-size-1 is-size-2-mobile has-text-weight-light{{ if $description }} is-spaced{{ end }}">
         {{ .Title }}
       </p>
+
+      {{ with $description }}
+      <p class="subtitle">
+        {{ . }}
+      </p>
+      {{ end }}
     </div>
   </div>
 
   <div class="hero-foot">
     <div class="container">
-      <nav class="tabs is-medium is-boxed">
+      <nav class="tabs is-boxed">
         <ul>
           {{ range $docsSections }}
           {{ range .Sections }}
@@ -35,7 +42,7 @@
 </section>
 
 <div class="container">
-  <nav class="tabs is-light">
+  <nav class="tabs">
     <ul>
       {{ range $thisSectionDocs }}
       {{ $title := cond (isset .Params "short") .Params.short .Title }}
