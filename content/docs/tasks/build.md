@@ -1,42 +1,46 @@
 +++
 title = "Building Network Service Mesh"
 weight = 1
-image = "/img/tasks/build.jpg"
 +++
+{{< requirement title="Prerequisites" >}}
+To build Network Service Mesh, you'll need to install the following:
 
-# Prerequisites to Build
+Tool | Notes
+:----|:-----
+[Go](https://golang.org) | Version [1.11](https://golang.org/dl/) or higher is recommended
+[Protocol Buffers](https://developers.google.com/protocol-buffers/) |
+[shellcheck](https://www.shellcheck.net/) | Only used for `make check`)
+[Docker](https://docker.com) | For building containers
+[Vagrant](https://www.vagrantup.com/docs/installation/) | If you want to use the supplied two-node Kubernetes cluster for testing
 
-You will need to install
-
-1. Go - [recommend version 1.11](https://golang.org/dl/)
-2. protobuf
-3. dep
-4. shellcheck - only used for `make check`
-5. [Docker](https://docs.docker.com/install/) - for building containers
-6. [Vagrant](https://www.vagrantup.com/docs/installation/) - if you want to use the supplied two nodes K8s cluster for testing
-
-
-## On a Mac:
+On a Mac:
 
 ```bash
 brew install dep golang protobuf shellcheck
 ```
+{{< /requirement >}}
+
+# Cloning
+
+```bash
+git clone https://github.com/networkservicemesh/networkservicemesh
+cd networkservicemesh
+```
 
 # Building
 
-All of the actual code in Network Service Mesh builds as pure go:
+All of the actual code in Network Service Mesh builds as pure Go:
 
 ```bash
 go generate ./...
 go build ./...
 ```
 
-But to really do interesting things in NSM, you will want to build various Docker containers, and deploy them to K8s.
-All of this is doable via normal Docker/K8s commands, but to speed development, some make machinery has been added to make things easy.
+To accomplish meaningful things using NSM, you will need to build various Docker containers and deploy them to Kubernetes. This is achievable via normal Docker/Kubernetes commands, but to speed development, some `make` machinery has been added to make things easy.
 
-## Building and Saving container images using the Make Machinery
+## Building and saving container images using the `make` machinery
 
-You can build all of the containers needed for NSM, including a bunch of handle Network Service Endpoints (NSEs) and NSCs (Network Service Clients) that are useful for testing, but not part of the core with:
+You can build all of the containers needed for NSM, including a variety of Network Service Endpoints (NSEs) and NSCs (Network Service Clients) that are useful for testing (but not part of the core) using this command:
 
 ```bash
 make k8s-build
@@ -130,13 +134,12 @@ One of the big advantages on Network Service Mesh is NS composition, i.e. formin
 
 # Helpful Logging tools
 
-In the course of developing NSM, you will often find yourself wanting to look at logs for various nsm components.
+Over the course of developing NSM, you may find yourself wanting to look at logs for various NSM components. This command will dump all logs for all running nsmd Pods in the cluster (you'll wanto to redirect these to a file).
 
 ```bash
 make k8s-nsmd-logs
 ```
 
-will dump all the logs for all running nsmd Pods in the cluster (you are going to want to redirect these to a file).
 This works for any component in the system.
 
 Of particular utility:
@@ -149,15 +152,18 @@ dumps the logs from the crossconnect-monitor, which has been logging new crossco
 the cluster.
 
 # Regenerating code
-If you change [types.go](https://github.com/networkservicemesh/networkservicemesh/blob/master/k8s/pkg/apis/networkservice/v1/types.go) or any of the .proto files you will need to be able to run `go generate ./...` to regenerate the code.
 
-In order to be able to do that you need to have installed:
+If you change [`types.go`](https://github.com/networkservicemesh/networkservicemesh/blob/master/k8s/pkg/apis/networkservice/v1/types.go) or any of the `.proto` files you will need to be able to run `go generate ./...` to regenerate the code.
 
-* protobuf - run `./scripts/install-protoc.sh`
-* proto-gen-go - run `go install ./vendor/github.com/golang/protobuf/protoc-gen-go/`
-* deep-copy-gen - run `go install ./vendor/k8s.io/code-generator/cmd/deepcopy-gen/`
+In order to be able to do that you need to have these tools installed:
 
-Then just run:
+Tool | What to run to install
+:----|:----------------------
+`protobuf` | `./scripts/install-protoc.sh`
+`protoc-gen-go` | `go install github.com/golang/protobuf/protoc-gen-go`
+`deepcopy-gen` | `go install k8s.io/code-generator/cmd/deepcopy-gen`
+
+Then run:
 
 ```bash
 go generate ./...
@@ -170,11 +176,10 @@ If you need to add new dependencies to the vendor/ directory.
 2.  Run `dep ensure`
 
 # Shellcheck
-As part of our CI, we run shellcheck on all shell scripts in the repo.
-If you want to run it locally, you need to:
 
-1. [Install shellcheck](https://github.com/koalaman/shellcheck#installing)
+As part of our continuous integration process, we run `shellcheck` on all shell scripts in the repo.
+To run `shellcheck` locally, you need to [install it](https://github.com/koalaman/shellcheck#installing).
 
 # Canonical source on how to build
 
-The [.circleci/config.yml](https://github.com/networkservicemesh/networkservicemesh/blob/master/.circleci/config.yml) file is the canonical source of how to build Network Service Mesh in case this file becomes out of date.
+The [`.circleci/config.yml`](https://github.com/networkservicemesh/networkservicemesh/blob/master/.circleci/config.yml) file is the canonical source of how to build Network Service Mesh in case this file becomes out of date.
