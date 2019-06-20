@@ -38,13 +38,13 @@ Network Service Mesh is a novel approach to solving complicated L2/L3 use cases 
 explanation = """
 Network Service Mesh provides these "missing" Kubernetes networking capabilities using a simple set of APIs designed to facilitate connectivity
 
-* between **containers** running services
+* between **containers** running services or
 * with external **endpoints**.
 
 New connections negotiate their own connection properties. These properties include but are not limited to:
 
-Type | Examples
-:----|:--------
+Property | Examples
+:--------|:--------
 Network interface type | [Linux Interface](https://www.youtube.com/watch?v=SSLpvcIOPK0), [MemIf](https://www.youtube.com/watch?v=6aVr32WgY0Q), [vhost-user](https://spdk.io/doc/vhost_processing.html)
 Payload type | [Ethernet](https://searchunifiedcommunications.techtarget.com/definition/Ethernet-IP), [IP](https://searchunifiedcommunications.techtarget.com/definition/Internet-Protocol), [MPLS](https://searchnetworking.techtarget.com/definition/Multiprotocol-Label-Switching-MPLS), [L2TP](https://searchnetworking.techtarget.com/definition/Layer-Two-Tunneling-Protocol-L2TP)
 """
@@ -76,33 +76,6 @@ hero = "networkservicemesh-icon-color.png"
     enable = false
     title = "Get The Latest On What We're doing"
     subtitle = "Catch up with us, anytime and anywhere"
-
-  [params.feature]
-    enable = true
-    title = "What is Network Service Mesh?"
-    content = """
-Network service mesh (NSM) adds the following properties to networking in Kubernetes:
-
-* Heterogeneous network configurations
-* Exotic protocols
-* On-Demand, dynamic, negotiated connections 
-* Tunneling as a first-class citizen
-* Networking context as a first-class citizen
-* Policy-driven service function chaining (SFC)
-* A significant important feature of NSM is that it minimizes the need for changes to kubernetes.
-
-These goals are accomplished using a simple set of APIs designed to facilitate connectivity between containers which are running services or with an external endpoint. New connections negotiate their connection properties. These properties include but are not limited to:
-
-* Type of network interface. e.g. Linux Interface, MemIf, vhost-user
-* Payload Type - e.g. Ethernet, IP, MPLS, L2TP
-"""
-    [params.feature.button]
-      caption = "View Documentation"
-      url = "/docs/"
-
-  [params.call]
-    enable = true
-    title = "Network Service Mesh"
 
   [params.social]
     github = "https://github.com/networkservicemesh/networkservicemesh"
