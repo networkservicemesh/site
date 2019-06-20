@@ -30,7 +30,25 @@ weight = 3
 fontawesomeversion = "5.8.1"
 dateFormat = "6 January 2006"
 subtitle = "An L2/L3 service mesh for Kubernetes"
-description = "Network Service Mesh is a novel approach to solving complicated L2/L3 use cases in Kubernetes that are tricky to address with the existing Kubernetes Network Model. Inspired by [Istio](https://istio.io), Network Service Mesh maps the concept of a service mesh to L2/L3 payloads."
+
+description = """
+Network Service Mesh is a novel approach to solving complicated L2/L3 use cases in Kubernetes that are tricky to address with the existing Kubernetes Network Model. Inspired by [Istio](https://istio.io), Network Service Mesh maps the concept of a service mesh to L2/L3 payloads.
+"""
+
+explanation = """
+Network Service Mesh provides these "missing" Kubernetes networking capabilities using a simple set of APIs designed to facilitate connectivity
+
+* between **containers** running services
+* with external **endpoints**.
+
+New connections negotiate their own connection properties. These properties include but are not limited to:
+
+Type | Examples
+:----|:--------
+Network interface type | [Linux Interface](https://www.youtube.com/watch?v=SSLpvcIOPK0), [MemIf](https://www.youtube.com/watch?v=6aVr32WgY0Q), [vhost-user](https://spdk.io/doc/vhost_processing.html)
+Payload type | [Ethernet](https://searchunifiedcommunications.techtarget.com/definition/Ethernet-IP), [IP](https://searchunifiedcommunications.techtarget.com/definition/Internet-Protocol), [MPLS](https://searchnetworking.techtarget.com/definition/Multiprotocol-Label-Switching-MPLS), [L2TP](https://searchnetworking.techtarget.com/definition/Layer-Two-Tunneling-Protocol-L2TP)
+"""
+
 features = [
   "Heterogeneous network configurations",
   "Exotic protocols",

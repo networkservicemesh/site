@@ -1,50 +1,41 @@
-{{ $features := site.Params.features }}
-<section class="section has-background-light">
+{{ $features    := site.Params.features }}
+<section class="section">
   <div class="container">
-    <div class="columns">
-      <div class="column is-one-quarter">
-        <p class="title is-size-3 is-size-4-mobile has-text-weight-light">
+    <div class="columns is-variable is-8">
+      <div class="column is-3">
+        <p class="title is-size-3 has-text-weight-bold">
           Features
         </p>
+
+        <hr class="thick" />
+
+        <span class="icon is-large has-text-orange">
+          <i class="fas fa-2x fa-power-off"></i>
+        </span>
       </div>
 
-      <div class="column">
-        <p class="is-size-4 is-size-5-mobile">
+      <div class="column is-9">
+        <div class="is-size-4 is-size-5-mobile">
           Network service mesh (NSM) adds the following properties to networking in Kubernetes:
-        </p>
+        </div>
 
         <br />
 
-        <div class="columns content">
+        <div class="columns is-multiline">
+          {{ range $features }}
           <div class="column is-half">
-            {{ range $idx, $feature := $features }}
-            {{ if (modBool $idx 2) }}
-            <p class="is-size-5 is-size-6-mobile">
-              <span class="icon has-text-success bump-right">
-                <i class="fas fa-check"></i>
-              </span>
-              <span>
-                {{ $feature | markdownify }}
-              </span>
-            </p>
-            {{ end }}
-            {{ end }}
+            <div class="columns is-size-5">
+              <div class="column is-1">
+                <span class="icon has-text-success is-medium">
+                  <i class="fas fa-check"></i>
+                </span>
+              </div>
+              <div class="column is-11">
+                {{ . | markdownify }}
+              </div>
+            </div>
           </div>
-    
-          <div class="column is-half">
-            {{ range $idx, $feature := $features }}
-            {{ if not (modBool $idx 2) }}
-            <p class="is-size-5 is-size-6-mobile">
-              <span class="icon has-text-success bump-right">
-                <i class="fas fa-check"></i>
-              </span>
-              <span>
-                {{ $feature | markdownify }}
-              </span>
-            </p>
-            {{ end }}
-            {{ end }}
-          </div>
+          {{ end }}
         </div>
       </div>
     </div>

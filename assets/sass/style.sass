@@ -41,7 +41,7 @@ $code-background: $white-bis
 
 @import "bulma/sass/utilities/derived-variables"
 
-$colors: mergeColorMaps(("twitter-blue": ($twitter-blue, $white)), $colors)
+$colors: mergeColorMaps(("twitter-blue": ($twitter-blue, $white), "orange": ($orange, $white)), $colors)
 $tabs-link-active-color: $dark
 $tabs-link-active-border-bottom-color: $dark
 
@@ -52,6 +52,19 @@ $tabs-link-active-border-bottom-color: $dark
 @import "helpers"
 @import "page"
 @import "docs"
+
+.is-borderless
+  border: none !important
+  border-radius: none
+
+.content
+  li
+    list-style-type: square
+
+hr.thick
+  background-color: $nsm-light-blue
+  //margin: 3rem auto
+  height: 1.5px
 
 .bump-right
   margin-right: 1rem
