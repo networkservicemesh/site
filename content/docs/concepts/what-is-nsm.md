@@ -11,7 +11,7 @@ Network Service Mesh (**NSM**) is a novel approach to solving complicated [L2](h
 In this document, we cover [what Network Service Mesh is](#what) and [which problems it solves](#problem-statement) using a series of examples:
 
 1. [Request access to an external interface](#request)
-1. [Connecting two ervices](#services)
+1. [Connecting two services](#services)
 1. [Hooking up an external device](#external-device)
 1. [Creating an L2 bridge service](#bridge-service)
 1. [Creating a distributed bridge domain](#bridge-domain)
