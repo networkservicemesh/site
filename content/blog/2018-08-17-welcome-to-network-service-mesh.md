@@ -6,8 +6,6 @@ categories = ["network service mesh"]
 draft = true
 +++
 
-## Welcome to Network Service Mesh!
-
 Welcome to the Network Service Mesh Project! We are excited you decided to stop
 by our little corner of the internet.
 

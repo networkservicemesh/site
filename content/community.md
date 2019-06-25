@@ -1,6 +1,5 @@
 +++
 title = "Community"
-id = "community"
 +++
 
 ## Getting Involved

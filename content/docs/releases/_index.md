@@ -1,4 +1,4 @@
 +++
 title = "Releases"
-type = "releases"
+weight = 2
 +++

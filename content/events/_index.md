@@ -1,0 +1,5 @@
+---
+title: Events
+---
+
+{{< events-list >}}

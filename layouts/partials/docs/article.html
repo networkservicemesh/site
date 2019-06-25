@@ -1,0 +1,24 @@
+{{ $toc := .TableOfContents }}
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column{{ if $toc }} is-three-quarters{{ end }}">
+        {{ with $toc }}
+        <div class="is-hidden-tablet">
+          {{ partial "docs/toc.html" . }}
+
+          <hr />
+        </div>
+        {{ end }}
+
+        <div class="content is-narrow-desktop">                
+          {{ .Content }}
+        </div>
+      </div>
+
+      {{ with $toc }}
+      {{ partial "docs/toc.html" . }}
+      {{ end }}
+    </div>
+  </div>
+</section>

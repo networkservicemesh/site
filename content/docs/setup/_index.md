@@ -1,4 +1,4 @@
 +++
 title = "Setup"
-type = "setup"
+weight = 3
 +++

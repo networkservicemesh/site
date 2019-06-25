@@ -1,0 +1,58 @@
+{{ $allDocs         := where site.RegularPages "Section" "docs" }}
+{{ $docsSections    := where site.Sections "Section" "docs" }}
+{{ $currentSection  := .CurrentSection.Title }}
+{{ $thisSectionDocs := where $allDocs "CurrentSection.Title" .CurrentSection.Name }}
+{{ $currentUrl      := .RelPermalink }}
+{{ $description     := .Params.description }}
+<section class="hero is-light">
+  <div class="hero-body">
+    <div class="container">
+      <p class="title is-size-1 is-size-2-mobile has-text-weight-light{{ if $description }} is-spaced{{ end }}">
+        {{ .Title }}
+      </p>
+
+      {{ with $description }}
+      <p class="subtitle">
+        {{ . }}
+      </p>
+      {{ end }}
+    </div>
+  </div>
+
+  <div class="hero-foot">
+    <div class="container">
+      <nav class="tabs is-boxed">
+        <ul>
+          {{ range $docsSections }}
+          {{ range .Sections }}
+          {{ $title := cond (isset .Params "short") .Params.short .Title }}
+          {{ $isCurrentSection := eq .Title $currentSection }}
+          {{ $link := (index (where .Pages ".Weight" 1) 0).RelPermalink }}
+          <li{{ if $isCurrentSection }} class="is-active"{{ end }}>
+            <a href="{{ $link }}">
+              {{ $title }}
+            </a>
+          </li>
+          {{ end }}
+          {{ end }}
+        </ul>
+      </nav>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <nav class="tabs is-light">
+    <ul>
+      {{ range $thisSectionDocs }}
+      {{ $title := cond (isset .Params "short") .Params.short .Title }}
+      {{ $isCurrentPage := eq .RelPermalink $currentUrl }}
+      <li{{ if $isCurrentPage }} class="is-active"{{ end }}>
+        <a href="{{ .RelPermalink }}">
+          {{ $title }}
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </nav>
+</div>

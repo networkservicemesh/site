@@ -1,81 +1,92 @@
 title = "Network Service Mesh"
-baseURL = "https://networkservicemesh.io/"
+baseURL = "/"
 languageCode = "en-us"
-theme = "airspace-hugo"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+# Syntax highlighting settings
+pygmentsCodefences = true
+pygmentsStyle = "fruity"
+
 
 [menu]
+[[menu.navbar]]
+name = "Docs"
+url = "/docs/concepts/what-is-nsm"
+weight = 1
 
+[[menu.navbar]]
+name = "Community"
+url = "/community"
+weight = 2
 
-  [[menu.header]]
-    weight = 1
-    name = "GITHUB"
-    url = "https://github.com/networkservicemesh/networkservicemesh"
+[[menu.navbar]]
+name = "Events"
+url = "/events"
+weight = 3
 
-  [[menu.header]]
-    weight = 2
-    name = "DOCUMENTATION"
-    url = "/docs"
-    
-  [[menu.header]]
-    weight = 3
-    name = "COMMUNITY"
-    url = "/community"
-  [[menu.header]]
-    weight = 4
-    name = "EVENTS"
-    url = "/events"
 
 # The site's parameters
 [params]
+fontawesomeversion = "5.8.1"
+dateFormat = "6 January 2006"
+subtitle = "An L2/L3 service mesh for Kubernetes"
 
-  # If you want to remove the copyright text you need a Themefisher license.
-  # This license is offered with a 50% discount for all Hugo users.
-  # For information see https://github.com/gohugoio/hugoThemes/issues/260
+description = """
+Network Service Mesh is a novel approach to solving complicated L2/L3 use cases in Kubernetes that are tricky to address with the existing Kubernetes Network Model. Inspired by [Istio](https://istio.io), Network Service Mesh maps the concept of a service mesh to L2/L3 payloads.
+"""
 
-  dateFormat = "6 January 2006"
+explanation = """
+Network Service Mesh provides these "missing" Kubernetes networking capabilities using a simple set of APIs designed to facilitate connectivity
 
-  home = "Home"
+* between **containers** running services or
+* with external **endpoints**.
 
-  [params.slider]
-    enable = true
-    title = "Network Service Mesh"
-    subtitle = "Network Service Mesh is a novel approach solving complicated L2/L3 use cases in Kubernetes that are tricky to address with the existing Kubernetes Network Model. Inspired by Istio, Network Service Mesh maps the concept of a service mesh to L2/L3 payloads."
+New connections negotiate their own connection properties. These properties include but are not limited to:
+
+Property | Examples
+:--------|:--------
+Network interface type | [Linux Interface](https://www.youtube.com/watch?v=SSLpvcIOPK0), [MemIf](https://www.youtube.com/watch?v=6aVr32WgY0Q), [vhost-user](https://spdk.io/doc/vhost_processing.html)
+Payload type | [Ethernet](https://searchunifiedcommunications.techtarget.com/definition/Ethernet-IP), [IP](https://searchunifiedcommunications.techtarget.com/definition/Internet-Protocol), [MPLS](https://searchnetworking.techtarget.com/definition/Multiprotocol-Label-Switching-MPLS), [L2TP](https://searchnetworking.techtarget.com/definition/Layer-Two-Tunneling-Protocol-L2TP)
+"""
+
+features = [
+  "Heterogeneous network configurations",
+  "Exotic protocols",
+  "Tunneling as a first-class citizen",
+  "Networking context as a first-class citizen",
+  "Policy-driven service function chaining (**SFC**)",
+  "Minimal need for changes to Kubernetes",
+  "On-demand, dynamic, negotiated connections"
+]
+
+[params.logos]
+cncf = "cncf-color.png"
+navbar = "networkservicemesh-horizontal-color.png"
+hero = "networkservicemesh-icon-color.png"
+
+
 
   [params.wrapper]
     enable = true
     title = "Problem Statement"
     italic = "Multifaceted networks such as Telcos, ISPs, and advanced enterprise networks are rearchitecting their solutions with the advent of NFV, 5G networks, edge computing, and IoT devices. Each of these technologies brings a significant increase in the total number of connected devices, increased bandwidth available per device, and a significant increase in cloud service load."
-    paragraph = "Operators of multifaceted networks with advanced L2/L3 use cases currently find container networking solutions ill-suited for their next-generation architecture. Cloud-native solution's lack of support for advanced networking use cases is actively excluding multiple industries from adopting the new cloud-native paradigm."
+    paragraph = "Operators of multifaceted networks with advanced L2/L3 use cases currently find container networking solutions ill-suited for their next-generation architecture. Cloud native solution's lack of support for advanced networking use cases is actively excluding multiple industries from adopting the new cloud native paradigm."
 
   [params.blog]
     enable = false
     title = "Get The Latest On What We're doing"
     subtitle = "Catch up with us, anytime and anywhere"
 
-  [params.feature]
-    enable = true
-    title = "What is Network Service Mesh?"
-    content = """
-Network service mesh (NSM) adds the following properties to networking in Kubernetes:
+  [params.social]
+    github = "https://github.com/networkservicemesh/networkservicemesh"
+    twitter = "https://twitter.com/nservicemesh"
 
-* Heterogeneous network configurations
-* Exotic protocols
-* On-Demand, dynamic, negotiated connections 
-* Tunneling as a first-class citizen
-* Networking context as a first-class citizen
-* Policy-driven service function chaining (SFC)
-* A significant important feature of NSM is that it minimizes the need for changes to kubernetes.
+[[params.fonts]]
+name = "Nunito Sans"
+sizes = [300, 400, 600, 700]
+type = "sans_serif"
 
-These goals are accomplished using a simple set of APIs designed to facilitate connectivity between containers which are running services or with an external endpoint. New connections negotiate their connection properties. These properties include but are not limited to:
-
-* Type of network interface. e.g. Linux Interface, MemIf, vhost-user
-* Payload Type - e.g. Ethernet, IP, MPLS, L2TP
-"""
-    [params.feature.button]
-      caption = "View Documentation"
-      url = "/docs/"
-
-  [params.call]
-    enable = true
-    title = "Network Service Mesh"
-
+[[params.fonts]]
+name = "Roboto Mono"
+sizes = [300, 400, 600, 700]
+type = "monospace"

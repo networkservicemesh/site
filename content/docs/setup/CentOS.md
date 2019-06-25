@@ -1,7 +1,9 @@
-# Preparing a CentOS host to run Network Service Mesh
++++
+title = "Preparing a CentOS host to run Network Service Mesh"
+short = "CentOS"
++++
 
 The following instructions assume CentOS 7 installed with Gnome Desktop.
-
 
 ## VirtualBox
 
@@ -74,7 +76,7 @@ Then install only the `kubectl` package:
 sudo yum install -y kubectl
 ```
 
-## dev tools
+## Dev tools
 
 To be able to deploy Network Service Mesh you will need a couple of tools which are part of the Development Tools package group. Install it.
 

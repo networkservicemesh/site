@@ -1,7 +1,7 @@
 +++
 title = "Andromeda release v0.1.0"
 image = "/img/releases/andromeda.png"
-summary = ""
+weight = 1
 date = "2019-05-14"
 publishDate ="2019-04-03"
 +++
@@ -14,10 +14,10 @@ publishDate ="2019-04-03"
 | 2019-05-14     | `git tag nsm-v0.1.1` | Apply all pending patches that fix urgent issues. CI/CD passes + additional testing. |
 
 
-Changelog
----------
-* [refer to the original Changelog.md] ()
+## Changelog
 
-Known Issues
-------------
+* [Refer to the original `CHANGELOG.md`](https://github.com/networkservicemesh/networkservicemesh/blob/master/CHANGELOG.md)
+
+## Known Issues
+
 * TBD
