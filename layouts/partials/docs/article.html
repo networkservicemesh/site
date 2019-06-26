@@ -17,7 +17,9 @@
       </div>
 
       {{ with $toc }}
-      {{ partial "docs/toc.html" . }}
+      <div class="is-hidden-mobile">
+        {{ partial "docs/toc.html" . }}
+      </div>
       {{ end }}
     </div>
   </div>
