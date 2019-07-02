@@ -1,0 +1,49 @@
+- layer: 1
+  name: Physical
+  pdu: Symbol
+  function: |
+    The electrical, mechanical level of the network, responsible for the raw underlying bit streams that make all network communication possible. Without L1, the data link layer (**L2**) wouldn't have any information to work with.
+  tldr: |
+    Pipes, cables, power supply. The nitty gritty.
+- layer: 2
+  name: Data link
+  pdu: Frame
+  function: |
+    Provides [node-to-node data transfer](https://en.wikipedia.org/wiki/Node-to-node_data_transfer) in the network and flow control between network nodes, whatever they may be. Data packets are encoded into and decoded from **L1**'s raw bit streams (0s and 1s). Corrects potential errors in the physical layer (**L1**).
+  tldr: |
+    The "net" in "network layer."
+- layer: 3
+  name: Network
+  pdu: Packet
+  function: |
+    Builds on node-to-node transfer in **L2** and provides functionality such as routing, switching, forwarding, internetworking, error handling, congestion management, and packet sequencing. The concept of network *addresses* originates at this layer. All cross-network connections rely on **L3**.
+  tldr: |
+    The "inter" in "internet." Without L3, networks remain autarkic and isolated from one another.
+- layer: 4
+  name: Transport
+  pdu: Segment, datagram
+  function: |
+    Transfer of data between end systems, or *hosts*. End-to-end recovery via re-transmission of failed deliveries, segmentation/desegmentation, and flow control. Ensures complete data transfer. Acknowledgment of successful transfer.
+  tldr: |
+    NFS, TCP, and UDP. The lowest level that most software engineers will ever concern themselves with.
+- layer: 5
+  name: Session
+  pdu: Data
+  function: |
+    Manages connections between applications (initiates, terminates, checkpoints, suspends, restarts, etc.). Session and connection coordination. Various operation types (simplex, full-duplex, half-duplex).
+  tldr: |
+    Remote procedure call (RPC) systems are built on this layer.
+- layer: 6
+  name: Presentation
+  pdu: Data
+  function: |
+    Application-layer entities. Independence from data representation. Transforms data into a form that an application can accept.
+  tldr: |
+    JSON, audio (MPEG, MIDI), images (JPEG, GIF), ASCII. If you know the file format or [MIME type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types), you're dealing with L6.
+- layer: 7
+  name: Application
+  pdu: Data
+  function: |
+    The layer closest to the end user. Everything here is application specific.
+  tldr: |
+    FTP, email, telnet.

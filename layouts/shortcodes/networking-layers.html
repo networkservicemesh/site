@@ -1,0 +1,49 @@
+{{ $layers      := site.Data.layers }}
+<table class="is-bordered">
+  <thead>
+    <thead>
+      <tr>
+        <th>
+          Layer 
+        </th>
+        <th>
+          Name
+        </th>
+        <th>
+          Protocol data unit (PDU)
+        </th>
+        <th>
+          Function
+        </th>
+      </tr>
+    </thead>
+
+    <tbody>
+      {{ range $layers }}
+      {{ $highlighted := in (slice 2 3) .layer }}
+      <tr{{ if $highlighted }} class="has-background-light is-size-5"{{ end }}>
+        <td class="has-text-weight-bold">
+          {{ .layer }}
+        </td>
+        <td>
+          {{ .name }}
+        </td>
+        <td>
+          {{ .pdu }}
+        </td>
+        <td>
+          {{ .function | markdownify }}
+
+          {{ with .tldr }}
+          <br /><br />
+
+          <p class="has-text-weight-bold">
+            TL;DR:  {{ . }}
+          </p>
+          {{ end }}
+        </td>
+      </tr>
+      {{ end }}
+    </tbody>
+  </thead>
+</table>

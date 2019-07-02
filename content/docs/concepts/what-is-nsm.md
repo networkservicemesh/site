@@ -8,6 +8,10 @@ description = "A guide to core concepts"
 
 Network Service Mesh (**NSM**) is a novel approach to solving complicated [L2](https://en.wikipedia.org/wiki/Data_link_layer)/[L3](https://en.wikipedia.org/wiki/Network_layer) use cases in [Kubernetes](https://kubernetes.io) that are tricky to address withing the existing [Kubernetes Network Model](https://caylent.com/kubernetes-networking-model/). Inspired by [Istio](https://istio.io), Network Service Mesh maps the concept of a service mesh to L2/L3 payloads.
 
+{{< info title="L2/L3 networking vs. L4-L7 networking" >}}
+This document---as well as the rest of the NSM documentation---makes frequent reference to L2/L3 networking concepts. If you're unfamiliar with these concepts, see our [L2/L3 networking](../l2-l3) primer.
+{{< /info >}}
+
 In this document, we cover [what Network Service Mesh is](#what) and [which problems it solves](#problem-statement) using a series of examples:
 
 1. [Request access to an external interface](#request)
@@ -15,7 +19,6 @@ In this document, we cover [what Network Service Mesh is](#what) and [which prob
 1. [Hooking up an external device](#external-device)
 1. [Creating an L2 bridge service](#bridge-service)
 1. [Creating a distributed bridge domain](#bridge-domain)
-
 
 # Problem Statement
 
