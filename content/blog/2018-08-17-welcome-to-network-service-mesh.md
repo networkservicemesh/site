@@ -1,6 +1,7 @@
 +++
 title = "Welcome to Network Service Mesh"
-date = 2018-08-17T16:18:07-05:00
+authors = ["Ed Warnicke", "Frederick F. Kautz IV"]
+date = 2018-08-17
 tags = ["network service mesh"]
 categories = ["network service mesh"]
 draft = true

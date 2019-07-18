@@ -1,8 +1,8 @@
-{{ $home  := site.BaseURL }}
-{{ $title := site.Title }}
-{{ $logo  := printf "img/logos/%s" site.Params.logos.navbar | relURL }}
-{{ $color := cond .IsHome "dark" "white" }}
-{{ $menu  := site.Menus.navbar }}
+{{ $home   := site.BaseURL }}
+{{ $title  := site.Title }}
+{{ $logo   := printf "img/logos/%s" site.Params.logos.navbar | relURL }}
+{{ $color  := cond .IsHome "dark" "white" }}
+{{ $menu   := site.Menus.navbar }}
 <nav class="navbar is-{{ $color }} is-fixed-top">
   <div class="container">
     <div class="navbar-brand">

@@ -1,0 +1,35 @@
+<section class="hero is-light">
+  <div class="container">
+    <div class="hero-body">
+      <p class="title is-size-1 is-size-2-mobile has-text-weight-light is-spaced">
+        {{ .Title }}
+      </p>
+
+      {{ if ne .FirstSection.Title .Title }}
+      {{ with .Params.authors }}
+      {{ $num := len . }}
+
+      {{ $authors := . }}
+
+      {{ if eq $num 1 }}
+      {{ $authors = index . 0 }}
+      {{ else if (eq $num 2) }}
+      {{ $authors = printf "%s and %s" (index . 0) (index . 1) }}
+      {{ else }}
+      {{ $authors = delimit . ", " ", and " }}
+      {{ end }}
+      <p class="subtitle is-size-4 is-size-5-mobile has-text-weight-light">
+        {{ $authors }}
+      </p>
+      {{ end }}
+      
+      {{ with .Date }}
+      {{ $date := . | dateFormat "January 2, 2006" }}
+      <p class="is-size-5 is-size-6-mobile has-text-weight-bold">
+        {{ $date }}
+      </p>
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>

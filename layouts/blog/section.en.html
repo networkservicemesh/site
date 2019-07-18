@@ -3,5 +3,52 @@ The Network Service Mesh blog
 {{ end }}
 
 {{ define "main" }}
-<h1>Blog</h1>
+{{ $posts := where site.RegularPages "Section" "blog" }}
+{{ partial "blog/hero.html" . }}
+<section class="section">
+  <div class="container">
+    <div class="columns is-multiline is-variable is-8">
+      {{ range $posts }}
+      {{ $date := .Date | dateFormat "January 2, 2006" }}
+
+      <div class="column is-half">
+        <div class="card blog-post">
+          <div class="card-content content">
+            <h2>
+              <a href="{{ .RelPermalink }}">
+                {{ .Title }}
+              </a>
+            </h2>
+
+            {{ with .Params.authors }}
+            {{ $num := len . }}
+
+            {{ $authors := . }}
+
+            {{ if eq $num 1 }}
+            {{ $authors = index . 0 }}
+            {{ else if (eq $num 2) }}
+            {{ $authors = printf "%s and %s" (index . 0) (index . 1) }}
+            {{ else }}
+            {{ $authors = delimit . ", " ", and " }}
+            {{ end }}
+            <span class="authors is-size-5 has-text-weight-light">
+              {{ $authors }}
+            </span>
+            {{ end }}
+
+            <span class="date">
+              {{ $date }}
+            </span>
+
+            <p class="summary">
+              {{ .Summary }}
+            </p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
 {{ end }}

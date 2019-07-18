@@ -15,14 +15,19 @@ url = "/docs/concepts/what-is-nsm"
 weight = 1
 
 [[menu.navbar]]
+name = "Blog"
+url = "/blog"
+weight = 2
+
+[[menu.navbar]]
 name = "Community"
 url = "/community"
-weight = 2
+weight = 3
 
 [[menu.navbar]]
 name = "Events"
 url = "/events"
-weight = 3
+weight = 4
 
 
 # The site's parameters
@@ -64,22 +69,20 @@ cncf = "cncf-color.png"
 navbar = "networkservicemesh-horizontal-color.png"
 hero = "networkservicemesh-icon-color.png"
 
+[params.wrapper]
+enable = true
+title = "Problem Statement"
+italic = "Multifaceted networks such as Telcos, ISPs, and advanced enterprise networks are rearchitecting their solutions with the advent of NFV, 5G networks, edge computing, and IoT devices. Each of these technologies brings a significant increase in the total number of connected devices, increased bandwidth available per device, and a significant increase in cloud service load."
+paragraph = "Operators of multifaceted networks with advanced L2/L3 use cases currently find container networking solutions ill-suited for their next-generation architecture. Cloud native solution's lack of support for advanced networking use cases is actively excluding multiple industries from adopting the new cloud native paradigm."
 
+[params.blog]
+enable = false
+title = "Get The Latest On What We're doing"
+subtitle = "Catch up with us, anytime and anywhere"
 
-  [params.wrapper]
-    enable = true
-    title = "Problem Statement"
-    italic = "Multifaceted networks such as Telcos, ISPs, and advanced enterprise networks are rearchitecting their solutions with the advent of NFV, 5G networks, edge computing, and IoT devices. Each of these technologies brings a significant increase in the total number of connected devices, increased bandwidth available per device, and a significant increase in cloud service load."
-    paragraph = "Operators of multifaceted networks with advanced L2/L3 use cases currently find container networking solutions ill-suited for their next-generation architecture. Cloud native solution's lack of support for advanced networking use cases is actively excluding multiple industries from adopting the new cloud native paradigm."
-
-  [params.blog]
-    enable = false
-    title = "Get The Latest On What We're doing"
-    subtitle = "Catch up with us, anytime and anywhere"
-
-  [params.social]
-    github = "https://github.com/networkservicemesh/networkservicemesh"
-    twitter = "https://twitter.com/nservicemesh"
+[params.social]
+github = "https://github.com/networkservicemesh/networkservicemesh"
+twitter = "https://twitter.com/nservicemesh"
 
 [[params.fonts]]
 name = "Nunito Sans"
