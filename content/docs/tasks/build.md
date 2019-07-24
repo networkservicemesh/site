@@ -16,7 +16,7 @@ Tool | Notes
 On a Mac:
 
 ```bash
-brew install dep golang protobuf shellcheck
+brew install dep golang protobuf protoc-gen-go shellcheck
 ```
 {{< /requirement >}}
 
