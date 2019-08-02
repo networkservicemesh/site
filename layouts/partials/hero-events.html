@@ -1,0 +1,40 @@
+{{ $title := .Title }}
+<section class="hero is-light">
+  <div class="hero-body">
+    <div class="container">
+        <div class="level">
+            <div class="level-left">
+                <div class="level-item">
+                    <p class="title has-text-weight-light">
+                    {{ $title }}
+                    </p>
+                </div>
+            </div>
+            <div class="level-right">
+                <div class="level-item">
+                    <p class="title has-text-weight-light">
+                    {{ with .Params.Dates }}
+                    {{ . }}
+                    {{ end }}
+                    {{ with .Params.Location}}
+                    <br />
+                    {{ . }}
+                    {{ end }}
+                    {{ with .Params.Register }}
+                    <br />
+                    <br />
+                    <a class="button" href="{{.}}">Register</a>
+                    {{ end }}
+                    {{ with .Params.Sponsor }}
+                    <a class="button" href="{{.}}"> Sponsor</a>
+                    {{ end }}
+                    {{ with .Params.Cfp }}
+                    <a class="button" href="{{.}}">Submit a Proposal</a>
+                    {{ end }}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
