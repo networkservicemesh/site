@@ -13,7 +13,7 @@ This is the initial Network Service Mesh website. It was created using
 
 To quickly install Hugo, follow [this link](https://gohugo.io/getting-started/quick-start/).
 
-You will also need to install [Yarn](https://yarnpkg.com/en/).  Easy install instructions are [here](https://yarnpkg.com/en/docs/install#mac-stable)
+You will also need to install [Yarn](https://yarnpkg.com/en/).  Easy install instructions are [here](https://yarnpkg.com/en/docs/install)
 
 To run the site after cloning (with fast rendering disabled), run the following:
 
