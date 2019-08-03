@@ -1,6 +1,6 @@
 +++
 title = "NSMCon"
-subtitle = ["Nov 18, 2019 | San Diego, California","Colocated with Kubecon+CloudNativeCon 2019"]
+subtitle = ["Nov 18, 2019 | San Diego, California","Colocated with [Kubecon+CloudNativeCon 2019](https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2019/)"]
 date = "2019-11-18"
 publishDate ="2019-08-02"
 [[buttons]]
