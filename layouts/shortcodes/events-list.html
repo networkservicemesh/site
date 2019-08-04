@@ -1,6 +1,7 @@
-{{ $events := where site.RegularPages "Section" "events" }}
+{{ $events := union (where site.RegularPages "Section" "events") (where site.RegularPages ".Parent" "events") }}
+
 <ul>
-  {{ range $events }}
+  {{ range $events.ByDate.Reverse }}
   <li>
     <a href="{{ .RelPermalink }}">
       {{ .Title }}

@@ -1,0 +1,12 @@
+<div class="columns is-vcentered">
+    {{ with .Get "img"}}
+    <div class="column">
+        <figure class="image">
+            <img src="{{.}}" />
+        </figure>
+    </div>
+    {{end}}
+    <div class="column is-two-thirds">
+        {{ .Inner | markdownify }}
+    </div>
+</div>
