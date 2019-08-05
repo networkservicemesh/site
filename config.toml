@@ -29,7 +29,7 @@ weight = 3
 [params]
 fontawesomeversion = "5.8.1"
 dateFormat = "6 January 2006"
-subtitle = "An L2/L3 service mesh for Kubernetes"
+subtitle = "The Hybrid/Multi-cloud IP Service Mesh"
 
 description = """
 Network Service Mesh is a novel approach to solving complicated L2/L3 use cases in Kubernetes that are tricky to address with the existing Kubernetes Network Model. Inspired by [Istio](https://istio.io), Network Service Mesh maps the concept of a service mesh to L2/L3 payloads.
