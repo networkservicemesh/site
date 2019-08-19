@@ -7,6 +7,9 @@ publishDate ="2019-08-02"
   name="Register"
   href="https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2019/register/"
 [[buttons]]
+  name="Become a Sponsor"
+  href="/pdf/NSMCon2019Prospectus.pdf"
+[[buttons]]
   name="Submit a Proposal"    
   href="https://docs.google.com/forms/d/e/1FAIpQLSduCMzhf2wJkV6icXsQ3LT7e6pxPFEoIx6_iY7f2rpgH_nOMw/viewform"
 +++
