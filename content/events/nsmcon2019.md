@@ -26,3 +26,7 @@ The project emerged organically as a community project to solve these problems b
 
 Join the people building and using NSM at Network Service Mesh Con for a day of tutorials, deep dives, and use cases to learn how NSM works, what it can do for you, and, most importantly, what’s coming next.
 {{< /img-text >}}
+
+# Become a Sponsor
+
+Review [NSMCon Prospectus](/pdf/NSMCon2019Prospectus.pdf) and contact sponsors@networkservicemesh.io to secure your sponsorship today.
