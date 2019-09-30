@@ -4,5 +4,12 @@ Network Service Mesh events
 
 {{ define "main" }}
 {{ partial "hero.html" . }}
-{{ partial "docs/article.html" . }}
+
+<section class="section">
+  <div class="container">
+    <div class="content">
+      {{ .Content }}
+    </div>
+  </div>
+</section>
 {{ end }}

@@ -1,4 +1,4 @@
-{{ $events := union (where site.Pages "Section" "events") (where site.RegularPages ".Parent" "events") }}
+{{ $events := union (where site.RegularPages "Section" "events") (where site.RegularPages ".Parent" "events") }}
 
 <ul>
   {{ range $events.ByDate.Reverse }}
