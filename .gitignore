@@ -4,3 +4,5 @@ resources/
 
 # npm assets
 node_modules/
+
+.idea/
