@@ -1,0 +1,22 @@
+{{ $sponsor_name      := .Get "sponsor_name"}}
+{{ $src          := .Get "src"}}
+{{ $href         := .Get "href"}}
+
+<div class="level-item">
+    <figure class="image">
+      <a href="{{ $href }}">
+        <img src="{{ $src }}" alt="{{ $sponsor_name }}"/>
+      </a>
+    </figure>
+</div>
+
+{{/*<div class="card ">*/}}
+{{/*  <div class="card-image">*/}}
+{{/*    <figure class="image is-4by3">*/}}
+{{/*      <img src="{{ $src }}" alt="{{ $sponsor_name }}">*/}}
+{{/*    </figure>*/}}
+{{/*  </div>*/}}
+{{/*  <header class="card-header">*/}}
+{{/*    <a class="card-header-title">{{ $sponsor_name }}</a>*/}}
+{{/*  </header>*/}}
+{{/*</div>*/}}
