@@ -1,0 +1,7 @@
+{{ $sponsor_type := .Get "sponsor_type"}}
+{{ with $sponsor_type }}
+<div class="is-divider" data-content="{{ . }}"></div>
+{{end}}
+<div class="level">
+  {{ .Inner }}
+</div>

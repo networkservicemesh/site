@@ -7,9 +7,6 @@ toc = true
 [[buttons]]
   name="Register"
   href="https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2019/register/"
-[[buttons]]
-  name="Become a Sponsor"
-  href="/pdf/NSMCon2019Prospectus.pdf"
 +++
 
 # Schedule
@@ -137,7 +134,8 @@ communities and building multicloud solutions. Previously, John was an active co
 long history contributing to various Cisco virtual and physical networking products.
 {{% /talk %}}
 {{% talk time="12:00pm" title="LUNCH - sponsored by Juniper Networks" %}}
-Lunch will be provided during this one hour break courtesy of our lunch sponsor [Juniper Networks](https://www.juniper.net).
+Lunch will be provided during this one hour break courtesy of our lunch sponsor 
+{{< figure src="/img/events/nsmcon2019/juniper-networks-logo.svg" link="https://www.juniper.net" >}}
 {{% /talk %}}
 {{% talk time="01:00pm" title="How SMI inspired NSM traffic observability" %}}
 NSM effort was launched in order to address gaps in handling complicated L2 and L3 use cases. Now celebrating its 1st 
@@ -252,6 +250,16 @@ The project emerged organically as a community project to solve these problems b
 Join the people building and using NSM at Network Service Mesh Con for a day of tutorials, deep dives, and use cases to learn how NSM works, what it can do for you, and, most importantly, what’s coming next.
 {{< /img-text >}}
 
-# Become a Sponsor
+# Sponsors
 
-Review [NSMCon Prospectus](/pdf/NSMCon2019Prospectus.pdf) and contact sponsors@networkservicemesh.io to secure your sponsorship today.
+{{% sponsor_section sponsor_type="Event Sponsors" %}}
+{{< sponsor_logo sponsor_name="Cisco Systems" src="/img/events/nsmcon2019/cisco-logo.svg" href="https://www.cisco.com/">}}
+{{< sponsor_logo sponsor_name="Doc.ai" src="/img/events/nsmcon2019/doc.ai-logo.svg" href="https://doc.ai/" >}}
+{{% /sponsor_section %}}
+{{% sponsor_section %}}
+{{< sponsor_logo sponsor_name="VMWare" src="/img/events/nsmcon2019/vmware-logo.svg" href="https://www.vmware.com/" >}}
+{{% /sponsor_section %}}
+
+{{% sponsor_section sponsor_type="Lunch Sponsor"%}}
+{{< sponsor_logo sponsor_name="Juniper Networks" src="/img/events/nsmcon2019/juniper-networks-logo.svg" href="https://www.juniper.net/" >}}
+{{% /sponsor_section %}}
