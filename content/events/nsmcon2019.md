@@ -134,7 +134,8 @@ communities and building multicloud solutions. Previously, John was an active co
 long history contributing to various Cisco virtual and physical networking products.
 {{% /talk %}}
 {{% talk time="12:00pm" title="LUNCH - sponsored by Juniper Networks" %}}
-Lunch will be provided during this one hour break courtesy of our lunch sponsor [Juniper Networks](https://www.juniper.net).
+Lunch will be provided during this one hour break courtesy of our lunch sponsor 
+{{< figure src="/img/events/nsmcon2019/juniper-networks-logo.svg" link="https://www.juniper.net" >}}
 {{% /talk %}}
 {{% talk time="01:00pm" title="How SMI inspired NSM traffic observability" %}}
 NSM effort was launched in order to address gaps in handling complicated L2 and L3 use cases. Now celebrating its 1st 
