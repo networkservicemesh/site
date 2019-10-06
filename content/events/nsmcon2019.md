@@ -22,7 +22,7 @@ endpoints, network services and NSM's architecture from a network noob's point o
 Together we shall arrive at an accurate, actionable mental model of NSM, what it is and 
 how it works. 
 ### Speaker
-{{% speaker name="Dominik Tornow - Principal Engineer, Cisco Systems" github="dtornow" linkedin="dtornow" %}}
+{{% speaker name="Dominik Tornow - Principal Engineer, Cisco Systems" github="dtornow" linkedin="dtornow" img="/img/events/nsmcon2019/tornow.png" %}}
 Dominik is a Principal Engineer in the Office of the CTO at Cisco. He focuses on systems modeling, specifically 
 conceptual and formal modeling, to support the design and documentation of complex software systems.
 {{% /speaker %}}
