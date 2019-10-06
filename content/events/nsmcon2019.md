@@ -22,7 +22,7 @@ endpoints, network services and NSM's architecture from a network noob's point o
 Together we shall arrive at an accurate, actionable mental model of NSM, what it is and 
 how it works. 
 ### Speaker
-{{% speaker name="Dominik Tornow - Principal Engineer, Cisco Systems" %}}
+{{% speaker name="Dominik Tornow - Principal Engineer, Cisco Systems" github="dtornow" linkedin="dtornow" %}}
 Dominik is a Principal Engineer in the Office of the CTO at Cisco. He focuses on systems modeling, specifically 
 conceptual and formal modeling, to support the design and documentation of complex software systems.
 {{% /speaker %}}
@@ -66,7 +66,7 @@ Girish is a software technologist who has played a pivotal role in architecting 
 scale distributed systems on a range of platforms including microservices, service meshes and serverless. He strongly 
 believes that simple ideas can go a long way into building efficient, reliable, secure and scalable systems.
 {{% /speaker %}}
-{{% speaker name="Prem Sankar - Director of Engineering, Lumina Networks" %}}
+{{% speaker name="Prem Sankar - Director of Engineering, Lumina Networks" twitter="premsankar" github="gpremsankar" linkedin="premsankar" %}}
 Prem Sankar Gopannan brings two decades of experience to bear as Lumina Networks’ Director of Engineering. At Lumina, 
 he leads 5G product strategy where he leverages his open source expertise. Previous to his role at Lumina, Prem 
 managed SDN product strategy focusing on cloud-native architecture and product delivery within cloud and networking 
@@ -90,7 +90,7 @@ traffic engineering, path steering, or even virtual topology creation to contain
 spanning 5G, network slicing, and next-gen VPNs.
 
 ### Speakers
-{{% speaker name="Bruce McDougall - Systems Architect, Cisco Systems" %}}
+{{% speaker name="Bruce McDougall - Systems Architect, Cisco Systems" github="brmcdoug" linkedin="bruce-mcdougall-02503a1" %}}
 Bruce McDougall is a Systems Architect at Cisco where he has spent 10 years working with some of the world’s most 
 sophisticated Web/OTT and Telco operators on high scale network architecture, Segment Routing, MPLS, SDN, and network 
 automation. Prior to Cisco, Bruce spent a number of years as a network engineer and architect working in both the web 
@@ -98,7 +98,7 @@ and service provider sectors.  His goal is to help large scale network operators
 and common API-driven dataplanes across all transport networks, which will improve the ability to innovate on top of 
 the network, and lead to massive increases in operational scale.
 {{% /speaker %}}
-{{% speaker name="Zia Syed - System Engineer, Cisco Systems" %}}
+{{% speaker name="Zia Syed - System Engineer, Cisco Systems" linkedin="therealziasyed" %}}
 Zia Syed is a Software Systems Engineer at Cisco, where he has launched his career by taking on new challenges in 
 application and network optimization.  Over the past three years, he has worked with modern tech stacks, open-source 
 solutions, and futuristic innovations to develop transformations in scalability, automation, and efficiency for Web 
@@ -111,7 +111,7 @@ your pods to advanced network services which have been battle hardened in teleco
 In addition to presenting an integration, we discuss how the technology between the two works and how both communities 
 collaborated together to achieve a common goal.  If time permits, we will also show a demo.
 ### Speaker
-{{% speaker name="Sukhdev Kapur - Distinguished Engineer, Juniper Networks" %}}
+{{% speaker name="Sukhdev Kapur - Distinguished Engineer, Juniper Networks" twitter="sukhdevk" github="sukhdev-8" linkedin="sukhdev-kapur-9ba996" %}}
 Sukhdev Kapur is Distinguished Engineer at Juniper Networks. He is part of Contrail Software Development team. He is 
 on the TSC of Tungsten Fabric and Akraino Edge Stack (open source projects under Linux Foundation). He is also on 
 Technical Advisory Council of LF Edge.  Sukhdev is a networking veteran with 20+ years in highly available distributed 
@@ -129,14 +129,14 @@ service endpoint, the NSM inter-domain deployment, and resulting dataplane conne
 Kubernetes clusters.  We will discuss the integration of existing application service mesh L4-L7 features with 
 the virtual L3 NSE to highlight the simplifications in the application admin experience.
 ### Speakers
-{{%speaker name="Tim Swanson - Senior Technical Lead, Cisco Systems" %}}
+{{%speaker name="Tim Swanson - Senior Technical Lead, Cisco Systems" twitter="tiswanso" github="tiswanso" %}}
 Tim is a senior technical lead engineer at Cisco in the office of the CTO for Cloud Platform & Solutions. Tim’s 
 current focuses are on multicloud solutions, service meshes, and contributing to related opensource c
 ommunities—primarily, Istio. Previously, Tim was an active contributor to OpenStack. Prior to open-source work, 
 Tim was primarily involved in developing embedded features for Cisco’s physical networking products, with a focus 
 on manageability. His spare time consists coaching sports and generally being active with his 2 children.
 {{% /speaker %}}
-{{% speaker name="John Joyce - Principal Engineer, Cisco Systems" %}}
+{{% speaker name="John Joyce - Principal Engineer, Cisco Systems" github="john-a-joyce" %}}
 John is a principal engineer at Cisco responsible for developing cloud infrastructure and solutions. As part of the 
 Cloud CTO Office, John currently focuses on contributing to the Kubernetes, Istio  and Network Service Mesh 
 communities and building multicloud solutions. Previously, John was an active contributor to OpenStack. John has a 
@@ -158,7 +158,7 @@ be bigger than expected, reflecting in an improvement of the traffic observabili
 project usability. In this session we will introduce details around the SMI adoption and the practical results of the 
 community efforts in the direction of increasing monitoring capabilities.
 ### Speaker
-{{% speaker name="Ivana Atanasova - Open Source Engineer, VMware" %}}
+{{% speaker name="Ivana Atanasova - Open Source Engineer, VMware" twitter="ivanabyov" github="ivanayov"%}}
 Ivana Atanasova is part of the VMware’s Open Source Program Office. She’s been contributing to OpenFaaS as a project 
 member and later became contributor to Network Service Mesh. Previously she has been working on Apache Brooklyn and 
 Brooklyn Blockstore, as well as a contractor with the Institute of Mathematics and Informatics at the Bulgarian 
@@ -177,13 +177,13 @@ applications require ACROSS multiple clouds.  We will demo Istio service discove
 workloads.  Envoy with form an application service mesh on top of the network mesh created by NSM.  This will allow 
 Istio to provide seamless control over microservices regardless of how they are connected.
 ### Speakers
-{{% speaker name="John Joyce - Principal Engineer, Cisco Systems" %}}
+{{% speaker name="John Joyce - Principal Engineer, Cisco Systems" github="john-a-joyce" %}}
 John is a principal engineer at Cisco responsible for developing cloud infrastructure and solutions. As part of the 
 Cloud CTO Office, John currently focuses on contributing to the Kubernetes, Istio  and Network Service Mesh 
 communities and building multicloud solutions. Previously, John was an active contributor to OpenStack. John has a 
 long history contributing to various Cisco virtual and physical networking products.
 {{% /speaker %}}
-{{% speaker name="Tim Swanson - Senior Technical Lead, Cisco Systems" %}}
+{{% speaker name="Tim Swanson - Senior Technical Lead, Cisco Systems" twitter="tiswanso" github="tiswanso" %}}
 Tim is a senior technical lead engineer at Cisco in the office of the CTO for Cloud Platform & Solutions. Tim’s 
 current focuses are on multicloud solutions, service meshes, and contributing to related opensource c
 ommunities—primarily, Istio. Previously, Tim was an active contributor to OpenStack. Prior to open-source work, 
@@ -199,7 +199,7 @@ The presentation will:
 * outline the necessary additions and improvments to NSM Ericsson is proposing
 * demo (optional)
 ### Speaker
-{{% speaker name="Tamas Zsiros - Expert end-to-end systems archtecture, Ericsson" %}}
+{{% speaker name="Tamas Zsiros - Expert end-to-end systems archtecture, Ericsson" twitter="weldroid" github="weldroid" linkedin="tamaszsiros" %}}
 Tamas Zsiros is an engineer, architect and technical leader in Ericsson AB with more than 19 years of professional 
 experience in the cloud, IP and telecommunications areas, living in Stockholm, Sweden. He is currently driving 
 digitalization and cloud native transformation for Business Area Digital Services applications including telco VNFs, 
@@ -222,7 +222,7 @@ traditional and established Networking Function Virtualization concepts, where a
 machine called a VNF. The K8s cluster will demonstrate CNFs. NSM is used to stitch all of the connections together 
 from container to container, container to VM and cluster to cluster.
 ### Speaker
-{{% speaker name="Taylor Carpenter - Partner / Senior Factotum, Vulk Coop" %}}
+{{% speaker name="Taylor Carpenter - Partner / Senior Factotum, Vulk Coop" twitter="ixx" github="taylor" linkedin="taylorcc" %}}
 Partner at Vulk Cooperative - http://vulk.coop | Project Lead cncf.ci + CNF Testbed. OpenSource advocate, using 
 Linux since 1994 with the 1.0 release and gnu tools on other unix systems before that. OpsDev geek. Elixir and 
 Ruby programmer. Proponent of improving user experience (UX) in all endeavors including group collaboration, 
