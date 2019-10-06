@@ -111,7 +111,7 @@ your pods to advanced network services which have been battle hardened in teleco
 In addition to presenting an integration, we discuss how the technology between the two works and how both communities 
 collaborated together to achieve a common goal.  If time permits, we will also show a demo.
 ### Speaker
-{{% speaker name="Sukhdev Kapur - Distinguished Engineer, Juniper Networks" twitter="sukhdevk" github="sukhdev-8" linkedin="sukhdev-kapur-9ba996" %}}
+{{% speaker name="Sukhdev Kapur - Distinguished Engineer, Juniper Networks" twitter="sukhdevk" github="sukhdev-8" linkedin="sukhdev-kapur-9ba996" img="/img/events/nsmcon2019/sukhdev.jpg" %}}
 Sukhdev Kapur is Distinguished Engineer at Juniper Networks. He is part of Contrail Software Development team. He is 
 on the TSC of Tungsten Fabric and Akraino Edge Stack (open source projects under Linux Foundation). He is also on 
 Technical Advisory Council of LF Edge.  Sukhdev is a networking veteran with 20+ years in highly available distributed 
