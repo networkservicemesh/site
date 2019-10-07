@@ -119,7 +119,7 @@ service endpoint, the NSM inter-domain deployment, and resulting dataplane conne
 Kubernetes clusters.  We will discuss the integration of existing application service mesh L4-L7 features with 
 the virtual L3 NSE to highlight the simplifications in the application admin experience.
 ### Speakers
-{{%speaker name="Tim Swanson - Senior Technical Lead, Cisco Systems" twitter="tiswanso" github="tiswanso" %}}
+{{%speaker name="Tim Swanson - Senior Technical Lead, Cisco Systems" twitter="tiswanso" github="tiswanso" linkedin="tim-swanson-7379264" img="/img/events/nsmcon2019/timswanson.png" %}}
 Tim is a senior technical lead engineer at Cisco in the office of the CTO for Cloud Platform & Solutions. Tim’s 
 current focuses are on multicloud solutions, service meshes, and contributing to related opensource c
 ommunities—primarily, Istio. Previously, Tim was an active contributor to OpenStack. Prior to open-source work, 
@@ -173,7 +173,7 @@ Cloud CTO Office, John currently focuses on contributing to the Kubernetes, Isti
 communities and building multicloud solutions. Previously, John was an active contributor to OpenStack. John has a 
 long history contributing to various Cisco virtual and physical networking products.
 {{% /speaker %}}
-{{% speaker name="Tim Swanson - Senior Technical Lead, Cisco Systems" twitter="tiswanso" github="tiswanso" %}}
+{{% speaker name="Tim Swanson - Senior Technical Lead, Cisco Systems" twitter="tiswanso" github="tiswanso" linkedin="tim-swanson-7379264" img="/img/events/nsmcon2019/timswanson.png" %}}
 Tim is a senior technical lead engineer at Cisco in the office of the CTO for Cloud Platform & Solutions. Tim’s 
 current focuses are on multicloud solutions, service meshes, and contributing to related opensource c
 ommunities—primarily, Istio. Previously, Tim was an active contributor to OpenStack. Prior to open-source work, 
