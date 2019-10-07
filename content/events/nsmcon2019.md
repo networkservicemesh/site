@@ -88,7 +88,7 @@ and service provider sectors.  His goal is to help large scale network operators
 and common API-driven dataplanes across all transport networks, which will improve the ability to innovate on top of 
 the network, and lead to massive increases in operational scale.
 {{% /speaker %}}
-{{% speaker name="Zia Syed - System Engineer, Cisco Systems" linkedin="therealziasyed" %}}
+{{% speaker name="Zia Syed - System Engineer, Cisco Systems" linkedin="therealziasyed" img="/img/events/nsmcon2019/ziasyed.jpeg" %}}
 Zia Syed is a Software Systems Engineer at Cisco, where he has launched his career by taking on new challenges in 
 application and network optimization.  Over the past three years, he has worked with modern tech stacks, open-source 
 solutions, and futuristic innovations to develop transformations in scalability, automation, and efficiency for Web 
@@ -126,7 +126,7 @@ ommunities—primarily, Istio. Previously, Tim was an active contributor to Open
 Tim was primarily involved in developing embedded features for Cisco’s physical networking products, with a focus 
 on manageability. His spare time consists coaching sports and generally being active with his 2 children.
 {{% /speaker %}}
-{{% speaker name="John Joyce - Principal Engineer, Cisco Systems" github="john-a-joyce" %}}
+{{% speaker name="John Joyce - Principal Engineer, Cisco Systems" github="john-a-joyce" img="/img/events/nsmcon2019/johnjoyce.jpg" %}}
 John is a principal engineer at Cisco responsible for developing cloud infrastructure and solutions. As part of the 
 Cloud CTO Office, John currently focuses on contributing to the Kubernetes, Istio  and Network Service Mesh 
 communities and building multicloud solutions. Previously, John was an active contributor to OpenStack. John has a 
@@ -167,7 +167,7 @@ applications require ACROSS multiple clouds.  We will demo Istio service discove
 workloads.  Envoy with form an application service mesh on top of the network mesh created by NSM.  This will allow 
 Istio to provide seamless control over microservices regardless of how they are connected.
 ### Speakers
-{{% speaker name="John Joyce - Principal Engineer, Cisco Systems" github="john-a-joyce" %}}
+{{% speaker name="John Joyce - Principal Engineer, Cisco Systems" github="john-a-joyce" img="/img/events/nsmcon2019/johnjoyce.jpg" %}}
 John is a principal engineer at Cisco responsible for developing cloud infrastructure and solutions. As part of the 
 Cloud CTO Office, John currently focuses on contributing to the Kubernetes, Istio  and Network Service Mesh 
 communities and building multicloud solutions. Previously, John was an active contributor to OpenStack. John has a 
