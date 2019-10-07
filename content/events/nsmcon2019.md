@@ -80,7 +80,7 @@ traffic engineering, path steering, or even virtual topology creation to contain
 spanning 5G, network slicing, and next-gen VPNs.
 
 ### Speakers
-{{% speaker name="Bruce McDougall - Systems Architect, Cisco Systems" github="brmcdoug" linkedin="bruce-mcdougall-02503a1" img="/img/events/nsmcon2019/bmcdougall.png"%}}
+{{% speaker name="Bruce McDougall - Systems Architect, Cisco Systems" github="brmcdoug" twitter="brucemcdougall" linkedin="bruce-mcdougall-02503a1" img="/img/events/nsmcon2019/bmcdougall.png"%}}
 Bruce McDougall is a Systems Architect at Cisco where he has spent 10 years working with some of the world’s most 
 sophisticated Web/OTT and Telco operators on high scale network architecture, Segment Routing, MPLS, SDN, and network 
 automation. Prior to Cisco, Bruce spent a number of years as a network engineer and architect working in both the web 
