@@ -80,7 +80,7 @@ traffic engineering, path steering, or even virtual topology creation to contain
 spanning 5G, network slicing, and next-gen VPNs.
 
 ### Speakers
-{{% speaker name="Bruce McDougall - Systems Architect, Cisco Systems" github="brmcdoug" linkedin="bruce-mcdougall-02503a1" %}}
+{{% speaker name="Bruce McDougall - Systems Architect, Cisco Systems" github="brmcdoug" linkedin="bruce-mcdougall-02503a1" img="/img/events/nsmcon2019/bmcdougall.png"%}}
 Bruce McDougall is a Systems Architect at Cisco where he has spent 10 years working with some of the world’s most 
 sophisticated Web/OTT and Telco operators on high scale network architecture, Segment Routing, MPLS, SDN, and network 
 automation. Prior to Cisco, Bruce spent a number of years as a network engineer and architect working in both the web 
@@ -212,7 +212,7 @@ traditional and established Networking Function Virtualization concepts, where a
 machine called a VNF. The K8s cluster will demonstrate CNFs. NSM is used to stitch all of the connections together 
 from container to container, container to VM and cluster to cluster.
 ### Speaker
-{{% speaker name="Taylor Carpenter - Partner / Senior Factotum, Vulk Coop" twitter="ixx" github="taylor" linkedin="taylorcc" %}}
+{{% speaker name="Taylor Carpenter - Partner / Senior Factotum, Vulk Coop" twitter="ixx" github="taylor" linkedin="taylorcc" img="/img/events/nsmcon2019/taylorcarpenter.jpg"%}}
 Partner at Vulk Cooperative - http://vulk.coop | Project Lead cncf.ci + CNF Testbed. OpenSource advocate, using 
 Linux since 1994 with the 1.0 release and gnu tools on other unix systems before that. OpsDev geek. Elixir and 
 Ruby programmer. Proponent of improving user experience (UX) in all endeavors including group collaboration, 
