@@ -230,7 +230,7 @@ With the advent of Edge Computing, Cloud Native network transformation and evolu
 NSM combined with network programming concepts of SRv6 can provide a highly efficient framework to design large 
 scale services.
 ### Speaker
-{{% speaker name="Daniel Bernier - Senior Technical Architect, Bell Canada" %}}
+{{% speaker name="Daniel Bernier - Senior Technical Architect, Bell Canada" github="dabernie" twitter="danbernie01" linkedin="dabernie" img="/img/events/nsmcon2019/dbernier.jpg" %}}
 Daniel is a Senior Architect in the Network Strategy team at Bell Canada involved in research and development of 
 disruptive technologies transforming the Telco space. He is currently working on the edge cloud strategy and 
 cloud-native transformation leveraging optimized CP/UP separation and advances in network and hardware 
