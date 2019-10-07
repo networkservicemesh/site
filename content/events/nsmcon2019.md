@@ -148,7 +148,7 @@ be bigger than expected, reflecting in an improvement of the traffic observabili
 project usability. In this session we will introduce details around the SMI adoption and the practical results of the 
 community efforts in the direction of increasing monitoring capabilities.
 ### Speaker
-{{% speaker name="Ivana Atanasova - Open Source Engineer, VMware" twitter="ivanabyov" github="ivanayov"%}}
+{{% speaker name="Ivana Atanasova - Open Source Engineer, VMware" twitter="ivanabyov" github="ivanayov" linkedin="ivana-atanasova-15119b98" img="/img/events/nsmcon2019/ivanaatanasova.jpg"%}}
 Ivana Atanasova is part of the VMware’s Open Source Program Office. She’s been contributing to OpenFaaS as a project 
 member and later became contributor to Network Service Mesh. Previously she has been working on Apache Brooklyn and 
 Brooklyn Blockstore, as well as a contractor with the Institute of Mathematics and Informatics at the Bulgarian 
