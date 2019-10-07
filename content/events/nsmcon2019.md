@@ -27,17 +27,7 @@ Dominik is a Principal Engineer in the Office of the CTO at Cisco. He focuses on
 conceptual and formal modeling, to support the design and documentation of complex software systems.
 {{% /speaker %}}
 {{% /talk %}}
-{{% talk time="09:45am" title="Adopting Network Service Mesh with Meshery"
-                      speaker1Name="Lee Calcote" 
-                      speaker1Title="Founder"
-                      speaker1Company="Layer5"
-                      speaker2Name="Girish R Ranganathan" 
-                      speaker2Title="Chief Architect"
-                      speaker2Company="Layer5"
-                      speaker3Name="Prem Sankar" 
-                      speaker3Title="Director of Engineering"
-                      speaker3Company="Lumina Networks"
-                      %}} 
+{{% talk time="09:45am" title="Adopting Network Service Mesh with Meshery" %}} 
 Trying to understand the service mesh strata? Brace yourself. It gets a bit meshy. Data plane, 
 control plane, and a… management plane. What is a management plane and how is it different 
 than a control plane?
@@ -66,7 +56,7 @@ Girish is a software technologist who has played a pivotal role in architecting 
 scale distributed systems on a range of platforms including microservices, service meshes and serverless. He strongly 
 believes that simple ideas can go a long way into building efficient, reliable, secure and scalable systems.
 {{% /speaker %}}
-{{% speaker name="Prem Sankar - Director of Engineering, Lumina Networks" twitter="premsankar" github="gpremsankar" linkedin="premsankar" %}}
+{{% speaker name="Prem Sankar - Director of Engineering, Lumina Networks" twitter="premsankar" github="gpremsankar" linkedin="premsankar" img="/img/events/nsmcon2019/premsankar.png"%}}
 Prem Sankar Gopannan brings two decades of experience to bear as Lumina Networks’ Director of Engineering. At Lumina, 
 he leads 5G product strategy where he leverages his open source expertise. Previous to his role at Lumina, Prem 
 managed SDN product strategy focusing on cloud-native architecture and product delivery within cloud and networking 
