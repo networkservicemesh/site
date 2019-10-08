@@ -183,13 +183,14 @@ on manageability. His spare time consists coaching sports and generally being ac
 {{% /talk %}}
 {{% talk time="02:00pm" title="Can NSM provide networking superpowers for 5G?" %}}
 The presentation will:
+
 * describe how 5G benefits from cloud native applications
 * show the network separation challenge these applications need to solve
 * propose a solution to these challenges using NSM
 * outline the necessary additions and improvments to NSM Ericsson is proposing
 * demo (optional)
-### Speaker
-{{% speaker name="Tamas Zsiros - Expert end-to-end systems archtecture, Ericsson" twitter="weldroid" github="weldroid" linkedin="tamaszsiros" %}}
+### Speakers
+{{% speaker name="Tamas Zsiros - Expert end-to-end systems archtecture, Ericsson" twitter="weldroid" github="weldroid" linkedin="tamaszsiros" img="/img/events/nsmcon2019/tamaszsiros.jpg" %}}
 Tamas Zsiros is an engineer, architect and technical leader in Ericsson AB with more than 19 years of professional 
 experience in the cloud, IP and telecommunications areas, living in Stockholm, Sweden. He is currently driving 
 digitalization and cloud native transformation for Business Area Digital Services applications including telco VNFs, 
@@ -197,6 +198,11 @@ OSS and BSS. He has played a key role in platform shifts of telecom applications
 through component driven development to microservice-based cloud native architecture, coordinating evolution of 
 applications and cloud infrastructure. He is an experienced speaker and has extensive multicultural experience 
 gained through living and working around the globe.
+{{% /speaker %}}
+{{% speaker name="Henrik Persson - Expert, Chief Architect, Ericsson" linkedin="henrik-saavedra-persson-13611b2" img="/img/events/nsmcon2019/henrikpersson.jpg" %}}
+Henrik Saavedra Persson has a master’s degree in software engineering. Joined Ericsson back in 2006 and has since 
+then been taken on different roles within the company. He has been part of the company transition towards the use of 
+open source since 2009. His current role is chief architect for the company wide architecture for cloud native.
 {{% /speaker %}}
 {{% /talk %}}
 {{% talk time="02:30pm" title="Composing Hybrid Service Chains in the CNF Testbed with NSM" %}}
