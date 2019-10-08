@@ -2,8 +2,8 @@
 {{ $title     := .Get "title"}}
 
 
-<div id="{{ anchorize $title }}" class="card card-toggle">
-  <header class="card-header">
+<div class="card">
+  <header id="{{ anchorize $title }}" class="card-header card-toggle">
     <a href="#{{ anchorize $title }}" class="card-header-icon">
       <i class="fa fa-link"></i>
     </a>
