@@ -23,6 +23,7 @@ $twitter-blue: rgb(29, 161, 242)
 
 @import "bulma/sass/utilities/initial-variables"
 @import "bulma/sass/utilities/functions"
+@import "bulma/sass/utilities/mixins"
 
 // Bulma variable overrides
 $primary: $nsm-dark-blue
@@ -84,11 +85,21 @@ $divider-font-size: $size-1
 
 @import "bulma-divider/src/sass/index"
 
+// Fix for bulma-divider font size on mobile
+.is-divider[data-content]::after, .is-divider-vertical[data-content]::after
+  +mobile
+    font-size: 1.5em
+
 // Used to properly align sponsor_section.html shortcode dividers with 3em font size
 .is-divider[data-content]::after
-  -webkit-transform: translateY(-2.6rem)
-  -ms-transform: translateY(-2.6rem)
-  transform: translateY(-2.6rem)
+  +tablet
+    -webkit-transform: translateY(-2.6rem)
+    -ms-transform: translateY(-2.6rem)
+    transform: translateY(-2.6rem)
+  +mobile
+    -webkit-transform: translateY(-1.5rem)
+    -ms-transform: translateY(-1.5rem)
+    transform: translateY(-1.5rem)
 
 *[id]:before
   display: block;
