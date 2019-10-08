@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       }
     });
-    if (cardToggles[i].id == location.hash.substr(1)) {
+    if (cardToggles[i].parentElement.parentElement.id == location.hash.substr(1)) {
       let n = cardToggles[i]
       while (n=n.nextSibling) {
         if (n.nodeType != Node.TEXT_NODE && n.classList.contains("card-content")) {

@@ -89,3 +89,10 @@ $divider-font-size: $size-1
   -webkit-transform: translateY(-2.6rem)
   -ms-transform: translateY(-2.6rem)
   transform: translateY(-2.6rem)
+
+*[id]:before
+  display: block;
+  content: " ";
+  margin-top: -$navbar-height;
+  height: $navbar-height;
+  visibility: hidden;

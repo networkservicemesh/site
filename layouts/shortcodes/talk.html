@@ -1,20 +1,21 @@
 {{ $time      := .Get "time"}}
 {{ $title     := .Get "title"}}
 
-
-<div class="card">
-  <header id="{{ anchorize $title }}" class="card-header card-toggle">
-    <a href="#{{ anchorize $title }}" class="card-header-icon">
-      <i class="fa fa-link"></i>
-    </a>
-    <a class="card-header-title">{{$time}} - {{$title}}</a>
-    <a class="card-header-icon">
-      <i class="fa fa-angle-down"></i>
-    </a>
-  </header>
-  <div class="card-content is-hidden">
-    <div class="content">
-        {{ .Inner | markdownify }}
+<div id="{{ anchorize $title }}">
+  <div class="card">
+    <header class="card-header card-toggle">
+      <a href="#{{ anchorize $title }}" class="card-header-icon">
+        <i class="fa fa-link"></i>
+      </a>
+      <a class="card-header-title">{{$time}} - {{$title}}</a>
+      <a class="card-header-icon">
+        <i class="fa fa-angle-down"></i>
+      </a>
+    </header>
+    <div class="card-content is-hidden">
+      <div class="content">
+          {{ .Inner | markdownify }}
+      </div>
     </div>
   </div>
 </div>
