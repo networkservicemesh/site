@@ -259,7 +259,7 @@ Join the people building and using NSM at Network Service Mesh Con for a day of 
 # Sponsors
 
 {{% sponsor_section sponsor_type="Event Sponsors" %}}
-{{< sponsor_logo sponsor_name="Cisco Systems" src="/img/events/nsmcon2019/cisco-logo.svg" href="https://www.cisco.com/">}}
+{{< sponsor_logo sponsor_name="Cisco Systems" src="/img/events/nsmcon2019/cisco-logo.svg" href="https://www.cisco.com/" tall="true" >}}
 {{< sponsor_logo sponsor_name="Doc.ai" src="/img/events/nsmcon2019/doc.ai-logo.svg" href="https://doc.ai/" >}}
 {{% /sponsor_section %}}
 {{% sponsor_section %}}
