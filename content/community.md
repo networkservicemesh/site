@@ -11,7 +11,6 @@ We encourage discussion on our mailing list and IRC channel and accept pull requ
 [![GitHub issues](https://img.shields.io/github/issues/badges/shields.svg?style=plastic)](https://github.com/networkservicemesh/networkservicemesh/issues)
 [![CircleCI Build Status](https://circleci.com/gh/networkservicemesh/networkservicemesh/tree/master.svg?style=svg)](https://circleci.com/gh/networkservicemesh/networkservicemesh/tree/master)
 [![GitHub license](https://img.shields.io/badge/license-Apache%20license%202.0-blue.svg)](https://github.com/networkservicemesh/networkservicemesh/blob/master/LICENSE)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fnetworkservicemesh%2Fnetworkservicemesh.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fnetworkservicemesh%2Fnetworkservicemesh?ref=badge_shield)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2725/badge)](https://bestpractices.coreinfrastructure.org/projects/2725)
 
 ### Weekly Meetings
