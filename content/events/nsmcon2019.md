@@ -205,18 +205,11 @@ then been taken on different roles within the company. He has been part of the c
 open source since 2009. His current role is chief architect for the company wide architecture for cloud native.
 {{% /speaker %}}
 {{% /talk %}}
-{{% talk time="02:30pm" title="Composing Hybrid Service Chains in the CNF Testbed with NSM" %}}
-This is the community journey of bringing together Cloud Native Network Functions (CNFs) and Virtual Networking 
-Functions (VNF) using Network Service Mesh (NSM) to facilitate policy-driven, declarative and on-demand L2/L3 network 
-use cases in the CNF Testbed.
-
+{{% talk time="02:30pm" title="Facilitating more complex use cases in the CNF Testbed with NSM" %}}
 The CNF Testbed initiative provides a vendor-neutral space to explore and evaluate open source networking technologies 
 and their interoperability, in addition to fostering collaboration between the various projects and communities.
 
-A hybrid use case running across OpenStack and Kubernetes (K8s) will be shown. The former will represent the 
-traditional and established Networking Function Virtualization concepts, where an application is run in a virtual 
-machine called a VNF. The K8s cluster will demonstrate CNFs. NSM is used to stitch all of the connections together 
-from container to container, container to VM and cluster to cluster.
+A multi-gateway use case which demonstrates access to physical ports as well as multiple network paths for service chains will be shown. NSM is used to stitch all of the connections together from each container (using different interface types) all the way through the gateways where traffic exits the cluster.
 ### Speaker
 {{% speaker name="Taylor Carpenter - Partner / Senior Factotum, Vulk Coop" twitter="ixx" github="taylor" linkedin="taylorcc" img="/img/events/nsmcon2019/taylorcarpenter.jpg"%}}
 Partner at Vulk Cooperative - http://vulk.coop | Project Lead cncf.ci + CNF Testbed. OpenSource advocate, using 
@@ -226,6 +219,9 @@ end-user applications, developer tools, APIs. Taylor has helped companies (start
 and modernizing their platforms for over 18 years. This covers many domains such as networking, security and 
 financial with companies including Nortel Networks, Bank of America, and IBM. He’s also helped design and 
 run the technology needs of organizations such as Lonestar Ruby Conference.
+{{% /speaker %}}
+{{% speaker name="Nikolay Nikolaev - Open Source Networking Team Lead, VMware" twitter="" github="nickolaev" linkedin="" img="https://avatars3.githubusercontent.com/u/2077718?s=460&v=4"%}}
+Open Source Networking Team Lead in the Open Source Technology Center at VMware and a core maintainer on the Network Service Mesh project. For the last 16 years, he has been implementing networking software ranging from hardware boxes to powerful server applications and virtualized dataplanes. He spent some time in the virtualization world with projects like KVM, DPDK and OpenStack.
 {{% /speaker %}}
 {{% /talk %}}
 {{% talk time="3:00pm" title="BREAK" %}}
