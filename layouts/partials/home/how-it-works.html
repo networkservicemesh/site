@@ -1,0 +1,24 @@
+{{ $feature := site.Params.explanation | markdownify }}
+<section class="section">
+  <div class="container">
+    <div class="columns is-variable is-8">
+      <div class="column is-one-quarter">
+        <p class="title is-size-3 is-size-4-mobile has-text-weight-bold">
+          How it works
+        </p>
+
+        <hr class="thick" />
+
+        <span class="icon is-large has-text-orange">
+          <i class="fas fa-2x fa-project-diagram"></i>
+        </span>
+      </div>
+
+      <div class="column">
+        <div class="content is-size-5 is-size-6-mobile">
+          {{ $feature }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
