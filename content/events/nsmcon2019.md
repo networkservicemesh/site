@@ -100,6 +100,10 @@ application and network optimization.  Over the past three years, he has worked 
 solutions, and futuristic innovations to develop transformations in scalability, automation, and efficiency for Web 
 operators. Before joining Cisco, Zia graduated from Cal Poly San Luis Obispo with a degree in Computer Science.
 {{% /speaker %}}
+
+### Slides
+
+[ppt](https://drive.google.com/file/d/1gCstid5plU16ogcAlT83-EOvT25HNc_F/view?usp=sharing)
 {{% /talk %}}
 {{% talk time="11:00am" title="Integrating Tungsten Fabric and Network Service Mesh " %}}
 Come learn how we have integrated Tungsten Fabric and NSM to supercharge Kubernetes networking! Learn how to connect 
