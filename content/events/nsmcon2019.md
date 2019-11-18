@@ -21,11 +21,17 @@ providing clear, tangible definitions and explanations of virtual wires, network
 endpoints, network services and NSM's architecture from a network noob's point of view. 
 Together we shall arrive at an accurate, actionable mental model of NSM, what it is and 
 how it works. 
+
 ### Speaker
 {{% speaker name="Dominik Tornow - Principal Engineer, Cisco Systems" github="dtornow" linkedin="dtornow" img="/img/events/nsmcon2019/tornow.png" %}}
 Dominik is a Principal Engineer in the Office of the CTO at Cisco. He focuses on systems modeling, specifically 
 conceptual and formal modeling, to support the design and documentation of complex software systems.
 {{% /speaker %}}
+
+### Slides
+* [pdf](https://drive.google.com/file/d/1iUad6ebZMeeHswEqMHIyYQPR1li9X_Vi/view?usp=sharing)
+* [keynote](https://drive.google.com/file/d/1x14BwEEj0V1HVVUudrw9BlBnQjqxS6HR/view?usp=sharing)
+
 {{% /talk %}}
 {{% talk time="09:45am" title="Adopting Network Service Mesh with Meshery" %}} 
 Trying to understand the service mesh strata? Brace yourself. It gets a bit meshy. Data plane, 
