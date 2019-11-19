@@ -142,6 +142,8 @@ Cloud CTO Office, John currently focuses on contributing to the Kubernetes, Isti
 communities and building multicloud solutions. Previously, John was an active contributor to OpenStack. John has a 
 long history contributing to various Cisco virtual and physical networking products.
 {{% /speaker %}}
+## Slides
+[ppt](https://drive.google.com/file/d/1r0JNhJhn8RutMf62fmUR9WlWaApoWeMp/view?usp=sharing)
 {{% /talk %}}
 {{% talk time="12:00pm" title="LUNCH - sponsored by Juniper Networks" %}}
 Lunch will be provided during this one hour break courtesy of our lunch sponsor 
@@ -214,6 +216,8 @@ Henrik Saavedra Persson has a master’s degree in software engineering. Joined 
 then been taken on different roles within the company. He has been part of the company transition towards the use of 
 open source since 2009. His current role is chief architect for the company wide architecture for cloud native.
 {{% /speaker %}}
+### Slides
+[ppt](https://drive.google.com/file/d/1S4bwCN9tQVQU9L_G97FOW0313i2iKj7s/view?usp=sharing)
 {{% /talk %}}
 {{% talk time="02:30pm" title="Facilitating more complex use cases in the CNF Testbed with NSM" %}}
 The CNF Testbed initiative provides a vendor-neutral space to explore and evaluate open source networking technologies 
@@ -233,6 +237,8 @@ run the technology needs of organizations such as Lonestar Ruby Conference.
 {{% speaker name="Nikolay Nikolaev - Open Source Networking Team Lead, VMware" twitter="" github="nickolaev" linkedin="" img="https://avatars3.githubusercontent.com/u/2077718?s=460&v=4"%}}
 Open Source Networking Team Lead in the Open Source Technology Center at VMware and a core maintainer on the Network Service Mesh project. For the last 16 years, he has been implementing networking software ranging from hardware boxes to powerful server applications and virtualized dataplanes. He spent some time in the virtualization world with projects like KVM, DPDK and OpenStack.
 {{% /speaker %}}
+### Slides
+[Google Slides](https://docs.google.com/presentation/d/17AaTknOmtOsDvjmOmjTYUrlfb_6c2yEqQqC0LFRZKgc/edit#slide=id.g78ce633830_3_65)
 {{% /talk %}}
 {{% talk time="3:00pm" title="BREAK" %}}
 Coffee and refreshments will be offered during this 30 minute break.
