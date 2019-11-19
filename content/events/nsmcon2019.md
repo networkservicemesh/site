@@ -144,6 +144,8 @@ long history contributing to various Cisco virtual and physical networking produ
 {{% /speaker %}}
 ## Slides
 [ppt](https://drive.google.com/file/d/1r0JNhJhn8RutMf62fmUR9WlWaApoWeMp/view?usp=sharing)
+
+[demo video](https://drive.google.com/file/d/1w6vdcGrZprHC23JmnRdvKHyRvYyQIXz4/view?usp=sharing)
 {{% /talk %}}
 {{% talk time="12:00pm" title="LUNCH - sponsored by Juniper Networks" %}}
 Lunch will be provided during this one hour break courtesy of our lunch sponsor 
@@ -192,6 +194,8 @@ ommunities—primarily, Istio. Previously, Tim was an active contributor to Open
 Tim was primarily involved in developing embedded features for Cisco’s physical networking products, with a focus 
 on manageability. His spare time consists coaching sports and generally being active with his 2 children.
 {{% /speaker %}}
+### Slides
+[ppt](https://drive.google.com/file/d/175B33o_wiHB3Ew3Eh1ESzs3FQ-Dxvufm/view?usp=sharing)
 {{% /talk %}}
 {{% talk time="02:00pm" title="Can NSM provide networking superpowers for 5G?" %}}
 The presentation will:
@@ -256,6 +260,8 @@ programming for cost effectiveness. He is involved in various open source commun
 Network Service Mesh and P4.org. He is also participating at the IETF, co-authoring and collaborating on various 
 drafts for SPRING based service-programming and SFC.
 {{% /speaker %}}
+### Slides
+[ppt](https://drive.google.com/file/d/1BxcNgNA0dtuvNKEEdUwYqX9dLhuJdDln/view?usp=sharing)
 {{% /talk %}}
 {{% talk time="04:00pm" title="Speakers panel - Q&A" %}}
 Join the NSM Community for an open Q&A of speakers and contributors.
