@@ -119,6 +119,8 @@ systems, cloud computing, disaster recovery, policy based mobile workloads mgmt,
 holds several patents in cloud computing, hierarchical data center deployments, cloud based disaster recovery, high 
 availability, etc.
 {{% /speaker %}}
+### Slides
+[pdf](https://drive.google.com/file/d/118dQzrESuWwtf-ND1EBhqtlUuVCxYhJi/view?usp=sharing)
 {{% /talk %}}
 {{% talk time="11:30am" title="Building upon NSM to create inter-cluster private L3 networks" %}}
 The NSM inter-domain feature adds the ability for NSM to create connections between clients and network service 
@@ -169,6 +171,8 @@ Brooklyn Blockstore, as well as a contractor with the Institute of Mathematics a
 Academy of Sciences for NLP related projects. She's been speaking to various events including KubeCon, 
 Open Networking Summit and Open Source Summit EU. 
 {{% /speaker %}}
+### Slides
+[ppt](https://drive.google.com/file/d/1wxDsvEMRvOJDnYaWdha1tAvMOBioPjD-/view?usp=sharing)
 {{% /talk %}}
 {{% talk time="01:30pm" title="I hear you like meshes, here’s a mesh to connect your meshes" %}}
 There are many application service mesh related projects (Istio, Linkerd, SMI, etc.).  Network Service Mesh (NSM) 
