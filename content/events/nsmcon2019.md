@@ -130,12 +130,6 @@ multiple NSM domains.  This presentation and demo will explore an example implem
 service endpoint, the NSM inter-domain deployment, and resulting dataplane connectivity details across multiple 
 Kubernetes clusters.  We will discuss the integration of existing application service mesh L4-L7 features with 
 the virtual L3 NSE to highlight the simplifications in the application admin experience.
-### Slides
-[ppt](https://drive.google.com/open?id=1r0JNhJhn8RutMf62fmUR9WlWaApoWeMp)
-{{% /talk %}}
-{{% talk time="11:30am" title="Building upon NSM to create inter-cluster private L3 networks" %}}
-This presentation describes how to create a virtual layer 3 topology (vL3) across two public cloud environments.  After the 
-vL3 is setup that topology is used to show database replication across the two environments. 
 ### Speakers
 {{%speaker name="Tim Swanson - Senior Technical Lead, Cisco Systems" twitter="tiswanso" github="tiswanso" linkedin="tim-swanson-7379264" img="/img/events/nsmcon2019/timswanson.png" %}}
 Tim is a senior technical lead engineer at Cisco in the office of the CTO for Cloud Platform & Solutions. Tim’s 
@@ -190,11 +184,6 @@ application connectivity solution with Istio integration to provide the control,
 applications require ACROSS multiple clouds.  We will demo Istio service discovery working with NSM connected 
 workloads.  Envoy with form an application service mesh on top of the network mesh created by NSM.  This will allow 
 Istio to provide seamless control over microservices regardless of how they are connected.
-### Slides 
-[ppt](https://drive.google.com/open?id=175B33o_wiHB3Ew3Eh1ESzs3FQ-Dxvufm)
-{{% /talk %}}
-{{% talk time="01:30pm" title="I hear you like meshes, here’s a mesh to connect your meshes" %}}
-This presentation will show how you can layer an Istio application service mesh on top of an NSM created vL3 topology. 
 ### Speakers
 {{% speaker name="John Joyce - Principal Engineer, Cisco Systems" github="john-a-joyce" img="/img/events/nsmcon2019/johnjoyce.jpg" %}}
 John is a principal engineer at Cisco responsible for developing cloud infrastructure and solutions. As part of the 
