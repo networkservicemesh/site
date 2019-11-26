@@ -71,6 +71,8 @@ Cloud Native NF and Kubernetes sessions and workshops. His engagement includes o
 OPNFV, Intel SDN/NFV developer labs and Open networking summits, extends digitally through his technology 
 microblog: <a href="http://twitter.com/premsankar"><i class="fab fa-twitter"></i></a>.
 {{% /speaker %}}
+### Slides
+[html](https://calcotestudios.com/talks/decks/slides-nsmcon-kubecon-na-2019-adopting-network-service-mesh-with-meshery.html)
 {{% /talk %}}
 {{% talk time="10:15am" title="BREAK" %}}
 Coffee and refreshments will be offered during this 15 minute break.
