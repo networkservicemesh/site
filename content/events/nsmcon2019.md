@@ -13,7 +13,51 @@ toc = true
 
 Monday Nov 18, 2019 | San Diego, California
 
-{{% talk time="09:00am" title="Keynotes" %}} {{% /talk %}}
+{{% talk time="09:00am" title="Keynote: What is Network Service Mesh?" %}}
+### Speaker
+{{% speaker name="Ed Warnicke - Distinguished Consulting Engineer, Cisco Systems" github="edwarnicke" twitter="edwarnicke" linkedin="edwarnicke" img="" %}}
+Ed Warnicke is a Distinguished Consulting Engineer at Cisco Systems. He has been working for over a decade in many 
+areas of networking and Open Source. Ed is a founder of and active contributor to the Network Service Mesh project. 
+Ed has a masters in Physics (String Theory) from Rutgers University.
+{{% /speaker %}}
+### Slides
+[google slides](https://docs.google.com/presentation/d/1z_9n5MXVRWhT8UP5JEsfeeV-1gblouTztAcaoi1aUoE/edit)
+### Video
+[youtube](https://www.youtube.com/watch?v=uRYNIgd5tOU&list=PLHE270yTf267iiLz3wudakud7jtQjayLZ&index=1)
+{{% /talk %}}
+{{% talk time="09:05am" title="Keynote: Why NSM Matters" %}}
+### Speaker
+{{% speaker name="Nikolay Nikolaev - Open Source Networking Team Lead, VMware" github="nickolaev" twitter="NTNikolaev" linkedin="nnikolaev" img="" %}}
+Nikolay Nikolaev is an Open Source Networking Team Lead in the Open Source Technology Center at VMware and a core 
+maintainer on the Network Service Mesh project. For the last 16 years, he has been implementing networking software 
+ranging from hardware boxes to powerful server applications and virtualized dataplanes. He spent some time in the 
+virtualization world with projects like KVM, DPDK and OpenStack.
+
+{{% /speaker %}}
+### Video
+[youtube](https://www.youtube.com/watch?v=KVK6H9uVMzU&list=PLHE270yTf267iiLz3wudakud7jtQjayLZ&index=2)
+{{% /talk %}}
+
+{{% talk time="09:10am" title="Keynote: Enterprises love NSM too!" %}}
+### Speaker
+{{% speaker name="Frederick Kautz - Head of Edge Infrastructure and Federated Learning, doc.ai" github="fkautz" twitter="ffkiv" linkedin="fkautz" img="" %}}
+* Head of Edge Infrastructure and Federated Learning at Doc.ai. 
+* NSM Co-Creator and Committer.
+* X-Factor CNF Methodology author & Organizer (CNF Best Practices)
+* Open Network Intelligence Creator (AI on Networking Dataplane)
+* Founding member of ODL CoE (Container integration in ODL)
+
+He was previously a Senior Principal SW Eng in the CTO Office at Red Hat where he focused on improving container 
+networking. His past experiences also include building big data pipelines, complex continuous integration systems, 
+scale-out storage, and early contributions to Docker.
+
+{{% /speaker %}}
+### Slides
+[google slides](https://docs.google.com/presentation/d/1kteshv-b2vasd2RCooh9ymmKql4Bp7R3M9uFdAXdCm8/edit#slide=id.p1)
+### Video
+[youtube](https://www.youtube.com/watch?v=4sN4eWG3e7c&list=PLHE270yTf267iiLz3wudakud7jtQjayLZ&index=3)
+{{% /talk %}}
+
 {{% talk time="09:15am" title="NSM, a network noob's point of view" %}}
 The Network Service Mesh advertises itself as a novel approach to complex networking. 
 This statement is just as intriguing as it is vague! This talk will shed light on NSM by 
@@ -31,6 +75,9 @@ conceptual and formal modeling, to support the design and documentation of compl
 ### Slides
 * [pdf](https://drive.google.com/file/d/1iUad6ebZMeeHswEqMHIyYQPR1li9X_Vi/view?usp=sharing)
 * [keynote](https://drive.google.com/file/d/1x14BwEEj0V1HVVUudrw9BlBnQjqxS6HR/view?usp=sharing)
+
+### Video
+[youtube](https://www.youtube.com/watch?v=RTa6owwlXIs&list=PLHE270yTf267iiLz3wudakud7jtQjayLZ&index=5)
 
 {{% /talk %}}
 {{% talk time="09:45am" title="Adopting Network Service Mesh with Meshery" %}} 
@@ -73,6 +120,8 @@ microblog: <a href="http://twitter.com/premsankar"><i class="fab fa-twitter"></i
 {{% /speaker %}}
 ### Slides
 [html](https://calcotestudios.com/talks/decks/slides-nsmcon-kubecon-na-2019-adopting-network-service-mesh-with-meshery.html)
+### Video
+[youtube](https://www.youtube.com/watch?v=4xKixsDTtdM&list=PLHE270yTf267iiLz3wudakud7jtQjayLZ&index=5)
 {{% /talk %}}
 {{% talk time="10:15am" title="BREAK" %}}
 Coffee and refreshments will be offered during this 15 minute break.
@@ -106,6 +155,8 @@ operators. Before joining Cisco, Zia graduated from Cal Poly San Luis Obispo wit
 ### Slides
 
 [ppt](https://drive.google.com/file/d/1gCstid5plU16ogcAlT83-EOvT25HNc_F/view?usp=sharing)
+### Video
+[youtube](https://www.youtube.com/watch?v=gn39S8yqXwI&list=PLHE270yTf267iiLz3wudakud7jtQjayLZ&index=6)
 {{% /talk %}}
 {{% talk time="11:00am" title="Integrating Tungsten Fabric and Network Service Mesh " %}}
 Come learn how we have integrated Tungsten Fabric and NSM to supercharge Kubernetes networking! Learn how to connect 
@@ -123,6 +174,8 @@ availability, etc.
 {{% /speaker %}}
 ### Slides
 [pdf](https://drive.google.com/file/d/118dQzrESuWwtf-ND1EBhqtlUuVCxYhJi/view?usp=sharing)
+### Video
+[youtube](https://www.youtube.com/watch?v=NKlu2rSTQa0&list=PLHE270yTf267iiLz3wudakud7jtQjayLZ&index=7)
 {{% /talk %}}
 {{% talk time="11:30am" title="Building upon NSM to create inter-cluster private L3 networks" %}}
 The NSM inter-domain feature adds the ability for NSM to create connections between clients and network service 
@@ -150,6 +203,8 @@ long history contributing to various Cisco virtual and physical networking produ
 [ppt](https://drive.google.com/file/d/1r0JNhJhn8RutMf62fmUR9WlWaApoWeMp/view?usp=sharing)
 
 [demo video](https://drive.google.com/file/d/1w6vdcGrZprHC23JmnRdvKHyRvYyQIXz4/view?usp=sharing)
+### Video
+[youtube](https://www.youtube.com/watch?v=sb-vfDg_gb8&list=PLHE270yTf267iiLz3wudakud7jtQjayLZ&index=8)
 {{% /talk %}}
 {{% talk time="12:00pm" title="LUNCH - sponsored by Juniper Networks" %}}
 Lunch will be provided during this one hour break courtesy of our lunch sponsor 
@@ -175,6 +230,8 @@ Open Networking Summit and Open Source Summit EU.
 {{% /speaker %}}
 ### Slides
 [ppt](https://drive.google.com/file/d/1wxDsvEMRvOJDnYaWdha1tAvMOBioPjD-/view?usp=sharing)
+### Video
+[youtube](https://www.youtube.com/watch?v=xiZJgQJehgk&list=PLHE270yTf267iiLz3wudakud7jtQjayLZ&index=9)
 {{% /talk %}}
 {{% talk time="01:30pm" title="I hear you like meshes, here’s a mesh to connect your meshes" %}}
 There are many application service mesh related projects (Istio, Linkerd, SMI, etc.).  Network Service Mesh (NSM) 
@@ -202,6 +259,8 @@ on manageability. His spare time consists coaching sports and generally being ac
 {{% /speaker %}}
 ### Slides
 [ppt](https://drive.google.com/file/d/175B33o_wiHB3Ew3Eh1ESzs3FQ-Dxvufm/view?usp=sharing)
+### Video
+[youtube](https://www.youtube.com/watch?v=5P7YXke1nZM&list=PLHE270yTf267iiLz3wudakud7jtQjayLZ&index=10)
 {{% /talk %}}
 {{% talk time="02:00pm" title="Can NSM provide networking superpowers for 5G?" %}}
 The presentation will:
@@ -228,6 +287,8 @@ open source since 2009. His current role is chief architect for the company wide
 {{% /speaker %}}
 ### Slides
 [ppt](https://drive.google.com/file/d/1S4bwCN9tQVQU9L_G97FOW0313i2iKj7s/view?usp=sharing)
+### Video
+[youtube](https://www.youtube.com/watch?v=fJ4suWfZY-Y&list=PLHE270yTf267iiLz3wudakud7jtQjayLZ&index=11)
 {{% /talk %}}
 {{% talk time="02:30pm" title="Facilitating more complex use cases in the CNF Testbed with NSM" %}}
 The CNF Testbed initiative provides a vendor-neutral space to explore and evaluate open source networking technologies 
@@ -249,6 +310,8 @@ Open Source Networking Team Lead in the Open Source Technology Center at VMware 
 {{% /speaker %}}
 ### Slides
 [Google Slides](https://docs.google.com/presentation/d/17AaTknOmtOsDvjmOmjTYUrlfb_6c2yEqQqC0LFRZKgc/edit#slide=id.g78ce633830_3_65)
+### Video
+[youtube](https://www.youtube.com/watch?v=gFBaKusvUvM&list=PLHE270yTf267iiLz3wudakud7jtQjayLZ&index=12)
 {{% /talk %}}
 {{% talk time="3:00pm" title="BREAK" %}}
 Coffee and refreshments will be offered during this 30 minute break.
@@ -268,9 +331,13 @@ drafts for SPRING based service-programming and SFC.
 {{% /speaker %}}
 ### Slides
 [ppt](https://drive.google.com/file/d/1BxcNgNA0dtuvNKEEdUwYqX9dLhuJdDln/view?usp=sharing)
+### Video
+[youtube](https://www.youtube.com/watch?v=w6MfsYpAO4s&list=PLHE270yTf267iiLz3wudakud7jtQjayLZ&index=13)
 {{% /talk %}}
 {{% talk time="04:00pm" title="Speakers panel - Q&A" %}}
 Join the NSM Community for an open Q&A of speakers and contributors.
+### Video
+[youtube](https://www.youtube.com/watch?v=MaP9142tJTw&list=PLHE270yTf267iiLz3wudakud7jtQjayLZ&index=14)
 {{% /talk %}}
 
 # Why Attend NSMCon?
