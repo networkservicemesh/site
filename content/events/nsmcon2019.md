@@ -13,7 +13,58 @@ toc = true
 
 Monday Nov 18, 2019 | San Diego, California
 
+<<<<<<< Updated upstream
 {{% talk time="09:00am" title="Keynotes" %}} {{% /talk %}}
+=======
+{{% talk time="09:00am" title="Keynote: What is Network Service Mesh?" %}}
+### Speaker
+{{% speaker name="Ed Warnicke - Distinguished Consulting Engineer, Cisco Systems" github="edwarnicke" twitter="edwarnicke" linkedin="edwarnicke" img="" %}}
+Ed Warnicke is a Distinguished Consulting Engineer at Cisco Systems. He has been working for over a decade in many 
+areas of networking and Open Source. Ed is a founder of and active contributor to the Network Service Mesh project. 
+Ed has a masters in Physics (String Theory) from Rutgers University.
+{{% /speaker %}}
+### Slides
+[google slides](https://docs.google.com/presentation/d/1z_9n5MXVRWhT8UP5JEsfeeV-1gblouTztAcaoi1aUoE/edit)
+### Video
+[youtube](https://www.youtube.com/watch?v=uRYNIgd5tOU&list=PLHE270yTf267iiLz3wudakud7jtQjayLZ&index=1)
+{{% /talk %}}
+{{% talk time="09:05am" title="Keynote: Why NSM Matters" %}}
+### Speaker
+{{% speaker name="Nikolay Nikolaev - Open Source Networking Team Lead, VMware" github="nickolaev" twitter="NTNikolaev" linkedin="nnikolaev" img="" %}}
+Nikolay Nikolaev is an Open Source Networking Team Lead in the Open Source Technology Center at VMware and a core 
+maintainer on the Network Service Mesh project. For the last 16 years, he has been implementing networking software 
+ranging from hardware boxes to powerful server applications and virtualized dataplanes. He spent some time in the 
+virtualization world with projects like KVM, DPDK and OpenStack.
+
+{{% /speaker %}}
+### Slides
+[ppt](https://drive.google.com/file/d/1kMq1tpIiFcxR3LgUBuiW06LgmspdDQaO/view?usp=sharing)
+
+### Video
+[youtube](https://www.youtube.com/watch?v=KVK6H9uVMzU&list=PLHE270yTf267iiLz3wudakud7jtQjayLZ&index=2)
+{{% /talk %}}
+
+{{% talk time="09:10am" title="Keynote: Enterprises love NSM too!" %}}
+### Speaker
+{{% speaker name="Frederick Kautz - Head of Edge Infrastructure and Federated Learning, doc.ai" github="fkautz" twitter="ffkiv" linkedin="fkautz" img="" %}}
+* Head of Edge Infrastructure and Federated Learning at Doc.ai. 
+* NSM Co-Creator and Committer.
+* X-Factor CNF Methodology author & Organizer (CNF Best Practices)
+* Open Network Intelligence Creator (AI on Networking Dataplane)
+* Founding member of ODL CoE (Container integration in ODL)
+
+He was previously a Senior Principal SW Eng in the CTO Office at Red Hat where he focused on improving container 
+networking. His past experiences also include building big data pipelines, complex continuous integration systems, 
+scale-out storage, and early contributions to Docker.
+
+{{% /speaker %}}
+### Slides
+[google slides](https://docs.google.com/presentation/d/1kteshv-b2vasd2RCooh9ymmKql4Bp7R3M9uFdAXdCm8/edit#slide=id.p1)
+### Video
+[youtube](https://www.youtube.com/watch?v=4sN4eWG3e7c&list=PLHE270yTf267iiLz3wudakud7jtQjayLZ&index=3)
+{{% /talk %}}
+
+>>>>>>> Stashed changes
 {{% talk time="09:15am" title="NSM, a network noob's point of view" %}}
 The Network Service Mesh advertises itself as a novel approach to complex networking. 
 This statement is just as intriguing as it is vague! This talk will shed light on NSM by 
