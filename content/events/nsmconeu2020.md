@@ -30,4 +30,4 @@ Join the people building and using NSM at Network Service Mesh Con for a day of 
 
 # Become a Sponsor
 
-Review [NSMCon Prospectus](/pdf/NSMCon2019Prospectus.pdf) and contact sponsors@networkservicemesh.io to secure your sponsorship today.
+Review [NSMCon Prospectus](/pdf/NSMConEU2020Prospectus.pdf) and contact sponsors@networkservicemesh.io to secure your sponsorship today.
