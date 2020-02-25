@@ -38,13 +38,20 @@ apply to their networks. Adopting legacy approaches from the NFV era forces para
 erode some if not most of the benefits that making this transition promised in the first place. Technologies such as
 NSM present new opportunities for tackling these challenges via adopting cloud native software practices.
 
-### Speaker
+### Speakers
 {{% speaker name="Jeffrey Saelens - Principal Engineer, Charter Communications" twitter="nerdengineering" github="jeffsaelens" linkedin="jeffrey-saelens-30211020" img="/img/events/nsmconeu2020/jeffrey_saelens.jpg"%}}
 Jeffrey Saelens is a Principal Architect in Charter Communications’ Office of the CTO. Starting his career in the
 US Army, Jeffrey was a Green Beret who focused on communications and systems engineering. After leaving the military,
 he dove into the service provider world heavily focusing on NFV and SDN transformations within data center, core and
 access networks.
 {{% /speaker %}}
+{{% speaker name="W. Watson - Principal Consultant, Vulk Coop" twitter="elementwatson" github="wavell" linkedin="wavell" img="/img/events/nsmconeu2020/watson.jpg"%}}
+W. Watson has been professionally developing software for more than 25 years and is an advocate of open source 
+governance models. He has spent the last couple of years developing complementary cloud native systems such as the 
+cncf.ci dashboard. He currently works on the Layer 2 integration to Packet.net for the CNF Testbed and the CNF 
+Conformance initiative.
+{{% /speaker %}}
+
 {{% /talk %}}
 {{% talk time="10:15am" title="BREAK" %}}
 {{% /talk %}}
