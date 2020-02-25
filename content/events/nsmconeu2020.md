@@ -67,7 +67,7 @@ various Telecom and Networking projects with different organizations including E
 Systems. In her current role she mainly focuses on leading connectivity and networking solutions for cloud native
 applications. This also includes prototyping solutions for Telecom-specific requirements.
 {{% /speaker %}}
-{{% speaker name="Anders Franzen - Technology Specialist, Ericsson" %}}
+{{% speaker name="Anders Franzen - Technology Specialist, Ericsson" img="/img/events/nsmconeu2020/anders_franzen.png"%}}
 Anders Franzen is an engineer in Ericsson AB with 30+ years of professional experience in HA-systems,
 networking and operating systems for telco. Living in Stockholm, Sweden. He is currently working with the
 transition into the cloud native paradigm
