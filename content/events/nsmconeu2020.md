@@ -190,7 +190,7 @@ engineers that are exploring the boundaries between Enterprise Networks and the 
 about 50 patents filed with the US PTO, is one of the founders of the OpenOverlayRouter.org open source project,
 and has a PhD in Computer Networking and Security from Politecnico di Torino, Italy.   
 {{% /speaker %}}
-{{% speaker name="Lorand Jakab - Software Engineer, Cisco Systems" linkedin="lorand" %}}
+{{% speaker name="Lorand Jakab - Software Engineer, Cisco Systems" linkedin="lorand" github="ljakab" twitter="ljakab"%}}
 Lorand Jakab is a Software Engineer in the Enterprise Networking CTO team at Cisco, His interest in Cloud Native and
 networks comes from his work with LISP network overlays in the OpenOverlayRouter.org open source project, of which
 he is one of the founders. Lorand has a phD in Computer Science from Universitat Politècnica de Catalunya,
@@ -210,14 +210,14 @@ cloud-native high-performance behavior - for example, industry use cases like Te
 Tradings, HPC systems and more.
 
 ### Speakers
-{{% speaker name="Radoslav Dimitrov - Open Source Software Engineer, VMware" twitter="radoslav_dimitr" github="rdimitrov" linkedin="radoslavdimitrov" %}}
+{{% speaker name="Radoslav Dimitrov - Open Source Software Engineer, VMware" twitter="radoslav_dimitr" github="rdimitrov" linkedin="radoslavdimitrov" img="/img/events/nsmconeu2020/radoslav_dimitrov.jpeg" %}}
 Radoslav Dimitrov is working as a full-time Open Source Software Engineer at VMware. Currently, he’s contributing
 to the Network Service Mesh project, but before that he was working on other open source projects like OpenStack,
 OPNFV, QEMU and OpenFaaS. He has spoken at previous LF events like Open Network Summit and Open Source Summit.
 Prior to his work at VMware, he worked remotely for a French-based virtualization company focused on HPC systems
 and ARM devices.
 {{% /speaker %}}
-{{% speaker name="Przemyslaw Lal - Software Engineer,  Intel/TietoEVRY" github="przemeklal" %}}
+{{% speaker name="Przemyslaw Lal - Software Engineer,  Intel/TietoEVRY" github="przemeklal" linkedin="przemysław-lal-267972a1" img="/img/events/nsmconeu2020/przemek_lal.jpeg" %}}
 Cloud software engineer with over 4 years of experience in cloud-native infrastructure software development,
 specialized in enabling Kubernetes for NFV use cases, including data plane acceleration, advanced network interfaces
 plumbing features and optimization of hardware resources allocation for Kubernetes workloads. He has contributed to
