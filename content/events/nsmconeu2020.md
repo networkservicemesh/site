@@ -177,7 +177,7 @@ configurations applied to the application workload objects. We show a proof of c
 CN-WAN significantly improves the application quality of experience.
 
 ### Speakers
-{{% speaker name="Fabio Maino - Distinguished Engineer, Cisco Systems" linkedin="fabio-maino-4132301" %}}
+{{% speaker name="Fabio Maino - Distinguished Engineer, Cisco Systems" linkedin="fabio-maino-4132301" img="/img/events/nsmconeu2020/fabio_maino.jpg" %}}
 Fabio Maino is a Distinguished Engineer in the Enterprise Networking CTO team at Cisco where he leads a small team of
 engineers that are exploring the boundaries between Enterprise Networks and the Cloud Native ecosystem. Fabio has
 about 50 patents filed with the US PTO, is one of the founders of the OpenOverlayRouter.org open source project,
