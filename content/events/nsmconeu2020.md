@@ -61,7 +61,7 @@ be addressed today using kubernetes primary networking model. The seminar will h
 enhance Network service mesh framework to support telco use cases.
 
 ### Speakers
-{{% speaker name="Roshini Ratnam - Networking and Connectivity Architect, Ericsson" github="roshnihp" linkedin="roshini-r-0995763b" twitter="roshnihp" %}}
+{{% speaker name="Roshini Ratnam - Networking and Connectivity Architect, Ericsson" github="roshnihp" linkedin="roshini-r-0995763b" twitter="roshnihp" img="/img/events/nsmconeu2020/roshini_ratnam.jpg"%}}
 Roshini Ratnam, is an Architect in Cloud Native Connectivity at Ericsson. Roshini has above 10 years of experience in
 various Telecom and Networking projects with different organizations including Ericsson, Nokia Networks and Cisco
 Systems. In her current role she mainly focuses on leading connectivity and networking solutions for cloud native
