@@ -57,7 +57,7 @@ nsm/vpp-icmp-responder          0.2.0           0.2.0           Endpoints and Cl
 ```
 
 * [icmp-responder](/docs/examples/icmp-responder/) - A simple example that connects an App Pod Client to a Network Service.
-* [vpp-icmp-responder](/docs/examples/vpp-icmp-example/) - A simple example that connects a vpp based Pod to a Network Service using memif.
+* [vpp-icmp-responder](/docs/examples/vpp-icmp-responder/) - A simple example that connects a vpp based Pod to a Network Service using memif.
 * [vpn](/docs/examples/vpn/) - An example that simulates an App Pod Client connecting to a Network Service implemented as a chain simulating a [VPN Use Case](https://docs.google.com/presentation/d/1Vzmhv5vc10NyAa08ny-CCbveo0_fWkDckbkCD_N0fPg/edit#slide=id.g49bd4e8739_0_12)
 
 The community maintains additional examples in [examples/](https://github.com/networkservicemesh/examples)
