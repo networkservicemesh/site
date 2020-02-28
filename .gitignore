@@ -6,3 +6,7 @@ resources/
 node_modules/
 
 .idea/
+
+# Link checker assets
+bin/
+tmp/

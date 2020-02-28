@@ -1,19 +1,34 @@
 yarn:
 	yarn
 
+clean:
+	rm -rf public resources
+
 serve: yarn
 	hugo server \
 		--buildDrafts \
 		--buildFuture \
 		--disableFastRender
 
-production-build:
+production-build: clean
 	hugo \
 		--minify
 
-preview-build:
+	make check-internal-links
+
+preview-build: clean
 	hugo \
 		--baseURL $(DEPLOY_PRIME_URL) \
 		--buildDrafts \
 		--buildFuture \
 		--minify
+
+	make check-internal-links
+
+install-link-checker:
+	curl https://raw.githubusercontent.com/wjdp/htmltest/master/godownloader.sh | bash
+
+run-link-checker:
+	bin/htmltest
+
+check-internal-links: install-link-checker run-link-checker

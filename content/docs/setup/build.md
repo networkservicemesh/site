@@ -59,7 +59,7 @@ make helm-install-nsm                                        # install the nsm i
 ```bash
 make helm-install-icmp-responder
 ```
-* [vpp-icmp-responder](/docs/examples/vpp-icmp-example/) - A simple example that connects a vpp based Pod to a Network Service using memif.  
+* [vpp-icmp-responder](/docs/examples/vpp-icmp-responder/) - A simple example that connects a vpp based Pod to a Network Service using memif.  
 ```bash
 make helm-install-vpp-icmp-responder
 ```
