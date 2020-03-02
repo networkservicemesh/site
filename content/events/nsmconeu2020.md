@@ -103,8 +103,10 @@ This presentation intends to demonstrate the benefits of a kubernetes operator, 
 and operator lifecycle manager using the nsm-operator as an example.
 
 ## Speaker
-{{% speaker name="Alexandre Menezes - Service Reliability Engineer - SRE, Red Hat" %}}
-A cloud native developer and SRE.
+{{% speaker name="Matt Dorn - Principal Engineer, Red Hat" twitter="matthewdorn" github="madorn" linkedin="matthewdorn" img="/img/events/nsmconeu2020/matt_dorn.jpg" %}}
+Matt Dorn is a Principal Engineer at Red Hat and helps hundreds of IT teams around the world succeed with cloud native technology. He is the author of the “Preparing for the Certified OpenStack Administrator Exam” book, creator of the O’Reilly “Getting Starting with OpenStack” online class, and one of the leaders of the San Antonio Kubernetes MeetUp.
+Matt previously worked at CoreOS as a Field Engineer and Senior Technical Instructor. Prior to CoreOS, he worked at Rackspace and trained engineers on building clouds with OpenStack.
+Matt blogs at madorn.com and is fanatical about providing an easy-to-understand learning path that makes technology accessible and fun.
 {{% /speaker %}}
 {{% /talk %}}
 {{% talk time="12:00pm" title="LUNCH" %}}
