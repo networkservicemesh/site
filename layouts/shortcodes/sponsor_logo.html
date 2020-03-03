@@ -1,14 +1,17 @@
 {{ $sponsor_name      := .Get "sponsor_name"}}
 {{ $src          := .Get "src"}}
 {{ $href         := .Get "href"}}
-{{ $width        := .Get "width"}}
-{{ $height        := .Get "$height"}}
+{{ $class        := .Get "class"}}
 
+{{ if $class }}
+{{ else }}
+{{ $class = "sponsor_logo" }}
+{{ end }}
 
 <div class="level-item">
     <figure class="image">
       <a href="{{ $href }}">
-        <img src="{{ $src }}" alt="{{ $sponsor_name }}" class="sponsor_logo" />
+        <img src="{{ $src }}" alt="{{ $sponsor_name }}" class="{{ $class }}" />
       </a>
     </figure>
 </div>

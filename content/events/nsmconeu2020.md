@@ -274,3 +274,10 @@ Join the people building and using NSM at Network Service Mesh Con for a day of 
 # Become a Sponsor
 
 Review [NSMCon Prospectus](/pdf/NSMConEU2020Prospectus.pdf) and contact sponsors@networkservicemesh.io to secure your sponsorship today.
+
+# Sponsors
+
+{{% sponsor_section sponsor_type="Event Sponsors" %}}
+{{< sponsor_logo sponsor_name="Anthem Digital" src="/img/events/nsmconeu2020/anthem_digital_logo.svg" href="https://anthem.ai/" class="nsmconeu2020_sponsor_logo" >}}
+{{< sponsor_logo sponsor_name="Cisco Systems" src="/img/events/nsmcon2019/cisco-logo.svg" href="https://www.cisco.com/" class="nsmconeu2020_sponsor_logo" >}}
+{{% /sponsor_section %}}
