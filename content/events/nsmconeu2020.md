@@ -1,6 +1,6 @@
 +++
 title = "NSMCon EU 2020"
-subtitle = ["March 30,2020 | Amsterdam, The Netherlands","Colocated with [Kubecon+CloudNativeCon EU 2020](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/)"]
+subtitle = ["August 13,2020 | Amsterdam, The Netherlands","Colocated with [Kubecon+CloudNativeCon EU 2020](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/)"]
 date = "2019-11-18"
 publishDate ="2019-08-02"
 toc = true
@@ -14,7 +14,7 @@ toc = true
 
 # Schedule
 
-March 30,2020 | Amsterdam, The Netherlands
+August 13,2020 | Amsterdam, The Netherlands
 
 {{% talk time="09:00am" title="Keynotes" %}}
 {{% /talk %}}
