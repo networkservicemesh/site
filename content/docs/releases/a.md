@@ -1,7 +1,7 @@
 +++
 title = "Andromeda release v0.1.0"
 image = "/img/releases/andromeda.png"
-weight = 1
+weight = 2
 date = "2019-05-14"
 publishDate ="2019-04-03"
 +++
