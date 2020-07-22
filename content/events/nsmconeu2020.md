@@ -198,6 +198,14 @@ networks comes from his work with LISP network overlays in the OpenOverlayRouter
 he is one of the founders. Lorand has a phD in Computer Science from Universitat Politècnica de Catalunya,
 BarcelonaTech.   
 {{% /speaker %}}
+{{% speaker name="Alberto Rodriguez Natal - Software Engineer, Cisco Systems" linkedin="rodrigueznatal" github="arnatal" img="/img/events/nsmconeu2020/alberto-rodriguez-natal.jpg" %}}
+Alberto Rodriguez-Natal is a Research Engineer in the Enterprise Networking CTO team at Cisco, working
+on network virtualization, systems architecture, and protocol design. Before joining Cisco, he earned a
+PhD in Software-Defined Networking at BarcelonaTech. Alberto has been an active participant at the IETF
+for many years and in the past he was one of the main maintainers of the OpenOverlayRouter opensource
+project. His current obsession is how Enterprise Networks can better serve Cloud-Native
+applications.
+{{% /speaker %}}
 {{% /talk %}}
 {{% talk time="03:00pm" title="BREAK" %}}
 {{% /talk %}}
