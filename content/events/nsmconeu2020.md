@@ -14,11 +14,11 @@ toc = true
 
 # Schedule
 
-Monday, August 17,2020 | Amsterdam, The Netherlands
+Monday, August 17,2020 -  13:00-20:30 CEST | Virtual
 
-{{% talk time="09:00am" title="Keynotes" %}}
+{{% talk time="13:00:00+02" title="Keynotes" %}}
 {{% /talk %}}
-{{% talk time="09:15am" title="Inside Network Service Mesh" %}}
+{{% talk time="13:15:00+02" title="Inside Network Service Mesh" %}}
 The Network Service Mesh (NSM) is a novel, ambitious approach to implement cloud native networking. At the core of NSM 
 is a set of APIs designed to implement scalable, reliable, on-demand connectivity between Network Service Endpoints. 
 Using a systems modeling approach, this talk will shed light on NSM’s APIs and architecture. Together, we shall
@@ -31,7 +31,7 @@ Dominik is a Principal Engineer in the Office of the CTO at Cisco. He focuses on
 conceptual and formal modeling, to support the design and documentation of complex software systems.
 {{% /speaker %}}
 {{% /talk %}}
-{{% talk time="09:45am" title="A Break From the Past, Why CNFs Must Move Beyond the NFV Mentality" %}}
+{{% talk time="13:45:00+02" title="A Break From the Past, Why CNFs Must Move Beyond the NFV Mentality" %}}
 Cloud native software approaches are infiltrating Telcos at an ever accelerating pace. The conundrum many operators
 find themselves faced with, is understanding what it really means to be cloud native, and how these principles
 apply to their networks. Adopting legacy approaches from the NFV era forces paradigms onto the network that potentially
@@ -53,9 +53,9 @@ Conformance initiative.
 {{% /speaker %}}
 
 {{% /talk %}}
-{{% talk time="10:15am" title="BREAK" %}}
+{{% talk time="14:15:00+02" title="BREAK" %}}
 {{% /talk %}}
-{{% talk time="10:30am" title="Offloading dataplane from the network services for Telco usecases" %}}
+{{% talk time="14:30:00+02" title="Offloading dataplane from the network services for Telco usecases" %}}
 Network Service Mesh provides a better framework to solve some of the key challenging telco requirements that cannot 
 be addressed today using kubernetes primary networking model. The seminar will highlight the proposals that can
 enhance Network service mesh framework to support telco use cases.
@@ -73,7 +73,7 @@ networking and operating systems for telco. Living in Stockholm, Sweden. He is c
 transition into the cloud native paradigm
 {{% /speaker %}}
 {{% /talk %}}
-{{% talk time="11:00am" title="Using DNS to smooth your NSM adoption" %}}
+{{% talk time="15:00:00+02" title="Using DNS to smooth your NSM adoption" %}}
 Network Service Mesh is rapidly evolving to support more complex topologies, especially in hybrid or multicloud 
 environments.  In these environments service advertisement and discovery also become significantly more complex.
 There are two distinct problems.  The first is discovery of NSM network services by all the NSM deployments.
@@ -98,7 +98,7 @@ Tim was primarily involved in developing embedded features for Cisco’s physica
 on manageability. His spare time consists coaching sports and generally being active with his 2 children.
 {{% /speaker %}}
 {{% /talk %}}
-{{% talk time="11:30am" title="The NSM Operator" %}}
+{{% talk time="15:30:00+02" title="The NSM Operator" %}}
 This presentation intends to demonstrate the benefits of a kubernetes operator, a quick introduction to operator-sdk
 and operator lifecycle manager using the nsm-operator as an example.
 
@@ -109,9 +109,9 @@ Matt previously worked at CoreOS as a Field Engineer and Senior Technical Instru
 Matt blogs at madorn.com and is fanatical about providing an easy-to-understand learning path that makes technology accessible and fun.
 {{% /speaker %}}
 {{% /talk %}}
-{{% talk time="12:00pm" title="LUNCH" %}}
+{{% talk time="16:00:00+02" title="LUNCH" %}}
 {{% /talk %}}
-{{% talk time="01:00pm" title="NSM Interdomain:  Functional Walkthrough, Use-cases, and Demo" %}}
+{{% talk time="17:00:00+02" title="NSM Interdomain:  Functional Walkthrough, Use-cases, and Demo" %}}
 The ability of Network Service Mesh to provide connections between network service clients and endpoints regardless
 of their deployment domain is very attractive and exciting for those providing infrastructure for multi-cluster and
 multi-cloud applications.  However, NSM’s highly distributed architecture and flexibility in the component
@@ -137,7 +137,7 @@ long history contributing to various Cisco virtual and physical networking produ
 {{% /speaker %}}
 
 {{% /talk %}}
-{{% talk time="01:30pm" title="Attesting, Authenticating and Authorizing NSM Components with SPIRE" %}}
+{{% talk time="17:30:00+02" title="Attesting, Authenticating and Authorizing NSM Components with SPIRE" %}}
 In the course of normal operation, many different NSM components touch the control and data paths. Any one of
 these services could be compromised to modify or capture network traffic. To prevent this, NSM can use SPIRE, a
 CNCF project which creates a secure X.509 encryption certificate for each service based on its true identity as
@@ -154,7 +154,7 @@ Daniel Feldman works on SPIFFE service authentication technology, including SPIR
 implemented service authentication at Veritas Technologies.  
 {{% /speaker %}}
 {{% /talk %}}
-{{% talk time="02:00pm" title="Traffic visualization solutions for NSM" %}}
+{{% talk time="18:00:00+02" title="Traffic visualization solutions for NSM" %}}
 Тhe NSM project already announced its second release and is now in a pretty good stage of capabilities it can offer,
 including inter-domain connectivity, DNS support, secure gRPC communication and more. It also provides communication
 visibility of dropped and successfully transmitted bytes and packets between each connected client and endpoint.
@@ -174,7 +174,7 @@ Academy of Sciences for NLP related projects. She's been speaking to various eve
 Open Networking Summit and Open Source Summit EU. 
 {{% /speaker %}}
 {{% /talk %}}
-{{% talk time="02:30pm" title="CN-WAN: a Cloud Native (SD-)WAN for Microservice Applications" %}}
+{{% talk time="18:30:00+02" title="CN-WAN: a Cloud Native (SD-)WAN for Microservice Applications" %}}
 SDWAN provides WAN optimization services such as latency reduction, throughput improvement, TCP optimization, and
 packet loss prevention. However, existing solutions can’t  offer such services with microservices granularity. As a
 result, cloud native applications are missing the opportunity to efficiently use those precious WAN resources on both
@@ -207,9 +207,9 @@ project. His current obsession is how Enterprise Networks can better serve Cloud
 applications.
 {{% /speaker %}}
 {{% /talk %}}
-{{% talk time="03:00pm" title="BREAK" %}}
+{{% talk time="19:00:00+02" title="BREAK" %}}
 {{% /talk %}}
-{{% talk time="03:30pm" title="Cloud-native SR-IOV with Network Service Mesh" %}}
+{{% talk time="19:30:00+02" title="Cloud-native SR-IOV with Network Service Mesh" %}}
 Advertising hardware devices in Kubernetes is possible through the device plugin framework. An example of such a 
 plugin is the Intel SR-IOV network device plugin that lets you discover and advertise hardware network devices in
 Kubernetes. In this talk, we’ll introduce a new forwarding plane that enables the SR-IOV device plugin for use with
@@ -237,7 +237,7 @@ Device Plugin and, most recently, Network Service Mesh.
 
 ### Speakers
 {{% /talk %}}
-{{% talk time="04:00pm" title="NSM Customer Success! QoE, L3VPN, and NAT64 oh my!" %}}
+{{% talk time="20:00:00+02" title="NSM Customer Success! QoE, L3VPN, and NAT64 oh my!" %}}
 In this session, Zia Syed and Dan Bernier will present an NSM Customer Success story! After meeting at NSMCon 2019,
 Bell and Cisco partnered together to combine their NSM visions. In this session, Zia and Dan will present how they
 took NSM proof-of-concept ideas and made them into functional use-cases that benefit Bell’s business goals.

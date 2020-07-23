@@ -31,3 +31,15 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  talkTimes = document.getElementsByClassName('talktime');
+  for (let i = 0; i < talkTimes.length; i++) {
+    talkTime = talkTimes[i]
+    dt = luxon.DateTime.fromISO(talkTime.textContent)
+    if (!dt.invalid) {
+      localTime = dt.toLocaleString({hour: '2-digit', minute: '2-digit', hour12: true, timeZoneName: 'short'})
+      talkTime.textContent = localTime
+    }
+  }
+});
