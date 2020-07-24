@@ -1,5 +1,13 @@
+{{- $inServerMode := site.IsServer }}
 {{ $app := resources.Get "js/app.js" | fingerprint }}
 {{ $jquery := resources.Get "js/jquery-3.4.1.min.js" | fingerprint }}
-<script src="{{ $jquery.RelPermalink }}" integrity="{{ $jquery.Data.Integrity }}"></script>
-<script src="{{ $app.RelPermalink }}" integrity="{{ $app.Data.Integrity }}"></script>
-
+{{ $luxon := resources.Get "js/luxon.js" | fingerprint }}
+{{- if $inServerMode }}
+  <script src="{{ $jquery.RelPermalink }}" integrity="{{ $jquery.Data.Integrity }}"></script>
+  <script src="{{ $luxon.RelPermalink }}" integrity="{{ $luxon.Data.Integrity }}"></script>
+  <script src="{{ $app.RelPermalink }}" integrity="{{ $app.Data.Integrity }}"></script>
+{{- else }}
+  {{ $js := slice $jquery $luxon $app | resources.Concat "js/bundle.js" }}
+  {{- $prodJs      := $js | minify | fingerprint }}
+  <script src="{{ $prodJs.RelPermalink }}" integrity="{{ $prodJs.Data.Integrity }}"></script>
+{{- end }}
