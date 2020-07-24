@@ -8,8 +8,14 @@ toc = true
   name="Register"
   href="https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/register/"
 [[buttons]]
-  name="Become a Sponsor"
-  href="/pdf/NSMConEU2020Prospectus.pdf"
+  name="Attend"
+  href="https://zoom.us/j/97760475558"
+[[buttons]]
+  name="Participate"
+  href="https://cloud-native.slack.com/messages/CHSKJ4849/"
+[[buttons]]
+  name="Slack Invite"
+  href="https://slack.cncf.io/"
 +++
 
 # Schedule
@@ -25,6 +31,10 @@ Using a systems modeling approach, this talk will shed light on NSM’s APIs and
 untangle the mesh and arrive at a concise and accurate mental model of NSM’s internals, its core components and
 their interactions - If you want to know how the Network Service Mesh works, this presentation is for you.
 
+[![Attend](https://img.shields.io/badge/Attend-lightgrey.svg?style=plastic)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
+[![Participate](https://img.shields.io/badge/Participate-lightgrey.svg?style=plastic&logo=slack)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
+[![Slack Invite](https://img.shields.io/badge/Slack%20Invite-lightgrey.svg?style=plastic&logo=slack)](https://slack.cncf.io/)
+
 ### Speaker
 {{% speaker name="Dominik Tornow - Principal Engineer, Cisco Systems" github="dtornow" linkedin="dtornow" img="/img/events/nsmcon2019/tornow.png" %}}
 Dominik is a Principal Engineer in the Office of the CTO at Cisco. He focuses on systems modeling, specifically 
@@ -37,6 +47,10 @@ find themselves faced with, is understanding what it really means to be cloud na
 apply to their networks. Adopting legacy approaches from the NFV era forces paradigms onto the network that potentially
 erode some if not most of the benefits that making this transition promised in the first place. Technologies such as
 NSM present new opportunities for tackling these challenges via adopting cloud native software practices.
+
+[![Attend](https://img.shields.io/badge/Attend-lightgrey.svg?style=plastic)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
+[![Participate](https://img.shields.io/badge/Participate-lightgrey.svg?style=plastic&logo=slack)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
+[![Slack Invite](https://img.shields.io/badge/Slack%20Invite-lightgrey.svg?style=plastic&logo=slack)](https://slack.cncf.io/)
 
 ### Speakers
 {{% speaker name="Jeffrey Saelens - Principal Engineer, Charter Communications" twitter="nerdengineering" github="jeffsaelens" linkedin="jeffrey-saelens-30211020" img="/img/events/nsmconeu2020/jeffrey_saelens.jpg"%}}
@@ -59,6 +73,10 @@ Conformance initiative.
 Network Service Mesh provides a better framework to solve some of the key challenging telco requirements that cannot 
 be addressed today using kubernetes primary networking model. The seminar will highlight the proposals that can
 enhance Network service mesh framework to support telco use cases.
+
+[![Attend](https://img.shields.io/badge/Attend-lightgrey.svg?style=plastic)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
+[![Participate](https://img.shields.io/badge/Participate-lightgrey.svg?style=plastic&logo=slack)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
+[![Slack Invite](https://img.shields.io/badge/Slack%20Invite-lightgrey.svg?style=plastic&logo=slack)](https://slack.cncf.io/)
 
 ### Speakers
 {{% speaker name="Roshini Ratnam - Networking and Connectivity Architect, Ericsson" github="roshnihp" linkedin="roshini-r-0995763b" twitter="roshnihp" img="/img/events/nsmconeu2020/roshini_ratnam.jpg"%}}
@@ -83,6 +101,11 @@ NSM can meet all the complex service advertisement and discovery issues multiclo
 into detail on how to configure NSM and NSEs to provide service discovery to the workloads.  Additionally, we will
 show how externaldns can be used to register Floating Inter-domain NSRs to allow discovery of NSM network services.
 
+[![Attend](https://img.shields.io/badge/Attend-lightgrey.svg?style=plastic)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
+[![Participate](https://img.shields.io/badge/Participate-lightgrey.svg?style=plastic&logo=slack)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
+[![Slack Invite](https://img.shields.io/badge/Slack%20Invite-lightgrey.svg?style=plastic&logo=slack)](https://slack.cncf.io/)
+
+
 ### Speakers
 {{% speaker name="John Joyce - Principal Engineer, Cisco Systems" github="john-a-joyce" img="/img/events/nsmcon2019/johnjoyce.jpg" %}}
 John is a principal engineer at Cisco responsible for developing cloud infrastructure and solutions. As part of the 
@@ -102,6 +125,10 @@ on manageability. His spare time consists coaching sports and generally being ac
 This presentation intends to demonstrate the benefits of a kubernetes operator, a quick introduction to operator-sdk
 and operator lifecycle manager using the nsm-operator as an example.
 
+[![Attend](https://img.shields.io/badge/Attend-lightgrey.svg?style=plastic)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
+[![Participate](https://img.shields.io/badge/Participate-lightgrey.svg?style=plastic&logo=slack)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
+[![Slack Invite](https://img.shields.io/badge/Slack%20Invite-lightgrey.svg?style=plastic&logo=slack)](https://slack.cncf.io/)
+
 ## Speaker
 {{% speaker name="Matt Dorn - Principal Engineer, Red Hat" twitter="matthewdorn" github="madorn" linkedin="matthewdorn" img="/img/events/nsmconeu2020/matt_dorn.jpg" %}}
 Matt Dorn is a Principal Engineer at Red Hat and helps hundreds of IT teams around the world succeed with cloud native technology. He is the author of the “Preparing for the Certified OpenStack Administrator Exam” book, creator of the O’Reilly “Getting Starting with OpenStack” online class, and one of the leaders of the San Antonio Kubernetes MeetUp.
@@ -120,6 +147,10 @@ This talk will walk-through the NSM components involved, various control-plane f
 requirements for interdomain NSM.  We will also introduce some of the control-plane deployment variations, such as
 floating interdomain.  Additionally, we will demonstrate an NSM interdomain deployment to highlight component and
 domain specific details, as well as, usage with specific clients and endpoints for a network-service.
+
+[![Attend](https://img.shields.io/badge/Attend-lightgrey.svg?style=plastic)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
+[![Participate](https://img.shields.io/badge/Participate-lightgrey.svg?style=plastic&logo=slack)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
+[![Slack Invite](https://img.shields.io/badge/Slack%20Invite-lightgrey.svg?style=plastic&logo=slack)](https://slack.cncf.io/)
 
 ### Speakers
 {{% speaker name="Tim Swanson - Senior Technical Lead, Cisco Systems" twitter="tiswanso" github="tiswanso" linkedin="tim-swanson-7379264" img="/img/events/nsmcon2019/timswanson.png" %}}
@@ -145,6 +176,10 @@ reported by Kubernetes (or other infrastructure like AWS), interpreted by rules 
 In this talk, we will discuss what NSM operators need to know about SPIRE: how it ensures security, how to configure
 it to secure NSM traffic, and how to operate a scalable and reliable central SPIRE server in the context of NSM.
 
+[![Attend](https://img.shields.io/badge/Attend-lightgrey.svg?style=plastic)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
+[![Participate](https://img.shields.io/badge/Participate-lightgrey.svg?style=plastic&logo=slack)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
+[![Slack Invite](https://img.shields.io/badge/Slack%20Invite-lightgrey.svg?style=plastic&logo=slack)](https://slack.cncf.io/)
+
 ### Speakers
 {{% speaker name="Ilya Lobkov - Software Engineer, Xored" github="lobkovilya" linkedin="ilya-lobkov-44465b122" %}}
 Ilya Lobkov develops NSM at Xored. 
@@ -165,6 +200,10 @@ a 4G LTE network example deployed with NSM, share the path for their further int
 and improve in that direction. The talk is aiming to provoke a discussion around the preferences of those interested
 in adopting the project and using such functionality in future.
 
+[![Attend](https://img.shields.io/badge/Attend-lightgrey.svg?style=plastic)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
+[![Participate](https://img.shields.io/badge/Participate-lightgrey.svg?style=plastic&logo=slack)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
+[![Slack Invite](https://img.shields.io/badge/Slack%20Invite-lightgrey.svg?style=plastic&logo=slack)](https://slack.cncf.io/)
+
 ### Speaker
 {{% speaker name="Ivana Atanasova - Open Source Engineer, VMware" twitter="ivanabyov" github="ivanayov" linkedin="ivana-atanasova-15119b98" img="/img/events/nsmcon2019/ivanaatanasova.jpg"%}}
 Ivana Atanasova is part of the VMware’s Open Source Program Office. She’s been contributing to OpenFaaS as a project 
@@ -184,6 +223,10 @@ construct to plug a microservice application to the entry point of an SDWAN to o
 granularity. The proposed approach allows developers to declare specific application traffic SLAs using simple
 configurations applied to the application workload objects. We show a proof of concept implementation where using
 CN-WAN significantly improves the application quality of experience.
+
+[![Attend](https://img.shields.io/badge/Attend-lightgrey.svg?style=plastic)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
+[![Participate](https://img.shields.io/badge/Participate-lightgrey.svg?style=plastic&logo=slack)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
+[![Slack Invite](https://img.shields.io/badge/Slack%20Invite-lightgrey.svg?style=plastic&logo=slack)](https://slack.cncf.io/)
 
 ### Speakers
 {{% speaker name="Fabio Maino - Distinguished Engineer, Cisco Systems" linkedin="fabio-maino-4132301" img="/img/events/nsmconeu2020/fabio_maino.jpg" %}}
@@ -219,6 +262,10 @@ hardware devices in a cloud-native way using the NSM API. This benefits every en
 cloud-native high-performance behavior - for example, industry use cases like Telco, Fintech, High-Frequency
 Tradings, HPC systems and more.
 
+[![Attend](https://img.shields.io/badge/Attend-lightgrey.svg?style=plastic)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
+[![Participate](https://img.shields.io/badge/Participate-lightgrey.svg?style=plastic&logo=slack)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
+[![Slack Invite](https://img.shields.io/badge/Slack%20Invite-lightgrey.svg?style=plastic&logo=slack)](https://slack.cncf.io/)
+
 ### Speakers
 {{% speaker name="Radoslav Dimitrov - Open Source Software Engineer, VMware" twitter="radoslav_dimitr" github="rdimitrov" linkedin="radoslavdimitrov" img="/img/events/nsmconeu2020/radoslav_dimitrov.jpeg" %}}
 Radoslav Dimitrov is working as a full-time Open Source Software Engineer at VMware. Currently, he’s contributing
@@ -235,6 +282,10 @@ various open-source projects such as OpenStack, Intel CPU Manager for Kubernetes
 Device Plugin and, most recently, Network Service Mesh.
 {{% /speaker %}}
 
+[![Attend](https://img.shields.io/badge/Attend-lightgrey.svg?style=plastic)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
+[![Participate](https://img.shields.io/badge/Participate-lightgrey.svg?style=plastic&logo=slack)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
+[![Slack Invite](https://img.shields.io/badge/Slack%20Invite-lightgrey.svg?style=plastic&logo=slack)](https://slack.cncf.io/)
+
 ### Speakers
 {{% /talk %}}
 {{% talk time="20:00:00+02" title="NSM Customer Success! QoE, L3VPN, and NAT64 oh my!" %}}
@@ -248,6 +299,10 @@ traffic engineering, path steering, or even virtual topology creation to contain
 the use-cases have grown, with L3-VPN taking center stage as an NSM service created out of this partnership.
 One of Bell’s key use cases is to attach a cloud-native network function (NFV) endpoint directly to an L3VPN VRF.
 With NSM we can do this!
+
+[![Attend](https://img.shields.io/badge/Attend-lightgrey.svg?style=plastic)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
+[![Participate](https://img.shields.io/badge/Participate-lightgrey.svg?style=plastic&logo=slack)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
+[![Slack Invite](https://img.shields.io/badge/Slack%20Invite-lightgrey.svg?style=plastic&logo=slack)](https://slack.cncf.io/)
 
 ### Speakers
 {{% speaker name="Zia Syed - System Engineer, Cisco Systems" linkedin="therealziasyed" img="/img/events/nsmcon2019/ziasyed.jpeg" %}}
