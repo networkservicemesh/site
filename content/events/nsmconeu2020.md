@@ -130,6 +130,14 @@ and operator lifecycle manager using the nsm-operator as an example.
 [![Slack Invite](https://img.shields.io/badge/Slack%20Invite-lightgrey.svg?style=plastic&logo=slack)](https://slack.cncf.io/)
 
 ## Speaker
+{{% speaker name="Alexandre Menezes - Service Reliability Engineer, Red Hat" github="acmenezes" linkedin="alexandre-menezes-4b804a97" img="/img/events/nsmconeu2020/alexandre_menezes.jpg" %}}
+Alexandre Menezes is a Service Reliability Engineer working at Red Hat with the Operator Enablement Team helping customers and partners 
+succeed in developing and packaging their applications with the operator framework. With 17 years of experience in the IT industry, he has 
+worked on data center networking, storage area networking, linux systems solutions and IT operations analytics. 
+Most recently, in the past 3 years, he has been working on Kubernetes, Openshift, devops and container solutions. 
+And he has also been an instructor for networking and python, ansible, containers and kubernetes on workshops and bootcamps.
+{{% /speaker %}}
+
 {{% speaker name="Matt Dorn - Principal Engineer, Red Hat" twitter="matthewdorn" github="madorn" linkedin="matthewdorn" img="/img/events/nsmconeu2020/matt_dorn.jpg" %}}
 Matt Dorn is a Principal Engineer at Red Hat and helps hundreds of IT teams around the world succeed with cloud native technology. He is the author of the “Preparing for the Certified OpenStack Administrator Exam” book, creator of the O’Reilly “Getting Starting with OpenStack” online class, and one of the leaders of the San Antonio Kubernetes MeetUp.
 Matt previously worked at CoreOS as a Field Engineer and Senior Technical Instructor. Prior to CoreOS, he worked at Rackspace and trained engineers on building clouds with OpenStack.
