@@ -38,10 +38,10 @@ Come join the Network Service Mesh Community
 [![Participate](https://img.shields.io/badge/Participate-lightgrey.svg?style=plastic&logo=slack)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
 [![Slack Invite](https://img.shields.io/badge/Slack%20Invite-lightgrey.svg?style=plastic&logo=slack)](https://slack.cncf.io/)
 
-{{% speaker name="Frederick F. Kautz IV - Head of Edge Infrastructure, doc.ai" twitter="ffkiv" github="fkautz" linkedin="fkautz" img="/img/events/nsmconeu2020/frederick_kautz.jpg"%}}
+{{% speaker name="Frederick F. Kautz IV - Head of Edge Infrastructure, doc.ai" twitter="ffkiv" github="fkautz" linkedin="fkautz" img="/img/events/nsmconeu2020/frederick_kautz.png"%}}
 Frederick Kautz is the Head of Edge Infrastructure at Doc.ai. His work serves as the foundation for the CNCF Telecom User Group. Frederick also participates in the Cloud Infrastructure Telecom Taskforce (CNTT, a joint effort between Linux Foundation and GSMA) and is a lead in OVP 2.0 to certify and badge 5G infrastructure for use in Telecom. Previously, he was in Red Hat’s Office of the CTO team, where he fathered Red Hat Container Storage Engine. He is also a founder of Network Service Mesh, a CNCF Project.
 {{% /speaker %}}
-{{% speaker name="Bobby Samuel - Staff VP of Engineering, Anthem Inc." twitter="" github="" linkedin="" img="/img/events/nsmconeu2020/bobby_samuel.jpg"%}}
+{{% speaker name="Bobby Samuel - Staff VP of Engineering, Anthem Inc." twitter="" github="" linkedin="" img="/img/events/nsmconeu2020/bobby_samuel.png"%}}
 Bobby Samuel, leads the Anthem AI and software engineering teams based out of Palo Alto, CA. The Anthem AI team is made up of world class engineers, clinical professionals, data scientists, and AI mathematicians with a mission to improve patient outcomes. Bobby and his team partner across the Anthem Digital ecosystem to deploy clinical products and solutions at enterprise scale, leveraging cloud native technologies and deep learning networks. Bobby joined Anthem in July 2010 and has served in various leadership roles to drive organizational transformation spanning people, process and technology. Prior to joining the AI team, Bobby was a key technology leader on a core systems modernization program and was also responsible for flagship claims system. Before joining Anthem, he held roles in software delivery and health care consulting.
 {{% /speaker %}}
 {{% /talk %}}
