@@ -22,7 +22,28 @@ toc = true
 
 Monday, August 17,2020 -  13:00-20:30 CEST | Virtual
 
-{{% talk time="13:00:00+02" title="Keynotes" %}}
+{{% talk time="13:00:00+02" title="Keynote - Anthem Inc." %}}
+Edge Infrastructure will cause Enterprise and Service Provider network infrastructure to converge. 
+Enterprise networks will integrate seamelessly with Service Providers.
+The current techniques do not operationally or technically scale. 
+This convergence calls for a new operational and security paradigm.
+
+Network Service Mesh will provide Cloud Native APIs which will help bridge the gap.
+These API calls are rooted in the Zero Trust security model which will facilitate federated workload identity.
+Once federated identity is established, networks between enterprises and service providers will seamlessly merge while simultaneously providing fine-grained control of resources.
+
+Come join the Network Service Mesh Community
+
+[![Attend](https://img.shields.io/badge/Attend-lightgrey.svg?style=plastic)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
+[![Participate](https://img.shields.io/badge/Participate-lightgrey.svg?style=plastic&logo=slack)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
+[![Slack Invite](https://img.shields.io/badge/Slack%20Invite-lightgrey.svg?style=plastic&logo=slack)](https://slack.cncf.io/)
+
+{{% speaker name="Frederick F. Kautz IV - Head of Edge Infrastructure, doc.ai" twitter="ffkiv" github="fkautz" linkedin="fkautz" img="/img/events/nsmconeu2020/frederick_kautz.jpg"%}}
+Frederick Kautz is the Head of Edge Infrastructure at Doc.ai. His work serves as the foundation for the CNCF Telecom User Group. Frederick also participates in the Cloud Infrastructure Telecom Taskforce (CNTT, a joint effort between Linux Foundation and GSMA) and is a lead in OVP 2.0 to certify and badge 5G infrastructure for use in Telecom. Previously, he was in Red Hat’s Office of the CTO team, where he fathered Red Hat Container Storage Engine. He is also a founder of Network Service Mesh, a CNCF Project.
+{{% /speaker %}}
+{{% speaker name="Bobby Samuel - Staff VP of Engineering, Anthem Inc." twitter="" github="" linkedin="" img="/img/events/nsmconeu2020/bobby_samuel.jpg"%}}
+Bobby Samuel, leads the Anthem AI and software engineering teams based out of Palo Alto, CA. The Anthem AI team is made up of world class engineers, clinical professionals, data scientists, and AI mathematicians with a mission to improve patient outcomes. Bobby and his team partner across the Anthem Digital ecosystem to deploy clinical products and solutions at enterprise scale, leveraging cloud native technologies and deep learning networks. Bobby joined Anthem in July 2010 and has served in various leadership roles to drive organizational transformation spanning people, process and technology. Prior to joining the AI team, Bobby was a key technology leader on a core systems modernization program and was also responsible for flagship claims system. Before joining Anthem, he held roles in software delivery and health care consulting.
+{{% /speaker %}}
 {{% /talk %}}
 {{% talk time="13:15:00+02" title="Inside Network Service Mesh" %}}
 The Network Service Mesh (NSM) is a novel, ambitious approach to implement cloud native networking. At the core of NSM 
