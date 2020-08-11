@@ -32,7 +32,7 @@ Network Service Mesh will provide Cloud Native APIs which will help bridge the g
 These API calls are rooted in the Zero Trust security model which will facilitate federated workload identity.
 Once federated identity is established, networks between enterprises and service providers will seamlessly merge while simultaneously providing fine-grained control of resources.
 
-Come join the Network Service Mesh Community
+Come join the Network Service Mesh community and help spearhead this important effort!
 
 [![Attend](https://img.shields.io/badge/Attend-lightgrey.svg?style=plastic)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
 [![Participate](https://img.shields.io/badge/Participate-lightgrey.svg?style=plastic&logo=slack)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
