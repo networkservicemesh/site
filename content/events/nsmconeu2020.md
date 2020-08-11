@@ -22,7 +22,7 @@ toc = true
 
 Monday, August 17,2020 -  13:00-20:30 CEST | Virtual
 
-{{% talk time="13:00:00+02" title="Keynote - Anthem Inc." %}}
+{{% talk time="13:00:00+02" title="Keynote: Anthem Inc." %}}
 Edge Infrastructure will cause Enterprise and Service Provider network infrastructure to converge. 
 Enterprise networks will integrate seamelessly with Service Providers.
 The current techniques do not operationally or technically scale. 
