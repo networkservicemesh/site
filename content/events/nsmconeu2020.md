@@ -260,41 +260,24 @@ applications.
 {{% /talk %}}
 {{% talk time="19:00:00+02" title="BREAK" %}}
 {{% /talk %}}
-{{% talk time="19:30:00+02" title="Cloud-native SR-IOV with Network Service Mesh" %}}
-Advertising hardware devices in Kubernetes is possible through the device plugin framework. An example of such a 
-plugin is the Intel SR-IOV network device plugin that lets you discover and advertise hardware network devices in
-Kubernetes. In this talk, we’ll introduce a new forwarding plane that enables the SR-IOV device plugin for use with
-Network Service Mesh (NSM) – a CNCF Sandbox project solving complicated L2/L3 use cases challenging the existing
-network model in Kubernetes. Combining that with the high-performance features of SR-IOV makes it possible to consume
-hardware devices in a cloud-native way using the NSM API. This benefits every enterprise software demanding
-cloud-native high-performance behavior - for example, industry use cases like Telco, Fintech, High-Frequency
-Tradings, HPC systems and more.
+{{% talk time="19:30:00+02" title="Simpler, Faster, More Flexible: Forward Evolution of NSM" %}}
+As a community, NSM has accomplished a lot, and learned a lot.  Those learnings are being applied to making 
+Network Service Mesh simpler, faster, and more flexible.  Come hear about the changes already underway to make it easier and faster to build NSM components,
+further improve resiliency of the system, reduce further latency for healing and recovery, and most importantly: improve development
+velocity.
+
 
 [![Attend](https://img.shields.io/badge/Attend-lightgrey.svg?style=plastic)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
 [![Participate](https://img.shields.io/badge/Participate-lightgrey.svg?style=plastic&logo=slack)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
 [![Slack Invite](https://img.shields.io/badge/Slack%20Invite-lightgrey.svg?style=plastic&logo=slack)](https://slack.cncf.io/)
 
-### Speakers
-{{% speaker name="Radoslav Dimitrov - Open Source Software Engineer, VMware" twitter="radoslav_dimitr" github="rdimitrov" linkedin="radoslavdimitrov" img="/img/events/nsmconeu2020/radoslav_dimitrov.jpeg" %}}
-Radoslav Dimitrov is working as a full-time Open Source Software Engineer at VMware. Currently, he’s contributing
-to the Network Service Mesh project, but before that he was working on other open source projects like OpenStack,
-OPNFV, QEMU and OpenFaaS. He has spoken at previous LF events like Open Network Summit and Open Source Summit.
-Prior to his work at VMware, he worked remotely for a French-based virtualization company focused on HPC systems
-and ARM devices.
-{{% /speaker %}}
-{{% speaker name="Przemyslaw Lal - Software Engineer,  Intel/TietoEVRY" github="przemeklal" linkedin="przemysław-lal-267972a1" img="/img/events/nsmconeu2020/przemek_lal.jpeg" %}}
-Cloud software engineer with over 4 years of experience in cloud-native infrastructure software development,
-specialized in enabling Kubernetes for NFV use cases, including data plane acceleration, advanced network interfaces
-plumbing features and optimization of hardware resources allocation for Kubernetes workloads. He has contributed to
-various open-source projects such as OpenStack, Intel CPU Manager for Kubernetes, SRIOV CNI plugin, SRIOV Network
-Device Plugin and, most recently, Network Service Mesh.
+### Speaker
+{{% speaker name="Ed Warnicke - Distinguished Consulting Engineer, Cisco Systems" twitter="edwarnicke" github="edwarnicke" linkedin="edwarnicke" img="/img/events/nsmconeu2020/edwarnicke.jpg" %}}
+Ed Warnicke is a Distinguished Consulting Engineerat Cisco Systems. He has been working for over a decade in many areas
+of networking and Open Source. Ed is a founder of and active contributor to the Network Service Mesh project. 
+Ed has a masters in Physics (String Theory) from Rutgers University.
 {{% /speaker %}}
 
-[![Attend](https://img.shields.io/badge/Attend-lightgrey.svg?style=plastic)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
-[![Participate](https://img.shields.io/badge/Participate-lightgrey.svg?style=plastic&logo=slack)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
-[![Slack Invite](https://img.shields.io/badge/Slack%20Invite-lightgrey.svg?style=plastic&logo=slack)](https://slack.cncf.io/)
-
-### Speakers
 {{% /talk %}}
 {{% talk time="20:00:00+02" title="NSM Customer Success! QoE, L3VPN, and NAT64 oh my!" %}}
 In this session, Zia Syed and Dan Bernier will present an NSM Customer Success story! After meeting at NSMCon 2019,
