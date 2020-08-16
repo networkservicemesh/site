@@ -323,13 +323,13 @@ application and network optimization.  Over the past three years, he has worked 
 solutions, and futuristic innovations to develop transformations in scalability, automation, and efficiency for Web 
 operators. Before joining Cisco, Zia graduated from Cal Poly San Luis Obispo with a degree in Computer Science.
 {{% /speaker %}}
-{{% speaker name="Daniel Bernier - Senior Technical Architect, Bell Canada" github="dabernie" twitter="danbernie01" linkedin="dabernie" img="/img/events/nsmcon2019/dbernier.jpg" %}}
-Daniel is a Senior Architect in the Network Strategy team at Bell Canada involved in research and development of 
-disruptive technologies transforming the Telco space. He is currently working on the edge cloud strategy and 
-cloud-native transformation leveraging optimized CP/UP separation and advances in network and hardware 
-programming for cost effectiveness. He is involved in various open source community projects such as FD.io, 
-Network Service Mesh and P4.org. He is also participating at the IETF, co-authoring and collaborating on various 
-drafts for SPRING based service-programming and SFC.
+{{% speaker name="Bruce McDougall - Systems Architect, Cisco Systems" github="brmcdoug" twitter="brucemcdougall" linkedin="bruce-mcdougall-02503a1" img="/img/events/nsmcon2019/bmcdougall.png"%}}
+Bruce McDougall is a Systems Architect at Cisco where he has spent 10 years working with some of the world’s most 
+sophisticated Web/OTT and Telco operators on high scale network architecture, Segment Routing, MPLS, SDN, and network 
+automation. Prior to Cisco, Bruce spent a number of years as a network engineer and architect working in both the web 
+and service provider sectors.  His goal is to help large scale network operators move toward centralized control planes 
+and common API-driven dataplanes across all transport networks, which will improve the ability to innovate on top of 
+the network and lead to massive increases in operational scale.
 {{% /speaker %}}
 {{% /talk %}}
 
