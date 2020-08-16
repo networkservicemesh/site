@@ -12,7 +12,7 @@ toc = true
   href="https://zoom.us/j/97760475558"
 [[buttons]]
   name="Participate"
-  href="https://cloud-native.slack.com/messages/CHSKJ4849/"
+  href="https://cloud-native.slack.com/messages/CHQNNUPN1/"
 [[buttons]]
   name="Slack Invite"
   href="https://slack.cncf.io/"
