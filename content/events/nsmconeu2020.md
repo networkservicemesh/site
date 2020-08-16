@@ -111,6 +111,16 @@ Anders Franzen is an engineer in Ericsson AB with 30+ years of professional expe
 networking and operating systems for telco. Living in Stockholm, Sweden. He is currently working with the
 transition into the cloud native paradigm
 {{% /speaker %}}
+{{% speaker name="Tarik Hammam - System Manager, Ericsson" %}}
+Tarik is an engineer working in Ericsson AB with 40+ years of  professional experience in the R&D related areas of 
+telco core network systems design. Living in Stockholm, Sweden. He is currently involved with the transition towards 
+the cloud native paradigm.
+{{% /speaker %}}
+{{% speaker name="Johan Ljunglid - Engineer, Ericsson" img="/img/events/nsmconeu2020/johan_ljunglid.jpg" %}}
+Johan Ljunglid is an engineer at Ericsson AB with a background in network services, proxies, and load balancing. 
+His main focus areas include network infrastructure and architecture and he is currently working with Kubernetes and 
+cloud native applications for telecom use cases.
+{{% /speaker %}}
 {{% /talk %}}
 {{% talk time="15:00:00+02" title="Using DNS to smooth your NSM adoption" %}}
 Network Service Mesh is rapidly evolving to support more complex topologies, especially in hybrid or multicloud 
