@@ -111,7 +111,7 @@ Anders Franzen is an engineer in Ericsson AB with 30+ years of professional expe
 networking and operating systems for telco. Living in Stockholm, Sweden. He is currently working with the
 transition into the cloud native paradigm
 {{% /speaker %}}
-{{% speaker name="Tarik Hammam - System Manager, Ericsson" %}}
+{{% speaker name="Tarik Hammam - System Manager, Ericsson" img="/img/events/nsmconeu2020/tarik_hammam.jpg" %}}
 Tarik is an engineer working in Ericsson AB with 40+ years of  professional experience in the R&D related areas of 
 telco core network systems design. Living in Stockholm, Sweden. He is currently involved with the transition towards 
 the cloud native paradigm.
