@@ -34,16 +34,18 @@ Once federated identity is established, networks between enterprises and service
 
 Come join the Network Service Mesh community and help spearhead this important effort!
 
-[![Attend](https://img.shields.io/badge/Attend-lightgrey.svg?style=plastic)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
-[![Participate](https://img.shields.io/badge/Participate-lightgrey.svg?style=plastic&logo=slack)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
-[![Slack Invite](https://img.shields.io/badge/Slack%20Invite-lightgrey.svg?style=plastic&logo=slack)](https://slack.cncf.io/)
-
 {{% speaker name="Frederick F. Kautz IV - Head of Edge Infrastructure, doc.ai" twitter="ffkiv" github="fkautz" linkedin="fkautz" img="/img/events/nsmconeu2020/frederick_kautz.png"%}}
 Frederick Kautz is the Head of Edge Infrastructure at Doc.ai. His work serves as the foundation for the CNCF Telecom User Group. Frederick also participates in the Cloud Infrastructure Telecom Taskforce (CNTT, a joint effort between Linux Foundation and GSMA) and is a lead in OVP 2.0 to certify and badge 5G infrastructure for use in Telecom. Previously, he was in Red Hat’s Office of the CTO team, where he fathered Red Hat Container Storage Engine. He is also a founder of Network Service Mesh, a CNCF Project.
 {{% /speaker %}}
 {{% speaker name="Bobby Samuel - Staff VP of Engineering, Anthem Inc." twitter="" github="" linkedin="" img="/img/events/nsmconeu2020/bobby_samuel.png"%}}
 Bobby Samuel, leads the Anthem AI and software engineering teams based out of Palo Alto, CA. The Anthem AI team is made up of world class engineers, clinical professionals, data scientists, and AI mathematicians with a mission to improve patient outcomes. Bobby and his team partner across the Anthem Digital ecosystem to deploy clinical products and solutions at enterprise scale, leveraging cloud native technologies and deep learning networks. Bobby joined Anthem in July 2010 and has served in various leadership roles to drive organizational transformation spanning people, process and technology. Prior to joining the AI team, Bobby was a key technology leader on a core systems modernization program and was also responsible for flagship claims system. Before joining Anthem, he held roles in software delivery and health care consulting.
 {{% /speaker %}}
+
+### Slides
+
+[google slides](https://docs.google.com/presentation/d/14X7nhMH09xax-4L0rP-6t5stwKyZt7oIKBzBllkeJvg/edit#slide=id.g90b7193e76_1_93)
+
+
 {{% /talk %}}
 {{% talk time="13:15:00+02" title="Inside Network Service Mesh" %}}
 The Network Service Mesh (NSM) is a novel, ambitious approach to implement cloud native networking. At the core of NSM 
@@ -51,10 +53,6 @@ is a set of APIs designed to implement scalable, reliable, on-demand connectivit
 Using a systems modeling approach, this talk will shed light on NSM’s APIs and architecture. Together, we shall
 untangle the mesh and arrive at a concise and accurate mental model of NSM’s internals, its core components and
 their interactions - If you want to know how the Network Service Mesh works, this presentation is for you.
-
-[![Attend](https://img.shields.io/badge/Attend-lightgrey.svg?style=plastic)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
-[![Participate](https://img.shields.io/badge/Participate-lightgrey.svg?style=plastic&logo=slack)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
-[![Slack Invite](https://img.shields.io/badge/Slack%20Invite-lightgrey.svg?style=plastic&logo=slack)](https://slack.cncf.io/)
 
 ### Speaker
 {{% speaker name="Dominik Tornow - Principal Engineer, Cisco Systems" github="dtornow" linkedin="dtornow" img="/img/events/nsmcon2019/tornow.png" %}}
@@ -86,6 +84,9 @@ governance models. He has spent the last couple of years developing complementar
 cncf.ci dashboard. He currently works on the Layer 2 integration to Packet.net for the CNF Testbed and the CNF 
 Conformance initiative.
 {{% /speaker %}}
+
+### Slides 
+[google slides](https://docs.google.com/presentation/d/1OSfXHB9L_01gUREsT1oTVekKdnebWaqrIN3hf9rEXsg/edit?ts=5f3a96b4#slide=id.g57b4039260_4_84)
 
 {{% /talk %}}
 {{% talk time="14:15:00+02" title="BREAK" %}}
