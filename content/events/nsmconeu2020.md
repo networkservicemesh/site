@@ -173,6 +173,10 @@ Matt Dorn is a Principal Engineer at Red Hat and helps hundreds of IT teams arou
 Matt previously worked at CoreOS as a Field Engineer and Senior Technical Instructor. Prior to CoreOS, he worked at Rackspace and trained engineers on building clouds with OpenStack.
 Matt blogs at madorn.com and is fanatical about providing an easy-to-understand learning path that makes technology accessible and fun.
 {{% /speaker %}}
+
+### Slides
+[google slides](https://docs.google.com/presentation/d/1621iQfCUv8Vgtj-womV6uR_iHTb2odk-U5rDnV6bHAc/edit#slide=id.g547716335e_0_220) [pdf](https://drive.google.com/file/d/19rRcgZtTRrK25k_Ux-qbht-xoHGmj6JK/view?usp=sharing)
+
 {{% /talk %}}
 {{% talk time="16:00:00+02" title="LUNCH" %}}
 {{% /talk %}}
@@ -185,10 +189,6 @@ This talk will walk-through the NSM components involved, various control-plane f
 requirements for interdomain NSM.  We will also introduce some of the control-plane deployment variations, such as
 floating interdomain.  Additionally, we will demonstrate an NSM interdomain deployment to highlight component and
 domain specific details, as well as, usage with specific clients and endpoints for a network-service.
-
-[![Attend](https://img.shields.io/badge/Attend-lightgrey.svg?style=plastic)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
-[![Participate](https://img.shields.io/badge/Participate-lightgrey.svg?style=plastic&logo=slack)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
-[![Slack Invite](https://img.shields.io/badge/Slack%20Invite-lightgrey.svg?style=plastic&logo=slack)](https://slack.cncf.io/)
 
 ### Speakers
 {{% speaker name="Tim Swanson - Senior Technical Lead, Cisco Systems" twitter="tiswanso" github="tiswanso" linkedin="tim-swanson-7379264" img="/img/events/nsmcon2019/timswanson.png" %}}
