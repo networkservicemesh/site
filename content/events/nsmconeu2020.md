@@ -59,6 +59,10 @@ their interactions - If you want to know how the Network Service Mesh works, thi
 Dominik is a Principal Engineer in the Office of the CTO at Cisco. He focuses on systems modeling, specifically 
 conceptual and formal modeling, to support the design and documentation of complex software systems.
 {{% /speaker %}}
+
+### Slides
+[keynote](https://drive.google.com/file/d/16QC_1WB6WwYbVeyeZXj7Wt7RIbEJKEuh/view) [pdf](https://drive.google.com/file/d/1Y-vnq40lNpFvv3QRFyU9XA2TIcZyx7UH/view)
+
 {{% /talk %}}
 {{% talk time="13:45:00+02" title="A Break From the Past, Why CNFs Must Move Beyond the NFV Mentality" %}}
 Cloud native software approaches are infiltrating Telcos at an ever accelerating pace. The conundrum many operators
