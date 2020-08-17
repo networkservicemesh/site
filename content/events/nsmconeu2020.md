@@ -220,9 +220,6 @@ it to secure NSM traffic, and how to operate a scalable and reliable central SPI
 [![Slack Invite](https://img.shields.io/badge/Slack%20Invite-lightgrey.svg?style=plastic&logo=slack)](https://slack.cncf.io/)
 
 ### Speakers
-{{% speaker name="Ilya Lobkov - Software Engineer, Xored" github="lobkovilya" linkedin="ilya-lobkov-44465b122" %}}
-Ilya Lobkov develops NSM at Xored. 
-{{% /speaker %}}
 {{% speaker name="Daniel Feldman - Principal Software Engineer, Scytale.io" twitter="d_feldman" github="dfeldman" linkedin="dfeldman" %}}
 Daniel Feldman works on SPIFFE service authentication technology, including SPIRE and Scytale Enterprise. He previously
 implemented service authentication at Veritas Technologies.  
