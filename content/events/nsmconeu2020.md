@@ -71,10 +71,6 @@ apply to their networks. Adopting legacy approaches from the NFV era forces para
 erode some if not most of the benefits that making this transition promised in the first place. Technologies such as
 NSM present new opportunities for tackling these challenges via adopting cloud native software practices.
 
-[![Attend](https://img.shields.io/badge/Attend-lightgrey.svg?style=plastic)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
-[![Participate](https://img.shields.io/badge/Participate-lightgrey.svg?style=plastic&logo=slack)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
-[![Slack Invite](https://img.shields.io/badge/Slack%20Invite-lightgrey.svg?style=plastic&logo=slack)](https://slack.cncf.io/)
-
 ### Speakers
 {{% speaker name="Jeffrey Saelens - Principal Engineer, Charter Communications" twitter="nerdengineering" github="jeffsaelens" linkedin="jeffrey-saelens-30211020" img="/img/events/nsmconeu2020/jeffrey_saelens.jpg"%}}
 Jeffrey Saelens is a Principal Architect in Charter Communications’ Office of the CTO. Starting his career in the
@@ -137,11 +133,6 @@ NSM can meet all the complex service advertisement and discovery issues multiclo
 into detail on how to configure NSM and NSEs to provide service discovery to the workloads.  Additionally, we will
 show how externaldns can be used to register Floating Inter-domain NSRs to allow discovery of NSM network services.
 
-[![Attend](https://img.shields.io/badge/Attend-lightgrey.svg?style=plastic)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
-[![Participate](https://img.shields.io/badge/Participate-lightgrey.svg?style=plastic&logo=slack)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
-[![Slack Invite](https://img.shields.io/badge/Slack%20Invite-lightgrey.svg?style=plastic&logo=slack)](https://slack.cncf.io/)
-
-
 ### Speakers
 {{% speaker name="John Joyce - Principal Engineer, Cisco Systems" github="john-a-joyce" img="/img/events/nsmcon2019/johnjoyce.jpg" %}}
 John is a principal engineer at Cisco responsible for developing cloud infrastructure and solutions. As part of the 
@@ -156,6 +147,9 @@ ommunities—primarily, Istio. Previously, Tim was an active contributor to Open
 Tim was primarily involved in developing embedded features for Cisco’s physical networking products, with a focus 
 on manageability. His spare time consists coaching sports and generally being active with his 2 children.
 {{% /speaker %}}
+
+### Slides
+[ppt](https://drive.google.com/file/d/1EWkBttZ312yRpWfSNW6PXLtkYnUACQVF/view?usp=sharing)
 {{% /talk %}}
 {{% talk time="15:30:00+02" title="The NSM Operator" %}}
 This presentation intends to demonstrate the benefits of a kubernetes operator, a quick introduction to operator-sdk
@@ -210,6 +204,9 @@ Cloud CTO Office, John currently focuses on contributing to the Kubernetes, Isti
 communities and building multicloud solutions. Previously, John was an active contributor to OpenStack. John has a 
 long history contributing to various Cisco virtual and physical networking products.
 {{% /speaker %}}
+
+### Slides
+[ppt](https://drive.google.com/file/d/1SWzDlVRpiY6zppx2ez-5EcXIpwZq8-yb/view?usp=sharing)
 
 {{% /talk %}}
 {{% talk time="17:30:00+02" title="Attesting, Authenticating and Authorizing NSM Components with SPIRE" %}}
