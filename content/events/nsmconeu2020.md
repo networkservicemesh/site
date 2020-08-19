@@ -45,6 +45,8 @@ Bobby Samuel, leads the Anthem AI and software engineering teams based out of Pa
 
 [google slides](https://docs.google.com/presentation/d/14X7nhMH09xax-4L0rP-6t5stwKyZt7oIKBzBllkeJvg/edit#slide=id.g90b7193e76_1_93)
 
+### Video
+[youtube](https://www.youtube.com/watch?v=GM1K2YBeEro&list=PLHE270yTf264QD8WWAv4qf3znPtYhzLoV&index=1)
 
 {{% /talk %}}
 {{% talk time="13:15:00+02" title="Inside Network Service Mesh" %}}
@@ -62,6 +64,10 @@ conceptual and formal modeling, to support the design and documentation of compl
 
 ### Slides
 [keynote](https://drive.google.com/file/d/16QC_1WB6WwYbVeyeZXj7Wt7RIbEJKEuh/view) [pdf](https://drive.google.com/file/d/1Y-vnq40lNpFvv3QRFyU9XA2TIcZyx7UH/view)
+
+### Video
+[youtube](https://www.youtube.com/watch?v=o7VEFVTtDvk&list=PLHE270yTf264QD8WWAv4qf3znPtYhzLoV&index=2)
+
 
 {{% /talk %}}
 {{% talk time="13:45:00+02" title="A Break From the Past, Why CNFs Must Move Beyond the NFV Mentality" %}}
@@ -88,6 +94,9 @@ Conformance initiative.
 ### Slides 
 [google slides](https://docs.google.com/presentation/d/1OSfXHB9L_01gUREsT1oTVekKdnebWaqrIN3hf9rEXsg/edit?ts=5f3a96b4#slide=id.g57b4039260_4_84)
 
+### Video
+[youtube](https://www.youtube.com/watch?v=g1CeD8AftX0&list=PLHE270yTf264QD8WWAv4qf3znPtYhzLoV&index=3)
+
 {{% /talk %}}
 {{% talk time="14:15:00+02" title="BREAK" %}}
 {{% /talk %}}
@@ -95,10 +104,6 @@ Conformance initiative.
 Network Service Mesh provides a better framework to solve some of the key challenging telco requirements that cannot 
 be addressed today using kubernetes primary networking model. The seminar will highlight the proposals that can
 enhance Network service mesh framework to support telco use cases.
-
-[![Attend](https://img.shields.io/badge/Attend-lightgrey.svg?style=plastic)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
-[![Participate](https://img.shields.io/badge/Participate-lightgrey.svg?style=plastic&logo=slack)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
-[![Slack Invite](https://img.shields.io/badge/Slack%20Invite-lightgrey.svg?style=plastic&logo=slack)](https://slack.cncf.io/)
 
 ### Speakers
 {{% speaker name="Roshini Ratnam - Networking and Connectivity Architect, Ericsson" github="roshnihp" linkedin="roshini-r-0995763b" twitter="roshnihp" img="/img/events/nsmconeu2020/roshini_ratnam.jpg"%}}
@@ -122,6 +127,13 @@ Johan Ljunglid is an engineer at Ericsson AB with a background in network servic
 His main focus areas include network infrastructure and architecture and he is currently working with Kubernetes and 
 cloud native applications for telecom use cases.
 {{% /speaker %}}
+
+### Slides
+[ppt](https://drive.google.com/file/d/1EllX7s_ijTfjfwB_ElogIj9DVRbdy1AJ/view?usp=sharing) [pdf](https://drive.google.com/file/d/1DycDVX3X1Elb7CZbvsH5EO4A5gbVs5IW/view?usp=sharing)
+
+### Video
+[youtube](https://www.youtube.com/watch?v=QTkrYYtDYd0&list=PLHE270yTf264QD8WWAv4qf3znPtYhzLoV&index=4)
+
 {{% /talk %}}
 {{% talk time="15:00:00+02" title="Using DNS to smooth your NSM adoption" %}}
 Network Service Mesh is rapidly evolving to support more complex topologies, especially in hybrid or multicloud 
@@ -150,14 +162,14 @@ on manageability. His spare time consists coaching sports and generally being ac
 
 ### Slides
 [ppt](https://drive.google.com/file/d/1EWkBttZ312yRpWfSNW6PXLtkYnUACQVF/view?usp=sharing)
+
+### Video
+[youtube](https://www.youtube.com/watch?v=GDKOicGUGUo&list=PLHE270yTf264QD8WWAv4qf3znPtYhzLoV&index=5)
+
 {{% /talk %}}
 {{% talk time="15:30:00+02" title="The NSM Operator" %}}
 This presentation intends to demonstrate the benefits of a kubernetes operator, a quick introduction to operator-sdk
 and operator lifecycle manager using the nsm-operator as an example.
-
-[![Attend](https://img.shields.io/badge/Attend-lightgrey.svg?style=plastic)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
-[![Participate](https://img.shields.io/badge/Participate-lightgrey.svg?style=plastic&logo=slack)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
-[![Slack Invite](https://img.shields.io/badge/Slack%20Invite-lightgrey.svg?style=plastic&logo=slack)](https://slack.cncf.io/)
 
 ## Speaker
 {{% speaker name="Alexandre Menezes - Service Reliability Engineer, Red Hat" github="acmenezes" linkedin="alexandre-menezes-4b804a97" img="/img/events/nsmconeu2020/alexandre_menezes.jpg" %}}
@@ -176,6 +188,9 @@ Matt blogs at madorn.com and is fanatical about providing an easy-to-understand 
 
 ### Slides
 [google slides](https://docs.google.com/presentation/d/1621iQfCUv8Vgtj-womV6uR_iHTb2odk-U5rDnV6bHAc/edit#slide=id.g547716335e_0_220) [pdf](https://drive.google.com/file/d/19rRcgZtTRrK25k_Ux-qbht-xoHGmj6JK/view?usp=sharing)
+
+### Video
+[youtube](https://www.youtube.com/watch?v=5PC6I0tZdd4&list=PLHE270yTf264QD8WWAv4qf3znPtYhzLoV&index=6)
 
 {{% /talk %}}
 {{% talk time="16:00:00+02" title="LUNCH" %}}
@@ -208,6 +223,10 @@ long history contributing to various Cisco virtual and physical networking produ
 ### Slides
 [ppt](https://drive.google.com/file/d/1SWzDlVRpiY6zppx2ez-5EcXIpwZq8-yb/view?usp=sharing)
 
+### Video
+[youtube](https://www.youtube.com/watch?v=TuGYud2Gd5c&list=PLHE270yTf264QD8WWAv4qf3znPtYhzLoV&index=7)
+
+
 {{% /talk %}}
 {{% talk time="17:30:00+02" title="Attesting, Authenticating and Authorizing NSM Components with SPIRE" %}}
 In the course of normal operation, many different NSM components touch the control and data paths. Any one of
@@ -217,15 +236,18 @@ reported by Kubernetes (or other infrastructure like AWS), interpreted by rules 
 In this talk, we will discuss what NSM operators need to know about SPIRE: how it ensures security, how to configure
 it to secure NSM traffic, and how to operate a scalable and reliable central SPIRE server in the context of NSM.
 
-[![Attend](https://img.shields.io/badge/Attend-lightgrey.svg?style=plastic)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
-[![Participate](https://img.shields.io/badge/Participate-lightgrey.svg?style=plastic&logo=slack)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
-[![Slack Invite](https://img.shields.io/badge/Slack%20Invite-lightgrey.svg?style=plastic&logo=slack)](https://slack.cncf.io/)
-
 ### Speakers
 {{% speaker name="Daniel Feldman - Principal Software Engineer, Scytale.io" twitter="d_feldman" github="dfeldman" linkedin="dfeldman" %}}
 Daniel Feldman works on SPIFFE service authentication technology, including SPIRE and Scytale Enterprise. He previously
 implemented service authentication at Veritas Technologies.  
 {{% /speaker %}}
+
+### Slides
+[google slides](https://docs.google.com/presentation/d/1fU2Rz5iFWAZRNqR9PSxhV-j7HXSjzJu4vq-XMNKUJXQ/edit?usp=sharing)
+
+### Video
+[youtube](https://www.youtube.com/watch?v=QfYS79SptyQ&list=PLHE270yTf264QD8WWAv4qf3znPtYhzLoV&index=8)
+
 {{% /talk %}}
 {{% talk time="18:00:00+02" title="Traffic visualization solutions for NSM" %}}
 Тhe NSM project already announced its second release and is now in a pretty good stage of capabilities it can offer,
@@ -238,10 +260,6 @@ a 4G LTE network example deployed with NSM, share the path for their further int
 and improve in that direction. The talk is aiming to provoke a discussion around the preferences of those interested
 in adopting the project and using such functionality in future.
 
-[![Attend](https://img.shields.io/badge/Attend-lightgrey.svg?style=plastic)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
-[![Participate](https://img.shields.io/badge/Participate-lightgrey.svg?style=plastic&logo=slack)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
-[![Slack Invite](https://img.shields.io/badge/Slack%20Invite-lightgrey.svg?style=plastic&logo=slack)](https://slack.cncf.io/)
-
 ### Speaker
 {{% speaker name="Ivana Atanasova - Open Source Engineer, VMware" twitter="ivanabyov" github="ivanayov" linkedin="ivana-atanasova-15119b98" img="/img/events/nsmcon2019/ivanaatanasova.jpg"%}}
 Ivana Atanasova is part of the VMware’s Open Source Program Office. She’s been contributing to OpenFaaS as a project 
@@ -250,6 +268,10 @@ Brooklyn Blockstore, as well as a contractor with the Institute of Mathematics a
 Academy of Sciences for NLP related projects. She's been speaking to various events including KubeCon, 
 Open Networking Summit and Open Source Summit EU. 
 {{% /speaker %}}
+
+### Video
+[youtube](https://www.youtube.com/watch?v=xvAT6Nyf83o&list=PLHE270yTf264QD8WWAv4qf3znPtYhzLoV&index=9)
+
 {{% /talk %}}
 {{% talk time="18:30:00+02" title="CN-WAN: a Cloud Native (SD-)WAN for Microservice Applications" %}}
 SDWAN provides WAN optimization services such as latency reduction, throughput improvement, TCP optimization, and
@@ -262,9 +284,6 @@ granularity. The proposed approach allows developers to declare specific applica
 configurations applied to the application workload objects. We show a proof of concept implementation where using
 CN-WAN significantly improves the application quality of experience.
 
-[![Attend](https://img.shields.io/badge/Attend-lightgrey.svg?style=plastic)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
-[![Participate](https://img.shields.io/badge/Participate-lightgrey.svg?style=plastic&logo=slack)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
-[![Slack Invite](https://img.shields.io/badge/Slack%20Invite-lightgrey.svg?style=plastic&logo=slack)](https://slack.cncf.io/)
 
 ### Speakers
 {{% speaker name="Fabio Maino - Distinguished Engineer, Cisco Systems" linkedin="fabio-maino-4132301" img="/img/events/nsmconeu2020/fabio_maino.jpg" %}}
@@ -287,6 +306,10 @@ for many years and in the past he was one of the main maintainers of the OpenOve
 project. His current obsession is how Enterprise Networks can better serve Cloud-Native
 applications.
 {{% /speaker %}}
+
+### Video
+[youtube](https://www.youtube.com/watch?v=C28_WTyT-KI&list=PLHE270yTf264QD8WWAv4qf3znPtYhzLoV&index=11)
+
 {{% /talk %}}
 {{% talk time="19:00:00+02" title="BREAK" %}}
 {{% /talk %}}
@@ -297,16 +320,18 @@ further improve resiliency of the system, reduce further latency for healing and
 velocity.
 
 
-[![Attend](https://img.shields.io/badge/Attend-lightgrey.svg?style=plastic)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
-[![Participate](https://img.shields.io/badge/Participate-lightgrey.svg?style=plastic&logo=slack)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
-[![Slack Invite](https://img.shields.io/badge/Slack%20Invite-lightgrey.svg?style=plastic&logo=slack)](https://slack.cncf.io/)
-
 ### Speaker
 {{% speaker name="Ed Warnicke - Distinguished Consulting Engineer, Cisco Systems" twitter="edwarnicke" github="edwarnicke" linkedin="edwarnicke" img="/img/events/nsmconeu2020/edwarnicke.jpg" %}}
 Ed Warnicke is a Distinguished Consulting Engineerat Cisco Systems. He has been working for over a decade in many areas
 of networking and Open Source. Ed is a founder of and active contributor to the Network Service Mesh project. 
 Ed has a masters in Physics (String Theory) from Rutgers University.
 {{% /speaker %}}
+
+### Slides
+[google slides](https://docs.google.com/presentation/d/1ER_6RXvMvhPbpB6BkWs8aExvb1f4Ik0IntqhqcFJPBI/edit?usp=sharing)
+
+### Video
+[youtube](https://www.youtube.com/watch?v=OqFl5ubVPdo&list=PLHE270yTf264QD8WWAv4qf3znPtYhzLoV&index=12)
 
 {{% /talk %}}
 {{% talk time="20:00:00+02" title="NSM Customer Success! QoE, L3VPN, and NAT64 oh my!" %}}
@@ -320,10 +345,6 @@ traffic engineering, path steering, or even virtual topology creation to contain
 the use-cases have grown, with L3-VPN taking center stage as an NSM service created out of this partnership.
 One of Bell’s key use cases is to attach a cloud-native network function (NFV) endpoint directly to an L3VPN VRF.
 With NSM we can do this!
-
-[![Attend](https://img.shields.io/badge/Attend-lightgrey.svg?style=plastic)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
-[![Participate](https://img.shields.io/badge/Participate-lightgrey.svg?style=plastic&logo=slack)](https://cloud-native.slack.com/messages/CHQNNUPN1/)
-[![Slack Invite](https://img.shields.io/badge/Slack%20Invite-lightgrey.svg?style=plastic&logo=slack)](https://slack.cncf.io/)
 
 ### Speakers
 {{% speaker name="Zia Syed - System Engineer, Cisco Systems" linkedin="therealziasyed" img="/img/events/nsmcon2019/ziasyed.jpeg" %}}
@@ -340,6 +361,13 @@ and service provider sectors.  His goal is to help large scale network operators
 and common API-driven dataplanes across all transport networks, which will improve the ability to innovate on top of 
 the network and lead to massive increases in operational scale.
 {{% /speaker %}}
+
+### Slides
+[ppt](https://drive.google.com/file/d/1o81iIDRWAg7UPrQnzXbeBx-Jm8KsKxi9/view?usp=sharing)
+
+### Video
+[youtube](https://www.youtube.com/watch?v=IlKxvEc_IWs&list=PLHE270yTf264QD8WWAv4qf3znPtYhzLoV&index=13)
+
 {{% /talk %}}
 
 # Why Attend NSMCon?
