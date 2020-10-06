@@ -14,10 +14,28 @@ publishDate ="2019-04-03"
 | 2019-05-14     | `git tag nsm-v0.1.1` | Apply all pending patches that fix urgent issues. CI/CD passes + additional testing. |
 
 
-## Changelog
+# Initial Features
 
-* [Refer to the original `CHANGELOG.md`](https://github.com/networkservicemesh/networkservicemesh/blob/master/CHANGELOG.md)
+v0.1.0 (Andromeda) is the initial release of Network Service Mesh.
 
-## Known Issues
+## Initial infra components
+### NSMgr
+The Network Service Manager is a per Node control plane component run as a Daemonset to provide NSM to each Node in the cluster.
+### Dataplane
+NSM Dataplane components which enable the data plane for vWires on a Node.  Its usually also installed as a Daemonset.
+Two implementations of the Dataplane role are provided:
+#### vppagent
+Supports mechanisms:
 
-* TBD
+- kernel interface
+- memif
+- direct memif
+- vxlan
+
+#### kernel
+Supports mechanisms:
+
+- kernel interface
+- vxlan
+
+ 
