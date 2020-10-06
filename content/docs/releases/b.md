@@ -47,7 +47,7 @@ v0.2.0 major themes:
 
 ## Interdomain
 
-In version 0.1.0 (Aurora) Network Service Mesh supported providing per-Pod Network Services within a single cluster:
+In version 0.1.0 (Andromeda) Network Service Mesh supported providing per-Pod Network Services within a single cluster:
 ![IntraDomain](/img/releases/borealis/intradomain.png)
 
 In version 0.2.0 (Borealis) Network Service Mesh introduces interdomain support, allowing a Network Service to span
