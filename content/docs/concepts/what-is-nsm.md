@@ -6,7 +6,7 @@ publishDate = "2018-10-10"
 description = "A guide to core concepts"
 +++
 
-Network Service Mesh (**NSM**) is a novel approach to solving complicated [L2](https://en.wikipedia.org/wiki/Data_link_layer)/[L3](https://en.wikipedia.org/wiki/Network_layer) use cases in [Kubernetes](https://kubernetes.io) that are tricky to address withing the existing [Kubernetes Network Model](https://caylent.com/kubernetes-networking-model/). Inspired by [Istio](https://istio.io), Network Service Mesh maps the concept of a service mesh to L2/L3 payloads.
+Network Service Mesh (**NSM**) is a novel approach to solving complicated [L2](https://en.wikipedia.org/wiki/Data_link_layer)/[L3](https://en.wikipedia.org/wiki/Network_layer) use cases in [Kubernetes](https://kubernetes.io) that are tricky to address within the existing [Kubernetes Network Model](https://caylent.com/kubernetes-networking-model/). Inspired by [Istio](https://istio.io), Network Service Mesh maps the concept of a service mesh to L2/L3 payloads.
 
 In this document, we cover [what Network Service Mesh is](#what) and [which problems it solves](#problem-statement) using a series of examples:
 
