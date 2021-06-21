@@ -1,6 +1,6 @@
 +++
-title = "Borealis release v0.2.0"
-weight = 1
+title = "v0.2.0"
+weight = 2
 date = "2019-11-27"
 +++
 

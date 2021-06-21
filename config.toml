@@ -11,7 +11,7 @@ pygmentsStyle = "fruity"
 [menu]
 [[menu.navbar]]
 name = "Docs"
-url = "/docs/concepts/what-is-nsm"
+url = "/docs/concepts/for_users/"
 weight = 1
 
 [[menu.navbar]]
