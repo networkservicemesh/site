@@ -42,3 +42,7 @@ Follow the instructions [in the README.md](https://github.com/networkservicemesh
 ```bash
 cd -
 ```
+
+# Examples
+
+Try one of the many [examples](https://github.com/networkservicemesh/deployments-k8s/blob/release/v1.0.0/README.md)

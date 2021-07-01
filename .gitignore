@@ -10,3 +10,6 @@ node_modules/
 # Link checker assets
 bin/
 tmp/
+
+# Local Netlify folder
+.netlify

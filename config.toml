@@ -11,7 +11,7 @@ pygmentsStyle = "fruity"
 [menu]
 [[menu.navbar]]
 name = "Docs"
-url = "/docs/concepts/for_users/"
+url = "/docs/concepts/enterprise_users/"
 weight = 1
 
 [[menu.navbar]]
@@ -37,27 +37,30 @@ Network Service Mesh is a novel approach to solving complicated L2/L3 use cases 
 """
 
 explanation = """
-Network Service Mesh provides these "missing" Kubernetes networking capabilities using a simple set of APIs designed to facilitate connectivity
+Network Service Mesh frees individual Kubernetes Pods to network with other workloads across multiple clusters/clouds using a simple set of APIs designed to facilitate attaching those Pods to zero or more "Network Services"
+that provide exactly the
+* Connectivity
+* Security
+* Observability
 
-* between **containers** running services or
-* with external **endpoints**.
+they need - independent of where they are running.
+"""
 
-New connections negotiate their own connection properties. These properties include but are not limited to:
-
-Property | Examples
-:--------|:--------
-Network interface type | [Linux Interface](https://www.youtube.com/watch?v=SSLpvcIOPK0), [MemIf](https://www.youtube.com/watch?v=6aVr32WgY0Q), [vhost-user](https://spdk.io/doc/vhost_processing.html)
-Payload type | [Ethernet](https://searchunifiedcommunications.techtarget.com/definition/Ethernet-IP), [IP](https://searchunifiedcommunications.techtarget.com/definition/Internet-Protocol), [MPLS](https://searchnetworking.techtarget.com/definition/Multiprotocol-Label-Switching-MPLS), [L2TP](https://searchnetworking.techtarget.com/definition/Layer-Two-Tunneling-Protocol-L2TP)
+usecases = """
+Examples:
+- A common flat vL3 domain allowing DBs running in multiple clusters/clouds/hybrid to communicate just with each other for DB replication
+- A single L7 Service Mesh (Istio/Linkerd/Consul/Kuma) connecting workloads running in multiple clusters/clouds/on-prem
+- A single workload connecting to multiple L7 Service Meshes
+- Workloads from multiple companies connecting to a single 'collaborative' Service Mesh for cross company interactions
 """
 
 features = [
-  "Heterogeneous network configurations",
-  "Exotic protocols",
-  "Tunneling as a first-class citizen",
-  "Networking context as a first-class citizen",
-  "Policy-driven service function chaining (**SFC**)",
-  "Minimal need for changes to Kubernetes",
-  "On-demand, dynamic, negotiated connections"
+  "L3 Zero Trust",
+  "Per workload granularity",
+  "Per Network Service Connectivity/Security/Observability",
+  "No changes to K8s",
+  "Works with your existing CNI",
+  "No changes to your workloads",
 ]
 
 [params.logos]
