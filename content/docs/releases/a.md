@@ -1,5 +1,6 @@
 +++
-title = "v0.1.0"
+title = "Andromeda release v0.1.0"
+short = "v0.1.0"
 image = "/img/releases/andromeda.png"
 weight = 3
 date = "2019-05-14"

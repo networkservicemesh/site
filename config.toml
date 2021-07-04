@@ -39,6 +39,7 @@ Network Service Mesh is a novel approach to solving complicated L2/L3 use cases 
 explanation = """
 Network Service Mesh frees individual Kubernetes Pods to network with other workloads across multiple clusters/clouds using a simple set of APIs designed to facilitate attaching those Pods to zero or more "Network Services"
 that provide exactly the
+
 * Connectivity
 * Security
 * Observability
@@ -48,10 +49,11 @@ they need - independent of where they are running.
 
 usecases = """
 Examples:
-- A common flat vL3 domain allowing DBs running in multiple clusters/clouds/hybrid to communicate just with each other for DB replication
-- A single L7 Service Mesh (Istio/Linkerd/Consul/Kuma) connecting workloads running in multiple clusters/clouds/on-prem
-- A single workload connecting to multiple L7 Service Meshes
-- Workloads from multiple companies connecting to a single 'collaborative' Service Mesh for cross company interactions
+
+* A common flat vL3 domain allowing DBs running in multiple clusters/clouds/hybrid to communicate just with each other for DB replication
+* A single L7 Service Mesh (Istio/Linkerd/Consul/Kuma) connecting workloads running in multiple clusters/clouds/on-prem
+* A single workload connecting to multiple L7 Service Meshes
+* Workloads from multiple companies connecting to a single 'collaborative' Service Mesh for cross company interactions
 """
 
 features = [

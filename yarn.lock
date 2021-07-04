@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-"bulma-divider@^0.2.0":
-  "integrity" "sha512-REe3k56GECRfDaqFjC8cwLhV4RxXmV0RubuzDJqwior9wlJcdHlN0qfW0tvUX+qphikaTQegIeRuhjRIAqkjkw=="
-  "resolved" "https://registry.npmjs.org/bulma-divider/-/bulma-divider-0.2.0.tgz"
-  "version" "0.2.0"
+bulma-divider@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.npmjs.org/bulma-divider/-/bulma-divider-0.2.0.tgz"
+  integrity sha512-REe3k56GECRfDaqFjC8cwLhV4RxXmV0RubuzDJqwior9wlJcdHlN0qfW0tvUX+qphikaTQegIeRuhjRIAqkjkw==
 
-"bulma@^0.7.4":
-  "integrity" "sha512-krG2rP6eAX1WE0sf6O0SC/FUVSOBX4m1PBC2+GKLpb2pX0qanaDqcv9U2nu75egFrsHkI0zdWYuk/oGwoszVWg=="
-  "resolved" "https://registry.npmjs.org/bulma/-/bulma-0.7.4.tgz"
-  "version" "0.7.4"
+bulma@^0.7.4:
+  version "0.7.4"
+  resolved "https://registry.npmjs.org/bulma/-/bulma-0.7.4.tgz"
+  integrity sha512-krG2rP6eAX1WE0sf6O0SC/FUVSOBX4m1PBC2+GKLpb2pX0qanaDqcv9U2nu75egFrsHkI0zdWYuk/oGwoszVWg==

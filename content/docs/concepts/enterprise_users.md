@@ -1,5 +1,7 @@
 +++
-title = "Enterprise Users"
+title = "NSM Concepts"
+description = "for Enterprise Users"
+short = "Enterprise Users"
 weight = 1
 date = "2021-06-21"
 +++
@@ -93,7 +95,7 @@ Because Network Service Mesh decouples Network Services from the underlying Runt
 connected to a single shared Network Service Mesh to allow collaboration between specific workloads from those companies without
 having to expose the entire Runtime domain in which those workloads run:
 
-![Multi Corp](/img/concepts/enterprise/multi_corp.svg)
+![Multi Corp](/img/concepts/enterprise/multi-corp.svg)
 
 ## NSM and Zero Trust
 
