@@ -7,6 +7,10 @@ date = "2021-06-21"
 +++
 ## The Problem
 
+### Problem Statement
+
+How do you enable workloads collaborating together to produce an App communicate independent of where those workloads are running?
+
 ### Background
 Historically, workloads have been run in some sort of Runtime Domain:
 
@@ -22,12 +26,12 @@ Each of those Runtime Domains have brought along exactly one Connectivity Domain
 ![VM Connectivity Domain](/img/concepts/enterprise/3x1/vm_connectivity_domain.svg)
 ![DC Connectivity Domain](/img/concepts/enterprise/3x1/dc_connectivity_domain.svg)
 
-Each workload has a single option (possibly with nerd knobs) of what connectivity domain to be connected to, and only
+Each workload has a single option of what connectivity domain to be connected to, and only
 workloads in a given runtime domain could be part of its connectivity domain.
 
-In short: Connectivity Domains are strongly coupled to Runtime Domains.
+In short: Connectivity Domains are Strongly Coupled to Runtime Domains.
 
-A central tenant of [Cloud Native](https://github.com/cncf/toc/blob/main/DEFINITION.md) is Loose Coupling.
+A central tenant of [Cloud Native](https://github.com/cncf/toc/blob/main/DEFINITION.md) is Loose Coupling.  In a Loosely Coupled system, the ability for each workload to receive service from alternative providers is preserved.
 
 What Runtime Domain a workload is running in is a [non-sequitur](https://en.wikipedia.org/wiki/Non_sequitur_(literary_device)) to its communications needs.  Workloads that are part of
 the same App need Connectivity between each other no matter where they are running.
@@ -40,17 +44,12 @@ multi-cloud/hybrid cloud environment:
 How do workloads communicate independent of where they are running?
 
 It's not just a problem of cluster to cluster communication.  In the diagram below: 
-- The Red Pods need to communicate with each other
-- The Greed Pods need to communicate with each other
-- The Red Pod with the Green outline needs to communicate with both the other Red Pods *and* the other Green Pods
-- Pods in different clusters that are neither Red nor Green should be communicating with each other.
+- The {{<backgroundcolor "#FF9999" >}}Red{{< /backgroundcolor >}} Pods need to communicate with each other
+- The {{<backgroundcolor "#CCFF99" >}}Green{{< /backgroundcolor >}} Pods need to communicate with each other
+- The {{<backgroundcolor "#FF9999" >}}Red{{< /backgroundcolor >}} Pod with the {{<backgroundcolor "#CCFF99" >}}Green{{< /backgroundcolor >}} outline needs to communicate with both the other {{<backgroundcolor "#FF9999" >}}Red{{< /backgroundcolor >}} Pods *and* the other {{<backgroundcolor "#CCFF99" >}}Green{{< /backgroundcolor >}} Pods
+- Pods in different clusters that are neither {{<backgroundcolor "#FF9999" >}}Red{{< /backgroundcolor >}} nor {{<backgroundcolor "#CCFF99" >}}Green{{< /backgroundcolor >}} should be communicating with each other.
 
 ![K8s MultiCluster2](/img/concepts/enterprise/k8s_multi_cluster_2.svg)
-
-
-### Problem Statement
-
-How do you enable workloads collaborating together to produce an App communicate independent of where those workloads are running?
 
 ## The NSM Solution
 

@@ -149,8 +149,7 @@ that advertised a Network Service named 'service-mesh' with 'destination label' 
 
 Network Service Mesh allows multiple independent mutually ignorant Registry Domains.
 
-The Network Service Registry Domain of a Network Service is indicated by suffixing an '@domain' to the Network Service Name.
-
+The Network Service Registry Domain of a Network Service is indicated by suffixing an '@domain' to the Network Service Name. 
 So for example, a Network Service named 'service-mesh' in the 'finance.example.com' domain would be 'service-mesh@finance.example.com'
 
 The reference implementation of Network Service Mesh locates the Registry Server for a Registry Domain by looking up a SRV record
@@ -176,12 +175,16 @@ When run in this mode, it is referred to as a 'floating' Registry Domain.
 ## Advanced Features
 
 Network Service Mesh's 'match' process for selecting candidate {{<color "#008A00" >}}Endpoints{{< /color >}} to provide a Network Service can be used to
-implement a variety of advanced features.
+implement a variety of advanced features:
+
+- [Composition](#composition)
+- [Selective Composition](#selective-composition)
+- [Topologically Aware Endpoint Selection](#topologically-aware-endpoint-selection)
+- [Topologically Aware Scale from Zero](#topologically-aware-scale-from-zero)
 
 ### Composition
 
 Sometimes a Network Service is provided by a graph of {{<color "#008A00" >}}Endpoints{{< /color >}} composed together to serve that workload.
-
 For example, it is likely simplest when providing a Traditional Service Mesh as a Network Service to Compose
 an Envoy Proxy (managed by an Istio or Kuma control plane) with a vL3 (providing a virtual L3 domain):
 
@@ -253,6 +256,7 @@ spec:
 All other workloads using the Network Service continue normally without the IPS.
 
 Please note: there is nothing magic about the choice of labels as:
+
 - provides
 - provided
 - app
@@ -262,6 +266,7 @@ as with all labels, the choice is arbitrary, it's the matching that matters.
 ### Topologically Aware Endpoint Selection
 
 Topology for both {{<color "#0050EF" >}}Clients{{< /color >}} and {{<color "#008A00" >}}Endpoints{{< /color >}} can be expressed by source or destination labels.  Examples:
+
 - nodeName
 - clusterName
 - zone
@@ -291,8 +296,10 @@ Would cause each {{<color "#0050EF" >}}Client{{< /color >}} to be matched to an 
 
 ### Topologically Aware Scale from Zero
 
-It would be very expensive to run an {{<color "#008A00" >}}Endpoint{{< /color >}} at every possible Topology (Node, Cluster, Zone, etc) that might have a Client
-that might want it at all times.  Fortunately, the NSM match mechanism can be used to enable Topologically Aware Scale from Zero.
+Topologically Aware Endpoint Selection is very useful.  It requires an {{<color "#008A00" >}}Endpoint{{< /color >}} to be
+available that matches the topology constraints for every {{<color "#0050EF" >}}Client{{< /color >}} that might request
+a Network Service.  This is expensive.  Imagine running an {{<color "#008A00" >}}Endpoint{{< /color >}} on every Node 
+in a 5000 Node Cluster.  Fortunately, the NSM match mechanism can be used to enable Topologically Aware Scale from Zero.
 
 ```yaml
 ---
