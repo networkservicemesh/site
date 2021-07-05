@@ -22,5 +22,5 @@ We encourage discussion on our mailing list and IRC channel and accept pull requ
 
 Network Service Mesh is 'multi-repo'.  The repos and their relationships are shown below:
 
-{{< object data="/img/multi-repo.svg" type="image/svg+xml" >}}
+{{< object class="repoMap" data="/img/multi-repo.svg" type="image/svg+xml" >}}
 
