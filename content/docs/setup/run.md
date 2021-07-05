@@ -34,7 +34,7 @@ cd -
 ```
 
 ## Install NSM
-If you do not already have Spire on your system install Spire
+If you do not already have NSM infrastructure on your system install NSM
 ```bash
 cd examples/basic
 ```
