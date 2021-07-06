@@ -110,8 +110,14 @@
     }
 
     function recursiveColor(elem, color) {
-      elem.style.fill = color
-      elem.style.stroke = color
+      var fill = elem.getAttribute("fill")
+      if (fill && fill != "none") {
+        elem.setAttribute("fill",color)
+      }
+      var stroke = elem.getAttribute("stroke")
+      if (stroke) {
+        elem.setAttribute("stroke",color)
+      }
 
       for (const child of elem.children) {
         recursiveColor(child, color)
