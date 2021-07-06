@@ -1,6 +1,7 @@
 # Hugo-generated assets
 public/
 resources/
+!content/docs/resources
 
 # npm assets
 node_modules/
