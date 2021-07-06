@@ -1,0 +1,166 @@
+  import {Octokit, App} from "https://cdn.skypack.dev/octokit";
+  document.addEventListener('DOMContentLoaded', async function () {
+    const repoLinkToIdMap = {
+      "api": {
+        "sdk": "cell-KUktbazg4igNnRH6aAHL-71",
+      },
+      "sdk": {
+        "sdk-vpp": "cell-KUktbazg4igNnRH6aAHL-10",
+        "sdk-kernel": "cell-KUktbazg4igNnRH6aAHL-11",
+        "sdk-k8s": "cell-KUktbazg4igNnRH6aAHL-12",
+        "cmd-nsc-init": "cell-KUktbazg4igNnRH6aAHL-53",
+        "cmd-nsc": "cell-KUktbazg4igNnRH6aAHL-49",
+        "cmd-nsmgr": "cell-KUktbazg4igNnRH6aAHL-16",
+        "cmd-nsmgr-proxy": "cell-KUktbazg4igNnRH6aAHL-57",
+        "cmd-nse-icmp-responder": "cell-KUktbazg4igNnRH6aAHL-56",
+        "cmd-nse-vfio": "cell-KUktbazg4igNnRH6aAHL-55",
+        "cmd-registry-memory": "cell-KUktbazg4igNnRH6aAHL-50",
+        "cmd-registry-proxy-dns": "cell-KUktbazg4igNnRH6aAHL-54",
+      },
+      "sdk-vpp": {
+        "cmd-nsc-vpp": "cell-KUktbazg4igNnRH6aAHL-45",
+        "cmd-nse-icmp-responder-vpp": "cell-KUktbazg4igNnRH6aAHL-44",
+        "cmd-forwarder-vpp": "cell-KUktbazg4igNnRH6aAHL-15",
+      },
+      "sdk-kernel": {
+        "sdk-sriov": "cell-KUktbazg4igNnRH6aAHL-20",
+      },
+      "sdk-k8s": {
+        "cmd-nse-supplier-k8s": "cell-KUktbazg4igNnRH6aAHL-48",
+        "cmd-registry-k8s": "cell-KUktbazg4igNnRH6aAHL-47",
+        "cmd-map-ip-k8s": "cell-KUktbazg4igNnRH6aAHL-46",
+        "cmd-admission-webhook-k8s": "cell-KUktbazg4igNnRH6aAHL-30",
+        "cmd-exclude-prefixes-k8s": "cell=KUktbazg4igNnRH6aAHL-51",
+      },
+      "cmd-nsc-vpp": {
+        "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-2",
+      },
+      "cmd-nse-icmp-responder-vpp": {
+        "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-3",
+      },
+      "cmd-forwarder-vpp": {
+        "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-4",
+      },
+      "cmd-forwarder-sriov": {
+        "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-5",
+      },
+      "cmd-nse-supplier-k8s": {
+        "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-6",
+      },
+      "cmd-registry-k8s": {
+        "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-7",
+      },
+      "cmd-map-ip-k8s": {
+        "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-8",
+      },
+      "cmd-admission-webhook-k8s": {
+        "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-9",
+      },
+      "cmd-exclude-prefixes-k8s": {
+        "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-10",
+      },
+      "cmd-nsc-init": {
+        "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-11",
+      },
+      "cmd-nsc": {
+        "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-12",
+      },
+      "cmd-nsmgr": {
+        "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-13",
+      },
+      "cmd-nsmgr-proxy": {
+        "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-14",
+      },
+      "cmd-nse-icmp-responder": {
+        "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-15",
+      },
+      "cmd-nse-vfio": {
+        "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-16",
+      },
+      "cmd-registry-memory": {
+        "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-17",
+      },
+      "cmd-registry-proxy-dns": {
+        "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-18",
+      },
+      "deployment-k8s": {
+        "integration-tests": "cell-ltp6VKm9YOJ7lEqRLLzF-20",
+      },
+      "integration-tests": {
+        "integration-k8s-kind": "cell-ltp6VKm9YOJ7lEqRLLzF-26",
+      },
+      "integration-k8s-kind": {
+        "integration-k8s-gke": "cell-ltp6VKm9YOJ7lEqRLLzF-28",
+        "integration-k8s-aks": "cell-ltp6VKm9YOJ7lEqRLLzF-30",
+        "integration-k8s-packet": "cell-ltp6VKm9YOJ7lEqRLLzF-31",
+        "integration-k8s-aws": "cell-ltp6VKm9YOJ7lEqRLLzF-32",
+      },
+      "integration-k8s-gke": {
+        "integration-k8s-interdomain": "cell-ltp6VKm9YOJ7lEqRLLzF-34",
+      },
+      "integration-k8s-aks": {
+        "integration-k8s-interdomain": "cell-ltp6VKm9YOJ7lEqRLLzF-38",
+      },
+      "integration-k8s-packet": {
+        "integration-k8s-interdomain": "cell-ltp6VKm9YOJ7lEqRLLzF-35",
+      },
+      "integration-k8s-aws": {
+        "integration-k8s-interdomain": "cell-ltp6VKm9YOJ7lEqRLLzF-39",
+      },
+    }
+
+    function recursiveColor(elem, color) {
+      elem.style.fill = color
+      elem.style.stroke = color
+
+      for (const child of elem.children) {
+        recursiveColor(child, color)
+      }
+    }
+
+    function wrapLink(elem, url) {
+      var parent = elem.parentElement
+      var link = svgDocument.createElementNS('http://www.w3.org/2000/svg', "a")
+      link.setAttribute("href", url)
+      link.setAttribute("target", "_blank")
+      link.appendChild(cell)
+      parent.appendChild(link)
+    }
+
+    var repoMap = document.querySelector(".repoMap")
+    if (!repoMap) {
+      return
+    }
+    var svgDocument = repoMap.getSVGDocument()
+    if (!svgDocument) {
+      return
+    }
+
+    const octokit = new Octokit()
+
+    const searchIterator = octokit.paginate.iterator(octokit.rest.search.issuesAndPullRequests, {
+      q: "org:networkservicemesh+is:pr+update/networkservicemesh/*+in:title+is:open+is:unmerged",
+    });
+
+    for await (const {data} of searchIterator) {
+      for (const elem of data) {
+        var prefix = "Update from update/networkservicemesh/"
+        if (!(elem.title.startsWith(prefix))) {
+          continue
+        }
+        var inRepo = elem.title.replace(prefix, "")
+        var outRepo = elem.repository_url.replace("https://api.github.com/repos/networkservicemesh/", "")
+        var pr_url = elem.pull_request.html_url
+        if (!repoLinkToIdMap[inRepo]) {
+          continue
+        }
+        var id = repoLinkToIdMap[inRepo][outRepo]
+        if (!id) {
+          continue
+        }
+        var cell = svgDocument.getElementById(id)
+        wrapLink(cell, pr_url)
+        recursiveColor(cell, "red")
+      }
+    }
+  })

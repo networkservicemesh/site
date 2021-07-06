@@ -29,6 +29,6 @@ install-link-checker:
 	curl https://raw.githubusercontent.com/wjdp/htmltest/master/godownloader.sh | bash
 
 run-link-checker:
-	bin/htmltest
+	bin/htmltest -l0
 
 check-internal-links: install-link-checker run-link-checker

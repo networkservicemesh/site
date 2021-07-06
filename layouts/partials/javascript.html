@@ -11,3 +11,4 @@
   {{- $prodJs      := $js | minify | fingerprint }}
   <script src="{{ $prodJs.RelPermalink }}" integrity="{{ $prodJs.Data.Integrity }}"></script>
 {{- end }}
+<script src="/modules/repo-map.js" type="module"></script>

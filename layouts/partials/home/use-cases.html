@@ -1,4 +1,4 @@
-{{ $feature := site.Params.explanation | markdownify }}
+{{ $usecases := site.Params.usecases | markdownify }}
 <section class="section has-background-light">
   <div class="container">
     <div class="columns is-variable is-8">
@@ -16,7 +16,7 @@
 
       <div class="column">
         <div class="content is-size-5 is-size-6-mobile">
-          {{ $feature }}
+          {{ $usecases }}
         </div>
       </div>
     </div>
