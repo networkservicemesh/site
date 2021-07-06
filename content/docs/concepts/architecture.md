@@ -238,12 +238,12 @@ spec:
   matches:
     - source_selector:
         app: foo
-        version: v1.1
+        version: "v1.1"
       routes:
         - destination_selector:
             provides: ips
     - source_selector:
-        performed: ips
+        provided: ips
       routes:
         - destination_selector:
             provides: vl3
@@ -261,6 +261,7 @@ Please note: there is nothing magic about the choice of labels as:
 - provided
 - app
 - version
+
 as with all labels, the choice is arbitrary, it's the matching that matters.
 
 ### Topologically Aware Endpoint Selection
