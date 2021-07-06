@@ -20,6 +20,7 @@
       "sdk-vpp": {
         "cmd-nsc-vpp": "cell-KUktbazg4igNnRH6aAHL-45",
         "cmd-nse-icmp-responder-vpp": "cell-KUktbazg4igNnRH6aAHL-44",
+        "cmd-nse-firewall-vpp":"cell-YWTRKo84t5DHiULYztLq-3",
         "cmd-forwarder-vpp": "cell-KUktbazg4igNnRH6aAHL-15",
       },
       "sdk-kernel": {
