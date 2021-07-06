@@ -14,6 +14,7 @@ A Network Service is a set of Connectivity, Security, and Observability features
 A Network Service is a collection of Connectivity, Security, and Observability features applied to traffic.
 
 Examples of Network Services would include:
+
 - A simple distributed vL3 that allows the workloads to communicate via IP, optionally with DNS service for that vL3
 - A Traditional Network Service like Istio, Linkerd, Consul, or Kuma running over a vL3.  This allows specific workloads to be admitted to that Service Mesh, independent of where they run.
 It also allows a single workload to connect to multiple Traditional Service Meshes.  This can allow a workload to connect both to a companies Service Mesh, and also to the Service Meshes of its partners simultaneously.
@@ -30,6 +31,7 @@ an optional set of 'labels' (key value pairs) may be provided.  These 'labels' m
 to influence how the {{<color "#008A00" >}}Endpoint{{< /color >}} provides service to the {{<color "#0050EF" >}}Client{{< /color >}}.
 
 A {{<color "#0050EF" >}}Client{{< /color >}} may be a:
+
 - Pod
 - VM
 - Physical Server
@@ -41,6 +43,7 @@ That which connects a {{<color "#0050EF" >}}Client{{< /color >}} to an {{<color 
 ![vWire](/img/concepts/architecture/vWire.svg)
 
 The contract of a {{<color "#6A00FF" >}}vWire{{< /color >}} is:
+
 - A packet ingressing the {{<color "#6A00FF" >}}vWire{{< /color >}} at the {{<color "#0050EF" >}}Client{{< /color >}} will egress at the {{<color "#008A00" >}}Endpoint{{< /color >}}
 - A packet ingressing the {{<color "#6A00FF" >}}vWire{{< /color >}} at the {{<color "#008A00" >}}Endpoint{{< /color >}} will egress the {{<color "#6A00FF" >}}vWire{{< /color >}} at the {{<color "#0050EF" >}}Client{{< /color >}}
 - Only packets that ingressed the {{<color "#6A00FF" >}}vWire{{< /color >}} at the {{<color "#0050EF" >}}Client{{< /color >}} will egress at the {{<color "#008A00" >}}Endpoint{{< /color >}}
@@ -63,6 +66,7 @@ Network Service Mesh constructs a {{<color "#6A00FF" >}}vWire{{< /color >}} betw
 ![NSE](/img/concepts/architecture/nse.svg)
 
 An {{<color "#008A00" >}}Endpoint{{< /color >}} may be
+
 - a Pod running in the same K8s cluster
 - a Pod running in a different K8s cluster
 - a VM
@@ -114,7 +118,7 @@ spec:
 
 by default if not specified, the payload is presumed to be IP.  Network Services are registered with the Network Service Registry.
 
-Optionally, a Network Service may specify a list of 'matches'.  These matches allow matching a the 'source labels' a {{<color "#0050EF" >}}Client{{< /color >}} sends
+Optionally, a Network Service may specify a list of 'matches'.  These matches allow matching the 'source labels' a {{<color "#0050EF" >}}Client{{< /color >}} sends
 with its Request to 'destination labels' advertised by the {{<color "#008A00" >}}Endpoint{{< /color >}} when it registers as providing the Network Service.
 
 For example:
@@ -276,7 +280,8 @@ Topology for both {{<color "#0050EF" >}}Clients{{< /color >}} and {{<color "#008
 etc.
 
 Network Service Mesh supports dynamic specification of destination labels based on the source labels in the Request.
-In a destination_selector {{ .${labelName} }} will substitute in the value for $labelName from the source labels of the Request.
+In a destination_selector `{{ .labelName }}` will substitute in the value for labelName from the source labels of the Request.
+For example `{{ .nodeName }}` is substituted with the value of `nodeName` from the source labels.
 
 ```yaml
 ---

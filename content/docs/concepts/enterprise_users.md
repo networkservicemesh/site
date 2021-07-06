@@ -44,10 +44,11 @@ multi-cloud/hybrid cloud environment:
 How do workloads communicate independent of where they are running?
 
 It's not just a problem of cluster to cluster communication.  In the diagram below: 
+
 - The {{<backgroundcolor "#FF9999" >}}Red{{< /backgroundcolor >}} Pods need to communicate with each other
 - The {{<backgroundcolor "#CCFF99" >}}Green{{< /backgroundcolor >}} Pods need to communicate with each other
 - The {{<backgroundcolor "#FF9999" >}}Red{{< /backgroundcolor >}} Pod with the {{<backgroundcolor "#CCFF99" >}}Green{{< /backgroundcolor >}} outline needs to communicate with both the other {{<backgroundcolor "#FF9999" >}}Red{{< /backgroundcolor >}} Pods *and* the other {{<backgroundcolor "#CCFF99" >}}Green{{< /backgroundcolor >}} Pods
-- Pods in different clusters that are neither {{<backgroundcolor "#FF9999" >}}Red{{< /backgroundcolor >}} nor {{<backgroundcolor "#CCFF99" >}}Green{{< /backgroundcolor >}} should be communicating with each other.
+- Pods in different clusters that are neither {{<backgroundcolor "#FF9999" >}}Red{{< /backgroundcolor >}} nor {{<backgroundcolor "#CCFF99" >}}Green{{< /backgroundcolor >}} should not be communicating with each other.
 
 ![K8s MultiCluster2](/img/concepts/enterprise/k8s_multi_cluster_2.svg)
 

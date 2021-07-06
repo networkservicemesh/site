@@ -79,8 +79,8 @@ may be scoped to only to be consulted for certain DNS domains and/or subdomains.
 
 When a Pod does a DNS query, it is fanned out in parallel to
 
-- The Kubernetes Cluster (over the CNI interface in the Pod)
-- Any other Network Service the to which the Pod is connected that is providing DNS service for that DNS domain.  
+- The Kubernetes Cluster DNS (over the CNI interface in the Pod)
+- Any other Network Service to which the Pod is connected that is providing DNS service for that DNS domain.  
 
 The first positive DNS response received is the one returned to the Pod.
 
