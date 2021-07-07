@@ -9,7 +9,6 @@
         "sdk-kernel": "cell-KUktbazg4igNnRH6aAHL-11",
         "sdk-k8s": "cell-KUktbazg4igNnRH6aAHL-12",
         "cmd-nsc-init": "cell-KUktbazg4igNnRH6aAHL-53",
-        "cmd-nsc": "cell-KUktbazg4igNnRH6aAHL-49",
         "cmd-nsmgr": "cell-KUktbazg4igNnRH6aAHL-16",
         "cmd-nsmgr-proxy": "cell-KUktbazg4igNnRH6aAHL-57",
         "cmd-nse-icmp-responder": "cell-KUktbazg4igNnRH6aAHL-56",
@@ -25,6 +24,10 @@
       },
       "sdk-kernel": {
         "sdk-sriov": "cell-KUktbazg4igNnRH6aAHL-20",
+      },
+      "sdk-srvio": {
+        "cmd-forwarder-sriov":"cell-cmd-forwarder-sriov",
+        "cmd-nsc": "cell-KUktbazg4igNnRH6aAHL-49",
       },
       "sdk-k8s": {
         "cmd-nse-supplier-k8s": "cell-KUktbazg4igNnRH6aAHL-48",
