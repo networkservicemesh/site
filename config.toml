@@ -33,8 +33,7 @@ dateFormat = "6 January 2006"
 subtitle = "The Hybrid/Multi-cloud IP Service Mesh"
 
 description = """
-Network Service Mesh is a novel approach to solving complicated L2/L3 use cases in Kubernetes that are tricky to address with the existing Kubernetes Network Model. Inspired by [Istio](https://istio.io), Network Service Mesh maps the concept of a service mesh to L2/L3 payloads.
-"""
+The Hybrid/Multi-cloud IP Service Mesh"""
 
 explanation = """
 Network Service Mesh frees individual Kubernetes Pods to network with other workloads across multiple clusters/clouds using a simple set of APIs designed to facilitate attaching those Pods to zero or more "Network Services"
