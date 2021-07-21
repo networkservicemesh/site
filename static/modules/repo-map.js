@@ -8,6 +8,8 @@
         "sdk-vpp": "cell-KUktbazg4igNnRH6aAHL-10",
         "sdk-kernel": "cell-KUktbazg4igNnRH6aAHL-11",
         "sdk-k8s": "cell-KUktbazg4igNnRH6aAHL-12",
+        "cmd-map-ip-k8s": "cell-KUktbazg4igNnRH6aAHL-46",
+        "cmd-admission-webhook-k8s": "cell-KUktbazg4igNnRH6aAHL-30",
         "cmd-nsc-init": "cell-KUktbazg4igNnRH6aAHL-53",
         "cmd-nsmgr": "cell-KUktbazg4igNnRH6aAHL-16",
         "cmd-nsmgr-proxy": "cell-KUktbazg4igNnRH6aAHL-57",
@@ -32,8 +34,6 @@
       "sdk-k8s": {
         "cmd-nse-supplier-k8s": "cell-KUktbazg4igNnRH6aAHL-48",
         "cmd-registry-k8s": "cell-KUktbazg4igNnRH6aAHL-47",
-        "cmd-map-ip-k8s": "cell-KUktbazg4igNnRH6aAHL-46",
-        "cmd-admission-webhook-k8s": "cell-KUktbazg4igNnRH6aAHL-30",
         "cmd-exclude-prefixes-k8s": "cell=KUktbazg4igNnRH6aAHL-51",
       },
       "cmd-nsc-vpp": {
