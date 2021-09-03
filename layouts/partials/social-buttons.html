@@ -1,5 +1,6 @@
 {{ $github  := site.Params.social.github }}
 {{ $twitter := site.Params.social.twitter }}
+{{ $devstats := site.Params.social.devstats }}
 <div class="navbar-item">
   <div class="buttons is-radiusless">
     <a class="button is-twitter-blue" href="{{ $twitter }}" target="_blank">
@@ -17,6 +18,12 @@
       </span>
       <span class="has-text-weight-bold">
         GitHub
+      </span>
+    </a>
+    <a class="button is-black" href="{{ $devstats }}" target="_blank">
+
+      <span class="has-text-weight-bold">
+        DevStats
       </span>
     </a>
   </div>
