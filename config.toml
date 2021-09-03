@@ -83,8 +83,9 @@ hero = "networkservicemesh-icon-color.png"
     subtitle = "Catch up with us, anytime and anywhere"
 
   [params.social]
-    github = "https://github.com/networkservicemesh/networkservicemesh"
+    github = "https://github.com/networkservicemesh/"
     twitter = "https://twitter.com/nservicemesh"
+    devstats = "https://networkservicemesh.devstats.cncf.io/d/2/commits-repository-groups?orgId=1&var-period=w&var-repogroups=All&from=now-1y&to=now"
 
 [[params.fonts]]
 name = "Nunito Sans"
