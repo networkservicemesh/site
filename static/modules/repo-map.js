@@ -5,7 +5,6 @@
         "sdk": "cell-KUktbazg4igNnRH6aAHL-71",
       },
       "sdk": {
-        "sdk-vpp": "cell-KUktbazg4igNnRH6aAHL-10",
         "sdk-kernel": "cell-KUktbazg4igNnRH6aAHL-11",
         "sdk-k8s": "cell-KUktbazg4igNnRH6aAHL-12",
         "cmd-map-ip-k8s": "cell-KUktbazg4igNnRH6aAHL-46",
@@ -18,18 +17,23 @@
         "cmd-registry-memory": "cell-KUktbazg4igNnRH6aAHL-50",
         "cmd-registry-proxy-dns": "cell-KUktbazg4igNnRH6aAHL-54",
       },
+      "sdk-kernel": {
+        "sdk-vpp": "cell-KUktbazg4igNnRH6aAHL-10",
+        "sdk-sriov": "cell-KUktbazg4igNnRH6aAHL-20",
+      },
       "sdk-vpp": {
         "cmd-nsc-vpp": "cell-KUktbazg4igNnRH6aAHL-45",
         "cmd-nse-icmp-responder-vpp": "cell-KUktbazg4igNnRH6aAHL-44",
         "cmd-nse-firewall-vpp":"cell-YWTRKo84t5DHiULYztLq-3",
         "cmd-forwarder-vpp": "cell-KUktbazg4igNnRH6aAHL-15",
       },
-      "sdk-kernel": {
-        "sdk-sriov": "cell-KUktbazg4igNnRH6aAHL-20",
-      },
       "sdk-srvio": {
         "cmd-forwarder-sriov":"cell-cmd-forwarder-sriov",
         "cmd-nsc": "cell-KUktbazg4igNnRH6aAHL-49",
+        "sdk-ovs": "cell-Prku3oC4CS7h4xE_tYkA-13",
+      },
+      "sdk-ovs": {
+        "cmd-forwarder-ovs":"cell-Prku3oC4CS7h4xE_tYkA-9",
       },
       "sdk-k8s": {
         "cmd-nse-supplier-k8s": "cell-KUktbazg4igNnRH6aAHL-48",
@@ -44,6 +48,9 @@
       },
       "cmd-forwarder-vpp": {
         "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-4",
+      },
+      "cmd-forwarder-ovs": {
+        "deployment-k8s": "cell-Prku3oC4CS7h4xE_tYkA-10",
       },
       "cmd-forwarder-sriov": {
         "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-5",
