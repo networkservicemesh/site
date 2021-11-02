@@ -5,42 +5,42 @@
 {{ $linkedin := .Get "linkedin"}}
 
 <article class="media">
-  <figure class="media-left">
-    <p class="image is-64x64">
-      {{ if $img }}
-      <img src="{{ $img }}">
-      {{ else }}
-      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAABCAQAAADEZGCcAAAADElEQVR42mNkGGAAAAECAALPi3q9AAAAAElFTkSuQmCC">
-      {{end}}
-    </p>
-  </figure>
+<figure class="media-left">
+<p class="image is-64x64">
+{{ if $img }}
+<img src="{{ $img }}">
+{{ else }}
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAABCAQAAADEZGCcAAAADElEQVR42mNkGGAAAAECAALPi3q9AAAAAElFTkSuQmCC">
+{{end}}
+</p>
+</figure>
 
-  <div class="media-content">
-    <div class="content">
-      <p>
-        <strong>{{$name}}</strong>
-        <br>
-        {{ .Inner | markdownify }}
-      </p>
-    </div>
-    <nav class="level is-mobile">
-      <div class="level-left">
-        {{ with $github }}
-        <a class="level-item">
-          <span class="icon is-small"><a href="http://github.com/{{ . }}"><i class="fab fa-github"></i></a></span>
-        </a>
-        {{ end }}
-        {{ with $twitter }}
-          <a class="level-item">
-            <span class="icon is-small"><a href="http://twitter.com/{{ . }}"><i class="fab fa-twitter"></i></a></span>
-          </a>
-        {{ end }}
-        {{ with $linkedin }}
-          <a class="level-item">
-            <span class="icon is-small"><a href="https://linkedin.com/in/{{ . }}"><i class="fab fa-linkedin"></i></a></span>
-          </a>
-        {{ end }}
-      </div>
-    </nav>
-  </div>
+<div class="media-content">
+<div class="content">
+<p>
+<strong>{{$name}}</strong>
+<br>
+{{ .Inner | markdownify }}
+</p>
+</div>
+<nav class="level is-mobile">
+<div class="level-left">
+{{ with $github }}
+<a class="level-item">
+<span class="icon is-small"><a href="http://github.com/{{ . }}"><i class="fab fa-github"></i></a></span>
+</a>
+{{ end }}
+{{ with $twitter }}
+<a class="level-item">
+<span class="icon is-small"><a href="http://twitter.com/{{ . }}"><i class="fab fa-twitter"></i></a></span>
+</a>
+{{ end }}
+{{ with $linkedin }}
+<a class="level-item">
+<span class="icon is-small"><a href="https://linkedin.com/in/{{ . }}"><i class="fab fa-linkedin"></i></a></span>
+</a>
+{{ end }}
+</div>
+</nav>
+</div>
 </article>
