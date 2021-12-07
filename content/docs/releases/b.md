@@ -1,7 +1,7 @@
 +++
 title = "Borealis release v0.2.0"
 short = "v0.2.0"
-weight = 2
+weight = 3
 date = "2019-11-27"
 +++
 
