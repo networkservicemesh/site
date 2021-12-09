@@ -16,6 +16,7 @@
         "cmd-nse-vfio": "cell-KUktbazg4igNnRH6aAHL-55",
         "cmd-registry-memory": "cell-KUktbazg4igNnRH6aAHL-50",
         "cmd-registry-proxy-dns": "cell-KUktbazg4igNnRH6aAHL-54",
+        "cmd-nse-remote-vlan":"cell-YMB4rWHzFTmKYcXhytok-7",
       },
       "sdk-kernel": {
         "sdk-vpp": "cell-KUktbazg4igNnRH6aAHL-10",
@@ -38,7 +39,8 @@
       "sdk-k8s": {
         "cmd-nse-supplier-k8s": "cell-KUktbazg4igNnRH6aAHL-48",
         "cmd-registry-k8s": "cell-KUktbazg4igNnRH6aAHL-47",
-        "cmd-exclude-prefixes-k8s": "cell=KUktbazg4igNnRH6aAHL-51",
+        "cmd-exclude-prefixes-k8s": "cell-KUktbazg4igNnRH6aAHL-51",
+        "cmd-forwarder-vpp": "cell-YMB4rWHzFTmKYcXhytok-3"
       },
       "cmd-nsc-vpp": {
         "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-2",
@@ -94,6 +96,9 @@
       "cmd-registry-proxy-dns": {
         "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-18",
       },
+      "cmd-nse-remote-vlan": {
+        "deployment-k8s":"cell-u3GWNTIGmyiFT0szW0Ro-1",
+      }
       "deployment-k8s": {
         "integration-tests": "cell-ltp6VKm9YOJ7lEqRLLzF-20",
       },
