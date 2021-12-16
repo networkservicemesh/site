@@ -28,10 +28,11 @@
         "cmd-nse-firewall-vpp":"cell-YWTRKo84t5DHiULYztLq-3",
         "cmd-forwarder-vpp": "cell-KUktbazg4igNnRH6aAHL-15",
       },
-      "sdk-srvio": {
-        "cmd-forwarder-sriov":"cell-cmd-forwarder-sriov",
+      "sdk-sriov": {
+        "cmd-forwarder-sriov":"cell-KUktbazg4igNnRH6aAHL-19",
         "cmd-nsc": "cell-KUktbazg4igNnRH6aAHL-49",
         "sdk-ovs": "cell-Prku3oC4CS7h4xE_tYkA-13",
+        "cmd-forwarder-vpp": "cell-Prku3oC4CS7h4xE_tYkA-6",
       },
       "sdk-ovs": {
         "cmd-forwarder-ovs":"cell-Prku3oC4CS7h4xE_tYkA-9",
@@ -40,7 +41,7 @@
         "cmd-nse-supplier-k8s": "cell-KUktbazg4igNnRH6aAHL-48",
         "cmd-registry-k8s": "cell-KUktbazg4igNnRH6aAHL-47",
         "cmd-exclude-prefixes-k8s": "cell-KUktbazg4igNnRH6aAHL-51",
-        "cmd-forwarder-vpp": "cell-YMB4rWHzFTmKYcXhytok-3"
+        "cmd-forwarder-vpp": "cell-YMB4rWHzFTmKYcXhytok-3",
       },
       "cmd-nsc-vpp": {
         "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-2",
@@ -98,7 +99,7 @@
       },
       "cmd-nse-remote-vlan": {
         "deployment-k8s":"cell-u3GWNTIGmyiFT0szW0Ro-1",
-      }
+      },
       "deployment-k8s": {
         "integration-tests": "cell-ltp6VKm9YOJ7lEqRLLzF-20",
       },
@@ -141,6 +142,9 @@
     }
 
     function wrapLink(elem, url) {
+      if (!elem) {
+        return
+      } 
       var parent = elem.parentElement
       var link = svgDocument.createElementNS('http://www.w3.org/2000/svg', "a")
       link.setAttribute("href", url)
