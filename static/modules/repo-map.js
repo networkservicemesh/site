@@ -27,6 +27,7 @@
         "cmd-nse-icmp-responder-vpp": "cell-KUktbazg4igNnRH6aAHL-44",
         "cmd-nse-firewall-vpp":"cell-YWTRKo84t5DHiULYztLq-3",
         "cmd-forwarder-vpp": "cell-KUktbazg4igNnRH6aAHL-15",
+        "cmd-nse-simple-vl3-docker":"cell-tK4_8g8Ls3PgPuG9fXJk-1",
       },
       "sdk-sriov": {
         "cmd-forwarder-sriov":"cell-KUktbazg4igNnRH6aAHL-19",
