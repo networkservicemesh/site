@@ -99,7 +99,7 @@ having to expose the entire Runtime domain in which those workloads run:
 
 ## NSM and Zero Trust
 
-The resent [White House Executive Order on Cyber Security](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/) says
+The recent [White House Executive Order on Cyber Security](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/) says
 of Zero Trust:
 
 > In essence, a Zero Trust Architecture allows users full access but only to the bare minimum they need to perform their jobs.  If a device is compromised, zero trust can ensure that the damage is contained.
