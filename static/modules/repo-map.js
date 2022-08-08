@@ -17,6 +17,7 @@
         "cmd-registry-memory": "cell-KUktbazg4igNnRH6aAHL-50",
         "cmd-registry-proxy-dns": "cell-KUktbazg4igNnRH6aAHL-54",
         "cmd-nse-remote-vlan":"cell-YMB4rWHzFTmKYcXhytok-7",
+        "cmd-cluster-info-k8s":"cell-pbsQXEyPZ_YmtPOauGdX-12",
       },
       "sdk-kernel": {
         "sdk-vpp": "cell-KUktbazg4igNnRH6aAHL-10",
@@ -29,7 +30,7 @@
         "cmd-nse-firewall-vpp":"cell-YWTRKo84t5DHiULYztLq-3",
         "cmd-forwarder-vpp": "cell-KUktbazg4igNnRH6aAHL-15",
         "cmd-nse-simple-vl3-docker":"cell-pbsQXEyPZ_YmtPOauGdX-13",
-        "nsc-simple-docker":"cell-pbsQXEyPZ_YmtPOauGdX-14",
+        "cmd-nsc-simple-docker":"cell-pbsQXEyPZ_YmtPOauGdX-14",
       },
       "sdk-sriov": {
         "cmd-forwarder-sriov":"cell-KUktbazg4igNnRH6aAHL-19",
