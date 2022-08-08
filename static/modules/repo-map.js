@@ -17,17 +17,20 @@
         "cmd-registry-memory": "cell-KUktbazg4igNnRH6aAHL-50",
         "cmd-registry-proxy-dns": "cell-KUktbazg4igNnRH6aAHL-54",
         "cmd-nse-remote-vlan":"cell-YMB4rWHzFTmKYcXhytok-7",
+        "cmd-cluster-info-k8s":"cell-pbsQXEyPZ_YmtPOauGdX-12",
       },
       "sdk-kernel": {
         "sdk-vpp": "cell-KUktbazg4igNnRH6aAHL-10",
         "sdk-sriov": "cell-KUktbazg4igNnRH6aAHL-20",
+        "cmd-nse-l7-proxy": "cell-vHwpXIBINaUL7lCKyK2X-1"
       },
       "sdk-vpp": {
         "cmd-nsc-vpp": "cell-KUktbazg4igNnRH6aAHL-45",
         "cmd-nse-icmp-responder-vpp": "cell-KUktbazg4igNnRH6aAHL-44",
         "cmd-nse-firewall-vpp":"cell-YWTRKo84t5DHiULYztLq-3",
         "cmd-forwarder-vpp": "cell-KUktbazg4igNnRH6aAHL-15",
-        "cmd-nse-simple-vl3-docker":"cell-tK4_8g8Ls3PgPuG9fXJk-1",
+        "cmd-nse-simple-vl3-docker":"cell-pbsQXEyPZ_YmtPOauGdX-13",
+        "cmd-nsc-simple-docker":"cell-pbsQXEyPZ_YmtPOauGdX-14",
       },
       "sdk-sriov": {
         "cmd-forwarder-sriov":"cell-KUktbazg4igNnRH6aAHL-19",
@@ -87,6 +90,18 @@
         "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-14",
       },
       "cmd-nse-icmp-responder": {
+        "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-15",
+      },
+      "cmd-cluster-info-k8s": {
+        "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-15",
+      },
+      "cmd-nse-l7-proxy": {
+        "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-15",
+      },
+      "cmd-nse-simple-vl3-docker": {
+        "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-15",
+      },
+      "cmd-nsc-simple-docker": {
         "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-15",
       },
       "cmd-nse-vfio": {
