@@ -24,7 +24,7 @@ To simply build a docker image with changed code in NSM dependencies could be us
 Example:
 
 1. Push the change into the fork (myrepo/sdk) as a branch `my-branch`.
-2. Use `go get -u myrepo/sdk@my-branch. Note: Go will find the dependency and prints the `$version` of it, but returns an error as well. 
+2. Use `go get -u myrepo/sdk@my-branch.` Note: Go will find the dependency and prints the `$version` of it, but returns an error as well. 
 3. Write into go.mod of the repositry a replace directive `replace nsm/sdk => myrepo/sdk "$version"`
 4. Run `docker build .`
 
