@@ -18,5 +18,5 @@ You will also need to install [Yarn](https://yarnpkg.com/en/).  Easy install ins
 To run the site after cloning (with fast rendering disabled), run the following:
 
 ```
-make server
+make serve
 ```
