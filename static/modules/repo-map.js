@@ -16,7 +16,7 @@
         "cmd-nse-vfio": "cell-KUktbazg4igNnRH6aAHL-55",
         "cmd-registry-memory": "cell-KUktbazg4igNnRH6aAHL-50",
         "cmd-registry-proxy-dns": "cell-KUktbazg4igNnRH6aAHL-54",
-        "cmd-nse-remote-vlan":"cell-YMB4rWHzFTmKYcXhytok-7",
+        "cmd-nse-remote-vlan":"cell-YMB4rWHzFTmKYcXhytok-6",
         "cmd-cluster-info-k8s":"cell-pbsQXEyPZ_YmtPOauGdX-12",
       },
       "sdk-kernel": {
