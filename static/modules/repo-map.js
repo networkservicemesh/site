@@ -17,20 +17,21 @@
         "cmd-registry-memory": "cell-KUktbazg4igNnRH6aAHL-50",
         "cmd-registry-proxy-dns": "cell-KUktbazg4igNnRH6aAHL-54",
         "cmd-nse-remote-vlan":"cell-YMB4rWHzFTmKYcXhytok-7",
-        "cmd-cluster-info-k8s":"cell-pbsQXEyPZ_YmtPOauGdX-12",
+        "cmd-cluster-info-k8s":"cell-ba8n7t1DTyDJSkP5TsCU-4",
+        "cmd-vl3-ipam":"cell-uLCMfscIq_1WTIrkWhTO-2",
       },
       "sdk-kernel": {
         "sdk-vpp": "cell-KUktbazg4igNnRH6aAHL-10",
         "sdk-sriov": "cell-KUktbazg4igNnRH6aAHL-20",
-        "cmd-nse-l7-proxy": "cell-vHwpXIBINaUL7lCKyK2X-1"
+        "cmd-nse-l7-proxy": "cell-ba8n7t1DTyDJSkP5TsCU-2"
       },
       "sdk-vpp": {
         "cmd-nsc-vpp": "cell-KUktbazg4igNnRH6aAHL-45",
         "cmd-nse-icmp-responder-vpp": "cell-KUktbazg4igNnRH6aAHL-44",
         "cmd-nse-firewall-vpp":"cell-YWTRKo84t5DHiULYztLq-3",
         "cmd-forwarder-vpp": "cell-KUktbazg4igNnRH6aAHL-15",
-        "cmd-nse-simple-vl3-docker":"cell-pbsQXEyPZ_YmtPOauGdX-13",
-        "cmd-nsc-simple-docker":"cell-pbsQXEyPZ_YmtPOauGdX-14",
+        "cmd-nse-simple-vl3-docker":"cell-vHwpXIBINaUL7lCKyK2X-4",
+        "cmd-nsc-simple-docker":"cell-vHwpXIBINaUL7lCKyK2X-3",
       },
       "sdk-sriov": {
         "cmd-forwarder-sriov":"cell-KUktbazg4igNnRH6aAHL-19",
@@ -181,7 +182,7 @@
     const octokit = new Octokit()
 
     const searchIterator = octokit.paginate.iterator(octokit.rest.search.issuesAndPullRequests, {
-      q: "org:networkservicemesh+is:pr+update/networkservicemesh/*+in:title+is:open+is:unmerged",
+      q: "org:networkservicemesh+is:pr+*/networkservicemesh/*+in:title+is:open+is:unmerged",
     });
 
     for await (const {data} of searchIterator) {
