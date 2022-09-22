@@ -90,19 +90,23 @@ to 'refresh' the {{<color "#6A00FF" >}}vWire{{< /color >}}.  If a {{<color "#6A0
 
 A {{<color "#0050EF" >}}Client{{< /color >}} may use a 'MonitorConnection' streaming GRPC call to NSM to get updates on the status of a {{<color "#6A00FF" >}}vWire{{< /color >}} it has to a Network Service.
 
-## Registries
+## Registry
 
-As with any other Mesh, Network Service Mesh has Network Service Registries (NSR) in which Network Services and Network Service {{<color "#008A00" >}}Endpoint{{< /color >}}s are registered
+The Network Service Registry (NSR) component tracks Network Services and Network Service {{<color "#008A00" >}}Endpoints{{</color>}}. It can use either in-memory volatile storage or Kubernetes custom resource storage.
+
+Clients and Endpoints don't connect directly to the Registry; they connect to the Network Service Manager which is a proxy for the registry. This simplifies NSM's internal data flows since Clients and Endpoints need to connect to the Manager anyway.
+
+For development purposes on single-node clusters the Manager can be configured to run a local in-memory Registry within its container, but in most k8s deployments the Registry will run independently and the Manager will connect to the Registry using a socket.
 
 ### Network Service Endpoint
 
-A {{<color "#008A00" >}}Network Service Endpoint{{< /color >}} ({{<color "#008A00" >}}NSE{{< /color >}} or {{<color "#008A00" >}}Endpoint{{< /color >}}) provides one or more Network Services.  It registers with the registry a list
+A {{<color "#008A00" >}}Network Service Endpoint{{< /color >}} ({{<color "#008A00" >}}NSE{{< /color >}} or {{<color "#008A00" >}}Endpoint{{< /color >}}) provides one or more Network Services.  It registers a list
 of Network Services (by name) that it provides, and the 'destination labels' it is advertising for each Network Service.
 
 
 ### Network Service
 
-A Network Service is a identified by name, and carries a payload type (either IP or Ethernet).
+A Network Service is identified by name, and has a payload type (either IP by default, or Ethernet). Network Services are registered with the Network Service Manager which passes their data to the Network Service Registry for storage, usually as Kubernetes custom resources like this one:
 
 ```yaml
 ---
@@ -113,8 +117,6 @@ metadata:
 spec:
   payload: IP
 ```
-
-by default if not specified, the payload is presumed to be IP.  Network Services are registered with the Network Service Registry.
 
 Optionally, a Network Service may specify a list of 'matches'.  These matches allow matching the 'source labels' a {{<color "#0050EF" >}}Client{{< /color >}} sends
 with its Request to 'destination labels' advertised by the {{<color "#008A00" >}}Endpoint{{< /color >}} when it registers as providing the Network Service.
