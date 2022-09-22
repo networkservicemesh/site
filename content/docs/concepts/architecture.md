@@ -22,10 +22,10 @@ More sophisticated features (IPS, etc) can be composed into Network Services to 
 ### Clients
 
 A {{<color "#0050EF" >}}Client{{< /color >}} in Network Service Mesh, sometimes also called a {{<color "#0050EF" >}}Network Service Client (NSC){{</color>}} is a workload that asks to be connected to a Network Service
-by name.  A {{<color "#0050EF" >}}Client{{< /color >}} is independently authenticated (currently by Spiffe ID), and must be authorized to be attached to attach to a Network Service.
+by name.  A {{<color "#0050EF" >}}Client{{< /color >}} is independently authenticated (currently by Spiffe ID), and must be authorized to attach to a Network Service.
 
 For each Network Service to which a {{<color "#0050EF" >}}Client{{< /color >}} wishes to be connected, in addition to the name of that Network Service and the identity of the Client,
-an optional set of 'labels' (key value pairs) may be provided.  These 'labels' may be used by Network Service for {{<color "#008A00" >}}Endpoint{{< /color >}} selection, or by {{<color "#008A00" >}}Endpoints{{< /color >}} themselves
+an optional set of 'labels' (key value pairs) may be provided.  These 'labels' may be used by the Network Service for {{<color "#008A00" >}}Endpoint{{< /color >}} selection, or by {{<color "#008A00" >}}Endpoints{{< /color >}} themselves
 to influence how the {{<color "#008A00" >}}Endpoint{{< /color >}} provides service to the {{<color "#0050EF" >}}Client{{< /color >}}.
 
 A {{<color "#0050EF" >}}Client{{< /color >}} may be a:
@@ -36,7 +36,7 @@ A {{<color "#0050EF" >}}Client{{< /color >}} may be a:
 
 ### vWires
 
-That which connects a {{<color "#0050EF" >}}Client{{< /color >}} to an {{<color "#008A00" >}}Endpoint{{< /color >}} is a {{<color "#6A00FF" >}}vWire{{< /color >}} or {{<color "#6A00FF" >}}Virtual Wire{{< /color >}}.
+A {{<color "#6A00FF" >}}Virtual Wire{{< /color >}} (or {{<color "#6A00FF" >}}vWire{{< /color >}}) connects a {{<color "#0050EF" >}}Client{{< /color >}} to an {{<color "#008A00" >}}Endpoint{{< /color >}}.
 
 ![vWire](/img/concepts/architecture/vWire.svg)
 
@@ -46,9 +46,9 @@ The contract of a {{<color "#6A00FF" >}}vWire{{< /color >}} is:
 - A packet ingressing the {{<color "#6A00FF" >}}vWire{{< /color >}} at the {{<color "#008A00" >}}Endpoint{{< /color >}} will egress the {{<color "#6A00FF" >}}vWire{{< /color >}} at the {{<color "#0050EF" >}}Client{{< /color >}}
 - Only packets that ingressed the {{<color "#6A00FF" >}}vWire{{< /color >}} at the {{<color "#0050EF" >}}Client{{< /color >}} will egress at the {{<color "#008A00" >}}Endpoint{{< /color >}}
 - Only packets that ingressed the {{<color "#6A00FF" >}}vWire{{< /color >}} at the {{<color "#0050EF" >}}Client{{< /color >}} will egress the {{<color "#6A00FF" >}}vWire{{< /color >}} at the {{<color "#008A00" >}}Endpoint{{< /color >}}
-- An {{<color "#008A00" >}}Endpoint{{< /color >}} may have multiple incoming {{<color "#6A00FF" >}}vWires{{< /color >}}.
-- A {{<color "#0050EF" >}}Client{{< /color >}} may have multiple outgoing {{<color "#6A00FF" >}}vWires{{< /color >}}.
-- Each {{<color "#6A00FF" >}}vWire{{< /color >}} carries traffic for exactly one Network Service.
+- An {{<color "#008A00" >}}Endpoint{{< /color >}} may have multiple incoming {{<color "#6A00FF" >}}vWires{{< /color >}}
+- A {{<color "#0050EF" >}}Client{{< /color >}} may have multiple outgoing {{<color "#6A00FF" >}}vWires{{< /color >}}
+- Each {{<color "#6A00FF" >}}vWire{{< /color >}} carries traffic for exactly one Network Service
 
 In short, a {{<color "#6A00FF" >}}vWire{{< /color >}} acts like a virtual Wire between {{<color "#0050EF" >}}Client{{< /color >}} and {{<color "#008A00" >}}Endpoint{{< /color >}}.
 
@@ -57,7 +57,7 @@ it to a particular {{<color "#008A00" >}}Endpoint{{< /color >}}.
 
 ### Endpoints
 
-An {{<color "#008A00" >}}Endpoint{{< /color >}} in Network Service Mesh, sometimes called a Network Service {{<color "#008A00" >}}Endpoint{{< /color >}} or NSE is the 'thing' provides the Network Service to the {{<color "#0050EF" >}}Client{{< /color >}}.
+An {{<color "#008A00" >}}Endpoint{{< /color >}} in Network Service Mesh, sometimes called a Network Service {{<color "#008A00" >}}Endpoint{{< /color >}} (or NSE) is the 'thing' that provides the Network Service to the {{<color "#0050EF" >}}Client{{< /color >}}.
 
 Network Service Mesh constructs a {{<color "#6A00FF" >}}vWire{{< /color >}} between the {{<color "#0050EF" >}}Client{{< /color >}} and the {{<color "#008A00" >}}Endpoint{{< /color >}}:
 
