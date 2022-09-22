@@ -11,15 +11,13 @@ A Network Service is a set of Connectivity, Security, and Observability features
 
 ![Network Service Venn Diagram](/img/concepts/architecture/ns_venn.svg)
 
-A Network Service is a collection of Connectivity, Security, and Observability features applied to traffic.
+Examples of Network Services include:
 
-Examples of Network Services would include:
+- A simple distributed vL3 that allows workloads to communicate via IP, optionally with DNS service for that vL3.
+- A traditional Network Service like Istio, Linkerd, Consul, or Kuma running over a vL3.  This allows specific workloads to be admitted to that Service Mesh, independent of where they run.
+It also allows a single workload to connect to multiple traditional service meshes.  This can allow a workload to connect both to a company's Service Mesh, and also to the Service Meshes of its partners simultaneously.
 
-- A simple distributed vL3 that allows the workloads to communicate via IP, optionally with DNS service for that vL3
-- A Traditional Network Service like Istio, Linkerd, Consul, or Kuma running over a vL3.  This allows specific workloads to be admitted to that Service Mesh, independent of where they run.
-It also allows a single workload to connect to multiple Traditional Service Meshes.  This can allow a workload to connect both to a companies Service Mesh, and also to the Service Meshes of its partners simultaneously.
-
-More sophisticated features (IPS, etc) can be composed into Network Services to add additional Security and Observability Features.
+More sophisticated features (IPS, etc) can be composed into Network Services to add additional Security and Observability features.
 
 ### Clients
 
