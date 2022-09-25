@@ -92,21 +92,17 @@ A {{<color "#0050EF" >}}Client{{< /color >}} may use a 'MonitorConnection' strea
 
 ## Registry
 
-The Network Service Registry (NSR) component tracks Network Services and Network Service {{<color "#008A00" >}}Endpoints{{</color>}}. It can use either in-memory volatile storage or Kubernetes custom resource storage.
+The Network Service Registry (NSR) tracks Network Services and Network Service {{<color "#008A00" >}}Endpoints{{</color>}}. It implements a [simple gRPC API](https://github.com/networkservicemesh/api/blob/main/pkg/api/registry/registry.proto) that lets clients register, find, and unregister Network Services and {{<color "#008A00" >}}Endpoints{{</color>}}.
 
-Clients and Endpoints don't connect directly to the Registry; they connect to the Network Service Manager which is a proxy for the registry. This simplifies NSM's internal data flows since Clients and Endpoints need to connect to the Manager anyway.
+There are two implementations currently: [in-memory volatile storage](https://github.com/networkservicemesh/cmd-registry-memory) and [Kubernetes custom resource storage](https://github.com/networkservicemesh/cmd-registry-k8s).
 
-For development purposes on single-node clusters the Manager can be configured to run a local in-memory Registry within its container, but in most k8s deployments the Registry will run independently and the Manager will connect to the Registry using a socket.
+Clients and Endpoints don't connect directly to the Registry; they connect to the [Network Service Manager](https://github.com/networkservicemesh/cmd-nsmgr) which acts as a proxy for the registry. This simplifies NSM's internal data flows since Clients and Endpoints need to connect to the Manager anyway.
 
-### Network Service Endpoint
+For development and test purposes on single-node clusters the Manager can be configured to run a local in-memory Registry within its container, but most k8s deployments will run the Registry independently and the Manager will connect to the Registry using a socket.
 
-A {{<color "#008A00" >}}Network Service Endpoint{{< /color >}} ({{<color "#008A00" >}}NSE{{< /color >}} or {{<color "#008A00" >}}Endpoint{{< /color >}}) provides one or more Network Services.  It registers a list
-of Network Services (by name) that it provides, and the 'destination labels' it is advertising for each Network Service.
+### Network Services
 
-
-### Network Service
-
-A Network Service is identified by name, and has a payload type (either IP by default, or Ethernet). Network Services are registered with the Network Service Manager which passes their data to the Network Service Registry for storage, usually as Kubernetes custom resources like this one:
+Each Network Service's registry entry is identified by name, and has a payload type (either IP by default, or Ethernet). Network Services are registered with the Network Service Manager which passes their data to the Network Service Registry for storage, usually as Kubernetes custom resources like this one:
 
 ```yaml
 ---
@@ -148,6 +144,11 @@ that advertised a Network Service named 'service-mesh' with 'destination label' 
 
 If a {{<color "#0050EF" >}}Client{{< /color >}} provided a 'source label' of 'service: envoy-proxy' it would match the first match and be matched to an {{<color "#008A00" >}}Endpoint{{< /color >}}
 that advertised a Network Service named 'service-mesh' with 'destination label' 'service: vl3'
+
+### Endpoints
+
+Each {{<color "#008A00" >}}Network Service Endpoint{{< /color >}} (described [above](#endpoints)) registers a list
+of Network Services (by name) that it provides, and the 'destination labels' it is advertising for each Network Service.
 
 ### Registry Domains
 
