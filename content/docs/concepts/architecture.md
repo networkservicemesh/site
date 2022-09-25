@@ -34,6 +34,22 @@ A {{<color "#0050EF" >}}Client{{< /color >}} may be a:
 - VM
 - Physical Server
 
+### Endpoints
+
+An {{<color "#008A00" >}}Endpoint{{< /color >}} in Network Service Mesh, sometimes called a Network Service {{<color "#008A00" >}}Endpoint{{< /color >}} (or NSE) is the 'thing' that provides the Network Service to the {{<color "#0050EF" >}}Client{{< /color >}}.
+
+Network Service Mesh constructs a {{<color "#6A00FF" >}}vWire{{< /color >}} between the {{<color "#0050EF" >}}Client{{< /color >}} and the {{<color "#008A00" >}}Endpoint{{< /color >}}:
+
+![NSE](/img/concepts/architecture/nse.svg)
+
+An {{<color "#008A00" >}}Endpoint{{< /color >}} may be
+
+- a Pod running in the same K8s cluster
+- a Pod running in a different K8s cluster
+- a VM
+- an aspect of the physical network
+- Anything else to which packets can be delivered for processing
+
 ### vWires
 
 A {{<color "#6A00FF" >}}Virtual Wire{{< /color >}} (or {{<color "#6A00FF" >}}vWire{{< /color >}}) connects a {{<color "#0050EF" >}}Client{{< /color >}} to an {{<color "#008A00" >}}Endpoint{{< /color >}}.
@@ -54,23 +70,6 @@ In short, a {{<color "#6A00FF" >}}vWire{{< /color >}} acts like a virtual Wire b
 
 It should be noted that a {{<color "#0050EF" >}}Client{{< /color >}} *may* request the same Network Service multiple times, and thus have mutiple {{<color "#6A00FF" >}}vWires{{< /color >}} that happen to connect
 it to a particular {{<color "#008A00" >}}Endpoint{{< /color >}}.
-
-### Endpoints
-
-An {{<color "#008A00" >}}Endpoint{{< /color >}} in Network Service Mesh, sometimes called a Network Service {{<color "#008A00" >}}Endpoint{{< /color >}} (or NSE) is the 'thing' that provides the Network Service to the {{<color "#0050EF" >}}Client{{< /color >}}.
-
-Network Service Mesh constructs a {{<color "#6A00FF" >}}vWire{{< /color >}} between the {{<color "#0050EF" >}}Client{{< /color >}} and the {{<color "#008A00" >}}Endpoint{{< /color >}}:
-
-![NSE](/img/concepts/architecture/nse.svg)
-
-An {{<color "#008A00" >}}Endpoint{{< /color >}} may be
-
-- a Pod running in the same K8s cluster
-- a Pod running in a different K8s cluster
-- a VM
-- an aspect of the physical network
-- Anything else to which packets can be delivered for processing
-
 
 ## Network Service API
 
