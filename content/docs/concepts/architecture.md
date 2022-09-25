@@ -74,21 +74,22 @@ An {{<color "#008A00" >}}Endpoint{{< /color >}} may be
 
 ## Network Service API
 
+The Network Service API is NSM's core API. It's defined as a [gRPC service](https://github.com/networkservicemesh/api/blob/main/pkg/api/networkservice/networkservice.proto).
 
 ### Request
-A {{<color "#6A00FF" >}}vWire{{< /color >}} between a {{<color "#0050EF" >}}Client{{< /color >}} and Network Service is created by a {{<color "#0050EF" >}}Client{{< /color >}} sending a 'Request' GRPC call to NSM.
+A {{<color "#6A00FF" >}}vWire{{< /color >}} between a {{<color "#0050EF" >}}Client{{< /color >}} and Network Service is created by a {{<color "#0050EF" >}}Client{{< /color >}} sending a 'Request' gRPC call to NSM.
 
 ![Request](/img/concepts/architecture/request.svg)
 
 ### Close
-A {{<color "#6A00FF" >}}vWire{{< /color >}} between a {{<color "#0050EF" >}}Client{{< /color >}} and a Network Service is formally Closed by sending a 'Close' GRPC call to NSM.
+A {{<color "#6A00FF" >}}vWire{{< /color >}} between a {{<color "#0050EF" >}}Client{{< /color >}} and a Network Service is formally Closed by sending a 'Close' gRPC call to NSM.
 
 
 ### Monitor
 A {{<color "#6A00FF" >}}vWire{{< /color >}} between a {{<color "#0050EF" >}}Client{{< /color >}} and a Network Service always has a finite expire time.  The {{<color "#0050EF" >}}Client{{< /color >}} may (and usually does) send new 'Request' messages
 to 'refresh' the {{<color "#6A00FF" >}}vWire{{< /color >}}.  If a {{<color "#6A00FF" >}}vWire{{< /color >}} exceeds its expire time without being refreshed, NSM cleans up the {{<color "#6A00FF" >}}vWire{{< /color >}}.
 
-A {{<color "#0050EF" >}}Client{{< /color >}} may use a 'MonitorConnection' streaming GRPC call to NSM to get updates on the status of a {{<color "#6A00FF" >}}vWire{{< /color >}} it has to a Network Service.
+A {{<color "#0050EF" >}}Client{{< /color >}} may use a 'MonitorConnection' streaming gRPC call to NSM to get updates on the status of a {{<color "#6A00FF" >}}vWire{{< /color >}} it has to a Network Service.
 
 ## Registry
 
