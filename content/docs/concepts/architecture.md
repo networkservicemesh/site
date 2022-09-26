@@ -4,6 +4,8 @@ weight = 3
 date = "2021-06-21"
 +++
 
+Network Service Mesh's architecture allows it to run in just about any environment. Specifically, it's not tied to Kubernetes although it works great with it! This can be confusing at first because you need to keep in mind which NSM aspects are general-purpose and which are [k8s-specific](../k8s).
+
 ## Key Concepts
 ### Network Services
 
