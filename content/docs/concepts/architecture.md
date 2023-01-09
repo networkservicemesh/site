@@ -4,6 +4,8 @@ weight = 3
 date = "2021-06-21"
 +++
 
+Network Service Mesh's architecture allows it to run in just about any environment. Specifically, it's not tied to Kubernetes although it works great with it! This can be confusing at first because you need to keep in mind which NSM aspects are general-purpose and which are [k8s-specific](../k8s).
+
 ## Key Concepts
 ### Network Services
 
@@ -11,23 +13,21 @@ A Network Service is a set of Connectivity, Security, and Observability features
 
 ![Network Service Venn Diagram](/img/concepts/architecture/ns_venn.svg)
 
-A Network Service is a collection of Connectivity, Security, and Observability features applied to traffic.
+Examples of Network Services include:
 
-Examples of Network Services would include:
+- A simple distributed vL3 that allows workloads to communicate via IP, optionally with DNS service for that vL3.
+- A traditional Network Service like Istio, Linkerd, Consul, or Kuma running over a vL3.  This allows specific workloads to be admitted to that Service Mesh, independent of where they run.
+It also allows a single workload to connect to multiple traditional service meshes.  This can allow a workload to connect both to a company's Service Mesh, and also to the Service Meshes of its partners simultaneously.
 
-- A simple distributed vL3 that allows the workloads to communicate via IP, optionally with DNS service for that vL3
-- A Traditional Network Service like Istio, Linkerd, Consul, or Kuma running over a vL3.  This allows specific workloads to be admitted to that Service Mesh, independent of where they run.
-It also allows a single workload to connect to multiple Traditional Service Meshes.  This can allow a workload to connect both to a companies Service Mesh, and also to the Service Meshes of its partners simultaneously.
-
-More sophisticated features (IPS, etc) can be composed into Network Services to add additional Security and Observability Features.
+More sophisticated features (IPS, etc) can be composed into Network Services to add additional Security and Observability features.
 
 ### Clients
 
 A {{<color "#0050EF" >}}Client{{< /color >}} in Network Service Mesh, sometimes also called a {{<color "#0050EF" >}}Network Service Client (NSC){{</color>}} is a workload that asks to be connected to a Network Service
-by name.  A {{<color "#0050EF" >}}Client{{< /color >}} is independently authenticated (currently by Spiffe ID), and must be authorized to be attached to attach to a Network Service.
+by name.  A {{<color "#0050EF" >}}Client{{< /color >}} is independently authenticated (currently by Spiffe ID), and must be authorized to attach to a Network Service.
 
 For each Network Service to which a {{<color "#0050EF" >}}Client{{< /color >}} wishes to be connected, in addition to the name of that Network Service and the identity of the Client,
-an optional set of 'labels' (key value pairs) may be provided.  These 'labels' may be used by Network Service for {{<color "#008A00" >}}Endpoint{{< /color >}} selection, or by {{<color "#008A00" >}}Endpoints{{< /color >}} themselves
+an optional set of 'labels' (key value pairs) may be provided.  These 'labels' may be used by the Network Service for {{<color "#008A00" >}}Endpoint{{< /color >}} selection, or by {{<color "#008A00" >}}Endpoints{{< /color >}} themselves
 to influence how the {{<color "#008A00" >}}Endpoint{{< /color >}} provides service to the {{<color "#0050EF" >}}Client{{< /color >}}.
 
 A {{<color "#0050EF" >}}Client{{< /color >}} may be a:
@@ -36,30 +36,9 @@ A {{<color "#0050EF" >}}Client{{< /color >}} may be a:
 - VM
 - Physical Server
 
-### vWires
-
-That which connects a {{<color "#0050EF" >}}Client{{< /color >}} to an {{<color "#008A00" >}}Endpoint{{< /color >}} is a {{<color "#6A00FF" >}}vWire{{< /color >}} or {{<color "#6A00FF" >}}Virtual Wire{{< /color >}}.
-
-![vWire](/img/concepts/architecture/vWire.svg)
-
-The contract of a {{<color "#6A00FF" >}}vWire{{< /color >}} is:
-
-- A packet ingressing the {{<color "#6A00FF" >}}vWire{{< /color >}} at the {{<color "#0050EF" >}}Client{{< /color >}} will egress at the {{<color "#008A00" >}}Endpoint{{< /color >}}
-- A packet ingressing the {{<color "#6A00FF" >}}vWire{{< /color >}} at the {{<color "#008A00" >}}Endpoint{{< /color >}} will egress the {{<color "#6A00FF" >}}vWire{{< /color >}} at the {{<color "#0050EF" >}}Client{{< /color >}}
-- Only packets that ingressed the {{<color "#6A00FF" >}}vWire{{< /color >}} at the {{<color "#0050EF" >}}Client{{< /color >}} will egress at the {{<color "#008A00" >}}Endpoint{{< /color >}}
-- Only packets that ingressed the {{<color "#6A00FF" >}}vWire{{< /color >}} at the {{<color "#0050EF" >}}Client{{< /color >}} will egress the {{<color "#6A00FF" >}}vWire{{< /color >}} at the {{<color "#008A00" >}}Endpoint{{< /color >}}
-- An {{<color "#008A00" >}}Endpoint{{< /color >}} may have multiple incoming {{<color "#6A00FF" >}}vWires{{< /color >}}.
-- A {{<color "#0050EF" >}}Client{{< /color >}} may have multiple outgoing {{<color "#6A00FF" >}}vWires{{< /color >}}.
-- Each {{<color "#6A00FF" >}}vWire{{< /color >}} carries traffic for exactly one Network Service.
-
-In short, a {{<color "#6A00FF" >}}vWire{{< /color >}} acts like a virtual Wire between {{<color "#0050EF" >}}Client{{< /color >}} and {{<color "#008A00" >}}Endpoint{{< /color >}}.
-
-It should be noted that a {{<color "#0050EF" >}}Client{{< /color >}} *may* request the same Network Service multiple times, and thus have mutiple {{<color "#6A00FF" >}}vWires{{< /color >}} that happen to connect
-it to a particular {{<color "#008A00" >}}Endpoint{{< /color >}}.
-
 ### Endpoints
 
-An {{<color "#008A00" >}}Endpoint{{< /color >}} in Network Service Mesh, sometimes called a Network Service {{<color "#008A00" >}}Endpoint{{< /color >}} or NSE is the 'thing' provides the Network Service to the {{<color "#0050EF" >}}Client{{< /color >}}.
+An {{<color "#008A00" >}}Endpoint{{< /color >}} in Network Service Mesh, sometimes called a Network Service {{<color "#008A00" >}}Endpoint{{< /color >}} (or NSE) is the 'thing' that provides the Network Service to the {{<color "#0050EF" >}}Client{{< /color >}}.
 
 Network Service Mesh constructs a {{<color "#6A00FF" >}}vWire{{< /color >}} between the {{<color "#0050EF" >}}Client{{< /color >}} and the {{<color "#008A00" >}}Endpoint{{< /color >}}:
 
@@ -73,38 +52,59 @@ An {{<color "#008A00" >}}Endpoint{{< /color >}} may be
 - an aspect of the physical network
 - Anything else to which packets can be delivered for processing
 
+### vWires
+
+A {{<color "#6A00FF" >}}Virtual Wire{{< /color >}} (or {{<color "#6A00FF" >}}vWire{{< /color >}}) connects a {{<color "#0050EF" >}}Client{{< /color >}} to an {{<color "#008A00" >}}Endpoint{{< /color >}}.
+
+![vWire](/img/concepts/architecture/vWire.svg)
+
+The contract of a {{<color "#6A00FF" >}}vWire{{< /color >}} is:
+
+- A packet ingressing the {{<color "#6A00FF" >}}vWire{{< /color >}} at the {{<color "#0050EF" >}}Client{{< /color >}} will egress at the {{<color "#008A00" >}}Endpoint{{< /color >}}
+- A packet ingressing the {{<color "#6A00FF" >}}vWire{{< /color >}} at the {{<color "#008A00" >}}Endpoint{{< /color >}} will egress the {{<color "#6A00FF" >}}vWire{{< /color >}} at the {{<color "#0050EF" >}}Client{{< /color >}}
+- Only packets that ingressed the {{<color "#6A00FF" >}}vWire{{< /color >}} at the {{<color "#0050EF" >}}Client{{< /color >}} will egress at the {{<color "#008A00" >}}Endpoint{{< /color >}}
+- Only packets that ingressed the {{<color "#6A00FF" >}}vWire{{< /color >}} at the {{<color "#0050EF" >}}Client{{< /color >}} will egress the {{<color "#6A00FF" >}}vWire{{< /color >}} at the {{<color "#008A00" >}}Endpoint{{< /color >}}
+- An {{<color "#008A00" >}}Endpoint{{< /color >}} may have multiple incoming {{<color "#6A00FF" >}}vWires{{< /color >}}
+- A {{<color "#0050EF" >}}Client{{< /color >}} may have multiple outgoing {{<color "#6A00FF" >}}vWires{{< /color >}}
+- Each {{<color "#6A00FF" >}}vWire{{< /color >}} carries traffic for exactly one Network Service
+
+In short, a {{<color "#6A00FF" >}}vWire{{< /color >}} acts like a virtual Wire between {{<color "#0050EF" >}}Client{{< /color >}} and {{<color "#008A00" >}}Endpoint{{< /color >}}.
+
+It should be noted that a {{<color "#0050EF" >}}Client{{< /color >}} *may* request the same Network Service multiple times, and thus have mutiple {{<color "#6A00FF" >}}vWires{{< /color >}} that happen to connect
+it to a particular {{<color "#008A00" >}}Endpoint{{< /color >}}.
 
 ## Network Service API
 
+The Network Service API is NSM's core API. It's defined as a [gRPC service](https://github.com/networkservicemesh/api/blob/main/pkg/api/networkservice/networkservice.proto).
 
 ### Request
-A {{<color "#6A00FF" >}}vWire{{< /color >}} between a {{<color "#0050EF" >}}Client{{< /color >}} and Network Service is created by a {{<color "#0050EF" >}}Client{{< /color >}} sending a 'Request' GRPC call to NSM.
+A {{<color "#6A00FF" >}}vWire{{< /color >}} between a {{<color "#0050EF" >}}Client{{< /color >}} and Network Service is created by a {{<color "#0050EF" >}}Client{{< /color >}} sending a 'Request' gRPC call to NSM.
 
 ![Request](/img/concepts/architecture/request.svg)
 
 ### Close
-A {{<color "#6A00FF" >}}vWire{{< /color >}} between a {{<color "#0050EF" >}}Client{{< /color >}} and a Network Service is formally Closed by sending a 'Close' GRPC call to NSM.
+A {{<color "#6A00FF" >}}vWire{{< /color >}} between a {{<color "#0050EF" >}}Client{{< /color >}} and a Network Service is formally Closed by sending a 'Close' gRPC call to NSM.
 
 
 ### Monitor
 A {{<color "#6A00FF" >}}vWire{{< /color >}} between a {{<color "#0050EF" >}}Client{{< /color >}} and a Network Service always has a finite expire time.  The {{<color "#0050EF" >}}Client{{< /color >}} may (and usually does) send new 'Request' messages
 to 'refresh' the {{<color "#6A00FF" >}}vWire{{< /color >}}.  If a {{<color "#6A00FF" >}}vWire{{< /color >}} exceeds its expire time without being refreshed, NSM cleans up the {{<color "#6A00FF" >}}vWire{{< /color >}}.
 
-A {{<color "#0050EF" >}}Client{{< /color >}} may use a 'MonitorConnection' streaming GRPC call to NSM to get updates on the status of a {{<color "#6A00FF" >}}vWire{{< /color >}} it has to a Network Service.
+A {{<color "#0050EF" >}}Client{{< /color >}} may use a 'MonitorConnection' streaming gRPC call to NSM to get updates on the status of a {{<color "#6A00FF" >}}vWire{{< /color >}} it has to a Network Service.
 
-## Registries
+## Registry
 
-As with any other Mesh, Network Service Mesh has Network Service Registries (NSR) in which Network Services and Network Service {{<color "#008A00" >}}Endpoint{{< /color >}}s are registered
+The Network Service Registry (NSR) tracks Network Services and Network Service {{<color "#008A00" >}}Endpoints{{</color>}}. It implements a [simple gRPC API](https://github.com/networkservicemesh/api/blob/main/pkg/api/registry/registry.proto) that lets clients register, find, and unregister Network Services and {{<color "#008A00" >}}Endpoints{{</color>}}.
 
-### Network Service Endpoint
+There are two implementations currently: [in-memory volatile storage](https://github.com/networkservicemesh/cmd-registry-memory) and [Kubernetes custom resource storage](https://github.com/networkservicemesh/cmd-registry-k8s).
 
-A {{<color "#008A00" >}}Network Service Endpoint{{< /color >}} ({{<color "#008A00" >}}NSE{{< /color >}} or {{<color "#008A00" >}}Endpoint{{< /color >}}) provides one or more Network Services.  It registers with the registry a list
-of Network Services (by name) that it provides, and the 'destination labels' it is advertising for each Network Service.
+Clients and Endpoints don't connect directly to the Registry; they connect to the [Network Service Manager](https://github.com/networkservicemesh/cmd-nsmgr) which acts as a proxy for the registry. This simplifies NSM's internal data flows since Clients and Endpoints need to connect to the Manager anyway.
 
+For development and test purposes on single-node clusters the Manager can be configured to run a local in-memory Registry within its container, but most k8s deployments will run the Registry independently and the Manager will connect to the Registry using a socket.
 
-### Network Service
+### Network Services
 
-A Network Service is a identified by name, and carries a payload type (either IP or Ethernet).
+Each Network Service's registry entry is identified by name, and has a payload type (either IP by default, or Ethernet). Network Services are registered with the Network Service Manager which passes their data to the Network Service Registry for storage, usually as Kubernetes custom resources like this one:
 
 ```yaml
 ---
@@ -115,8 +115,6 @@ metadata:
 spec:
   payload: IP
 ```
-
-by default if not specified, the payload is presumed to be IP.  Network Services are registered with the Network Service Registry.
 
 Optionally, a Network Service may specify a list of 'matches'.  These matches allow matching the 'source labels' a {{<color "#0050EF" >}}Client{{< /color >}} sends
 with its Request to 'destination labels' advertised by the {{<color "#008A00" >}}Endpoint{{< /color >}} when it registers as providing the Network Service.
@@ -148,6 +146,11 @@ that advertised a Network Service named 'service-mesh' with 'destination label' 
 
 If a {{<color "#0050EF" >}}Client{{< /color >}} provided a 'source label' of 'service: envoy-proxy' it would match the first match and be matched to an {{<color "#008A00" >}}Endpoint{{< /color >}}
 that advertised a Network Service named 'service-mesh' with 'destination label' 'service: vl3'
+
+### Endpoints
+
+Each {{<color "#008A00" >}}Network Service Endpoint{{< /color >}} (described [above](#endpoints)) registers a list
+of Network Services (by name) that it provides, and the 'destination labels' it is advertising for each Network Service.
 
 ### Registry Domains
 
