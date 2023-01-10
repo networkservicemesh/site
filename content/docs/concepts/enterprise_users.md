@@ -20,7 +20,7 @@ Historically, workloads have been run in some sort of Runtime Domain:
 
 A Runtime Domain is a system on which workloads are run.  It's fundamentally a compute domain.
 
-Each of those Runtime Domains have brought along exactly one Connectivity Domain:
+Each of those Runtime Domains has brought along exactly one Connectivity Domain:
 
 ![K8s Connectivity Domain](/img/concepts/enterprise/3x1/k8s_connectivity_domain.svg)
 ![VM Connectivity Domain](/img/concepts/enterprise/3x1/vm_connectivity_domain.svg)
@@ -41,7 +41,7 @@ multi-cloud/hybrid cloud environment:
 
 ![K8s MultiCluster](/img/concepts/enterprise/k8s_multi_cluster.svg)
 
-How do workloads communicate independent of where they are running?
+How do workloads communicate independently of where they are running?
 
 It's not just a problem of cluster to cluster communication.  In the diagram below: 
 
@@ -71,9 +71,9 @@ NSM is architecturally independent of the Runtime Domain.  While it supports K8s
 Network Service Mesh is complementary to traditional Service Meshes like Linkerd, Istio, Kuma, and Consul.
 
 ### Payloads
-Traditional Service Meshes predominantly focus on L7 payloads like HTTPS.  If a workload send an HTTPS message, they only guarantee
+Traditional Service Meshes predominantly focus on L7 payloads like HTTPS.  If a workload sends an HTTPS message, they only guarantee
 that the HTTPS message itself gets to the other side and the HTTPS response gets back to the workload.  In the intervening process
-the ethernet headers, ip headers, and even the TCP connection may have been stripped away and replaced.  The payload being tranported
+the ethernet headers, IP headers, and even the TCP connection may have been stripped away and replaced.  The payload being transported
 across the Mesh truly is the L7 HTTPS message.
 
 Network Service Mesh provides a similar service for transporting payloads that are IP Packets.

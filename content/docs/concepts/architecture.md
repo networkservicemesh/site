@@ -54,7 +54,7 @@ The contract of a {{<color "#6A00FF" >}}vWire{{< /color >}} is:
 
 In short, a {{<color "#6A00FF" >}}vWire{{< /color >}} acts like a virtual Wire between {{<color "#0050EF" >}}Client{{< /color >}} and {{<color "#008A00" >}}Endpoint{{< /color >}}.
 
-It should be noted that a {{<color "#0050EF" >}}Client{{< /color >}} *may* request the same Network Service multiple times, and thus have mutiple {{<color "#6A00FF" >}}vWires{{< /color >}} that happen to connect
+It should be noted that a {{<color "#0050EF" >}}Client{{< /color >}} *may* request the same Network Service multiple times, and thus have multiple {{<color "#6A00FF" >}}vWires{{< /color >}} that happen to connect
 it to a particular {{<color "#008A00" >}}Endpoint{{< /color >}}.
 
 ### Endpoints
@@ -104,7 +104,7 @@ of Network Services (by name) that it provides, and the 'destination labels' it 
 
 ### Network Service
 
-A Network Service is a identified by name, and carries a payload type (either IP or Ethernet).
+A Network Service is identified by name and carries a payload type (either IP or Ethernet).
 
 ```yaml
 ---
@@ -215,7 +215,7 @@ spec:
 ```
 
 Please note: there is nothing magic about the choice of labels as 'service: ...' as with all labels, the choice is arbitrary,
-its the matching that matters.
+it's the matching that matters.
 
 #### Selective Composition
 
