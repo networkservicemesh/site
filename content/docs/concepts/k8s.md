@@ -10,7 +10,7 @@ Kubernetes Networking provides a simple, useful Networking model for Pods/Servic
 
 ![IntraCluster](/img/concepts/nsmk8s/intra-cluster.svg)
 
-Additionally various kinds of other communication can be provided at the 'Edge' of the cluster.
+Additionally, various kinds of other communication can be provided at the 'Edge' of the cluster.
 
 ![ClusterEdge](/img/concepts/nsmk8s/cluster-edge.svg)
 
@@ -57,7 +57,7 @@ Or decorate the request with labels
     networkservicemesh.io: "kernel://my-networkservice-1/nsm-1?app=foo&version=v1.1"
 ```
 
-Multiple Network Services can be requested as a comma separated list:
+Multiple Network Services can be requested as a comma-separated list:
 
 ```yaml
   annotations:
@@ -83,5 +83,3 @@ When a Pod does a DNS query, it is fanned out in parallel to
 - Any other Network Service to which the Pod is connected that is providing DNS service for that DNS domain.  
 
 The first positive DNS response received is the one returned to the Pod.
-
-

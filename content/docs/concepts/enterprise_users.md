@@ -9,7 +9,7 @@ date = "2021-06-21"
 
 ### Problem Statement
 
-How do you enable workloads collaborating together to produce an App communicate independent of where those workloads are running?
+How do you enable workloads to collaborate to produce an App communication independent of where those workloads are running?
 
 ### Background
 Historically, workloads have been run in some sort of Runtime Domain:
@@ -18,7 +18,7 @@ Historically, workloads have been run in some sort of Runtime Domain:
 ![VM Runtime Domain](/img/concepts/enterprise/3x1/vm_runtime_domain.svg)
 ![DC Runtime Domain](/img/concepts/enterprise/3x1/dc_runtime_domain.svg)
 
-A Runtime Domain is a system on which workloads are run.  It's fundamentally a compute domain.
+A Runtime Domain is a system on which workloads are run.  It's fundamentally a computing domain.
 
 Each of those Runtime Domains has brought along exactly one Connectivity Domain:
 
@@ -43,7 +43,7 @@ multi-cloud/hybrid cloud environment:
 
 How do workloads communicate independently of where they are running?
 
-It's not just a problem of cluster to cluster communication.  In the diagram below: 
+It's not just a problem of a cluster to cluster communication.  In the diagram below: 
 
 - The {{<backgroundcolor "#FF9999" >}}Red{{< /backgroundcolor >}} Pods need to communicate with each other
 - The {{<backgroundcolor "#CCFF99" >}}Green{{< /backgroundcolor >}} Pods need to communicate with each other
@@ -71,7 +71,7 @@ NSM is architecturally independent of the Runtime Domain.  While it supports K8s
 Network Service Mesh is complementary to traditional Service Meshes like Linkerd, Istio, Kuma, and Consul.
 
 ### Payloads
-Traditional Service Meshes predominantly focus on L7 payloads like HTTPS.  If a workload sends an HTTPS message, they only guarantee
+Traditional Service Meshes predominantly focus on L7 payloads like HTTPS.  If a workload sends an HTTPS message, meshes only guarantee
 that the HTTPS message itself gets to the other side and the HTTPS response gets back to the workload.  In the intervening process
 the ethernet headers, IP headers, and even the TCP connection may have been stripped away and replaced.  The payload being transported
 across the Mesh truly is the L7 HTTPS message.
@@ -91,8 +91,8 @@ to multiple 'Service Mesh' Network Services that are not associated with the loc
 
 ## Cross Company Network Services
 
-Because Network Service Mesh decouples Network Services from the underlying Runtime Domain, it is possible to workloads from multiple companies
-connected to a single shared Network Service Mesh to allow collaboration between specific workloads from those companies without
+Because Network Service Mesh decouples Network Services from the underlying Runtime Domain, it allows workloads from multiple companies
+connected to a single shared Network Service Mesh to collaborate with specific workloads from those companies without
 having to expose the entire Runtime domain in which those workloads run:
 
 ![Multi Corp](/img/concepts/enterprise/multi-corp.svg)
@@ -102,7 +102,7 @@ having to expose the entire Runtime domain in which those workloads run:
 The recent [White House Executive Order on Cyber Security](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/) says
 of Zero Trust:
 
-> In essence, a Zero Trust Architecture allows users full access but only to the bare minimum they need to perform their jobs.  If a device is compromised, zero trust can ensure that the damage is contained.
+> In essence, a Zero Trust Architecture allows users full access but only to the bare minimum they need to perform their jobs.  If a device is compromised, zero trust can ensure that damage is contained.
 
 This is the heart and soul of Network Service Mesh.  Workloads can be connected to small highly granular Network Services that only involve
 their immediate collaborators for a particular purpose (like DB replication).  Because Network Service Mesh authentication uses the same Spiffe ID that the 
