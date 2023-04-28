@@ -65,6 +65,6 @@ weight = 2
 
 ## 0.1
 
-**Latest Release:** 0.1.0 (released: 2019-05-14)\
-**Patch Releases:** [0.1.0](../v1.0.0)\
+**Latest Release:** 0.1.0 (released: 2019-04-03)\
+**Patch Releases:** [0.1.0](../v0.1.0)\
 **Kubernetes support:**  v1.12
