@@ -1,7 +1,6 @@
 +++
 title = "NSM Concepts"
 description = "for Enterprise Users"
-short = "Enterprise Users"
 weight = 1
 date = "2021-06-21"
 +++
