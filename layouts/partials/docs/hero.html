@@ -1,16 +1,24 @@
-{{ $allDocs         := where site.RegularPages "Section" "docs" }}
-{{ $docsSections    := where site.Sections "Section" "docs" }}
+{{ $allDocs         := where (where site.RegularPages "Section" "docs") "Params.short" "==" nil }}
+{{ $docsSections    := where (where site.Sections "Section" "docs") "Params.short" "==" nil  }}
 {{ $currentSection  := .CurrentSection.Title }}
 {{ $thisSectionDocs := where $allDocs "CurrentSection.Title" .CurrentSection.Name }}
 {{ $currentUrl      := .RelPermalink }}
 {{ $description     := .Params.description }}
+{{ $date            := .Params.date.Format "2006 Jan 02"}}
+
 <section class="hero is-light">
   <div class="hero-body">
     <div class="container">
       <p class="title is-size-1 is-size-2-mobile has-text-weight-light{{ if $description }} is-spaced{{ end }}">
         {{ .Title }}
       </p>
-
+      {{ if isset .Params "short" }}
+      {{ with $date }}
+      <p class="subtitle is-6">
+        {{ . }}
+      </p>
+      {{ end }}
+      {{ end }}
       {{ with $description }}
       <p class="subtitle">
         {{ . }}
