@@ -9,7 +9,7 @@ Make sure you have the following dependencies to run NSM:
   * [kind](https://kind.sigs.k8s.io/) - usually the easiest choice.  Run:
     
 ```bash
-    echo "
+echo "
 kind: Cluster
 apiVersion: kind.x-k8s.io/v1alpha4
 nodes:
