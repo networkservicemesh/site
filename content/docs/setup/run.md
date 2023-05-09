@@ -8,7 +8,15 @@ Make sure you have the following dependencies to run NSM:
 * A Kubernetes Cluster - good options include:
   * [kind](https://kind.sigs.k8s.io/) - usually the easiest choice.  Run:
     
-    ``` curl -L https://raw.githubusercontent.com/networkservicemesh/integration-k8s-kind/v1.6.1/cluster-config.yaml | kind create cluster --config -```
+```bash
+    echo "
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+nodes:
+- role: control-plane
+- role: worker
+- role: worker" | kind create cluster --config -
+```
 
   * [gke](https://github.com/networkservicemesh/integration-k8s-gke/blob/v1.6.1/README.md)
   * [azure](https://github.com/networkservicemesh/integration-k8s-aks/blob/v1.6.1/README.md)
