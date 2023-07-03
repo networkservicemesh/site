@@ -1,4 +1,5 @@
-  import {Octokit, App} from "https://cdn.skypack.dev/octokit";
+  import {Octokit, App} from "https://cdn.skypack.dev/octokit@2.0.10";
+
   document.addEventListener('DOMContentLoaded', async function () {
     const repoLinkToIdMap = {
       "api": {
