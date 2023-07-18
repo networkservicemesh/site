@@ -1,5 +1,6 @@
 +++
 title = "History"
+weight = 2
 +++
 
 ## 1.10.0
