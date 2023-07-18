@@ -3,7 +3,7 @@ title = "History"
 weight = 2
 +++
 
-## 1.10.0
+## 1.10
 
 **Latest Release:** 1.10.0 (released: 2023-07-18)\
 **Patch Releases:** [1.10.0](../v1.10.0)\
