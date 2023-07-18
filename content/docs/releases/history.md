@@ -5,7 +5,7 @@ title = "History"
 ## 1.10.0
 
 **Latest Release:** 1.10.0 (released: 2023-07-18)\
-**Patch Releases:** [1.10.0](../v1.9.0)\
+**Patch Releases:** [1.10.0](../v1.10.0)\
 **Kubernetes support:**  v1.20, v1.21, v1.22, v1.23, v1.24, v1.25, v1.26, v1.27
 
 ## 1.9
