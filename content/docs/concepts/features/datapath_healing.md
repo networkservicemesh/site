@@ -1,0 +1,103 @@
++++
+title = "Datapath Healing"
+description = "Concept of datapath healing process in NSM"
+short = "dphealing"
+date = "2022-04-14"
++++
+
+# Datapath healing
+
+<div class="mxgraph" style="max-width:100%;border:1px solid transparent;" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;nav&quot;:true,&quot;resize&quot;:true,&quot;page&quot;:1,&quot;toolbar&quot;:&quot;pages zoom layers tags lightbox&quot;,&quot;edit&quot;:&quot;_blank&quot;,&quot;xml&quot;:&quot;&lt;mxfile host=\&quot;app.diagrams.net\&quot; modified=\&quot;2023-09-10T23:14:23.350Z\&quot; agent=\&quot;Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36\&quot; etag=\&quot;pB6EyZ7RzE7ipiFi6utb\&quot; version=\&quot;21.7.2\&quot; type=\&quot;google\&quot; pages=\&quot;2\&quot;&gt;\n  &lt;diagram id=\&quot;KT-XIb7C-t2pyKIDpWzV\&quot; name=\&quot;Positive\&quot;&gt;\n    &lt;mxGraphModel grid=\&quot;1\&quot; page=\&quot;1\&quot; gridSize=\&quot;10\&quot; guides=\&quot;1\&quot; tooltips=\&quot;1\&quot; connect=\&quot;1\&quot; arrows=\&quot;1\&quot; fold=\&quot;1\&quot; pageScale=\&quot;1\&quot; pageWidth=\&quot;850\&quot; pageHeight=\&quot;1100\&quot; math=\&quot;0\&quot; shadow=\&quot;0\&quot;&gt;\n      &lt;root&gt;\n        &lt;mxCell id=\&quot;0\&quot; /&gt;\n        &lt;mxCell id=\&quot;1\&quot; parent=\&quot;0\&quot; /&gt;\n        &lt;mxCell id=\&quot;RbbGfppSMM3Sjb0H2bp6-1\&quot; value=\&quot;NSC\&quot; style=\&quot;ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#007FFF;strokeColor=#6c8ebf;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;\n          &lt;mxGeometry x=\&quot;-30\&quot; y=\&quot;40\&quot; width=\&quot;130\&quot; height=\&quot;130\&quot; as=\&quot;geometry\&quot; /&gt;\n        &lt;/mxCell&gt;\n        &lt;mxCell id=\&quot;RbbGfppSMM3Sjb0H2bp6-2\&quot; value=\&quot;\&quot; style=\&quot;ellipse;shape=cloud;whiteSpace=wrap;html=1;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;\n          &lt;mxGeometry x=\&quot;290\&quot; y=\&quot;-70\&quot; width=\&quot;360\&quot; height=\&quot;322.5\&quot; as=\&quot;geometry\&quot; /&gt;\n        &lt;/mxCell&gt;\n        &lt;mxCell id=\&quot;RbbGfppSMM3Sjb0H2bp6-3\&quot; value=\&quot;NSE\&quot; style=\&quot;ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;\n          &lt;mxGeometry x=\&quot;360\&quot; y=\&quot;60\&quot; width=\&quot;110\&quot; height=\&quot;100\&quot; as=\&quot;geometry\&quot; /&gt;\n        &lt;/mxCell&gt;\n        &lt;mxCell id=\&quot;RbbGfppSMM3Sjb0H2bp6-4\&quot; value=\&quot;\&quot; style=\&quot;shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;fillColor=#e1d5e7;strokeColor=#9673a6;opacity=85;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;\n          &lt;mxGeometry x=\&quot;211.25\&quot; y=\&quot;-43.75\&quot; width=\&quot;47.5\&quot; height=\&quot;325\&quot; as=\&quot;geometry\&quot; /&gt;\n        &lt;/mxCell&gt;\n        &lt;mxCell id=\&quot;RbbGfppSMM3Sjb0H2bp6-5\&quot; value=\&quot;\&quot; style=\&quot;endArrow=none;html=1;strokeWidth=5;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FFFFFF;flowAnimation=1;dashed=1;dashPattern=1 2;\&quot; edge=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;\n          &lt;mxGeometry width=\&quot;50\&quot; height=\&quot;50\&quot; relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;\n            &lt;mxPoint x=\&quot;79.75000000000011\&quot; y=\&quot;105.89\&quot; as=\&quot;sourcePoint\&quot; /&gt;\n            &lt;mxPoint x=\&quot;377.25\&quot; y=\&quot;105.89\&quot; as=\&quot;targetPoint\&quot; /&gt;\n          &lt;/mxGeometry&gt;\n        &lt;/mxCell&gt;\n        &lt;mxCell id=\&quot;RbbGfppSMM3Sjb0H2bp6-7\&quot; value=\&quot;\&quot; style=\&quot;endArrow=none;html=1;strokeWidth=5;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;strokeColor=#FFFFFF;dashed=1;dashPattern=1 2;\&quot; edge=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;\n          &lt;mxGeometry width=\&quot;50\&quot; height=\&quot;50\&quot; relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;\n            &lt;mxPoint x=\&quot;377.25\&quot; y=\&quot;119.58\&quot; as=\&quot;sourcePoint\&quot; /&gt;\n            &lt;mxPoint x=\&quot;79.75000000000011\&quot; y=\&quot;119.58\&quot; as=\&quot;targetPoint\&quot; /&gt;\n          &lt;/mxGeometry&gt;\n        &lt;/mxCell&gt;\n        &lt;mxCell id=\&quot;RbbGfppSMM3Sjb0H2bp6-12\&quot; style=\&quot;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.015;entryY=0.965;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;1\&quot; source=\&quot;RbbGfppSMM3Sjb0H2bp6-10\&quot; target=\&quot;RbbGfppSMM3Sjb0H2bp6-4\&quot;&gt;\n          &lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot; /&gt;\n        &lt;/mxCell&gt;\n        &lt;mxCell id=\&quot;RbbGfppSMM3Sjb0H2bp6-10\&quot; value=\&quot;heal goroutine\&quot; style=\&quot;ellipse;whiteSpace=wrap;html=1;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;\n          &lt;mxGeometry x=\&quot;20\&quot; y=\&quot;42.5\&quot; width=\&quot;60\&quot; height=\&quot;45\&quot; as=\&quot;geometry\&quot; /&gt;\n        &lt;/mxCell&gt;\n        &lt;mxCell id=\&quot;RbbGfppSMM3Sjb0H2bp6-11\&quot; value=\&quot;Network Service\&quot; style=\&quot;text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;\n          &lt;mxGeometry x=\&quot;390\&quot; y=\&quot;251.25\&quot; width=\&quot;130\&quot; height=\&quot;30\&quot; as=\&quot;geometry\&quot; /&gt;\n        &lt;/mxCell&gt;\n        &lt;mxCell id=\&quot;RbbGfppSMM3Sjb0H2bp6-13\&quot; value=\&quot;Running a liveness check over vWire\&quot; style=\&quot;text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;\n          &lt;mxGeometry x=\&quot;140\&quot; y=\&quot;320\&quot; width=\&quot;220\&quot; height=\&quot;30\&quot; as=\&quot;geometry\&quot; /&gt;\n        &lt;/mxCell&gt;\n        &lt;mxCell id=\&quot;RbbGfppSMM3Sjb0H2bp6-15\&quot; value=\&quot;\&quot; style=\&quot;endArrow=none;dashed=1;html=1;dashPattern=1 4;strokeWidth=5;rounded=0;flowAnimation=1;fillColor=#d5e8d4;strokeColor=#82b366;\&quot; edge=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;\n          &lt;mxGeometry width=\&quot;50\&quot; height=\&quot;50\&quot; relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;\n            &lt;mxPoint x=\&quot;79\&quot; y=\&quot;105.77000000000001\&quot; as=\&quot;sourcePoint\&quot; /&gt;\n            &lt;mxPoint x=\&quot;369\&quot; y=\&quot;106.23000000000002\&quot; as=\&quot;targetPoint\&quot; /&gt;\n          &lt;/mxGeometry&gt;\n        &lt;/mxCell&gt;\n        &lt;mxCell id=\&quot;RbbGfppSMM3Sjb0H2bp6-16\&quot; value=\&quot;\&quot; style=\&quot;endArrow=none;dashed=1;html=1;dashPattern=1 4;strokeWidth=5;rounded=0;flowAnimation=1;fillColor=#d5e8d4;strokeColor=#82b366;\&quot; edge=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;\n          &lt;mxGeometry width=\&quot;50\&quot; height=\&quot;50\&quot; relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;\n            &lt;mxPoint x=\&quot;376.53719008264466\&quot; y=\&quot;120\&quot; as=\&quot;sourcePoint\&quot; /&gt;\n            &lt;mxPoint x=\&quot;81\&quot; y=\&quot;120\&quot; as=\&quot;targetPoint\&quot; /&gt;\n          &lt;/mxGeometry&gt;\n        &lt;/mxCell&gt;\n        &lt;mxCell id=\&quot;OKFakFINMKvyXZDVJFyH-1\&quot; value=\&quot;vWire\&quot; style=\&quot;text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;\n          &lt;mxGeometry x=\&quot;185\&quot; y=\&quot;150\&quot; width=\&quot;50\&quot; height=\&quot;30\&quot; as=\&quot;geometry\&quot; /&gt;\n        &lt;/mxCell&gt;\n      &lt;/root&gt;\n    &lt;/mxGraphModel&gt;\n  &lt;/diagram&gt;\n  &lt;diagram name=\&quot;Negative\&quot; id=\&quot;fL7lrI5wBEqM42gOZDRe\&quot;&gt;\n    &lt;mxGraphModel dx=\&quot;2476\&quot; dy=\&quot;2004\&quot; grid=\&quot;1\&quot; gridSize=\&quot;10\&quot; guides=\&quot;1\&quot; tooltips=\&quot;1\&quot; connect=\&quot;1\&quot; arrows=\&quot;1\&quot; fold=\&quot;1\&quot; page=\&quot;1\&quot; pageScale=\&quot;1\&quot; pageWidth=\&quot;850\&quot; pageHeight=\&quot;1100\&quot; math=\&quot;0\&quot; shadow=\&quot;0\&quot;&gt;\n      &lt;root&gt;\n        &lt;mxCell id=\&quot;2nmGgpyCaDtiKHBYf_mI-0\&quot; /&gt;\n        &lt;mxCell id=\&quot;2nmGgpyCaDtiKHBYf_mI-1\&quot; parent=\&quot;2nmGgpyCaDtiKHBYf_mI-0\&quot; /&gt;\n        &lt;mxCell id=\&quot;43iEhz6XT2_gwkzqBkx3-12\&quot; style=\&quot;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.538;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;2nmGgpyCaDtiKHBYf_mI-1\&quot; source=\&quot;43iEhz6XT2_gwkzqBkx3-0\&quot; target=\&quot;43iEhz6XT2_gwkzqBkx3-11\&quot;&gt;\n          &lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot; /&gt;\n        &lt;/mxCell&gt;\n        &lt;mxCell id=\&quot;43iEhz6XT2_gwkzqBkx3-0\&quot; value=\&quot;NSC\&quot; style=\&quot;ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#007FFF;strokeColor=#6c8ebf;\&quot; vertex=\&quot;1\&quot; parent=\&quot;2nmGgpyCaDtiKHBYf_mI-1\&quot;&gt;\n          &lt;mxGeometry x=\&quot;-820\&quot; y=\&quot;-700\&quot; width=\&quot;130\&quot; height=\&quot;130\&quot; as=\&quot;geometry\&quot; /&gt;\n        &lt;/mxCell&gt;\n        &lt;mxCell id=\&quot;43iEhz6XT2_gwkzqBkx3-1\&quot; value=\&quot;\&quot; style=\&quot;ellipse;shape=cloud;whiteSpace=wrap;html=1;\&quot; vertex=\&quot;1\&quot; parent=\&quot;2nmGgpyCaDtiKHBYf_mI-1\&quot;&gt;\n          &lt;mxGeometry x=\&quot;-500\&quot; y=\&quot;-810\&quot; width=\&quot;360\&quot; height=\&quot;322.5\&quot; as=\&quot;geometry\&quot; /&gt;\n        &lt;/mxCell&gt;\n        &lt;mxCell id=\&quot;43iEhz6XT2_gwkzqBkx3-2\&quot; value=\&quot;NSE\&quot; style=\&quot;ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;\&quot; vertex=\&quot;1\&quot; parent=\&quot;2nmGgpyCaDtiKHBYf_mI-1\&quot;&gt;\n          &lt;mxGeometry x=\&quot;-430\&quot; y=\&quot;-697.5\&quot; width=\&quot;120\&quot; height=\&quot;127.5\&quot; as=\&quot;geometry\&quot; /&gt;\n        &lt;/mxCell&gt;\n        &lt;mxCell id=\&quot;43iEhz6XT2_gwkzqBkx3-3\&quot; value=\&quot;\&quot; style=\&quot;shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;fillColor=#e1d5e7;strokeColor=#9673a6;opacity=85;\&quot; vertex=\&quot;1\&quot; parent=\&quot;2nmGgpyCaDtiKHBYf_mI-1\&quot;&gt;\n          &lt;mxGeometry x=\&quot;-578.75\&quot; y=\&quot;-783.75\&quot; width=\&quot;47.5\&quot; height=\&quot;325\&quot; as=\&quot;geometry\&quot; /&gt;\n        &lt;/mxCell&gt;\n        &lt;mxCell id=\&quot;43iEhz6XT2_gwkzqBkx3-4\&quot; value=\&quot;\&quot; style=\&quot;endArrow=none;html=1;strokeWidth=5;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FFFFFF;flowAnimation=1;dashed=1;dashPattern=1 2;\&quot; edge=\&quot;1\&quot; parent=\&quot;2nmGgpyCaDtiKHBYf_mI-1\&quot;&gt;\n          &lt;mxGeometry width=\&quot;50\&quot; height=\&quot;50\&quot; relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;\n            &lt;mxPoint x=\&quot;-710.2499999999999\&quot; y=\&quot;-634.11\&quot; as=\&quot;sourcePoint\&quot; /&gt;\n            &lt;mxPoint x=\&quot;-412.75\&quot; y=\&quot;-634.11\&quot; as=\&quot;targetPoint\&quot; /&gt;\n          &lt;/mxGeometry&gt;\n        &lt;/mxCell&gt;\n        &lt;mxCell id=\&quot;43iEhz6XT2_gwkzqBkx3-5\&quot; style=\&quot;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.015;entryY=0.965;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;2nmGgpyCaDtiKHBYf_mI-1\&quot; source=\&quot;43iEhz6XT2_gwkzqBkx3-6\&quot; target=\&quot;43iEhz6XT2_gwkzqBkx3-3\&quot;&gt;\n          &lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot; /&gt;\n        &lt;/mxCell&gt;\n        &lt;mxCell id=\&quot;43iEhz6XT2_gwkzqBkx3-6\&quot; value=\&quot;heal goroutine\&quot; style=\&quot;ellipse;whiteSpace=wrap;html=1;\&quot; vertex=\&quot;1\&quot; parent=\&quot;2nmGgpyCaDtiKHBYf_mI-1\&quot;&gt;\n          &lt;mxGeometry x=\&quot;-770\&quot; y=\&quot;-697.5\&quot; width=\&quot;60\&quot; height=\&quot;45\&quot; as=\&quot;geometry\&quot; /&gt;\n        &lt;/mxCell&gt;\n        &lt;mxCell id=\&quot;43iEhz6XT2_gwkzqBkx3-7\&quot; value=\&quot;Network Service\&quot; style=\&quot;text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;\&quot; vertex=\&quot;1\&quot; parent=\&quot;2nmGgpyCaDtiKHBYf_mI-1\&quot;&gt;\n          &lt;mxGeometry x=\&quot;-385\&quot; y=\&quot;-500\&quot; width=\&quot;130\&quot; height=\&quot;30\&quot; as=\&quot;geometry\&quot; /&gt;\n        &lt;/mxCell&gt;\n        &lt;mxCell id=\&quot;43iEhz6XT2_gwkzqBkx3-8\&quot; value=\&quot;&amp;lt;i&amp;gt;NSC&amp;amp;nbsp;quickly reacts to a loss of connection&amp;lt;br&amp;gt;&amp;amp;nbsp;and requests a new endpoint&amp;lt;/i&amp;gt;\&quot; style=\&quot;text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;2nmGgpyCaDtiKHBYf_mI-1\&quot;&gt;\n          &lt;mxGeometry x=\&quot;-680\&quot; y=\&quot;-430\&quot; width=\&quot;250\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot; /&gt;\n        &lt;/mxCell&gt;\n        &lt;mxCell id=\&quot;43iEhz6XT2_gwkzqBkx3-9\&quot; value=\&quot;\&quot; style=\&quot;endArrow=none;dashed=1;html=1;dashPattern=1 4;strokeWidth=5;rounded=0;flowAnimation=1;fillColor=#d5e8d4;strokeColor=#82b366;\&quot; edge=\&quot;1\&quot; parent=\&quot;2nmGgpyCaDtiKHBYf_mI-1\&quot;&gt;\n          &lt;mxGeometry width=\&quot;50\&quot; height=\&quot;50\&quot; relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;\n            &lt;mxPoint x=\&quot;-711\&quot; y=\&quot;-634.23\&quot; as=\&quot;sourcePoint\&quot; /&gt;\n            &lt;mxPoint x=\&quot;-421\&quot; y=\&quot;-633.77\&quot; as=\&quot;targetPoint\&quot; /&gt;\n          &lt;/mxGeometry&gt;\n        &lt;/mxCell&gt;\n        &lt;mxCell id=\&quot;43iEhz6XT2_gwkzqBkx3-10\&quot; value=\&quot;\&quot; style=\&quot;endArrow=none;dashed=1;html=1;dashPattern=1 4;strokeWidth=5;rounded=0;flowAnimation=1;fillColor=#f8cecc;strokeColor=#b85450;\&quot; edge=\&quot;1\&quot; parent=\&quot;2nmGgpyCaDtiKHBYf_mI-1\&quot;&gt;\n          &lt;mxGeometry width=\&quot;50\&quot; height=\&quot;50\&quot; relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;\n            &lt;mxPoint x=\&quot;-414.46280991735534\&quot; y=\&quot;-620\&quot; as=\&quot;sourcePoint\&quot; /&gt;\n            &lt;mxPoint x=\&quot;-710\&quot; y=\&quot;-620\&quot; as=\&quot;targetPoint\&quot; /&gt;\n          &lt;/mxGeometry&gt;\n        &lt;/mxCell&gt;\n        &lt;mxCell id=\&quot;43iEhz6XT2_gwkzqBkx3-11\&quot; value=\&quot;NSM\&quot; style=\&quot;rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;\&quot; vertex=\&quot;1\&quot; parent=\&quot;2nmGgpyCaDtiKHBYf_mI-1\&quot;&gt;\n          &lt;mxGeometry x=\&quot;-610\&quot; y=\&quot;-930\&quot; width=\&quot;160\&quot; height=\&quot;90\&quot; as=\&quot;geometry\&quot; /&gt;\n        &lt;/mxCell&gt;\n        &lt;mxCell id=\&quot;43iEhz6XT2_gwkzqBkx3-13\&quot; value=\&quot;Request a new endpoint\&quot; style=\&quot;text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;2nmGgpyCaDtiKHBYf_mI-1\&quot;&gt;\n          &lt;mxGeometry x=\&quot;-815\&quot; y=\&quot;-840\&quot; width=\&quot;150\&quot; height=\&quot;30\&quot; as=\&quot;geometry\&quot; /&gt;\n        &lt;/mxCell&gt;\n        &lt;mxCell id=\&quot;bclL9Ba9KxY2ehcDaY67-0\&quot; value=\&quot;vWire\&quot; style=\&quot;text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;2nmGgpyCaDtiKHBYf_mI-1\&quot;&gt;\n          &lt;mxGeometry x=\&quot;-590\&quot; y=\&quot;-590\&quot; width=\&quot;50\&quot; height=\&quot;30\&quot; as=\&quot;geometry\&quot; /&gt;\n        &lt;/mxCell&gt;\n      &lt;/root&gt;\n    &lt;/mxGraphModel&gt;\n  &lt;/diagram&gt;\n&lt;/mxfile&gt;\n&quot;}"></div>
+<script type="text/javascript" src="https://viewer.diagrams.net/js/viewer-static.min.js"></script>
+
+## Description
+
+The datapath healing is extremely simple. We use the existing connection to make sure our connection stays online. The connection is checked at specified intervals. As soon as the check fails, the client requests a new connection.
+Since NSM uses different data plane platforms the datapath liveness check could be differ for each platform.
+
+
+## Parameters
+
+These parameters are using for configuring datapath healing on the NSC side.
+
+- `NSM_LIVENESS_CHECK_ENABLED` means datapath healing feature is enabled.
+- `NSM_LIVENESS_CHECK_INTERVAL` means interval between pings.
+- `NSM_LIVENESS_CHECK_TIMEOUT` means timeout for the ping.
+
+
+## Benifits
+
+- **Network Health:** Regular liveness checking can help monitor the health and availability of a network or a specific vWire. If the ping responses are consistently successful, it indicates that the network or device is functioning correctly. Any disruptions or failures in ping responses can alert the NSC to ask NSM to change the connection.
+- **Server Uptime:** For NSC, liveness checking a endoint's interface at regular intervals can be a way to ensure that the ednpoint is online and operational. If endpoint is not online then NSC requests a new endpoint *immediately*.
+- **Intrusion Detection:** Regular Liveness Check can be part of a broader security monitoring strategy. It helps detect unauthorized changes or intrusions by alerting you to unexpected changes in liveness check response patterns.
+- **Firewall and ACL Testing:** Liveness Check can be used to test the effectiveness of firewalls and Access Control Lists (ACLs). You can verify that the configured rules are working as intended if NSC doesn't come up.
+
+## Add datapath healing for a custom dataplane framework
+
+NSM uses the next contract for liveness check function.
+
+```go
+// LivenessCheck - function that returns true of conn is 'live' and false otherwise
+type LivenessCheck func(deadlineCtx context.Context, conn *networkservice.Connection) bool
+```
+
+To use a custom liveness check funciton you need simply implement and pass it to the heal client
+
+```go
+func MyLivenessCheck(deadlineCtx context.Context, conn *networkservice.Connection) bool {
+    // TODO: check the Ethernet Context
+    return true
+}
+
+func main() {
+	ctx, cancel := context.WithCancel(context.Background())
+	defer cancel()
+    
+    // ********************************************************************************
+	// Get config from environment
+	// ********************************************************************************
+	c := &config.Config{}
+	if err := envconfig.Usage("nsm", c); err != nil {
+		logger.Fatal(err)
+	}
+	if err := envconfig.Process("nsm", c); err != nil {
+		logger.Fatalf("error processing rootConf from env: %+v", err)
+	}
+    
+    request := &networkservice.NetworkServiceRequest{
+        Connection: &networkservice.Connection{
+            Id:             "my-nsc",
+            NetworkService: c.NetworkService(),
+            Labels:         c.Labels(),
+        },
+        MechanismPreferences: []*networkservice.Mechanism{
+            u.Mechanism(),
+        },
+    }
+
+    nsmClient := client.NewClient(ctx,
+		    client.WithClientURL(&c.ConnectTo),
+		    client.WithName(c.Name),
+		    client.WithAuthorizeClient(authorize.NewClient()),
+            client.WithHealClient(heal.NewClient(heal.WithLivenessCheck(MyLivenessCheck)))
+
+    // ********************************************************************************
+	// Initiate connections
+	// ********************************************************************************
+
+    nsmClient.Request(ctx, request)
+}
+
+```
+
+See at [example of kernel liveness check]((https://github.com/networkservicemesh/sdk-kernel/blob/release/v1.10.0/pkg/kernel/tools/heal/liveness_check.go#L58)) implementation.
+
+
+## References
+
+- [Source code](https://github.com/networkservicemesh/sdk/blob/release/v1.10.0/pkg/networkservice/common/heal/options.go#L43-L48)
+- [Root issue](https://github.com/networkservicemesh/sdk/issues/1187)
+- [See Other features](../)
+
+
+
