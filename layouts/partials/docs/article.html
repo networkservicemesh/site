@@ -2,6 +2,9 @@
 <section class="section">
   <div class="container">
     <div class="columns">
+      {{ if index .Params "overall" }}
+      {{ .Content }}
+      {{ else }}
       <div class="column{{ if $toc }} is-three-quarters{{ end }}">
         {{ with $toc }}
         <div class="is-hidden-tablet">
@@ -15,6 +18,7 @@
           {{ .Content }}
         </div>
       </div>
+      {{ end }}
 
       {{ with $toc }}
       <div class="is-hidden-mobile">
