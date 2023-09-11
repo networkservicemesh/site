@@ -90,7 +90,7 @@ func main() {
 
 ```
 
-See at [example of kernel liveness check]((https://github.com/networkservicemesh/sdk-kernel/blob/release/v1.10.0/pkg/kernel/tools/heal/liveness_check.go#L58)) implementation.
+See at [example of kernel liveness check](https://github.com/networkservicemesh/sdk-kernel/blob/release/v1.10.0/pkg/kernel/tools/heal/liveness_check.go#L58) implementation.
 
 
 ## References
