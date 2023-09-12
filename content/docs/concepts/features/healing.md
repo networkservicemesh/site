@@ -14,7 +14,7 @@ date = "2021-06-19"
 
  Healing is a crucial functionality of the NSM, designed to ensure the high availability and resilience of workloads using NSM. This feature leverages automation and self-healing mechanisms to detect and address issues that may impact the reliability and performance of network services deployed on the environment.
 
-## Benifits
+## Benefits
 
 **Enhanced Reliability:** healing enhances the reliability of applications by automatically recovering from failures, reducing manual intervention, and minimizing downtime. \
 **Improved User Experience:** The feature ensures a consistent user experience by maintaining service availability, even when underlying infrastructure or application components experience issues. \
