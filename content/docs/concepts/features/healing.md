@@ -28,7 +28,7 @@ The main conception of the healing in NSM is pretty simple and can be described 
 1. Healing is managing only and only on the Network Service Client.
 2. Network Service Client uses `monitor connectios` api to monitor it's NSMgr to keep the connection up to date.
 3. if Network Service Client gets an event from the NSMgr with changing state, or deleting connection, or stream closing then client forces a new Request.
-4. Network Service Client should close exist connection and request a new one only and only if connectivity is gone.
+4. A Network Service Client should close existing an connection and request a new one only and only if connectivity is gone.
 
 And that's it!
 
