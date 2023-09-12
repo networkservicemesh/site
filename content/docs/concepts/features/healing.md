@@ -37,7 +37,7 @@ And that's it!
 
 The healing process begins only according to these criteria:
 
-1. Control plane is down. Occurs if some applicaiton of NSM control plane has been restared/crashed.
+1. Control plane is down. Occurs if some application of NSM control plane has been restarted/crashed.
 2. Data plane is down. Occurs if forwarder restarted, or an error happens with backend framework like vpp crashes or network hardware down if SRI-OV was used.
 
 Healing is an indispensable tool for organizations leveraging NSM, enabling them to build and maintain highly available and resilient applications in dynamic, cloud-native environments.
