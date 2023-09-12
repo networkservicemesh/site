@@ -41,7 +41,7 @@ NSM uses the next contract for liveness check function.
 type LivenessCheck func(deadlineCtx context.Context, conn *networkservice.Connection) bool
 ```
 
-To use a custom liveness check funciton you need simply implement and pass it to the heal client
+To use a custom liveness check function you need simply implement and pass it to the heal client
 
 ```go
 func MyLivenessCheck(deadlineCtx context.Context, conn *networkservice.Connection) bool {
