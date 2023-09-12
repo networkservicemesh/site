@@ -28,7 +28,7 @@ These parameters are using for configuring datapath healing on the NSC side.
 ## Benifits
 
 - **Network Health:** Regular liveness checking can help monitor the health and availability of a network or a specific vWire. If the ping responses are consistently successful, it indicates that the network or device is functioning correctly. Any disruptions or failures in ping responses can alert the NSC to ask NSM to change the connection.
-- **Server Uptime:** For NSC, liveness checking a endoint's interface at regular intervals can be a way to ensure that the ednpoint is online and operational. If endpoint is not online then NSC requests a new endpoint *immediately*.
+- **Server Uptime:** For NSC, liveness checking a endpoint's interface at regular intervals can be a way to ensure that the endpoint is online and operational. If endpoint is not online then NSC requests a new endpoint *immediately*.
 - **Intrusion Detection:** Regular Liveness Check can be part of a broader security monitoring strategy. It helps detect unauthorized changes or intrusions by alerting you to unexpected changes in liveness check response patterns.
 - **Firewall and ACL Testing:** Liveness Check can be used to test the effectiveness of firewalls and Access Control Lists (ACLs). You can verify that the configured rules are working as intended if NSC doesn't come up.
 
