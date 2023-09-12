@@ -12,7 +12,7 @@ date = "2021-06-19"
 
 ## Description
 
- Healing is a crucial functionallity of the NSM, designed to ensure the high availability and resilience of workloads using NSM. This feature leverages automation and self-healing mechanisms to detect and address issues that may impact the reliability and performance of network services deployed on the enviroment.
+ Healing is a crucial functionality of the NSM, designed to ensure the high availability and resilience of workloads using NSM. This feature leverages automation and self-healing mechanisms to detect and address issues that may impact the reliability and performance of network services deployed on the environment.
 
 ## Benifits
 
