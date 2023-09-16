@@ -1,6 +1,6 @@
 +++
 title = "Features"
-description = "concepts of NSM capabilities"
+description = "Concepts of NSM Capabilities"
 weight = 5
 date = "2023-06-24"
 +++

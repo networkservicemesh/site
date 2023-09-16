@@ -21,14 +21,13 @@ date = "2021-06-19"
 **Efficient Resource Utilization:** Through proactive scaling and resource management, healing optimizes resource utilization, ensuring efficient NSM domain operation. \
 **Simplified Operations:** Healing simplifies operational tasks, reducing the burden on administrators and DevOps teams. \
 
-## Conception
+## Concept
 
-The main conception of the healing in NSM is pretty simple and can be described with next facts:
+NSM healing  is pretty simple:
 
-1. Healing is managing only and only on the Network Service Client.
-2. Network Service Client uses `monitor connections` api to monitor its NSMgr to keep the connection up to date.
-3. If a Network Service Client gets an event from the NSMgr with changing state, or deleting connection, or stream closing then client forces a new Request.
-4. A Network Service Client should close existing an connection and request a new one only and only if connectivity is gone.
+1. Healing is always starting on the Network Service Mesh Client.
+2. Network Service Client uses [monitor connectios](https://github.com/networkservicemesh/api/blob/release/v1.10.0/pkg/api/networkservice/connection.proto#L79-L81) api to monitor it's NSMgr to keep the connection up to date.
+3. If the Network Service Client gets an event from the NSMgr with a changing state, deleting a connection, or closing a stream, then the client forces a new request. Wherein the existing connection closes only if connectivity is gone.
 
 And that's it!
 
@@ -47,4 +46,4 @@ Healing is an indispensable tool for organizations leveraging NSM, enabling them
 - [NSM Monitoring API](https://github.com/networkservicemesh/api/blob/release/v1.10.0/pkg/api/networkservice/connection.proto#L79-L81)
 - [Code implementation](https://github.com/networkservicemesh/sdk/tree/release/v1.10.0/pkg/networkservice/common/heal)
 - [Runnable k8s examples](https://github.com/networkservicemesh/deployments-k8s/tree/release/v1.10.0/examples/heal)
-- [See Other features](../)
+- [See other features](../)

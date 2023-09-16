@@ -12,8 +12,7 @@ date = "2022-04-14"
 
 ## Description
 
-The datapath healing is extremely simple. We use the existing connection to make sure our connection stays online. The connection is checked at specified intervals. As soon as the check fails, the client requests a new connection.
-Since NSM uses different data plane platforms the datapath liveness check could be differ for each platform.
+Datapath healing is extremely simple. The existing connection is used to make sure the connection stays online. The connection is checked at specified intervals using 'ping'. As soon as the check fails, the client requests a new connection.
 
 
 ## Parameters
@@ -75,11 +74,13 @@ func main() {
         },
     }
 
-    nsmClient := client.NewClient(ctx,
-		    client.WithClientURL(&c.ConnectTo),
-		    client.WithName(c.Name),
-		    client.WithAuthorizeClient(authorize.NewClient()),
-            client.WithHealClient(heal.NewClient(heal.WithLivenessCheck(MyLivenessCheck)))
+    nsmClient := client.NewClient(
+        ctx,
+        client.WithClientURL(&c.ConnectTo),
+        client.WithName(c.Name),
+        client.WithAuthorizeClient(authorize.NewClient()),
+        client.WithHealClient(heal.NewClient(heal.WithLivenessCheck(MyLivenessCheck))),
+    )
 
     // ********************************************************************************
 	// Initiate connections
@@ -97,4 +98,4 @@ See at [example of kernel liveness check](https://github.com/networkservicemesh/
 
 - [Source code](https://github.com/networkservicemesh/sdk/blob/release/v1.10.0/pkg/networkservice/common/heal/options.go#L43-L48)
 - [Root issue](https://github.com/networkservicemesh/sdk/issues/1187)
-- [See Other features](../)
+- [See other features](../)
