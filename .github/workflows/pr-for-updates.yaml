@@ -1,0 +1,11 @@
+---
+name: Pull Request on update/* Branch Push
+on:
+  push:
+    branches:
+      - update/**
+jobs:
+  auto-pull-request:
+    uses: networkservicemesh/.github/.github/workflows/pr-for-updates.yaml@main
+    secrets:
+      token: ${{ secrets.NSM_BOT_GITHUB_TOKEN }}

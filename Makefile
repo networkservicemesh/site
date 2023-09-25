@@ -4,6 +4,13 @@ yarn:
 clean:
 	rm -rf public resources
 
+fetch-notes-build: 
+	$(MAKE) -C .github/sync
+
+fetch-notes: fetch-notes-build
+	@echo make sure that GITHUB_TOKEN is set
+	@GITHUB_TOKEN=$(GITHUB_TOKEN) bin/fetchnotes
+
 serve: yarn
 	hugo server \
 		--buildDrafts \
