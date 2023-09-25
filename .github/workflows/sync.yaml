@@ -22,7 +22,7 @@ jobs:
           echo Sync up NSM site with project boards $(date) > /tmp/commit-message
           echo "Commit Message:"
           cat /tmp/commit-message
-      - name: Push update to the 
+      - name: Push update to the
         run: |
           git config --global user.email "nsmbot@networkservicmesh.io"
           git config --global user.name "NSMBot"
