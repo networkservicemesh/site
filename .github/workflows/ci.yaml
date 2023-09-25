@@ -6,3 +6,5 @@ on:
 jobs:
   yamllint:
     uses: networkservicemesh/.github/.github/workflows/yamllint.yaml@main
+    with:
+      config_file: "./.github/yamllint.yml"
