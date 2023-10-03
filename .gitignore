@@ -8,6 +8,8 @@ node_modules/
 
 .idea/
 
+.hugo_build.lock
+
 # Link checker assets
 bin/
 tmp/
