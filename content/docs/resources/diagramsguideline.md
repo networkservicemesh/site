@@ -6,5 +6,4 @@ weight = 2
 
 ##  Diagrams Guideline
 
-![Diagramma Guideline](diagram-guideline.svg)
-
+{{< object data="diagram-guideline.svg" type="image/svg+xml" >}}
