@@ -8,5 +8,5 @@ weight = 2
 
 {{< object data="diagram-guideline.svg" type="image/svg+xml" >}}
 
-- [SVG](./diagramsguideline/NSM%20Guidelines.svg)
-- [Draw.io](./diagramsguideline/NSM%20Guidelines.drawio)
+- [SVG](./diagramsguideline/diagrams-guideline.svg)
+- [Draw.io](./diagramsguideline/diagrams-guideline.drawio)
