@@ -38,8 +38,3 @@ Follow the instructions [in the README.md](https://github.com/networkservicemesh
 If you do not already have NSM infrastructure on your system install NSM
 
 Follow the instructions [in the README.md](https://github.com/networkservicemesh/deployments-k8s/blob/v1.11.0/examples/basic/README.md)
-
-
-# Examples
-
-Try one of the many [examples](https://github.com/networkservicemesh/deployments-k8s/blob/release/v1.11.0/README.md)

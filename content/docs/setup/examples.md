@@ -1,7 +1,7 @@
 +++
 title = "Examples"
 description = "NSM use-case examples"
-weight = 6
+weight = 2
 date = "2023-11-28"
 +++
 
