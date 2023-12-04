@@ -5,8 +5,8 @@ summary = "Network Service Mesh (NSM): The Hybrid/Multi-cloud IP Service Mesh"
 +++
 
 # NSM Services
-1. **NetworkService** - used for requesting and closing connections between clients and endpoints.
-
+1. **NetworkService** is used for requesting and closing network connections between clients and endpoints.<br/>
+**Proto File**: https://github.com/networkservicemesh/api/blob/main/pkg/api/networkservice/networkservice.proto
 ```proto
 service NetworkService {
     rpc Request(NetworkServiceRequest) returns (connection.Connection);
@@ -14,8 +14,8 @@ service NetworkService {
 }
 ```
 
-2. **Registry** - used for registering and unregistering **Network Services** and **Network Service Endpoints** in NSM, as well as for searching
-
+2. **Registry** is used for registering and unregistering **Network Services** and **Network Service Endpoints** in NSM, as well as for searching.<br/>
+**Proto File**: https://github.com/networkservicemesh/api/blob/main/pkg/api/registry/registry.proto
 ```proto
 service NetworkServiceEndpointRegistry {
     rpc Register (NetworkServiceEndpoint) returns (NetworkServiceEndpoint);
@@ -30,15 +30,15 @@ service NetworkServiceRegistry {
 }
 ```
 
-3. **MonitorConnections** - used for monitoring connectons using specific selectors.
-
+3. **MonitorConnections** service is used for monitoring or searching connections with a specific selector.<br/>
+**Proto File**: https://github.com/networkservicemesh/api/blob/main/pkg/api/networkservice/connection.proto
 ```proto
 service MonitorConnection {
     rpc MonitorConnections(MonitorScopeSelector) returns (stream ConnectionEvent);
 }
 ```
 
-# **Network Service** Manager (NSMGR)
+# **Network Service** Manager (NSMgr)
 
 **Network Service Manager** is one of the key components of NSM, which is responsible for discovering **Network Services** and **Network Service Endpoints** and processing requests from clients. It must be located on the same machine as the NSM client in order to provide it with a connection to the NSM network. It can also serve as a registry if there is no real registry.
 
@@ -57,7 +57,7 @@ service MonitorConnection {
 5. Can serve as a registry (optional) 
 
 # Forwarder VPP
-**Forwarder VPP** is one of the key components of NSM. Its main responsibility is to create network topoligies requested by NSM clients.  **Forwarder VPP** uses [**VPP Framework**](https://s3-docs.fd.io/vpp/24.02/) to create network topologies.
+**Forwarder VPP** is one of the datapath providers in NSM. Its main responsibility is to configure network interfaces requested by NSM clients. **Forwarder VPP** uses [**VPP Framework**](https://s3-docs.fd.io/vpp/24.02/) to create the datapath.
 
 **Image**: https://github.com/networkservicemesh/cmd-forwarder-vpp
 
@@ -69,7 +69,7 @@ service MonitorConnection {
 2. Chooses mechanism types for connections between clients and endpoints
 3. Collects stats from interfaces
 4. Load-balancing for endpoints beloning to the same **Network Service**
-5. Works with `ConnectionContext`
+5. Fills in the `ConnectionContext` for the connection
 ```proto
 message ConnectionContext {
     IPContext ip_context = 1;
@@ -81,7 +81,7 @@ message ConnectionContext {
 ```
 
 # Forwarder OVS
-**Forwarder OVS** is an analogue of **Forwarder VPP**, which uses [**Open vSwitch (OVS)**](https://www.openvswitch.org/) as a backend for creating network topologies.
+**Forwarder OVS** is an analogue of **Forwarder VPP**, which uses [**Open vSwitch (OVS)**](https://www.openvswitch.org/) as a backend for creating network interfaces.
 
 **Image**: https://github.com/networkservicemesh/cmd-forwarder-ovs
 
@@ -95,7 +95,8 @@ message ConnectionContext {
 
 **Responsibilities**:
 1. Stores **Network Service** and **Network Service Endpoint** entries
-2. Calculates expirationo time for **Network Service Endpoints** and deletes expired ones
+2. Calculates expiration time for **Network Service Endpoints** and deletes expired ones
+3. Proxies interdomain queries to Registry Proxy if it's presented on the cluster
 
 # Registry proxy DNS
 **Registry proxy DNS** resolves IPs of remote registries in other NSM domains and proxies **Register**, **Unregister** and **Find** requests to those registries.
@@ -107,23 +108,21 @@ message ConnectionContext {
 
 **Responsibilities**:
 1. Resolves IPs of remote registries using names of **Network Services** and **Network Service Endpoints**
-2. Changes **Network Service Endpoint** URLs to DNS name of **Network Service Manager Proxy** on **Register**, **Unregister** and **Find** requests
+2. Changes **Network Service Endpoint** URLs to DNS target of **Network Service Manager Proxy** on **Register**, **Unregister** and **Find** requests
+3. Proxies the local queries to the Registry on the cluster
 
-# Network Service Manager Proxy (NSMGR Proxy)
-**Network Service Manager Proxy** allows NSM to establish connections between clients and endpoints located in different NSM domains. This comonents is used for discovering remote **Network Services** and **Network Service Endpoints** and for proxing connection requests to other **Network Service Manager Proxies** located in other NSM domains.
+# Network Service Manager Proxy (NSMgr Proxy)
+**Network Service Manager Proxy** allows NSM to establish connections between clients and endpoints located in different NSM domains. This component is used for proxing connection requests to other **Network Service Manager Proxies** located in other NSM domains.
 
 **Image**: https://github.com/networkservicemesh/cmd-nsmgr-proxy
 
-
 **Implements**:
 1. NetworkService
-2. Registry
-3. MonitorConnection
+2. MonitorConnection
 
 **Responsibilities**:
-1. **Network Service** and **Network Service Endpoint** discovery in other NSM domains
-2. Swaps endpoint's local IP to domain's external IP
-3. Translates **Network Service** and **Network Service Endpoint** names into names suitable for other NSM domains
+1. Swaps endpoint's local IP to domain's external IP
+2. Translates **Network Service** and **Network Service Endpoint** names in the connection into names suitable for other NSM domains
 
 # Admission Webhook k8s
 Admission Webhook K8s simplifies working with NSM if NSM is deployed in a Kubernetes cluster. This component automatically injects NSM clients into Kubernetes pods with NSM annotations. It can also inject NSM clients into entire pod namespaces.
@@ -135,7 +134,7 @@ Admission Webhook K8s simplifies working with NSM if NSM is deployed in a Kubern
 
 
 # Cluster Info K8s
-**Cluster Info K8s** allows NSM to obtain information about the Kubernetes Cluster (for example, cluster, node, pod names) if NSM is deployed in this Kubernetes Cluster. This information can be used by other components (for example **Network Service Manager Proxy**).
+**Cluster Info K8s** allows NSM to work with cluster properties: https://github.com/kubernetes-sigs/about-api. This component can be used to simplify retrieval of the cluster domain name for **Network Service Manager Proxy**.
 
 **Image**: https://github.com/networkservicemesh/cmd-cluster-info-k8s
 
@@ -168,7 +167,7 @@ Admission Webhook K8s simplifies working with NSM if NSM is deployed in a Kubern
 
 **Responsibilities**:
 1. Provides NSM clients with access to **Network Services**
-2. Allocates IPs inside the NSM network for NSM clients and for itself
+2. Fills in remaining connection properties like IP, hardware addresses, and DNS configurations for the user's goals.
 
 # Network Service Client (NSC)
 **Network Service Client** allows external workloads to request access to NSM's **Network Services** and maintains connections ([Controlplane](https://networkservicemesh.io/docs/concepts/features/healing) and [Dataplane](https://networkservicemesh.io/docs/concepts/features/datapath_healing) healing). This component can also provide a local DNS Server for accessing NSM resources by their names. Supports only **kernel** and **vfio** mechanisms.
