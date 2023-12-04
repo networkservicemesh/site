@@ -59,7 +59,7 @@ service MonitorConnection {
 # Forwarder VPP
 **Forwarder VPP** is one of the key components of NSM. Its main responsibility is to create network topoligies requested by NSM clients.  **Forwarder VPP** uses<a href="https://s3-docs.fd.io/vpp/24.02/" target="_blank">**VPP Framework**</a> to create network topologies.
 
-**Image**: <a href="https://github.com/networkservicemesh/cmd-forwarder-vpp" target="_blank"></a>
+**Image**: <a href="https://github.com/networkservicemesh/cmd-forwarder-vpp" target="_blank">https://github.com/networkservicemesh/cmd-forwarder-vpp</a>
 
 **Implements**:
 1. NetworkService
@@ -83,12 +83,12 @@ message ConnectionContext {
 # Forwarder OVS
 **Forwarder OVS** is an analogue of **Forwarder VPP**, which uses [**Open vSwitch (OVS)**](https://www.openvswitch.org/) as a backend for creating network topologies.
 
-**Image**: https://github.com/networkservicemesh/cmd-forwarder-ovs
+**Image**: <a href="https://github.com/networkservicemesh/cmd-forwarder-ovs" target="_blank">https://github.com/networkservicemesh/cmd-forwarder-ovs</a>
 
 # Registry
 **Registry** is used as a storage for **Network Service** and **Network Service Endpoint** entries.
 
-**Image**: https://github.com/networkservicemesh/cmd-registry-k8s
+**Image**: <a href="https://github.com/networkservicemesh/cmd-registry-k8s" target="_blank">https://github.com/networkservicemesh/cmd-registry-k8s</a>
 
 **Implements**:
 1.  Registry
@@ -100,7 +100,7 @@ message ConnectionContext {
 # Registry proxy DNS
 **Registry proxy DNS** resolves IPs of remote registries in other NSM domains and proxies **Register**, **Unregister** and **Find** requests to those registries.
 
-**Image**: https://github.com/networkservicemesh/cmd-registry-proxy-dns
+**Image**: <a href="https://github.com/networkservicemesh/cmd-registry-proxy-dns" target="_blank">https://github.com/networkservicemesh/cmd-registry-proxy-dns</a>
 
 **Implements**:
 1.  Registry
@@ -112,7 +112,7 @@ message ConnectionContext {
 # Network Service Manager Proxy (NSMGR Proxy)
 **Network Service Manager Proxy** allows NSM to establish connections between clients and endpoints located in different NSM domains. This comonents is used for discovering remote **Network Services** and **Network Service Endpoints** and for proxing connection requests to other **Network Service Manager Proxies** located in other NSM domains.
 
-**Image**: https://github.com/networkservicemesh/cmd-nsmgr-proxy
+**Image**: <a href="https://github.com/networkservicemesh/cmd-nsmgr-proxy" target="_blank">https://github.com/networkservicemesh/cmd-nsmgr-proxy</a>
 
 
 **Implements**:
@@ -128,7 +128,7 @@ message ConnectionContext {
 # Admission Webhook k8s
 Admission Webhook K8s simplifies working with NSM if NSM is deployed in a Kubernetes cluster. This component automatically injects NSM clients into Kubernetes pods with NSM annotations. It can also inject NSM clients into entire pod namespaces.
 
-**Image**: https://github.com/networkservicemesh/cmd-admission-webhook-k8s
+**Image**: <a href="https://github.com/networkservicemesh/cmd-admission-webhook-k8s" target="_blank">https://github.com/networkservicemesh/cmd-admission-webhook-k8s</a>
 
 **Responsibilities**:
 1. Injects NSM Clients into Kubernetes pods or namespaces if they have an NSM annotation
@@ -137,7 +137,7 @@ Admission Webhook K8s simplifies working with NSM if NSM is deployed in a Kubern
 # Cluster Info K8s
 **Cluster Info K8s** allows NSM to obtain information about the Kubernetes Cluster (for example, cluster, node, pod names) if NSM is deployed in this Kubernetes Cluster. This information can be used by other components (for example **Network Service Manager Proxy**).
 
-**Image**: https://github.com/networkservicemesh/cmd-cluster-info-k8s
+**Image**: <a href="https://github.com/networkservicemesh/cmd-cluster-info-k8s" target="_blank">https://github.com/networkservicemesh/cmd-cluster-info-k8s</a>
 
 **Responsibilities**:
 1. Obtains and updates information about the Kubernetes Cluster
