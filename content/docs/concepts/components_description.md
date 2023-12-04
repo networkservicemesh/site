@@ -59,7 +59,7 @@ service MonitorConnection {
 # Forwarder VPP
 **Forwarder VPP** is one of the key components of NSM. Its main responsibility is to create network topoligies requested by NSM clients.  **Forwarder VPP** uses [**VPP Framework**](https://s3-docs.fd.io/vpp/24.02/) to create network topologies.
 
-**Image**: https://github.com/networkservicemesh/cmd-forwader-vpp
+**Image**: https://github.com/networkservicemesh/cmd-forwarder-vpp
 
 **Implements**:
 1. NetworkService
@@ -81,14 +81,14 @@ message ConnectionContext {
 ```
 
 # Forwarder OVS
-**Forwarder OVS** is an analogue of **Forwarder VPP**, which uses **Open vSwitch (OVS)** as a backend for creating network topologies.
+**Forwarder OVS** is an analogue of **Forwarder VPP**, which uses [**Open vSwitch (OVS)**](https://www.openvswitch.org/) as a backend for creating network topologies.
 
 **Image**: https://github.com/networkservicemesh/cmd-forwarder-ovs
 
 # Registry
 **Registry** is used as a storage for **Network Service** and **Network Service Endpoint** entries.
 
-**Image**: https://github.com/networkservicemesh/cmd-nsmgr
+**Image**: https://github.com/networkservicemesh/cmd-registry-k8s
 
 **Implements**:
 1.  Registry
