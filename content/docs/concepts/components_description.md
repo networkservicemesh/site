@@ -57,9 +57,9 @@ service MonitorConnection {
 5. Can serve as a registry (optional) 
 
 # Forwarder VPP
-**Forwarder VPP** is one of the key components of NSM. Its main responsibility is to create network topoligies requested by NSM clients.  **Forwarder VPP** uses [**VPP Framework**](https://s3-docs.fd.io/vpp/24.02/){:target="_blank"} to create network topologies.
+**Forwarder VPP** is one of the key components of NSM. Its main responsibility is to create network topoligies requested by NSM clients.  **Forwarder VPP** uses<a href="https://s3-docs.fd.io/vpp/24.02/" target="_blank">**VPP Framework**</a> to create network topologies.
 
-**Image**: https://github.com/networkservicemesh/cmd-forwarder-vpp{:target="_blank"}
+**Image**: <a href="https://github.com/networkservicemesh/cmd-forwarder-vpp" target="_blank"></a>
 
 **Implements**:
 1. NetworkService
