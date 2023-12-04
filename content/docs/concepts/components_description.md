@@ -44,7 +44,7 @@ service MonitorConnection {
 
 **Image**: https://github.com/networkservicemesh/cmd-nsmgr
 
-**Implements**:
+**Implements services**:
 1. NetworkService
 2. Registry
 3. MonitorConnection
@@ -61,7 +61,7 @@ service MonitorConnection {
 
 **Image**: https://github.com/networkservicemesh/cmd-forwarder-vpp
 
-**Implements**:
+**Implements services**:
 1. NetworkService
 
 **Responsibilities**:
@@ -90,33 +90,33 @@ message ConnectionContext {
 
 **Image**: https://github.com/networkservicemesh/cmd-nsmgr
 
-**Implements**:
+**Implements services**:
 1.  Registry
 
 **Responsibilities**:
 1. Stores **Network Service** and **Network Service Endpoint** entries
 2. Calculates expiration time for **Network Service Endpoints** and deletes expired ones
-3. Proxies interdomain queries to Registry Proxy if it's presented on the cluster
+3. Proxies interdomain queries to **Registry Proxy** if it's presented on the cluster
 
 # Registry proxy DNS
 **Registry proxy DNS** resolves IPs of remote registries in other NSM domains and proxies **Register**, **Unregister** and **Find** requests to those registries.
 
 **Image**: https://github.com/networkservicemesh/cmd-registry-proxy-dns
 
-**Implements**:
+**Implements services**:
 1.  Registry
 
 **Responsibilities**:
 1. Resolves IPs of remote registries using names of **Network Services** and **Network Service Endpoints**
 2. Changes **Network Service Endpoint** URLs to DNS target of **Network Service Manager Proxy** on **Register**, **Unregister** and **Find** requests
-3. Proxies the local queries to the Registry on the cluster
+3. Proxies local queries to the **Registry** on the cluster
 
 # Network Service Manager Proxy (NSMgr Proxy)
 **Network Service Manager Proxy** allows NSM to establish connections between clients and endpoints located in different NSM domains. This component is used for proxing connection requests to other **Network Service Manager Proxies** located in other NSM domains.
 
 **Image**: https://github.com/networkservicemesh/cmd-nsmgr-proxy
 
-**Implements**:
+**Implements services**:
 1. NetworkService
 2. MonitorConnection
 
@@ -162,7 +162,7 @@ Admission Webhook K8s simplifies working with NSM if NSM is deployed in a Kubern
 
 **Image**: https://github.com/networkservicemesh/cmd-nse-icmp-responder
 
-**Implements**:
+**Implements services**:
 1. NetworkService
 
 **Responsibilities**:
@@ -195,7 +195,7 @@ Admission Webhook K8s simplifies working with NSM if NSM is deployed in a Kubern
 
 **Image**: https://github.com/networkservicemesh/cmd-nse-vl3-vpp
 
-**Implements**:
+**Implements services**:
 1. NetworkService
 
 **Responsibilities**:
