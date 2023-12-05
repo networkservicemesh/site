@@ -36,6 +36,9 @@
           {{ $title := cond (isset .Params "short") .Params.short .Title }}
           {{ $isCurrentSection := eq .Title $currentSection }}
           {{ $link := (index (where .Pages ".Weight" 1) 0).RelPermalink }}
+          {{ if not $link }}
+            {{ $link = (index .Pages.ByDate.Reverse 0).RelPermalink }}
+          {{ end}}
           <li{{ if $isCurrentSection }} class="is-active"{{ end }}>
             <a href="{{ $link }}">
               {{ $title }}

@@ -1,0 +1,35 @@
+---
+name: Auto sync-up NSM site with project boards
+on:
+  schedule:
+    - cron: '0 0 * * 0'
+jobs:
+  build-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+      - name: Setup Go
+        uses: actions/setup-go@v1
+        with:
+          go-version: 1.20.8
+      - name: build & run fetchnotes
+        run: make fetch-notes
+        env:
+          GITHUB_TOKEN: ${{ secrets.NSM_BOT_GITHUB_TOKEN }}
+      - name: Create commit message
+        run: |
+          echo Sync up NSM site with project boards $(date) > /tmp/commit-message
+          echo "Commit Message:"
+          cat /tmp/commit-message
+      - name: Push update to the
+        run: |
+          git config --global user.email "nsmbot@networkservicmesh.io"
+          git config --global user.name "NSMBot"
+          git add public/docs/releases
+          if ! [ -n "$(git diff --cached --exit-code)" ]; then
+            echo site is up to date
+            exit 0;
+          fi
+          git commit -s -F /tmp/commit-message
+          git push -f origin update/${{ github.repository }}
