@@ -42,7 +42,7 @@ service MonitorConnection {
 
 **Network Service Manager** is one of the key components of NSM, which is responsible for discovering **Network Services** and **Network Service Endpoints** and processing requests from clients. It must be located on the same machine as the NSM client in order to provide it with a connection to the NSM network. It can also serve as a registry if there is no real registry.
 
-**Image**: https://github.com/networkservicemesh/cmd-nsmgr
+**Image**: https://github.com/networkservicemesh/cmd-nsmgr/pkgs/container/cmd-nsmgr
 
 **Implements services**:
 1. NetworkService
@@ -59,7 +59,7 @@ service MonitorConnection {
 # Forwarder VPP
 **Forwarder VPP** is one of the datapath providers in NSM. Its main responsibility is to configure network interfaces requested by NSM clients. **Forwarder VPP** uses [**VPP Framework**](https://s3-docs.fd.io/vpp/24.02/) to create the datapath.
 
-**Image**: https://github.com/networkservicemesh/cmd-forwarder-vpp
+**Image**: https://github.com/networkservicemesh/cmd-forwarder-vpp/pkgs/container/cmd-forwarder-vpp
 
 **Implements services**:
 1. NetworkService
@@ -83,12 +83,12 @@ message ConnectionContext {
 # Forwarder OVS
 **Forwarder OVS** is an analogue of **Forwarder VPP**, which uses [**Open vSwitch (OVS)**](https://www.openvswitch.org/) as a backend for creating network interfaces.
 
-**Image**: https://github.com/networkservicemesh/cmd-forwarder-ovs
+**Image**: https://github.com/networkservicemesh/cmd-forwarder-ovs/pkgs/container/cmd-forwarder-ovs
 
 # Registry
 **Registry** is used as a storage for **Network Service** and **Network Service Endpoint** entries.
 
-**Image**: https://github.com/networkservicemesh/cmd-nsmgr
+**Image**: https://github.com/networkservicemesh/cmd-registry-k8s/pkgs/container/cmd-registry-k8s
 
 **Implements services**:
 1.  Registry
@@ -101,7 +101,7 @@ message ConnectionContext {
 # Registry proxy DNS
 **Registry proxy DNS** resolves IPs of remote registries in other NSM domains and proxies **Register**, **Unregister** and **Find** requests to those registries.
 
-**Image**: https://github.com/networkservicemesh/cmd-registry-proxy-dns
+**Image**: https://github.com/networkservicemesh/cmd-registry-proxy-dns/pkgs/container/cmd-registry-proxy-dns
 
 **Implements services**:
 1.  Registry
@@ -114,7 +114,7 @@ message ConnectionContext {
 # Network Service Manager Proxy (NSMgr Proxy)
 **Network Service Manager Proxy** allows NSM to establish connections between clients and endpoints located in different NSM domains. This component is used for proxing connection requests to other **Network Service Manager Proxies** located in other NSM domains.
 
-**Image**: https://github.com/networkservicemesh/cmd-nsmgr-proxy
+**Image**: https://github.com/networkservicemesh/cmd-nsmgr-proxy/pkgs/container/cmd-nsmgr-proxy
 
 **Implements services**:
 1. NetworkService
@@ -127,7 +127,7 @@ message ConnectionContext {
 # Admission Webhook k8s
 Admission Webhook K8s simplifies working with NSM if NSM is deployed in a Kubernetes cluster. This component automatically injects NSM clients into Kubernetes pods with NSM annotations. It can also inject NSM clients into entire pod namespaces.
 
-**Image**: https://github.com/networkservicemesh/cmd-admission-webhook-k8s
+**Image**: https://github.com/networkservicemesh/cmd-admission-webhook-k8s/pkgs/container/cmd-admission-webhook-k8s
 
 **Responsibilities**:
 1. Injects NSM Clients into Kubernetes pods or namespaces if they have an NSM annotation
@@ -136,7 +136,7 @@ Admission Webhook K8s simplifies working with NSM if NSM is deployed in a Kubern
 # Cluster Info K8s
 **Cluster Info K8s** allows NSM to work with cluster properties: https://github.com/kubernetes-sigs/about-api. This component can be used to simplify retrieval of the cluster domain name for **Network Service Manager Proxy**.
 
-**Image**: https://github.com/networkservicemesh/cmd-cluster-info-k8s
+**Image**: https://github.com/networkservicemesh/cmd-cluster-info-k8s/pkgs/container/cmd-cluster-info-k8s
 
 **Responsibilities**:
 1. Obtains and updates information about the Kubernetes Cluster
@@ -144,7 +144,7 @@ Admission Webhook K8s simplifies working with NSM if NSM is deployed in a Kubern
 # Exclude Prefixes K8s
 **Exclude Prefixes K8s** collects prefixes from various sources in the Kubernetes Cluster including pods, services and config maps. These prefixes are used by NSM IPAM to avoid the intersection of prefixes of NSM and Kubernetes networks.
 
-**Image**: https://github.com/networkservicemesh/cmd-exclude-prefixes-k8s
+**Image**: https://github.com/networkservicemesh/cmd-exclude-prefixes-k8s/pkgs/container/cmd-exclude-prefixes-k8s
 
 **Responsibilities**:
 1. Obtains and updates prefixes used in the Kubernetes Cluster
@@ -152,7 +152,7 @@ Admission Webhook K8s simplifies working with NSM if NSM is deployed in a Kubern
 # Map IP K8s
 **Map IP K8s** builds and updates a map that transfers internal pods' IPs of the Kubernetes Cluster to the external nodes' IPs. This map is used by **Network Service Manager Proxy** for interdomain NSM scenarios when NSM is deployed in the Kubernetes Cluster.
 
-**Image**: https://github.com/networkservicemesh/cmd-map-ip-k8s
+**Image**: https://github.com/networkservicemesh/cmd-map-ip-k8s/pkgs/container/cmd-map-ip-k8s
 
 **Responsibilities**:
 1.  Builds and updates a map that transfers internal pods' IPs to external nodes' IPs
@@ -160,7 +160,7 @@ Admission Webhook K8s simplifies working with NSM if NSM is deployed in a Kubern
 # Network Service Endpoint (NSE)
 **Network Service Endpoint** provides NSM clients with access to **Network Services**.
 
-**Image**: https://github.com/networkservicemesh/cmd-nse-icmp-responder
+**Image**: https://github.com/networkservicemesh/cmd-nse-icmp-responder/pkgs/container/cmd-nse-icmp-responder
 
 **Implements services**:
 1. NetworkService
@@ -172,7 +172,7 @@ Admission Webhook K8s simplifies working with NSM if NSM is deployed in a Kubern
 # Network Service Client (NSC)
 **Network Service Client** allows external workloads to request access to NSM's **Network Services** and maintains connections ([Controlplane](https://networkservicemesh.io/docs/concepts/features/healing) and [Dataplane](https://networkservicemesh.io/docs/concepts/features/datapath_healing) healing). This component can also provide a local DNS Server for accessing NSM resources by their names. Supports only **kernel** and **vfio** mechanisms.
 
-**Image**: https://github.com/networkservicemesh/cmd-nsc
+**Image**: https://github.com/networkservicemesh/cmd-nsc/pkgs/container/cmd-nsc
 
 **Responsibilities**:
 1. Requests connections to **Network Services**
@@ -185,7 +185,7 @@ Admission Webhook K8s simplifies working with NSM if NSM is deployed in a Kubern
 # Network Service Client Init (NSC Init)
 **Network Service Client Init** is used as **Init Container** inside Kubernetes pods with **External Clients**. Its main responsibility is to connect to **Network Service** before the main workload starts. Connection created by **NSC Init** is then used and maintained by **NSC**. This component supports only **kernel** and **vfio** mechanisms.
 
-**Image**: https://github.com/networkservicemesh/cmd-nsc-init
+**Image**: https://github.com/networkservicemesh/cmd-nsc-init/pkgs/container/cmd-nsc-init
 
 **Responsibilities**:
 1. Requests a connection to **Network Service**
@@ -193,7 +193,7 @@ Admission Webhook K8s simplifies working with NSM if NSM is deployed in a Kubern
 # Network Service Endpoint vl3 (NSE vl3)
 **Network Service Endpoint vl3** is used to build virtual L3 networks in NSM using [**VPP Framework**](https://s3-docs.fd.io/vpp/24.02/). vl3 networks are very similar to the standard network in a Kubernetes Cluster. vl3 Endpoints route traffic between clients connected to the vl3 network. They can also be configured to provide DNS for connected clients. 
 
-**Image**: https://github.com/networkservicemesh/cmd-nse-vl3-vpp
+**Image**: https://github.com/networkservicemesh/cmd-nse-vl3-vpp/pkgs/container/cmd-nse-vl3-vpp
 
 **Implements services**:
 1. NetworkService
