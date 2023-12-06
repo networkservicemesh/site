@@ -184,7 +184,7 @@ Admission Webhook K8s simplifies working with NSM if NSM is deployed in a Kubern
 3. Can serve as a DNS Server
 
 ## External Client
-**External Client** is any workload which wants to connect to NSM's **Network Services**. **Network Service Client** is required to establish the connection and should be located close to **External Client**.
+**External Client** is any workload which wants to connect to NSM's **Network Services**. **Network Service Client** is required to establish the connection and should be located alongside **External Client**.
 
 ## Network Service Client Init (NSC Init)
 **Network Service Client Init** is used as **Init Container** inside Kubernetes pods with **External Clients**. Its main responsibility is to connect to **Network Service** before the main workload starts. Connection created by **NSC Init** is then used and maintained by **NSC**.
