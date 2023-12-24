@@ -11,3 +11,4 @@ Since NSM can run in any environment, here is described only concepts of the ava
 
 - [Healing](../features/healing)
 - [Datapath Healing](../features/datapath_healing)
+- [Development of Network Service Mesh Endpoint](../features/develop_nse)
