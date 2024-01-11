@@ -10,47 +10,62 @@
         "sdk-k8s": "cell-KUktbazg4igNnRH6aAHL-12",
         "cmd-map-ip-k8s": "cell-KUktbazg4igNnRH6aAHL-46",
         "cmd-admission-webhook-k8s": "cell-KUktbazg4igNnRH6aAHL-30",
+        "cmd-cluster-info-k8s":"cell-9nbd_pPUJAVFhgSJ7Byz-12",
+        "cmd-ipam-vl3":"cell-9nbd_pPUJAVFhgSJ7Byz-15",
         "cmd-nsc-init": "cell-KUktbazg4igNnRH6aAHL-53",
         "cmd-nsmgr": "cell-KUktbazg4igNnRH6aAHL-16",
         "cmd-nsmgr-proxy": "cell-KUktbazg4igNnRH6aAHL-57",
-        "cmd-nse-icmp-responder": "cell-KUktbazg4igNnRH6aAHL-56",
         "cmd-nse-vfio": "cell-KUktbazg4igNnRH6aAHL-55",
         "cmd-registry-memory": "cell-KUktbazg4igNnRH6aAHL-50",
         "cmd-registry-proxy-dns": "cell-KUktbazg4igNnRH6aAHL-54",
         "cmd-nse-remote-vlan":"cell-YMB4rWHzFTmKYcXhytok-7",
-        "cmd-cluster-info-k8s":"cell-ba8n7t1DTyDJSkP5TsCU-4",
-        "cmd-vl3-ipam":"cell-uLCMfscIq_1WTIrkWhTO-2",
+        "cmd-csi-driver": "cell-9nbd_pPUJAVFhgSJ7Byz-23",
       },
       "sdk-kernel": {
         "sdk-vpp": "cell-KUktbazg4igNnRH6aAHL-10",
         "sdk-sriov": "cell-KUktbazg4igNnRH6aAHL-20",
-        "cmd-nse-l7-proxy": "cell-ba8n7t1DTyDJSkP5TsCU-2"
+        "cmd-nse-l7-proxy": "cell-9nbd_pPUJAVFhgSJ7Byz-9"
       },
       "sdk-vpp": {
         "cmd-nsc-vpp": "cell-KUktbazg4igNnRH6aAHL-45",
         "cmd-nse-icmp-responder-vpp": "cell-KUktbazg4igNnRH6aAHL-44",
         "cmd-nse-firewall-vpp":"cell-YWTRKo84t5DHiULYztLq-3",
         "cmd-forwarder-vpp": "cell-KUktbazg4igNnRH6aAHL-15",
-        "cmd-nse-simple-vl3-docker":"cell-vHwpXIBINaUL7lCKyK2X-4",
-        "cmd-nsc-simple-docker":"cell-vHwpXIBINaUL7lCKyK2X-3",
+        "cmd-nse-simple-vl3-docker": "cell-tK4_8g8Ls3PgPuG9fXJk-2",
+        "cmd-nsc-simple-docker": "cell-9nbd_pPUJAVFhgSJ7Byz-5",
+        "cmd-nse-vlan-vpp": "cell-9nbd_pPUJAVFhgSJ7Byz-17",
+        "cmd-nse-vl3-vpp": "cell-Prku3oC4CS7h4xE_tYkA-12",
+        "cmd-lb-vl3-vpp": "cell-9nbd_pPUJAVFhgSJ7Byz-20",
       },
       "sdk-sriov": {
+        "cmd-nse-vlan-vpp": "cell-9nbd_pPUJAVFhgSJ7Byz-25",
+        "cmd-nsc-init": "cell-9nbd_pPUJAVFhgSJ7Byz-24",
         "cmd-forwarder-sriov":"cell-KUktbazg4igNnRH6aAHL-19",
         "cmd-nsc": "cell-KUktbazg4igNnRH6aAHL-49",
         "sdk-ovs": "cell-Prku3oC4CS7h4xE_tYkA-13",
         "cmd-forwarder-vpp": "cell-Prku3oC4CS7h4xE_tYkA-6",
+        "cmd-nse-icmp-responder": "cell-KUktbazg4igNnRH6aAHL-56",
       },
       "sdk-ovs": {
         "cmd-forwarder-ovs":"cell-Prku3oC4CS7h4xE_tYkA-9",
       },
       "sdk-k8s": {
+        "cmd-forwarder-sriov": "cell-9nbd_pPUJAVFhgSJ7Byz-28",
         "cmd-nse-supplier-k8s": "cell-KUktbazg4igNnRH6aAHL-48",
         "cmd-registry-k8s": "cell-KUktbazg4igNnRH6aAHL-47",
         "cmd-exclude-prefixes-k8s": "cell-KUktbazg4igNnRH6aAHL-51",
         "cmd-forwarder-vpp": "cell-YMB4rWHzFTmKYcXhytok-3",
+        "cmd-admission-webhook-k8s": "cell-9nbd_pPUJAVFhgSJ7Byz-29",
+        "cmd-forwarder-ovs": "cell-9nbd_pPUJAVFhgSJ7Byz-32",
       },
       "cmd-nsc-vpp": {
         "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-2",
+      },
+      "cmd-nse-simple-vl3-docker" : {
+        "deployment-k8s": "cell-9nbd_pPUJAVFhgSJ7Byz-6",
+      },
+      "cmd-nsc-simple-docker" : {
+        "deployment-k8s": "c9nbd_pPUJAVFhgSJ7Byz-26",
       },
       "cmd-nse-icmp-responder-vpp": {
         "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-3",
@@ -95,16 +110,7 @@
         "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-15",
       },
       "cmd-cluster-info-k8s": {
-        "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-15",
-      },
-      "cmd-nse-l7-proxy": {
-        "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-15",
-      },
-      "cmd-nse-simple-vl3-docker": {
-        "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-15",
-      },
-      "cmd-nsc-simple-docker": {
-        "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-15",
+        "deployment-k8s": "cell-9nbd_pPUJAVFhgSJ7Byz-27",
       },
       "cmd-nse-vfio": {
         "deployment-k8s": "cell-ltp6VKm9YOJ7lEqRLLzF-16",
@@ -129,18 +135,7 @@
         "integration-k8s-aks": "cell-ltp6VKm9YOJ7lEqRLLzF-30",
         "integration-k8s-packet": "cell-ltp6VKm9YOJ7lEqRLLzF-31",
         "integration-k8s-aws": "cell-ltp6VKm9YOJ7lEqRLLzF-32",
-      },
-      "integration-k8s-gke": {
-        "integration-k8s-interdomain": "cell-ltp6VKm9YOJ7lEqRLLzF-34",
-      },
-      "integration-k8s-aks": {
-        "integration-k8s-interdomain": "cell-ltp6VKm9YOJ7lEqRLLzF-38",
-      },
-      "integration-k8s-packet": {
-        "integration-k8s-interdomain": "cell-ltp6VKm9YOJ7lEqRLLzF-35",
-      },
-      "integration-k8s-aws": {
-        "integration-k8s-interdomain": "cell-ltp6VKm9YOJ7lEqRLLzF-39",
+        "integration-k8s-interdomain": "cell-9nbd_pPUJAVFhgSJ7Byz-16",
       },
     }
 
