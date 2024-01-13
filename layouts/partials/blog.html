@@ -1,0 +1,21 @@
+{{ $paginator := .Paginate ((where site.RegularPages "Section" "blog").ByDate.Reverse ) }}
+<div class="paginator-container">
+    {{ template "_internal/pagination.html" . }}
+</div>
+<section class="section">
+    <div class="container">
+        {{ range $paginator.Pages }}
+            <a href="{{ .RelPermalink }}"><strong>{{ .Title }}</strong></a>, 
+            {{ .Date.Format site.Params.dateFormat }}
+            {{ if isset .Params "announce" }}
+            </br>
+            {{ .Params.announce }} <a href="{{ .RelPermalink }}"><strong>Read more...</strong></a>
+            {{ end }}
+            <br/><br/>
+        {{ end }}
+
+    </div>
+</section>
+<div class="paginator-container">
+    {{ template "_internal/pagination.html" . }}
+</div>
