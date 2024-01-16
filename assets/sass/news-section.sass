@@ -1,0 +1,23 @@
+$news-section-padding: 0.5rem 1.5rem !default
+$news-section-padding-medium: 1.5rem 1.5rem !default
+$news-section-padding-large: 3rem 1.5rem !default
+
+.news-section
+  padding: $news-section-padding
+  // Responsiveness
+  +desktop
+    // Sizes
+    &.is-medium
+      padding: $news-section-padding-medium
+    &.is-large
+      padding: $news-section-padding-large
+  .news-header
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    .news-title
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    .news-link
+      padding-left: 0.75rem;

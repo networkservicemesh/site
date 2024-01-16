@@ -1,8 +1,10 @@
 {{ define "main" }}
 {{ $subtitle := site.Params.subtitle }}
 {{ partial "home/hero.html" . }}
+{{ partial "home/news.html" . }}
 {{ partial "home/what-it-is.html" . }}
 {{ partial "home/use-cases.html" . }}
 {{ partial "home/how-it-works.html" . }}
+{{ partial "home/recent-blog-posts.html" . }}
 {{ partial "home/cncf.html" . }}
 {{ end }}

@@ -1,0 +1,19 @@
+{{ $lastnews := index (where site.RegularPages "Section" "blog").ByDate.Reverse 0 }}
+
+<section class="news-section has-background-light">
+    <div class="container">
+        <div class="columns is-variable is-8">
+            <div class="column is-3">
+                <div class="has-text-weight-bold has-text-white has-background-orange rounded-tag">
+                    Latest news
+                </div>
+            </div>
+    
+            <div class="column is-9">
+                <div class="news-header">
+                    <p class="news-title">{{ $lastnews.Title }}</p><a class="news-link" href="{{ $lastnews.RelPermalink }}">Read more -&gt;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
