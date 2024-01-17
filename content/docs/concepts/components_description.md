@@ -40,6 +40,12 @@ service MonitorConnection {
 
 ## Network Service Manager (NSMgr)
 **Network Service Manager** is one of the key components of NSM, which is responsible for discovering **Network Services** and **Network Service Endpoints** and processing requests from clients. It must be located on the same machine as the NSM client in order to provide it with a connection to the NSM network. It can also serve as a registry if there is no real registry.
+This component is responsible for authenticating the client and the request in such a way as to implement additional security. 
+In general, in the context of Kubernetes, there should be a NSMgr for each node of the cluster.
+Moreover, the **Spiffe(Secure Production Identity Framework for Everyone)** and Spire **(SPIFFE runtime Environment)** projects are also used to provide an infrastructure for identity management in distributed environments, as in the case of Kubernetes. 
+These two elements work to ensure that communications between different services are safe and secure. 
+Generally, each Network Service Client is provided with a unique identifier, a Spiffe ID, which is necessary to recognize and distinguish the different components.  
+In fact, in the cluster configuration phase, specific deployments are recommended in order to have a component that can then handle this type of authentication.
 
 **Package**: https://github.com/networkservicemesh/cmd-nsmgr/pkgs/container/cmd-nsmgr
 
@@ -58,6 +64,7 @@ service MonitorConnection {
 ## Forwarder
 
 **Forwarder** is one of the datapath providers in NSM. Its main responsibility is to configure network interfaces requested by NSM clients.
+Once the request arrives at the forwarder, the latter has to register the parameters of the client request within the registry, namely, the requested service and the desired type of mechanism, to which other aspects, such as the name of the interface will be created can then be added, and also selecting what the endpoints associated with the service are.
 
 **Implements services**:
 1. NetworkService
@@ -175,6 +182,8 @@ Admission Webhook K8s simplifies working with NSM if NSM is deployed in a Kubern
 
 ## Network Service Client (NSC)
 **Network Service Client** allows external workloads to request access to NSM's **Network Services** and maintains connections ([Controlplane](https://networkservicemesh.io/docs/concepts/features/healing) and [Dataplane](https://networkservicemesh.io/docs/concepts/features/datapath_healing) healing). This component can also provide a local DNS Server for accessing NSM resources by their names.
+The NSC is authenticated and authorized before making the connection to the service.
+The connection to the desired service is made through an annotation by which the service is specified, the type of mechanism desired, such as ``memif`` or ``kernel``, and the name of the corresponding interface that is then created. Be careful not to use excessively long names since a check is made on the length of the name. Another element that can be specified is a label, which is useful for selecting endpoints for the service. 
 
 **Package**: https://github.com/networkservicemesh/cmd-nsc/pkgs/container/cmd-nsc
 
