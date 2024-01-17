@@ -2,6 +2,7 @@
 title = "Testing Service Mesh Performance in Multi-Cluster Scenario: Istio vs Kuma vs NSM"
 date = 2024-01-11
 announce= "This article may be useful for those who are aware of service meshes and probably trying to improve scalability and connectivity between applications in Kubernetes and other container orchestration systems, e.g., adding encryption and authorization for application connections."
+showToC = true
 +++
 
 # Testing Service Mesh Performance in Multi-Cluster Scenario: Istio vs Kuma vs NSM
