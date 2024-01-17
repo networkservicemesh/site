@@ -1,1 +1,818 @@
-<mxfile host="app.diagrams.net" modified="2022-08-05T00:38:37.975Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="cstueADS0CqukSu5raAF" version="20.1.1" type="google"><diagram id="xxwJfFdUSuA9Re-XXlqc" name="Page-1">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</diagram></mxfile>
+<mxfile host="Electron" modified="2024-01-17T20:31:35.224Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.18 Chrome/120.0.6099.199 Electron/28.1.2 Safari/537.36" etag="oxYVqeDstHLPhYZCK-42" version="22.1.18" type="device">
+  <diagram id="xxwJfFdUSuA9Re-XXlqc" name="Page-1">
+    <mxGraphModel dx="1687" dy="1065" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="api" link="https://github.com/networkservicemesh/api" linkTarget="_blank" id="KUktbazg4igNnRH6aAHL-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="70" y="280" width="40" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="KUktbazg4igNnRH6aAHL-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-5" target="KUktbazg4igNnRH6aAHL-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="290" />
+              <mxPoint x="380" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Semdq0w2--LJRfWncIDz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KUktbazg4igNnRH6aAHL-2" target="Semdq0w2--LJRfWncIDz-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="sdk" link="https://github.com/networkservicemesh/sdk" linkTarget="_blank" id="KUktbazg4igNnRH6aAHL-2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="150" y="280" width="40" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="9nbd_pPUJAVFhgSJ7Byz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-3" target="9nbd_pPUJAVFhgSJ7Byz-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9nbd_pPUJAVFhgSJ7Byz-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-3" target="YMB4rWHzFTmKYcXhytok-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="sdk-vpp" link="https://github.com/networkservicemesh/sdk-vpp" linkTarget="_blank" id="KUktbazg4igNnRH6aAHL-3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="480" y="200" width="70" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="KUktbazg4igNnRH6aAHL-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-4" target="KUktbazg4igNnRH6aAHL-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="483" y="220" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="600" y="290" />
+              <mxPoint x="600" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9nbd_pPUJAVFhgSJ7Byz-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-4" target="KUktbazg4igNnRH6aAHL-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="290" />
+              <mxPoint x="600" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9nbd_pPUJAVFhgSJ7Byz-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-4" target="YMB4rWHzFTmKYcXhytok-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="290" />
+              <mxPoint x="600" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="sdk-sriov" link="https://github.com/networkservicemesh/sdk-sriov" linkTarget="_blank" id="KUktbazg4igNnRH6aAHL-4">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="413" y="280" width="70" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="KUktbazg4igNnRH6aAHL-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-5" target="KUktbazg4igNnRH6aAHL-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="290" />
+              <mxPoint x="390" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9nbd_pPUJAVFhgSJ7Byz-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;arcSize=20;" parent="1" source="KUktbazg4igNnRH6aAHL-5" target="9nbd_pPUJAVFhgSJ7Byz-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="290" />
+              <mxPoint x="380" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="sdk-kernel" link="https://github.com/networkservicemesh/sdk-kernel" linkTarget="_blank" id="KUktbazg4igNnRH6aAHL-5">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="290" y="280" width="70" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="9nbd_pPUJAVFhgSJ7Byz-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-7" target="KUktbazg4igNnRH6aAHL-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="160" />
+              <mxPoint x="600" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9nbd_pPUJAVFhgSJ7Byz-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-7" target="KUktbazg4igNnRH6aAHL-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="160" />
+              <mxPoint x="600" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9nbd_pPUJAVFhgSJ7Byz-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-7" target="Prku3oC4CS7h4xE_tYkA-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="160" />
+              <mxPoint x="600" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="sdk-k8s" link="https://github.com/networkservicemesh/sdk-k8s" linkTarget="_blank" id="KUktbazg4igNnRH6aAHL-7">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="260" y="150" width="70" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="cmd-forwarder-vpp" link="https://github.com/networkservicemesh/cmd-forwarder-vpp" linkTarget="_blank" id="KUktbazg4igNnRH6aAHL-8">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#d5739d;fillColor=#e6d0de;strokeColor=#996185;" parent="1" vertex="1">
+            <mxGeometry x="650" y="180" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="cmd-nsmgr" link="https://github.com/networkservicemesh/cmd-nsmgr" linkTarget="_blank" id="KUktbazg4igNnRH6aAHL-9">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+            <mxGeometry x="650" y="690" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="KUktbazg4igNnRH6aAHL-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-2" target="KUktbazg4igNnRH6aAHL-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="240" as="sourcePoint" />
+            <mxPoint x="300" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUktbazg4igNnRH6aAHL-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-2" target="KUktbazg4igNnRH6aAHL-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="250" as="sourcePoint" />
+            <mxPoint x="310" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUktbazg4igNnRH6aAHL-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-3" target="KUktbazg4igNnRH6aAHL-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="280" as="sourcePoint" />
+            <mxPoint x="330" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUktbazg4igNnRH6aAHL-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-2" target="KUktbazg4igNnRH6aAHL-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="280" as="sourcePoint" />
+            <mxPoint x="340" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="cmd-forwarder-sriov" link="https://github.com/networkservicemesh/cmd-forwarder-sriov" id="KUktbazg4igNnRH6aAHL-17">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#d5739d;fillColor=#e6d0de;strokeColor=#996185;" parent="1" vertex="1">
+            <mxGeometry x="650" y="270" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="cmd-nsc" link="https://github.com/networkservicemesh/cmd-nsc" id="KUktbazg4igNnRH6aAHL-27">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" parent="1" vertex="1">
+            <mxGeometry x="650" y="210" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="cmd-nsc-init" link="https://github.com/networkservicemesh/cmd-nsc-init" id="KUktbazg4igNnRH6aAHL-28">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" parent="1" vertex="1">
+            <mxGeometry x="650" y="60" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="cmd-admission-webhook-k8s" link="https://github.com/networkservicemesh/cmd-admission-webhook-k8s" id="KUktbazg4igNnRH6aAHL-29">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+            <mxGeometry x="650" y="30" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="KUktbazg4igNnRH6aAHL-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-2" target="KUktbazg4igNnRH6aAHL-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="230" as="sourcePoint" />
+            <mxPoint x="460" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="cmd-map-ip-k8s" link="https://github.com/networkservicemesh/cmd-map-ip-k8s" id="KUktbazg4igNnRH6aAHL-31">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+            <mxGeometry x="650" y="600" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="cmd-nse-icmp-responder-vpp" link="https://github.com/networkservicemesh/cmd-nse-icmp-responder-vpp" linkTarget="_blank" id="KUktbazg4igNnRH6aAHL-32">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+            <mxGeometry x="650" y="360" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="cmd-nsc-vpp" link="https://github.com/networkservicemesh/cmd-nsc-vpp" id="KUktbazg4igNnRH6aAHL-34">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" parent="1" vertex="1">
+            <mxGeometry x="650" y="450" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="cmd-registry-k8s" link="https://github.com/networkservicemesh/cmd-registry-k8s" id="KUktbazg4igNnRH6aAHL-35">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+            <mxGeometry x="650" y="120" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="cmd-nse-supplier-k8s" link="https://github.com/networkservicemesh/cmd-nse-supplier-k8s" id="KUktbazg4igNnRH6aAHL-36">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+            <mxGeometry x="650" y="90" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="cmd-registry-memory" link="https://github.com/networkservicemesh/cmd-registry-memory" id="KUktbazg4igNnRH6aAHL-37">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+            <mxGeometry x="650" y="780" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="cmd-registry-proxy-dns" link="https://github.com/networkservicemesh/cmd-registry-proxy-dns" id="KUktbazg4igNnRH6aAHL-38">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+            <mxGeometry x="650" y="810" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="cmd-nse-vfio" link="https://github.com/networkservicemesh/cmd-nse-vfio" id="KUktbazg4igNnRH6aAHL-39">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+            <mxGeometry x="650" y="750" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="cmd-nse-icmp-responder" link="https://github.com/networkservicemesh/cmd-nse-icmp-responder" id="KUktbazg4igNnRH6aAHL-40">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+            <mxGeometry x="650" y="300" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="cmd-exclude-prefixes-k8s" link="https://github.com/networkservicemesh/cmd-exclude-prefixes-k8s" id="KUktbazg4igNnRH6aAHL-41">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+            <mxGeometry x="650" y="150" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="cmd-nsmgr-proxy" link="https://github.com/networkservicemesh/cmd-nsmgr-proxy" id="KUktbazg4igNnRH6aAHL-43">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+            <mxGeometry x="650" y="720" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="KUktbazg4igNnRH6aAHL-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-3" target="KUktbazg4igNnRH6aAHL-32" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="190" as="sourcePoint" />
+            <mxPoint x="460" y="180" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUktbazg4igNnRH6aAHL-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-3" target="KUktbazg4igNnRH6aAHL-34" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="190" as="sourcePoint" />
+            <mxPoint x="470" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUktbazg4igNnRH6aAHL-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-2" target="KUktbazg4igNnRH6aAHL-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="410" as="sourcePoint" />
+            <mxPoint x="460" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUktbazg4igNnRH6aAHL-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-7" target="KUktbazg4igNnRH6aAHL-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="530" as="sourcePoint" />
+            <mxPoint x="470" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="160" />
+              <mxPoint x="600" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUktbazg4igNnRH6aAHL-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-7" target="KUktbazg4igNnRH6aAHL-36" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="560" as="sourcePoint" />
+            <mxPoint x="480" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="160" />
+              <mxPoint x="600" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUktbazg4igNnRH6aAHL-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;" parent="1" source="KUktbazg4igNnRH6aAHL-4" target="KUktbazg4igNnRH6aAHL-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="483" y="220" as="sourcePoint" />
+            <mxPoint x="460" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="290" />
+              <mxPoint x="600" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUktbazg4igNnRH6aAHL-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-2" target="KUktbazg4igNnRH6aAHL-37" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="240" as="sourcePoint" />
+            <mxPoint x="470" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUktbazg4igNnRH6aAHL-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-7" target="KUktbazg4igNnRH6aAHL-41" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="540" as="sourcePoint" />
+            <mxPoint x="460" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUktbazg4igNnRH6aAHL-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-2" target="KUktbazg4igNnRH6aAHL-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="230" as="sourcePoint" />
+            <mxPoint x="460" y="40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUktbazg4igNnRH6aAHL-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-2" target="KUktbazg4igNnRH6aAHL-38" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="240" as="sourcePoint" />
+            <mxPoint x="470" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUktbazg4igNnRH6aAHL-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-2" target="KUktbazg4igNnRH6aAHL-39" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="250" as="sourcePoint" />
+            <mxPoint x="480" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUktbazg4igNnRH6aAHL-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-4" target="KUktbazg4igNnRH6aAHL-40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="260" as="sourcePoint" />
+            <mxPoint x="490" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="290" />
+              <mxPoint x="600" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUktbazg4igNnRH6aAHL-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-2" target="KUktbazg4igNnRH6aAHL-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="230" as="sourcePoint" />
+            <mxPoint x="460" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="" id="KUktbazg4igNnRH6aAHL-71">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-1" target="KUktbazg4igNnRH6aAHL-2" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="200" y="300" as="sourcePoint" />
+              <mxPoint x="150" y="290" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="KUktbazg4igNnRH6aAHL-89" value="registry" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="945" y="190" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KUktbazg4igNnRH6aAHL-73" value="" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="920" y="40" width="260" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="KUktbazg4igNnRH6aAHL-74" value="Legend" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="920" y="40" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KUktbazg4igNnRH6aAHL-75" value="Forwarder" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#d5739d;fillColor=#e6d0de;strokeColor=#996185;" parent="1" vertex="1">
+          <mxGeometry x="945" y="130" width="215" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KUktbazg4igNnRH6aAHL-76" value="Network Service Client" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="945" y="70" width="215" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KUktbazg4igNnRH6aAHL-77" value="Network Service Endpoint" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="945" y="160" width="215" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KUktbazg4igNnRH6aAHL-78" value="Network Service Manager" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="945" y="100" width="215" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KUktbazg4igNnRH6aAHL-79" value="Utilities" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="945" y="190" width="215" height="20" as="geometry" />
+        </mxCell>
+        <UserObject label="deployment-k8s" link="https://github.com/networkservicemesh/deployment-k8s" id="ltp6VKm9YOJ7lEqRLLzF-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="950" y="550" width="130" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ltp6VKm9YOJ7lEqRLLzF-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-34" target="ltp6VKm9YOJ7lEqRLLzF-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="200" as="sourcePoint" />
+            <mxPoint x="660" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltp6VKm9YOJ7lEqRLLzF-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-32" target="ltp6VKm9YOJ7lEqRLLzF-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="170" as="sourcePoint" />
+            <mxPoint x="960" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltp6VKm9YOJ7lEqRLLzF-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-8" target="ltp6VKm9YOJ7lEqRLLzF-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="180" as="sourcePoint" />
+            <mxPoint x="970" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="900" y="190" />
+              <mxPoint x="900" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltp6VKm9YOJ7lEqRLLzF-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-17" target="ltp6VKm9YOJ7lEqRLLzF-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="190" as="sourcePoint" />
+            <mxPoint x="980" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltp6VKm9YOJ7lEqRLLzF-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-36" target="ltp6VKm9YOJ7lEqRLLzF-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="320" as="sourcePoint" />
+            <mxPoint x="990" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltp6VKm9YOJ7lEqRLLzF-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-35" target="ltp6VKm9YOJ7lEqRLLzF-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="330" as="sourcePoint" />
+            <mxPoint x="1000" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltp6VKm9YOJ7lEqRLLzF-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-31" target="ltp6VKm9YOJ7lEqRLLzF-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="340" as="sourcePoint" />
+            <mxPoint x="1010" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltp6VKm9YOJ7lEqRLLzF-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-29" target="ltp6VKm9YOJ7lEqRLLzF-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="350" as="sourcePoint" />
+            <mxPoint x="950" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltp6VKm9YOJ7lEqRLLzF-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-41" target="ltp6VKm9YOJ7lEqRLLzF-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="360" as="sourcePoint" />
+            <mxPoint x="1030" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltp6VKm9YOJ7lEqRLLzF-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-28" target="ltp6VKm9YOJ7lEqRLLzF-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="370" as="sourcePoint" />
+            <mxPoint x="1040" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltp6VKm9YOJ7lEqRLLzF-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-27" target="ltp6VKm9YOJ7lEqRLLzF-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="260" as="sourcePoint" />
+            <mxPoint x="1050" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltp6VKm9YOJ7lEqRLLzF-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-9" target="ltp6VKm9YOJ7lEqRLLzF-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="390" as="sourcePoint" />
+            <mxPoint x="1060" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltp6VKm9YOJ7lEqRLLzF-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-43" target="ltp6VKm9YOJ7lEqRLLzF-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="400" as="sourcePoint" />
+            <mxPoint x="1070" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltp6VKm9YOJ7lEqRLLzF-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-40" target="ltp6VKm9YOJ7lEqRLLzF-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="410" as="sourcePoint" />
+            <mxPoint x="1080" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltp6VKm9YOJ7lEqRLLzF-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-39" target="ltp6VKm9YOJ7lEqRLLzF-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="990" y="420" as="sourcePoint" />
+            <mxPoint x="1090" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltp6VKm9YOJ7lEqRLLzF-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-37" target="ltp6VKm9YOJ7lEqRLLzF-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="430" as="sourcePoint" />
+            <mxPoint x="1100" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltp6VKm9YOJ7lEqRLLzF-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-38" target="ltp6VKm9YOJ7lEqRLLzF-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="440" as="sourcePoint" />
+            <mxPoint x="1110" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="integration-tests" link="https://github.com/networkservicemesh/integration-tests" id="ltp6VKm9YOJ7lEqRLLzF-19">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="1129" y="550" width="110" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ltp6VKm9YOJ7lEqRLLzF-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ltp6VKm9YOJ7lEqRLLzF-1" target="ltp6VKm9YOJ7lEqRLLzF-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="420" as="sourcePoint" />
+            <mxPoint x="520" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="integration-k8s-kind" link="https://github.com/networkservicemesh/integration-k8s-kind" id="ltp6VKm9YOJ7lEqRLLzF-21">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="1280" y="550" width="130" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="integration-k8s-gke" link="https://github.com/networkservicemesh/integration-k8s-gke" id="ltp6VKm9YOJ7lEqRLLzF-22">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="1470" y="480" width="170" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="integration-k8s-aws" link="https://github.com/networkservicemesh/integration-k8s-aws" id="ltp6VKm9YOJ7lEqRLLzF-23">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="1470" y="600" width="170" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="integration-k8s-aks" link="https://github.com/networkservicemesh/integration-k8s-aks" id="ltp6VKm9YOJ7lEqRLLzF-24">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="1470" y="520" width="170" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="integration-k8s-packet" link="https://github.com/networkservicemesh/integration-k8s-packet" id="ltp6VKm9YOJ7lEqRLLzF-25">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="1470" y="560" width="170" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ltp6VKm9YOJ7lEqRLLzF-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ltp6VKm9YOJ7lEqRLLzF-19" target="ltp6VKm9YOJ7lEqRLLzF-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1090" y="570" as="sourcePoint" />
+            <mxPoint x="1160" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltp6VKm9YOJ7lEqRLLzF-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ltp6VKm9YOJ7lEqRLLzF-21" target="ltp6VKm9YOJ7lEqRLLzF-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="580" as="sourcePoint" />
+            <mxPoint x="1170" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltp6VKm9YOJ7lEqRLLzF-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ltp6VKm9YOJ7lEqRLLzF-21" target="ltp6VKm9YOJ7lEqRLLzF-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1420" y="570" as="sourcePoint" />
+            <mxPoint x="1480" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltp6VKm9YOJ7lEqRLLzF-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="ltp6VKm9YOJ7lEqRLLzF-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1440" y="560" as="sourcePoint" />
+            <mxPoint x="1490" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1440" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltp6VKm9YOJ7lEqRLLzF-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ltp6VKm9YOJ7lEqRLLzF-21" target="ltp6VKm9YOJ7lEqRLLzF-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1440" y="590" as="sourcePoint" />
+            <mxPoint x="1500" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltp6VKm9YOJ7lEqRLLzF-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ltp6VKm9YOJ7lEqRLLzF-21" target="ltp6VKm9YOJ7lEqRLLzF-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1450" y="600" as="sourcePoint" />
+            <mxPoint x="1510" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="integration-interdomain-k8s" link="https://github.com/networkservicemesh/integration-interdomain-k8s" id="ltp6VKm9YOJ7lEqRLLzF-33">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="1470" y="640" width="170" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="WCTNbeuQuTkYa4PUqZn_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="YWTRKo84t5DHiULYztLq-2" target="ltp6VKm9YOJ7lEqRLLzF-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="cmd-nse-firewall-vpp" link="https://github.com/networkservicemesh/cmd-nse-firewall-vpp" linkTarget="_blank" id="YWTRKo84t5DHiULYztLq-2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+            <mxGeometry x="650" y="390" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="YWTRKo84t5DHiULYztLq-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-3" target="YWTRKo84t5DHiULYztLq-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="180" as="sourcePoint" />
+            <mxPoint x="550" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Prku3oC4CS7h4xE_tYkA-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-4" target="KUktbazg4igNnRH6aAHL-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="483" y="220" as="sourcePoint" />
+            <mxPoint x="460" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="290" />
+              <mxPoint x="600" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="cmd-forwarder-ovs" link="https://github.com/networkservicemesh/cmd-forwarder-ovs" linkTarget="_blank" id="Prku3oC4CS7h4xE_tYkA-8">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#d5739d;fillColor=#e6d0de;strokeColor=#996185;" parent="1" vertex="1">
+            <mxGeometry x="650" y="240" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Prku3oC4CS7h4xE_tYkA-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Prku3oC4CS7h4xE_tYkA-7" target="Prku3oC4CS7h4xE_tYkA-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="300" as="sourcePoint" />
+            <mxPoint x="410" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="250" />
+              <mxPoint x="600" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Prku3oC4CS7h4xE_tYkA-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Prku3oC4CS7h4xE_tYkA-8" target="ltp6VKm9YOJ7lEqRLLzF-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="260" as="sourcePoint" />
+            <mxPoint x="960" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCTNbeuQuTkYa4PUqZn_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Prku3oC4CS7h4xE_tYkA-11" target="ltp6VKm9YOJ7lEqRLLzF-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="cmd-nse-vl3-vpp" link="https://github.com/networkservicemesh/cmd-nse-vl3-vpp" linkTarget="_blank" id="Prku3oC4CS7h4xE_tYkA-11">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+            <mxGeometry x="650" y="420" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Prku3oC4CS7h4xE_tYkA-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-3" target="Prku3oC4CS7h4xE_tYkA-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="180" as="sourcePoint" />
+            <mxPoint x="550" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Prku3oC4CS7h4xE_tYkA-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-4" target="Prku3oC4CS7h4xE_tYkA-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="310" as="sourcePoint" />
+            <mxPoint x="660" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="sdk-ovs" link="https://github.com/networkservicemesh/sdk-ovs" linkTarget="_blank" id="Prku3oC4CS7h4xE_tYkA-7">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="480" y="240" width="70" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="YMB4rWHzFTmKYcXhytok-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;" parent="1" source="KUktbazg4igNnRH6aAHL-4" target="Prku3oC4CS7h4xE_tYkA-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="300" as="sourcePoint" />
+            <mxPoint x="650" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YMB4rWHzFTmKYcXhytok-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-7" target="KUktbazg4igNnRH6aAHL-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="350" as="targetPoint" />
+            <mxPoint x="335" y="310" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="600" y="160" />
+              <mxPoint x="600" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCTNbeuQuTkYa4PUqZn_-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="YMB4rWHzFTmKYcXhytok-5" target="ltp6VKm9YOJ7lEqRLLzF-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="cmd-nse-vlan-vpp" link="https://github.com/networkservicemesh/cmd-nse-vlan-vpp" linkTarget="_blank" id="YMB4rWHzFTmKYcXhytok-5">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#d5739d;fillColor=#e6d0de;strokeColor=#996185;" parent="1" vertex="1">
+            <mxGeometry x="650" y="330" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="cmd-nse-remote-vlan" link="https://github.com/networkservicemesh/cmd-nse-remote-vlan" id="YMB4rWHzFTmKYcXhytok-6">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+            <mxGeometry x="650" y="840" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="YMB4rWHzFTmKYcXhytok-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-2" target="YMB4rWHzFTmKYcXhytok-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="310" as="sourcePoint" />
+            <mxPoint x="660" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u3GWNTIGmyiFT0szW0Ro-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="YMB4rWHzFTmKYcXhytok-6" target="ltp6VKm9YOJ7lEqRLLzF-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="900" as="sourcePoint" />
+            <mxPoint x="960" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9nbd_pPUJAVFhgSJ7Byz-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="tK4_8g8Ls3PgPuG9fXJk-1" target="ltp6VKm9YOJ7lEqRLLzF-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="565" as="targetPoint" />
+            <mxPoint x="820" y="435" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="900" y="490" />
+              <mxPoint x="900" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="cmd-nse-simple-vl3-docker" link="https://github.com/networkservicemesh/cmd-nse-simple-vl3-docker" linkTarget="_blank" id="tK4_8g8Ls3PgPuG9fXJk-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#66B2FF;fillColor=#CCE5FF;strokeColor=#6666FF;" parent="1" vertex="1">
+            <mxGeometry x="650" y="480" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="tK4_8g8Ls3PgPuG9fXJk-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-3" target="tK4_8g8Ls3PgPuG9fXJk-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="350" as="sourcePoint" />
+            <mxPoint x="660" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9nbd_pPUJAVFhgSJ7Byz-2" value="Registry" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#97d077;fillColor=#D5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="945" y="220" width="215" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9nbd_pPUJAVFhgSJ7Byz-3" value="External NSC/NSE (VM)" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#66B2FF;fillColor=#CCE5FF;strokeColor=#6666FF;" parent="1" vertex="1">
+          <mxGeometry x="945" y="250" width="215" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9nbd_pPUJAVFhgSJ7Byz-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9nbd_pPUJAVFhgSJ7Byz-4" target="ltp6VKm9YOJ7lEqRLLzF-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="cmd-nsc-simple-docker" link="https://github.com/networkservicemesh/cmd-nsc-simple-docker" linkTarget="_blank" id="9nbd_pPUJAVFhgSJ7Byz-4">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#66B2FF;fillColor=#CCE5FF;strokeColor=#6666FF;" parent="1" vertex="1">
+            <mxGeometry x="650" y="510" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="9nbd_pPUJAVFhgSJ7Byz-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="560" as="targetPoint" />
+            <mxPoint x="850" y="460" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="900" y="460" />
+              <mxPoint x="900" y="560" />
+              <mxPoint x="950" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCTNbeuQuTkYa4PUqZn_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9nbd_pPUJAVFhgSJ7Byz-8" target="ltp6VKm9YOJ7lEqRLLzF-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="cmd-nse-l7-proxy" link="https://github.com/networkservicemesh/cmd-nse-l7-proxy" id="9nbd_pPUJAVFhgSJ7Byz-8">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+            <mxGeometry x="650" y="570" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="9nbd_pPUJAVFhgSJ7Byz-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9nbd_pPUJAVFhgSJ7Byz-11" target="ltp6VKm9YOJ7lEqRLLzF-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="cmd-cluster-info-k8s" link="https://github.com/networkservicemesh/cmd-cluster-info-k8s" id="9nbd_pPUJAVFhgSJ7Byz-11">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+            <mxGeometry x="650" y="630" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="9nbd_pPUJAVFhgSJ7Byz-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="9nbd_pPUJAVFhgSJ7Byz-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="300" as="sourcePoint" />
+            <mxPoint x="640" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9nbd_pPUJAVFhgSJ7Byz-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-41" target="ltp6VKm9YOJ7lEqRLLzF-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="670" as="sourcePoint" />
+            <mxPoint x="950" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCTNbeuQuTkYa4PUqZn_-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9nbd_pPUJAVFhgSJ7Byz-14" target="ltp6VKm9YOJ7lEqRLLzF-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="cmd-ipam-vl3" link="https://github.com/networkservicemesh/cmd-ipam-vl3" id="9nbd_pPUJAVFhgSJ7Byz-14">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+            <mxGeometry x="650" y="660" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="9nbd_pPUJAVFhgSJ7Byz-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="9nbd_pPUJAVFhgSJ7Byz-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="330" as="sourcePoint" />
+            <mxPoint x="630" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9nbd_pPUJAVFhgSJ7Byz-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ltp6VKm9YOJ7lEqRLLzF-21" target="ltp6VKm9YOJ7lEqRLLzF-33" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1420" y="570" as="sourcePoint" />
+            <mxPoint x="1480" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCTNbeuQuTkYa4PUqZn_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9nbd_pPUJAVFhgSJ7Byz-19" target="ltp6VKm9YOJ7lEqRLLzF-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="cmd-lb-vl3-vpp" link="https://github.com/networkservicemesh/cmd-lb-vl3-vpp" linkTarget="_blank" id="9nbd_pPUJAVFhgSJ7Byz-19">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+            <mxGeometry x="650" y="540" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="9nbd_pPUJAVFhgSJ7Byz-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-3" target="9nbd_pPUJAVFhgSJ7Byz-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="340" as="sourcePoint" />
+            <mxPoint x="660" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCTNbeuQuTkYa4PUqZn_-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9nbd_pPUJAVFhgSJ7Byz-21" target="ltp6VKm9YOJ7lEqRLLzF-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="cmd-csi-driver" link="https://github.com/networkservicemesh/cmd-csi-driver" linkTarget="_blank" id="9nbd_pPUJAVFhgSJ7Byz-21">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+            <mxGeometry x="650" y="870" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="9nbd_pPUJAVFhgSJ7Byz-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-2" target="9nbd_pPUJAVFhgSJ7Byz-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="310" as="sourcePoint" />
+            <mxPoint x="660" y="980" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Semdq0w2--LJRfWncIDz-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Semdq0w2--LJRfWncIDz-1" target="ltp6VKm9YOJ7lEqRLLzF-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="cmd-dashboard-backend" link="https://github.com/networkservicemesh/cmd-dashboard-backend" linkTarget="_blank" id="Semdq0w2--LJRfWncIDz-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+            <mxGeometry x="650" y="900" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Semdq0w2--LJRfWncIDz-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Semdq0w2--LJRfWncIDz-2" target="ltp6VKm9YOJ7lEqRLLzF-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="cmd-dashboard-ui" link="https://github.com/networkservicemesh/cmd-dashboard-ui" linkTarget="_blank" id="Semdq0w2--LJRfWncIDz-2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+            <mxGeometry x="650" y="930" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
