@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-01-17T20:31:35.224Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.18 Chrome/120.0.6099.199 Electron/28.1.2 Safari/537.36" etag="oxYVqeDstHLPhYZCK-42" version="22.1.18" type="device">
+<mxfile host="Electron" modified="2024-01-18T08:54:11.500Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.18 Chrome/120.0.6099.199 Electron/28.1.2 Safari/537.36" etag="R8shdcVFNLIqb4UiWr87" version="22.1.18" type="device">
   <diagram id="xxwJfFdUSuA9Re-XXlqc" name="Page-1">
-    <mxGraphModel dx="1687" dy="1065" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="928" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18,7 +18,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Semdq0w2--LJRfWncIDz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KUktbazg4igNnRH6aAHL-2" target="Semdq0w2--LJRfWncIDz-1">
+        <mxCell id="Semdq0w2--LJRfWncIDz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-2" target="Semdq0w2--LJRfWncIDz-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="sdk" link="https://github.com/networkservicemesh/sdk" linkTarget="_blank" id="KUktbazg4igNnRH6aAHL-2">
@@ -134,7 +134,7 @@
             <mxPoint x="300" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KUktbazg4igNnRH6aAHL-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-2" target="KUktbazg4igNnRH6aAHL-7" edge="1">
+        <mxCell id="KUktbazg4igNnRH6aAHL-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-2" target="KUktbazg4igNnRH6aAHL-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200" y="250" as="sourcePoint" />
             <mxPoint x="310" y="210" as="targetPoint" />
@@ -172,12 +172,6 @@
             <mxGeometry x="650" y="30" width="200" height="20" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="KUktbazg4igNnRH6aAHL-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-2" target="KUktbazg4igNnRH6aAHL-29" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="370" y="230" as="sourcePoint" />
-            <mxPoint x="460" y="190" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <UserObject label="cmd-map-ip-k8s" link="https://github.com/networkservicemesh/cmd-map-ip-k8s" id="KUktbazg4igNnRH6aAHL-31">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
             <mxGeometry x="650" y="600" width="200" height="20" as="geometry" />
@@ -292,15 +286,6 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="370" y="540" as="sourcePoint" />
             <mxPoint x="460" y="620" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KUktbazg4igNnRH6aAHL-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-2" target="KUktbazg4igNnRH6aAHL-28" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="170" y="230" as="sourcePoint" />
-            <mxPoint x="460" y="40" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="170" y="70" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="KUktbazg4igNnRH6aAHL-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="KUktbazg4igNnRH6aAHL-2" target="KUktbazg4igNnRH6aAHL-38" edge="1">
@@ -796,19 +781,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Semdq0w2--LJRfWncIDz-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Semdq0w2--LJRfWncIDz-1" target="ltp6VKm9YOJ7lEqRLLzF-1">
+        <mxCell id="Semdq0w2--LJRfWncIDz-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Semdq0w2--LJRfWncIDz-1" target="ltp6VKm9YOJ7lEqRLLzF-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="cmd-dashboard-backend" link="https://github.com/networkservicemesh/cmd-dashboard-backend" linkTarget="_blank" id="Semdq0w2--LJRfWncIDz-1">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
             <mxGeometry x="650" y="900" width="200" height="20" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="Semdq0w2--LJRfWncIDz-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Semdq0w2--LJRfWncIDz-2" target="ltp6VKm9YOJ7lEqRLLzF-1">
+        <mxCell id="Semdq0w2--LJRfWncIDz-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Semdq0w2--LJRfWncIDz-2" target="ltp6VKm9YOJ7lEqRLLzF-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="cmd-dashboard-ui" link="https://github.com/networkservicemesh/cmd-dashboard-ui" linkTarget="_blank" id="Semdq0w2--LJRfWncIDz-2">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
             <mxGeometry x="650" y="930" width="200" height="20" as="geometry" />
           </mxCell>
         </UserObject>
