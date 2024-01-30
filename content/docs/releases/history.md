@@ -6,7 +6,7 @@ weight = 2
 ## 1.12
 
 **Latest Release:** 1.12.0 (released: 2024-01-24)\
-**Patch Releases:** [1.10.0](../v1.10.0)\
+**Patch Releases:** [1.12.0](../v1.12.0)\
 **Kubernetes support:**  v1.21, v1.22, v1.23, v1.24, v1.25, v1.26, v1.27, v1.28
 
 
