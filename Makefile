@@ -4,10 +4,10 @@ yarn:
 clean:
 	rm -rf public resources
 
-fetch-notes-build: 
+pull-release-notes-build: 
 	$(MAKE) -C .github/sync
 
-fetch-notes: fetch-notes-build
+pull-release-notes: pull-release-notes-build
 	@echo make sure that GITHUB_TOKEN is set
 	@GITHUB_TOKEN=$(GITHUB_TOKEN) bin/fetchnotes
 

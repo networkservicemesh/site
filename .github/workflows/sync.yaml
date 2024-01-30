@@ -14,7 +14,7 @@ jobs:
         with:
           go-version: 1.20.8
       - name: build & run fetchnotes
-        run: make fetch-notes
+        run: make pull-release-notes
         env:
           GITHUB_TOKEN: ${{ secrets.NSM_BOT_GITHUB_TOKEN }}
       - name: Create commit message
