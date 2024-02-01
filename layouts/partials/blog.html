@@ -5,7 +5,7 @@
 <section class="section">
     <div class="container">
         {{ range $paginator.Pages }}
-            <a href="{{ .RelPermalink }}"><strong>{{ .Title }}</strong></a>, 
+            <a href="{{ .RelPermalink }}"><h3><strong>{{ .Title }}</strong></h3></a>, 
             {{ .Date.Format site.Params.dateFormat }}
             {{ if isset .Params "announce" }}
             </br>
