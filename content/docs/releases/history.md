@@ -3,6 +3,20 @@ title = "History"
 weight = 2
 +++
 
+## 1.12
+
+**Latest Release:** 1.12.0 (released: 2024-01-24)\
+**Patch Releases:** [1.12.0](../v1.12.0)\
+**Kubernetes support:**  v1.21, v1.22, v1.23, v1.24, v1.25, v1.26, v1.27, v1.28
+
+
+## 1.11
+
+**Latest Release:** 1.11.0 (released: 2023-12-07)\
+**Patch Releases:** [1.11.0](../v1.11.0)\, [1.11.2](../v1.11.2)\
+**Kubernetes support:**  v1.21, v1.22, v1.23, v1.24, v1.25, v1.26, v1.27, v1.28
+
+
 ## 1.10
 
 **Latest Release:** 1.10.0 (released: 2023-07-18)\
