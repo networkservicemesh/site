@@ -9,4 +9,4 @@ showToC = true
 
 Have you ever wondered how different service meshes perform in dual cluster scenarios?
 
-Check out the latest assessments from **PragmagicInc** in [Testing Service Mesh Performance in Multi-Cluster Scenario: Istio vs Kume vs NSM](https://dev.to/pragmagic/testing-service-mesh-performance-in-multi-cluster-scenario-istio-vs-kuma-vs-nsm-4agj)
+Check out the latest assessments from **Pragmagic Inc** in [Testing Service Mesh Performance in Multi-Cluster Scenario: Istio vs Kuma vs NSM](https://dev.to/pragmagic/testing-service-mesh-performance-in-multi-cluster-scenario-istio-vs-kuma-vs-nsm-4agj)
