@@ -1,0 +1,32 @@
+{{ $posts := (where site.RegularPages "Section" "blog").ByDate.Reverse }}
+{{ $maxposts := 4 }}
+
+{{ if gt $posts.Len 0 }}
+<section class="section has-background-light">
+  <div class="container">
+    <div class="columns is-variable is-8">
+      <div class="column is-one-quarter">
+        <p class="title is-size-3 is-size-4-mobile has-text-weight-bold">
+          Recent blog posts
+        </p>
+
+        <hr class="thick" />
+
+        <span class="icon is-large has-text-orange">
+          <i class="fas fa-2x fa-project-diagram"></i>
+        </span>
+      </div>
+
+      <div class="column">
+        <div class="content is-size-5 is-size-6-mobile">
+            <ul>
+                {{ range first $maxposts $posts }}
+                   <li><a href="{{ .RelPermalink }}">{{ .Title}}</a>
+                {{ end }}
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

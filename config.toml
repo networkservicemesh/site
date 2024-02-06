@@ -31,12 +31,17 @@ name = "Events"
 url = "/events"
 weight = 3
 
+[[menu.navbar]]
+name = "Blog"
+url = "/blog"
+weight = 4
+
 
 # The site's parameters
 [params]
 twitter = "nservicemesh"
 fontawesomeversion = "5.8.1"
-dateFormat = "6 January 2006"
+dateFormat = "02.01.2006"
 subtitle = "The Hybrid/Multi-cloud IP Service Mesh"
 
 description = """
