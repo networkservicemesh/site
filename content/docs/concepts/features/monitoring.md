@@ -34,6 +34,6 @@ NSM Connection Monitoring API is simple:
 
 ## References
 
-- [NSM Monitoring API](https://github.com/networkservicemesh/api/blob/release/v1.10.0/pkg/api/networkservice/connection.proto#L79-L81)
+- [NSM Connection Monitoring API Definition](https://github.com/networkservicemesh/api/blob/release/v1.10.0/pkg/api/networkservice/connection.proto#L79-L81)
 - [Code implementation](https://github.com/networkservicemesh/sdk/tree/release/v1.10.0/pkg/networkservice/common/monitor)
 - [See other features](../)

@@ -11,3 +11,4 @@ Since NSM can run in any environment, here is described only concepts of the ava
 
 - [Healing](../features/healing)
 - [Datapath Healing](../features/datapath_healing)
+- [Connection Monitoring API](../features/monitoring)
