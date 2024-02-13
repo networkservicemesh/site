@@ -9,7 +9,7 @@ date = "2024-02-13"
 
 ## Description
 
-Connection Monitoring API allows users to monitor NSM connections. This functionality can be used to build some third-party applications. An example of such application is [NSM Dashboard](https://github.com/networkservicemesh/cmd-dashboard-ui)
+Connection Monitoring API allows users to monitor NSM connections. This functionality can be used to build some third-party applications. An example of such application is [NSM Dashboard](https://github.com/networkservicemesh/cmd-dashboard-ui).
 
 ## Concept
 
@@ -19,7 +19,7 @@ Connection Monitoring API allows users to monitor NSM connections. This function
 
 Each NSM component montors connections of the next component in the chain. If the next component generates a Connection Event, the current component receives this event and sends it back to the previous component in the chain.
 
-{{< object data="monitoring-example.svg" type="image/svg+xml" >}}
+![monitoring](/img/concepts/features/monitoring/monitoring.svg)
 
 ## Types of events
 
