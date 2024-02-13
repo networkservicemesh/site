@@ -9,19 +9,17 @@ date = "2024-02-13"
 
 ## Description
 
-Connection Monitoring API is one of the key features of NSM. It allows to get information about connections owned by NSM. This feature is used by other important features like healing, vl3, ...
-
-## Benefits
-
+Connection Monitoring API allows users to monitor NSM connections. This functionality can be used to build some third-party applications. An example of such application is [NSM Dashboard](https://github.com/networkservicemesh/cmd-dashboard-ui)
 
 ## Concept
 
-NSM Connection Monitoring API is simple:
+1. All NSM components except Network Service Client provide a Monitor Connection Server. 
+2. Users can connect to these servers using a Monitor Connection Client and monitor connections owned by different NSM components. 
+3. The components can send Connection Events to all subscribed Monitor Connection Clients if any connection is created, changed or deleted.
 
-1. An endpoint (NSMgr, Forwarder, NSE etc.) automatically launches MonitorConnection Server on start. 
-2. Network Service Client can use MonitorConnection Client to monitor connections owned by the endpoint.
-3. The endpoint sends ConnectionEvents to MonitorConnection Clients if any connection is changed or closed.
+Each NSM component montors connections of the next component in the chain. If the next component generates a Connection Event, the current component receives this event and sends it back to the previous component in the chain.
 
+{{< object data="monitoring-example.svg" type="image/svg+xml" >}}
 
 ## Types of events
 
