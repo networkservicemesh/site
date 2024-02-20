@@ -29,27 +29,27 @@ Each NSM component montors connections of the next component in the chain. If th
 
 ### Example of UPDATE event
 
-On the **Diagram 1** you can see when NSM sends UPDATE event. It has the following steps:
+On the **Diagram 1** you can see when NSM sends **UPDATE** event. It has the following steps:
 1. NSM components monitor each other
 2. Forwader changes the connection context of one of a connection
-3. Forwarder sends UPDATE event with the changed connection to NSMgr
-4. NSMgr sends UPDATE event with the changed connection to NSC
+3. Forwarder sends **UPDATE** event with the changed connection to NSMgr
+4. NSMgr sends **UPDATE** event with the changed connection to NSC
 
-<kbd>![update-event](/img/concepts/specification/monitoring/update-event.svg)</kbd>
+<img src="/img/concepts/specs/monitoring/update-event.svg" style="border: 1px solid black; padding: 1em">
 
  *Diagram 1: an example of UPDATE event in NSM*
 
 ### Example of INITIAL_STATE_TRANSFER, UPDATE and DELETE event
 
-**Diagram 2** shows when NSM sends INITIAL_STATE_TRANSFER, UPDATE and DELETE events. Steps:
+**Diagram 2** shows when NSM sends **INITIAL_STATE_TRANSFER**, **UPDATE** and **DELETE** events. Steps:
 1. 3rd-party app start to monitor connections of NSMgr
-2. NSMgr sends INITIAL_STATE_TRANSFER event with all its connections
+2. NSMgr sends **INITIAL_STATE_TRANSFER** event with all its connections
 3. NSC connects to NSE
-4. NSMgr sends UPDATE event with the new connection established between NSC and NSE
+4. NSMgr sends **UPDATE** event with the new connection established between NSC and NSE
 5. NSC closes the connection
-6. NSMgr sends DELETE event with the closed connection
+6. NSMgr sends **DELETE** event with the closed connection
 
-![initial-transfer-and-delete-event](/img/concepts/specification/monitoring/initial-transfer-and-delete-event.svg)
+![initial-transfer-and-delete-event](/img/concepts/specs/monitoring/initial-transfer-and-delete-event.svg)
 
  *Diagram 2: an example of INITIAL_STATE_TRANSFER and DELETE event in NSM*
 
