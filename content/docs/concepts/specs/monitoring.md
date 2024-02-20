@@ -31,11 +31,11 @@ Each NSM component montors connections of the next component in the chain. If th
 
 On the **Diagram 1** you can see when NSM sends **UPDATE** event. It has the following steps:
 1. NSM components monitor each other
-2. Forwader changes the connection context of one of a connection
+2. Forwader changes a connection context of one of connections
 3. Forwarder sends **UPDATE** event with the changed connection to NSMgr
 4. NSMgr sends **UPDATE** event with the changed connection to NSC
 
-<img src="/img/concepts/specs/monitoring/update-event.svg" style="border: 1px dashed black; padding: 1em">
+<img src="/img/concepts/specs/monitoring/update-event.svg" style="border: 1px dashed black; padding: 0.5em">
 
  *Diagram 1: an example of UPDATE event in NSM*
 
@@ -49,7 +49,7 @@ On the **Diagram 1** you can see when NSM sends **UPDATE** event. It has the fol
 5. NSC closes the connection
 6. NSMgr sends **DELETE** event with the closed connection
 
-<img src="/img/concepts/specs/monitoring/initial-transfer-and-delete-event.svg" style="border: 1px dashed black; padding: 1em">
+<img src="/img/concepts/specs/monitoring/initial-transfer-and-delete-event.svg" style="border: 1px dashed black; padding: 0.5em">
 
  *Diagram 2: an example of INITIAL_STATE_TRANSFER and DELETE event in NSM*
 
