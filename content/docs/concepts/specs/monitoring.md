@@ -27,11 +27,12 @@ Each NSM component montors connections of the next component in the chain. If th
 
 **DELETE:** Monitor Connection Server sends event with this type when the connection has been closed.
 
-### An example of UPDATE event
+### Example of UPDATE event
 
 ![update-event](/img/concepts/specification/monitoring/update-event.svg)
+*Diagram 1: an example of UPDATE event in NSM*
 
-### An example of INITIAL_STATE_TRANSFER and DELETE event
+### Example of INITIAL_STATE_TRANSFER and DELETE event
 
 ![initial-transfer-and-delete-event](/img/concepts/specification/monitoring/initial-transfer-and-delete-event.svg)
 

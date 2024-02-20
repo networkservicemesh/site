@@ -43,7 +43,7 @@ Healing is an indispensable tool for organizations leveraging NSM, enabling them
 
 ## References
 
-- [NSM Monitoring API](../../specification/monitoring)
+- [NSM Monitoring API](../../specs/monitoring)
 - [Code implementation](https://github.com/networkservicemesh/sdk/tree/release/v1.10.0/pkg/networkservice/common/heal)
 - [Runnable k8s examples](https://github.com/networkservicemesh/deployments-k8s/tree/release/v1.10.0/examples/heal)
 - [See other concepts](../)
