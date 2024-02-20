@@ -98,4 +98,4 @@ See at [example of kernel liveness check](https://github.com/networkservicemesh/
 
 - [Source code](https://github.com/networkservicemesh/sdk/blob/release/v1.10.0/pkg/networkservice/common/heal/options.go#L43-L48)
 - [Root issue](https://github.com/networkservicemesh/sdk/issues/1187)
-- [See other features](../)
+- [See other concepts](../)
