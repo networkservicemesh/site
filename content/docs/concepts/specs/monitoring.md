@@ -35,7 +35,7 @@ On the **Diagram 1** you can see when NSM sends **UPDATE** event. It has the fol
 3. Forwarder sends **UPDATE** event with the changed connection to NSMgr
 4. NSMgr sends **UPDATE** event with the changed connection to NSC
 
-<img src="/img/concepts/specs/monitoring/update-event.svg" style="border: 1px solid black; padding: 1em">
+<img src="/img/concepts/specs/monitoring/update-event.svg" style="border: 1px dashed black; padding: 1em">
 
  *Diagram 1: an example of UPDATE event in NSM*
 
@@ -49,7 +49,7 @@ On the **Diagram 1** you can see when NSM sends **UPDATE** event. It has the fol
 5. NSC closes the connection
 6. NSMgr sends **DELETE** event with the closed connection
 
-![initial-transfer-and-delete-event](/img/concepts/specs/monitoring/initial-transfer-and-delete-event.svg)
+<img src="/img/concepts/specs/monitoring/initial-transfer-and-delete-event.svg" style="border: 1px dashed black; padding: 1em">
 
  *Diagram 2: an example of INITIAL_STATE_TRANSFER and DELETE event in NSM*
 
