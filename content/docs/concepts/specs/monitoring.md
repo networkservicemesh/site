@@ -27,7 +27,7 @@ Each NSM component montors connections of the next component in the chain. If th
 
 **DELETE:** Monitor Connection Server sends event with this type when the connection has been closed.
 
-### Example of UPDATE event
+## Example of UPDATE event
 
 On the **Diagram 1** you can see when NSM sends **UPDATE** event. It has the following steps:
 1. NSM components monitor each other
@@ -35,11 +35,11 @@ On the **Diagram 1** you can see when NSM sends **UPDATE** event. It has the fol
 3. Forwarder sends **UPDATE** event with the changed connection to NSMgr
 4. NSMgr sends **UPDATE** event with the changed connection to NSC
 
-<img src="/img/concepts/specs/monitoring/update-event.svg" style="border: 1px dashed black; padding: 0.5em">
+<img src="/img/concepts/specs/monitoring/update-event.svg" style="border: 1px dashed black; padding: 0.8em">
 
  *Diagram 1: an example of UPDATE event in NSM*
 
-### Example of INITIAL_STATE_TRANSFER, UPDATE and DELETE event
+## Example of INITIAL_STATE_TRANSFER, UPDATE and DELETE event
 
 **Diagram 2** shows when NSM sends **INITIAL_STATE_TRANSFER**, **UPDATE** and **DELETE** events. Steps:
 1. 3rd-party app start to monitor connections of NSMgr
@@ -49,9 +49,9 @@ On the **Diagram 1** you can see when NSM sends **UPDATE** event. It has the fol
 5. NSC closes the connection
 6. NSMgr sends **DELETE** event with the closed connection
 
-<img src="/img/concepts/specs/monitoring/initial-transfer-and-delete-event.svg" style="border: 1px dashed black; padding: 0.5em">
+<img src="/img/concepts/specs/monitoring/initial-transfer-and-delete-event.svg" style="border: 1px dashed black; padding: 0.8em">
 
- *Diagram 2: an example of INITIAL_STATE_TRANSFER and DELETE event in NSM*
+ *Diagram 2: an example of INITIAL_STATE_TRANSFER, UPDATE and DELETE event in NSM*
 
 ## References
 
