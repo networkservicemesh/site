@@ -19,14 +19,14 @@ date = "2021-06-19"
 **Enhanced Reliability:** healing enhances the reliability of applications by automatically recovering from failures, reducing manual intervention, and minimizing downtime. \
 **Improved User Experience:** The feature ensures a consistent user experience by maintaining service availability, even when underlying infrastructure or application components experience issues. \
 **Efficient Resource Utilization:** Through proactive scaling and resource management, healing optimizes resource utilization, ensuring efficient NSM domain operation. \
-**Simplified Operations:** Healing simplifies operational tasks, reducing the burden on administrators and DevOps teams. \
+**Simplified Operations:** Healing simplifies operational tasks, reducing the burden on administrators and DevOps teams.
 
 ## Concept
 
 NSM healing  is pretty simple:
 
 1. Healing is always starting on the Network Service Mesh Client.
-2. Network Service Client uses [monitor connectios](https://github.com/networkservicemesh/api/blob/release/v1.10.0/pkg/api/networkservice/connection.proto#L79-L81) api to monitor it's NSMgr to keep the connection up to date.
+2. Network Service Client uses [monitor connections](https://github.com/networkservicemesh/api/blob/release/v1.10.0/pkg/api/networkservice/connection.proto#L79-L81) api to monitor it's NSMgr to keep the connection up to date.
 3. If the Network Service Client gets an event from the NSMgr with a changing state, deleting a connection, or closing a stream, then the client forces a new request. Wherein the existing connection closes only if connectivity is gone.
 
 And that's it!
@@ -43,7 +43,7 @@ Healing is an indispensable tool for organizations leveraging NSM, enabling them
 
 ## References
 
-- [NSM Monitoring API](https://github.com/networkservicemesh/api/blob/release/v1.10.0/pkg/api/networkservice/connection.proto#L79-L81)
+- [NSM Monitoring API](../../specs/monitoring)
 - [Code implementation](https://github.com/networkservicemesh/sdk/tree/release/v1.10.0/pkg/networkservice/common/heal)
 - [Runnable k8s examples](https://github.com/networkservicemesh/deployments-k8s/tree/release/v1.10.0/examples/heal)
-- [See other features](../)
+- [See other concepts](../)

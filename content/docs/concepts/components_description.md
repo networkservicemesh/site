@@ -174,7 +174,7 @@ Admission Webhook K8s simplifies working with NSM if NSM is deployed in a Kubern
 2. Fills in remaining connection properties like IP, hardware addresses, and DNS configurations for the user's goals.
 
 ## Network Service Client (NSC)
-**Network Service Client** allows external workloads to request access to NSM's **Network Services** and maintains connections ([Controlplane](https://networkservicemesh.io/docs/concepts/features/healing) and [Dataplane](https://networkservicemesh.io/docs/concepts/features/datapath_healing) healing). This component can also provide a local DNS Server for accessing NSM resources by their names.
+**Network Service Client** allows external workloads to request access to NSM's **Network Services** and maintains connections ([Controlplane](https://networkservicemesh.io/docs/concepts/specification/healing) and [Dataplane](https://networkservicemesh.io/docs/concepts/specification/datapath_healing) healing). This component can also provide a local DNS Server for accessing NSM resources by their names.
 
 **Package**: https://github.com/networkservicemesh/cmd-nsc/pkgs/container/cmd-nsc
 
