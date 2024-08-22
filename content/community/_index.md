@@ -1,6 +1,6 @@
-+++
-title = "Community"
-+++
+---
+title: Community
+---
 
 ## Getting Involved
 
