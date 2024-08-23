@@ -8,6 +8,21 @@ Network Service Mesh Site
 [![Slack Invite](https://img.shields.io/badge/Slack-CNCF%20Slack%20Invite-blue.svg?style=plastic&logo=slack)](https://slack.cncf.io/)
 
 
+## Documentation
+
+- [**Adopters**](https://networkservicemesh.io/community/adopters)
+
+- [**Code of Conduct**](https://networkservicemesh.io/community/contributing/#code-of-conduct)
+
+- [**Contributing**](https://networkservicemesh.io/community/contributing)
+
+- [**Governance**](https://networkservicemesh.io/community/governance)
+
+- [**Roadmap**](https://networkservicemesh.io/community/roadmap)
+
+- [**Security Policy**](https://networkservicemesh.io/community/contributing/#security-policy)
+
+## Local development
 This is the initial Network Service Mesh website. It was created using
 [Hugo](https://gohugo.io/).
 

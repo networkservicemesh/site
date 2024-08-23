@@ -2,11 +2,12 @@
 title = "Governance"
 date = "2024-08-22"
 weight = 5
+showToC = true
 +++
 
 # Network Serivce Mesh Project Governance
 
-The Network Serivce Mesh  project is dedicated to creating [TODO:Goals of project].  
+The Network Serivce Mesh  project is dedicated to creating the Hybrid/Multi-cloud IP Service Mesh.  
 This governance explains how the project is run.
 
 - [Values](#values)
@@ -41,17 +42,16 @@ The Network Service Mesh and its leadership embrace the following values:
 
 ## Maintainers
 
-<!-- Network Service Mesh Maintainers have write access to the [project GitHub repository](TODO). -->
+Network Service Mesh Maintainers have write access to any [NSM GitHub repository](../multirepo).
 They can merge their own patches or patches from others. The current maintainers
-<!-- can be found in [MAINTAINERS.md](./MAINTAINERS.md).  Maintainers collectively manage the project's -->
+can be found in [maintainers](../maintainers). Maintainers collectively manage the project's
 resources and contributors.
 
 This privilege is granted with some expectation of responsibility: maintainers
-are people who care about the Network Service Mesh project and want to help it grow and
-improve. A maintainer is not just someone who can make changes, but someone who
-has demonstrated their ability to collaborate with the team, get the most
-knowledgeable people to review code and docs, contribute high-quality code, and
-follow through to fix issues (in code or tests).
+are people who care about NSM and want to help it grow and improve. A maintainer 
+is not just someone who can make changes, but someone who has demonstrated their 
+ability to collaborate with the team, get the most knowledgeable people to review 
+code and docs, contribute high-quality code, and follow through to fix issues.
 
 A maintainer is a contributor to the project's success and a citizen helping
 the project succeed.
@@ -73,13 +73,9 @@ To become a Maintainer you need to demonstrate the following:
   * understanding of how the team works (policies, processes for testing and code review, etc),
   * understanding of the project's code base and coding and documentation style.
 
-A new Maintainer must be proposed by an existing maintainer by sending a message to the
-[developer mailing list](TODO: List Link). A simple majority vote of existing Maintainers
-approves the application.  Maintainers nominations will be evaluated without prejudice
+A new Maintainer must be proposed by an existing maintainer on [Weekly NSM meeting](https://docs.google.com/document/d/1C9NKjo0PWNWypROEO9-Y6haw5h9Xmurvl14SXpciz2Y/edit#heading=h.y4nppread31d). A simple majority vote of existing Maintainers
+approves the application. Maintainers nominations will be evaluated without prejudice
 to employer or demographics.
-
-Maintainers who are selected will be granted the necessary GitHub rights,
-<!-- and invited to the [private maintainer mailing list](TODO). -->
 
 ### Removing a Maintainer
 
@@ -101,29 +97,28 @@ and can be rapidly returned to Maintainer status if their availability changes.
 ## Meetings
 
 Time zones permitting, Maintainers are expected to participate in the public
-developer meeting, which occurs
-[TODO: Details of regular developer or maintainer meeting here].  
+developer meeting, which occurs weekly: [NSM Community Meeting](https://docs.google.com/document/d/1C9NKjo0PWNWypROEO9-Y6haw5h9Xmurvl14SXpciz2Y/edit#heading=h.y4nppread31d). 
 
 Maintainers will also have closed meetings in order to discuss security reports
-or Code of Conduct violations.  Such meetings should be scheduled by any
-Maintainer on receipt of a security issue or CoC report.  All current Maintainers
+or Code of Conduct violations. Such meetings should be scheduled by any
+Maintainer on receipt of a security issue or CoC report. All current Maintainers
 must be invited to such closed meetings, except for any Maintainer who is
 accused of a CoC violation.
 
 ## CNCF Resources
 
 Any Maintainer may suggest a request for CNCF resources, either in the
-<!-- [mailing list](TODO: link to developer/maintainer mailing list), or during a -->
-meeting.  A simple majority of Maintainers approves the request.  The Maintainers
+[mailing list](https://img.shields.io/badge/Mailing%20List-networkservicemesh-blue.svg?style=plastic), or during a
+meeting. A simple majority of Maintainers approves the request. The Maintainers
 may also choose to delegate working with the CNCF to non-Maintainer community
 members, who will then be added to the [CNCF's Maintainer List](https://github.com/cncf/foundation/blob/main/project-maintainers.csv)
 for that purpose.
 
 ## Code of Conduct
 
-<!-- [Code of Conduct](/code_of_conduct/) -->
+[Code of Conduct](../code_of_conduct)
 violations by community members will be discussed and resolved
-<!-- on the [private Maintainer mailing list](TODO).  If a Maintainer is directly involved -->
+on the [private Maintainer mailing list](TODO). If a Maintainer is directly involved
 in the report, the Maintainers will instead designate two Maintainers to work
 with the CNCF Code of Conduct Committee in resolving it.
 
@@ -136,4 +131,4 @@ contributors to handle it.  The Maintainers will review who is assigned to this
 at least once a year.
 
 The Security Response Team is responsible for handling all reports of security
-<!-- holes and breaches according to the [security policy](TODO:Link to security.md). -->
+holes and breaches according to the [security policy](../contributing/#security-policy).
