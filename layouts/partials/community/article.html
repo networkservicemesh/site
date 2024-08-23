@@ -1,26 +1,32 @@
 {{ $toc := .TableOfContents }}
+ 
 <section class="section">
   <div class="container">
-    <div class="columns">
-      <div class="column{{ if $toc }} is-three-quarters{{ end }}">
-        {{ with $toc }}
-        <div class="is-hidden-tablet">
-          {{ partial "docs/toc.html" . }}
+    {{ if eq .Params.showToC true }}
+      <div class="columns">
+        <div class="column{{ if and $toc (eq .Params.showToC true) }} is-three-quarters{{ end }}">
+            {{ with $toc }}
+            <div class="is-hidden-tablet">
+              {{ partial "community/toc.html" . }}
 
-          <hr />
+              <hr />
+            </div>
+            {{ end }}
+          <div class="content is-narrow-desktop">                
+            {{ .Content }}
+          </div>
         </div>
-        {{ end }}
 
-        <div class="content is-narrow-desktop">                
-          {{ .Content }}
-        </div>
+          {{ with $toc }}
+          <div class="is-hidden-mobile">
+            {{ partial "community/toc.html" . }}
+          </div>
+          {{ end }}
       </div>
-
-      {{ with $toc }}
-      <div class="is-hidden-mobile">
-        {{ partial "community/toc.html" . }}
+    {{ else }}
+      <div class="content">
+        {{ .Content }}
       </div>
-      {{ end }}
-    </div>
+    {{ end }}
   </div>
 </section>

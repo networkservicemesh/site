@@ -4,6 +4,7 @@ date = "2024-08-22"
 weight = 2
 +++
 
-# Code of Conduct
+# Adopters
 
-We follow the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/master/code-of-conduct.md).
+- [Meridio](https://github.com/Nordix/Meridio)
+- [Meshery](https://github.com/meshery/meshery-nsm)
