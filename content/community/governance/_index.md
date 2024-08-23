@@ -41,9 +41,9 @@ The Network Service Mesh and its leadership embrace the following values:
 
 ## Maintainers
 
-Network Service Mesh Maintainers have write access to the [project GitHub repository](TODO).
+<!-- Network Service Mesh Maintainers have write access to the [project GitHub repository](TODO). -->
 They can merge their own patches or patches from others. The current maintainers
-can be found in [MAINTAINERS.md](./MAINTAINERS.md).  Maintainers collectively manage the project's
+<!-- can be found in [MAINTAINERS.md](./MAINTAINERS.md).  Maintainers collectively manage the project's -->
 resources and contributors.
 
 This privilege is granted with some expectation of responsibility: maintainers
@@ -79,7 +79,7 @@ approves the application.  Maintainers nominations will be evaluated without pre
 to employer or demographics.
 
 Maintainers who are selected will be granted the necessary GitHub rights,
-and invited to the [private maintainer mailing list](TODO).
+<!-- and invited to the [private maintainer mailing list](TODO). -->
 
 ### Removing a Maintainer
 
@@ -113,7 +113,7 @@ accused of a CoC violation.
 ## CNCF Resources
 
 Any Maintainer may suggest a request for CNCF resources, either in the
-[mailing list](TODO: link to developer/maintainer mailing list), or during a
+<!-- [mailing list](TODO: link to developer/maintainer mailing list), or during a -->
 meeting.  A simple majority of Maintainers approves the request.  The Maintainers
 may also choose to delegate working with the CNCF to non-Maintainer community
 members, who will then be added to the [CNCF's Maintainer List](https://github.com/cncf/foundation/blob/main/project-maintainers.csv)
@@ -121,9 +121,9 @@ for that purpose.
 
 ## Code of Conduct
 
-[Code of Conduct](./code-of-conduct.md)
+<!-- [Code of Conduct](/code_of_conduct/) -->
 violations by community members will be discussed and resolved
-on the [private Maintainer mailing list](TODO).  If a Maintainer is directly involved
+<!-- on the [private Maintainer mailing list](TODO).  If a Maintainer is directly involved -->
 in the report, the Maintainers will instead designate two Maintainers to work
 with the CNCF Code of Conduct Committee in resolving it.
 
@@ -136,22 +136,4 @@ contributors to handle it.  The Maintainers will review who is assigned to this
 at least once a year.
 
 The Security Response Team is responsible for handling all reports of security
-holes and breaches according to the [security policy](TODO:Link to security.md).
-
-## Voting
-
-While most business in Network Service Mesh is conducted by "[lazy consensus](https://community.apache.org/committers/lazyConsensus.html)", 
-periodically the Maintainers may need to vote on specific actions or changes.
-A vote can be taken on [the developer mailing list](TODO) or
-[the private Maintainer mailing list](TODO) for security or conduct matters.  
-Votes may also be taken at [the developer meeting](TODO).  Any Maintainer may
-demand a vote be taken.
-
-Most votes require a simple majority of all Maintainers to succeed, except where
-otherwise noted.  Two-thirds majority votes mean at least two-thirds of all 
-existing maintainers.
-
-## Modifying this Charter
-
-Changes to this Governance and its supporting documents may be approved by 
-a 2/3 vote of the Maintainers.
+<!-- holes and breaches according to the [security policy](TODO:Link to security.md). -->
