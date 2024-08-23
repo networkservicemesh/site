@@ -1,7 +1,7 @@
 +++
-title = "Code of Conduct"
+title = "Adopters"
 date = "2024-08-22"
-weight = 3
+weight = 2
 +++
 
 # Code of Conduct
