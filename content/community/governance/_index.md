@@ -116,9 +116,9 @@ for that purpose.
 
 ## Code of Conduct
 
-[Code of Conduct](../code_of_conduct)
+[Code of Conduct](../contributing/#code-of-conduct)
 violations by community members will be discussed and resolved
-on the [private Maintainer mailing list](TODO). If a Maintainer is directly involved
+on the TODO. If a Maintainer is directly involved
 in the report, the Maintainers will instead designate two Maintainers to work
 with the CNCF Code of Conduct Committee in resolving it.
 
