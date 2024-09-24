@@ -33,6 +33,7 @@ date="{{ .ReleaseDate }}"
 # {{ .Name }} 
 
 
+{{ if .IsReleased }}
 NSM {{ .Tag }} has been tested on:
 - [kind](https://github.com/networkservicemesh/integration-k8s-kind/actions?query=branch%3Arelease%2F{{ .Tag }}+)
 - [GKE](https://github.com/networkservicemesh/integration-k8s-gke/actions?query=branch%3Arelease%2F{{ .Tag }}+)
@@ -40,6 +41,7 @@ NSM {{ .Tag }} has been tested on:
 - [AWS/AWS IPv6](https://github.com/networkservicemesh/integration-k8s-aws/actions?query=branch%3Arelease%2F{{ .Tag }}+)
 - [Bare metal in Equinix Metal](https://github.com/networkservicemesh/integration-k8s-packet/actions?query=branch%3Arelease%2F{{ .Tag }}+)
 - [Interdomain GKE/AWS/AKS](https://github.com/networkservicemesh/integration-interdomain-k8s/actions?query=branch%3Arelease%2F{{ .Tag }}+)
+{{ end }}
 
 ## Changes since last release
 

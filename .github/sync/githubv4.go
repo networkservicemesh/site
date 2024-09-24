@@ -35,6 +35,11 @@ type Issue struct {
 }
 
 func (i *Issue) Resolved() bool {
+	for _, f := range i.Fields {
+		if f.Name == "Status" {
+			return f.Value == "Done"
+		}
+	}
 	switch strings.ToLower(i.Status) {
 	case "done", "closed":
 		return true
