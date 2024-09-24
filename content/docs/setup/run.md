@@ -25,16 +25,16 @@ Make sure you have the following dependencies to run NSM:
   * [k3s](https://k3s.io/)
 * [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 * Cloud k8s integrations to run NSM system tests (not necessary to run the examples below):
-  * [gke](https://github.com/networkservicemesh/integration-k8s-gke/blob/v1.11.0/README.md)
-  * [azure](https://github.com/networkservicemesh/integration-k8s-aks/blob/v1.11.0/README.md)
-  * [aws](https://github.com/networkservicemesh/integration-k8s-aws/blob/v1.11.0/README.md)
+  * [gke](https://github.com/networkservicemesh/integration-k8s-gke/blob/v1.14.0/README.md)
+  * [azure](https://github.com/networkservicemesh/integration-k8s-aks/blob/v1.14.0/README.md)
+  * [aws](https://github.com/networkservicemesh/integration-k8s-aws/blob/v1.14.0/README.md)
 
 ## Install Spire
 If you do not already have Spire on your system install Spire
 
-Follow the instructions [in the README.md](https://github.com/networkservicemesh/deployments-k8s/blob/v1.11.0/examples/spire/single_cluster/README.md)
+Follow the instructions [in the README.md](https://github.com/networkservicemesh/deployments-k8s/blob/v1.14.0/examples/spire/single_cluster/README.md)
 
 ## Install NSM
 If you do not already have NSM infrastructure on your system install NSM
 
-Follow the instructions [in the README.md](https://github.com/networkservicemesh/deployments-k8s/blob/v1.11.0/examples/basic/README.md)
+Follow the instructions [in the README.md](https://github.com/networkservicemesh/deployments-k8s/blob/v1.14.0/examples/basic/README.md)
