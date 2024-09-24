@@ -6,7 +6,7 @@ weight = 2
 ## 1.14
 
 **Latest Release:** 1.14.0 (released: 2024-09-20)\
-**Patch Releases:** [1.14.0](../v1.14.0)
+**Patch Releases:** [1.14.0](../v1.14.0)\
 **Kubernetes support:**  v1.21, v1.22, v1.23, v1.24, v1.25, v1.26, v1.27, v1.28
 
 ## 1.13
