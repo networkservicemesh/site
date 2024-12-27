@@ -1,0 +1,51 @@
+{{ $allCommunity         := where (where site.RegularPages "Section" "community") "Params.short" "==" nil }}
+{{ $communitySections    := where (where site.Sections "Section" "community") "Params.short" "==" nil  }}
+{{ $currentSection  := .CurrentSection.Title }}
+{{ $thisSectionCommunity := where $allCommunity "CurrentSection.Title" .CurrentSection.Name }}
+{{ $currentUrl      := .RelPermalink }}
+{{ $description     := .Params.description }}
+{{ $date            := .Params.date.Format "2006 Jan 02"}}
+
+<section class="hero is-light">
+  <div class="hero-body">
+    <div class="container">
+      <p class="title is-size-1 is-size-2-mobile has-text-weight-light{{ if $description }} is-spaced{{ end }}">
+        {{ .Title }}
+      </p>
+      {{ if isset .Params "short" }}
+      {{ with $date }}
+      <p class="subtitle is-6">
+        {{ . }}
+      </p>
+      {{ end }}
+      {{ end }}
+      {{ with $description }}
+      <p class="subtitle">
+        {{ . }}
+      </p>
+      {{ end }}
+    </div>
+  </div>
+
+  <div class="hero-foot">
+    <div class="container">
+      <nav class="tabs is-boxed">
+        <ul>
+          {{ range $communitySections }}
+          {{ range .Sections }}
+          {{ $title := cond (isset .Params "short") .Params.short .Title }}
+          {{ $isCurrentSection := eq .Title $currentSection }}
+          {{ $link := .Permalink }}
+          <li{{ if $isCurrentSection }} class="is-active"{{ end }}>
+            <a href="{{ $link }}">
+              {{ $title }}
+            </a>
+          </li>
+          {{ end }}
+          {{ end }}
+        </ul>
+      </nav>
+    </div>
+  </div>
+</section>
+
