@@ -37,10 +37,6 @@ date="{{ .ReleaseDate }}"
 NSM {{ .Tag }} has been tested on:
 - [kind](https://github.com/networkservicemesh/integration-k8s-kind/actions?query=branch%3Arelease%2F{{ .Tag }}+)
 - [GKE](https://github.com/networkservicemesh/integration-k8s-gke/actions?query=branch%3Arelease%2F{{ .Tag }}+)
-- [AKS](https://github.com/networkservicemesh/integration-k8s-aks/actions?query=branch%3Arelease%2F{{ .Tag }}+)
-- [AWS/AWS IPv6](https://github.com/networkservicemesh/integration-k8s-aws/actions?query=branch%3Arelease%2F{{ .Tag }}+)
-- [Bare metal in Equinix Metal](https://github.com/networkservicemesh/integration-k8s-packet/actions?query=branch%3Arelease%2F{{ .Tag }}+)
-- [Interdomain GKE/AWS/AKS](https://github.com/networkservicemesh/integration-interdomain-k8s/actions?query=branch%3Arelease%2F{{ .Tag }}+)
 {{ end }}
 
 ## Changes since last release
@@ -75,7 +71,7 @@ const roadMapTemplate = `
 `
 
 func main() {
-	var c = new(Config)
+	c := new(Config)
 	if err := envconfig.Usage("nsm", c); err != nil {
 		log.Fatal(err)
 	}
@@ -83,7 +79,7 @@ func main() {
 		log.Fatalf("error processing rootConf from env: %+v", err)
 	}
 
-	var projects, err = getProjectsV2(context.Background(), "networkservicemesh")
+	projects, err := getProjectsV2(context.Background(), "networkservicemesh")
 	if err != nil {
 		panic(err.Error())
 	}
@@ -99,7 +95,7 @@ func main() {
 		}
 		var plannedIssues, otherIssues []*Issue
 		for _, issue := range issues {
-			var desc = issue.Description
+			desc := issue.Description
 			issue.Description = parseSection("Motivation", desc)
 			if issue.Description == "" {
 				issue.Description = parseSection("Description", desc)
@@ -107,7 +103,7 @@ func main() {
 			if issue.Description == "" {
 				issue.Description = "Status: RESOLVED."
 			}
-			var planned = false
+			planned := false
 			for _, field := range issue.Fields {
 				if field.Value == "Roadmap" {
 					planned = true
@@ -140,7 +136,6 @@ func main() {
 
 		_ = os.WriteFile(filepath.Join(c.ReleasesDir, v.Tag+".md"), []byte(sb.String()), os.ModePerm)
 	}
-
 }
 
 type Input struct {

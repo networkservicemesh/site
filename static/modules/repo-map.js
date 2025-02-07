@@ -31,13 +31,13 @@
         "cmd-nse-icmp-responder-vpp": "cell-KUktbazg4igNnRH6aAHL-44",
         "cmd-nse-firewall-vpp":"cell-YWTRKo84t5DHiULYztLq-3",
         "cmd-forwarder-vpp": "cell-KUktbazg4igNnRH6aAHL-15",
-        "cmd-nse-simple-vl3-docker":"cell-vHwpXIBINaUL7lCKyK2X-4",
+        "cmd-nse-simple-vl3-docker":"cell-tK4_8g8Ls3PgPuG9fXJk-2",
         "cmd-nsc-simple-docker":"cell-vHwpXIBINaUL7lCKyK2X-3",
       },
       "sdk-sriov": {
         "cmd-forwarder-sriov":"cell-KUktbazg4igNnRH6aAHL-19",
         "cmd-nsc": "cell-KUktbazg4igNnRH6aAHL-49",
-        "sdk-ovs": "cell-Prku3oC4CS7h4xE_tYkA-13",
+        "sdk-ovs": "cell-YMB4rWHzFTmKYcXhytok-1",
         "cmd-forwarder-vpp": "cell-Prku3oC4CS7h4xE_tYkA-6",
       },
       "sdk-ovs": {
@@ -126,21 +126,6 @@
       },
       "integration-k8s-kind": {
         "integration-k8s-gke": "cell-ltp6VKm9YOJ7lEqRLLzF-28",
-        "integration-k8s-aks": "cell-ltp6VKm9YOJ7lEqRLLzF-30",
-        "integration-k8s-packet": "cell-ltp6VKm9YOJ7lEqRLLzF-31",
-        "integration-k8s-aws": "cell-ltp6VKm9YOJ7lEqRLLzF-32",
-      },
-      "integration-k8s-gke": {
-        "integration-k8s-interdomain": "cell-ltp6VKm9YOJ7lEqRLLzF-34",
-      },
-      "integration-k8s-aks": {
-        "integration-k8s-interdomain": "cell-ltp6VKm9YOJ7lEqRLLzF-38",
-      },
-      "integration-k8s-packet": {
-        "integration-k8s-interdomain": "cell-ltp6VKm9YOJ7lEqRLLzF-35",
-      },
-      "integration-k8s-aws": {
-        "integration-k8s-interdomain": "cell-ltp6VKm9YOJ7lEqRLLzF-39",
       },
     }
 
