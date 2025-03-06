@@ -36,7 +36,6 @@ date="{{ .ReleaseDate }}"
 {{ if .IsReleased }}
 NSM {{ .Tag }} has been tested on:
 - [kind](https://github.com/networkservicemesh/integration-k8s-kind/actions?query=branch%3Arelease%2F{{ .Tag }}+)
-- [GKE](https://github.com/networkservicemesh/integration-k8s-gke/actions?query=branch%3Arelease%2F{{ .Tag }}+)
 {{ end }}
 
 ## Changes since last release
