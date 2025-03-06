@@ -124,9 +124,6 @@
       "integration-tests": {
         "integration-k8s-kind": "cell-ltp6VKm9YOJ7lEqRLLzF-26",
       },
-      "integration-k8s-kind": {
-        "integration-k8s-gke": "cell-ltp6VKm9YOJ7lEqRLLzF-28",
-      },
     }
 
     function recursiveColor(elem, color) {
