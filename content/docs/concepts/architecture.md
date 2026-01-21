@@ -17,7 +17,7 @@ Examples of Network Services would include:
 
 - A simple distributed vL3 that allows the workloads to communicate via IP, optionally with DNS service for that vL3
 - A Traditional Network Service like Istio, Linkerd, Consul, or Kuma running over a vL3.  This allows specific workloads to be admitted to that Service Mesh, independent of where they run.
-It also allows a single workload to connect to multiple Traditional Service Meshes.  This can allow a workload to connect both to a companies Service Mesh, and also to the Service Meshes of its partners simultaneously.
+It also allows a single workload to connect to multiple Traditional Service Meshes.  This can allow a workload to connect both to a company's Service Mesh, and also to the Service Meshes of its partners simultaneously.
 
 More sophisticated features (IPS, etc) can be composed into Network Services to add additional Security and Observability Features.
 
@@ -27,7 +27,7 @@ A {{<color "#0050EF" >}}Client{{< /color >}} in Network Service Mesh, sometimes 
 by name.  A {{<color "#0050EF" >}}Client{{< /color >}} is independently authenticated (currently by Spiffe ID), and must be authorized to be attached to attach to a Network Service.
 
 For each Network Service to which a {{<color "#0050EF" >}}Client{{< /color >}} wishes to be connected, in addition to the name of that Network Service and the identity of the Client,
-an optional set of 'labels' (key value pairs) may be provided.  These 'labels' may be used by Network Service for {{<color "#008A00" >}}Endpoint{{< /color >}} selection, or by {{<color "#008A00" >}}Endpoints{{< /color >}} themselves
+an optional set of 'labels' (key-value pairs) may be provided.  These 'labels' may be used by Network Service for {{<color "#008A00" >}}Endpoint{{< /color >}} selection, or by {{<color "#008A00" >}}Endpoints{{< /color >}} themselves
 to influence how the {{<color "#008A00" >}}Endpoint{{< /color >}} provides service to the {{<color "#0050EF" >}}Client{{< /color >}}.
 
 A {{<color "#0050EF" >}}Client{{< /color >}} may be a:
@@ -88,7 +88,7 @@ A {{<color "#6A00FF" >}}vWire{{< /color >}} between a {{<color "#0050EF" >}}Clie
 
 ### Monitor
 A {{<color "#6A00FF" >}}vWire{{< /color >}} between a {{<color "#0050EF" >}}Client{{< /color >}} and a Network Service always has a finite expire time.  The {{<color "#0050EF" >}}Client{{< /color >}} may (and usually does) send new 'Request' messages
-to 'refresh' the {{<color "#6A00FF" >}}vWire{{< /color >}}.  If a {{<color "#6A00FF" >}}vWire{{< /color >}} exceeds its expire time without being refreshed, NSM cleans up the {{<color "#6A00FF" >}}vWire{{< /color >}}.
+to 'refresh' the {{<color "#6A00FF" >}}vWire{{< /color >}}.  If a {{<color "#6A00FF" >}}vWire{{< /color >}} exceeds its expiration time without being refreshed, NSM cleans up the {{<color "#6A00FF" >}}vWire{{< /color >}}.
 
 A {{<color "#0050EF" >}}Client{{< /color >}} may use a 'MonitorConnection' streaming GRPC call to NSM to get updates on the status of a {{<color "#6A00FF" >}}vWire{{< /color >}} it has to a Network Service.
 
@@ -116,7 +116,7 @@ spec:
   payload: IP
 ```
 
-by default if not specified, the payload is presumed to be IP.  Network Services are registered with the Network Service Registry.
+by default, if not specified, the payload is presumed to be IP.  Network Services are registered with the Network Service Registry.
 
 Optionally, a Network Service may specify a list of 'matches'.  These matches allow matching the 'source labels' a {{<color "#0050EF" >}}Client{{< /color >}} sends
 with its Request to 'destination labels' advertised by the {{<color "#008A00" >}}Endpoint{{< /color >}} when it registers as providing the Network Service.
@@ -214,8 +214,8 @@ spec:
           service: envoy-proxy
 ```
 
-Please note: there is nothing magic about the choice of labels as 'service: ...' as with all labels, the choice is arbitrary,
-it's the matching that matters.
+Please note: there is nothing magic about the choice of labels as 'service: ...' as with all labels, the choice is arbitrary
+and it's the matching that matters.
 
 #### Selective Composition
 
@@ -330,4 +330,3 @@ If there is already an {{<color "#008A00" >}}Endpoint{{< /color >}} running to p
 If there is not, the second match sends the request to a 'Supplier' which will start the {{<color "#008A00" >}}Endpoint{{< /color >}} on the desired node,
 and then return an error.  The error will trigger an attempt to 'reselect'.  The reselect will find the newly created {{<color "#008A00" >}}Endpoint{{< /color >}}
 and connect the {{<color "#0050EF" >}}Client{{< /color >}} to it.
-
