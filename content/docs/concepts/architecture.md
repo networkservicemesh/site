@@ -185,6 +185,8 @@ implement a variety of advanced features:
 - [Selective Composition](#selective-composition)
 - [Topologically Aware Endpoint Selection](#topologically-aware-endpoint-selection)
 - [Topologically Aware Scale from Zero](#topologically-aware-scale-from-zero)
+- [Policy Based Routing](#policy-based-routing)
+- [Multiple Services](#multiple-services)
 
 ### Composition
 
@@ -331,3 +333,55 @@ If there is not, the second match sends the request to a 'Supplier' which will s
 and then return an error.  The error will trigger an attempt to 'reselect'.  The reselect will find the newly created {{<color "#008A00" >}}Endpoint{{< /color >}}
 and connect the {{<color "#0050EF" >}}Client{{< /color >}} to it.
 
+)
+
+### Policy Based Routing
+
+Considering this specific example, a ConfigMap is created containing various policies for managing routing. 
+
+```yaml
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: policies-config-file
+data:
+  config.yaml: |
+    - from: 172.16.2.201/24
+      proto: 6
+      dstport: 6666
+      routes:
+        - prefix: 172.16.3.0/24
+          nexthop: 172.16.2.200
+    - from: 172.16.2.201/24
+      proto: 6
+      srcport: 5555
+    - proto: 17
+      dstport: 6666
+    - proto: 17
+      dstport: 6667-6670
+    - from: 2004::3/120
+      proto: 17
+      dstport: 5555
+      routes:
+        - prefix: 2004::5/120
+          nexthop: 2004::6
+```
+Afterwards, within the yaml file for the endpoint configuration, a volume containing the policies is mounted. By following the example, it is possible to test how these policies are effectively applied through pings from different IP addresses.
+However, it should be kept in mind that this type of example is valid and working in case of working with kernel interfaces.
+
+### Multiple Services
+
+There may be cases where the client needs to connect to multiple services at the same time, and for this reason this example demonstrates how it is possible to establish a connection between an NSC and multiple services simultaneously. Thanks to a specific annotation in the client yaml file, it is feasible to indicate which services are desired, thus specifying more than one service at the same time.
+```yaml
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: alpine
+  labels:
+    app: alpine
+  annotations:
+    networkservicemesh.io: kernel://multiple-services-1/nsm-1,kernel://multiple-services-2/nsm-2
+```
+It can be noticed that two distinct services are requested, namely 'multiple-services-1' and 'multiple-services-2.' In this case, the names 'nsm-1' and 'nsm-2' are also specified for the kernel-type interfaces that will be created to connect to the services.
