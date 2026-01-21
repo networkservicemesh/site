@@ -206,3 +206,16 @@ Admission Webhook K8s simplifies working with NSM if NSM is deployed in a Kubern
 1. Builds virtual L3 network
 2. Routes clients traffic over the vl3 network
 3. Provides a DNS Server
+
+
+## NSM LABELS
+
+There is a set of labels that can be used within the configuration files to define different behaviors based on user nessities. Each of these labels has a default value, but it can be replaced by simply specifying a well-defined value.
+These labels are passed as an environment variable to the image that implements the endpoint.
+- **NSM_LOG_LEVEL**: indicates the type of logs level that will be printed inside the container. Different types are provided,as **TRACE** or **DEBUG**, according to the specific use case where activity of debugging is required to monitor what is happening inside the pod.
+- **NSM_CONNECT_TO**: specifies the URL to which the endpoint should connect. This is the variable that allows specifying which manager the corresponding pod should authenticate to and interface with.
+- **NSM_LABELS**: it is used to associate a particular label to identify the pod. This label can then be used within the network service definition, for example, defining how a chain should be composed.
+- **NSM_SERVICE_NAMES**: indicates which services the endpoint should be associated with. This helps in identifying endpoints for various network services.
+- **NSM_CIRD_PREFIX**: it is a list of CIRD prefixes used to assign IP addresses to the created interfaces. Generally, prefixes like '172.16.0.0/31' are used to avoid ambiguity in address assignment; there are only two available addresses: 172.16.0.1 for the client interface and 172.16.0.0 for the corresponding endpoint interface
+- **NSM_REGISTER_SERVICE**: indicates the endpoint's ability to register the corresponding network service. By default, it is set to false because, in various examples, the service is implemented through a specific file, usually named ``netsvc.yaml``
+
